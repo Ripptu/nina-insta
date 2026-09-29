@@ -19,7 +19,9 @@ export function waehle(q, { typ, serie = false, jetzt = new Date() }) {
   if (typ === 'karussell') {
     const werbeVor = veroeffentlichteFeed(q).slice(-3).some((x) => x.format === 'Werbung')
     const ohne = pool.filter((x) => x.format !== 'Werbung'), mit = pool.filter((x) => x.format === 'Werbung')
-    if (werbeVor && ohne.length) pool = ohne
+    const bisher = veroeffentlichteFeed(q).length
+    // die ersten drei Beiträge sind nie Werbung („Wer ich bin“ zuerst)
+    if ((werbeVor || bisher < 3) && ohne.length) pool = ohne
     else if (!werbeVor && mit.length && !ohneAngebotNoetig) pool = mit
   }
   const lastThema = letzte.length ? letzte[letzte.length - 1].kernthema : null
