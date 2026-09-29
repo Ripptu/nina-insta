@@ -698,9 +698,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "CAPTION: Caption fehlt"
+      ],
+      "am": "2026-09-29T09:36:41.618Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -718,9 +724,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "CAPTION: Caption fehlt"
+      ],
+      "am": "2026-09-29T09:36:45.702Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -822,9 +834,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "CAPTION: Caption fehlt"
+      ],
+      "am": "2026-09-29T09:36:44.870Z"
+    },
     "ig": null,
     "fehler": null
   },
