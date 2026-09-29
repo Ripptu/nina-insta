@@ -29,7 +29,7 @@ export function findFaces(png) {
 /** Rechtecke aller Elemente über dem Foto. Text zählt zeilengenau, Kästen (Pille, Blase) als Ganzes. */
 export const COLLECT = () => {
   const rects = []
-  const els = [...document.querySelectorAll('.page > *')].filter((e) => !e.classList.contains('photo') && !e.classList.contains('shade'))
+  const els = [...document.querySelectorAll('.page > *')].filter((e) => !e.classList.contains('photo') && !e.classList.contains('shade') && !e.classList.contains('person') && !e.classList.contains('behind'))
   for (const el of els) {
     const label = (el.textContent || el.className.baseVal || el.className || el.tagName).toString().trim().slice(0, 40)
     const boxed = el.classList.contains('pill') || el.classList.contains('bubble') || el.tagName === 'svg' || el.tagName === 'IMG'

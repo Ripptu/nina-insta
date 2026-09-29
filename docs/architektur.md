@@ -35,3 +35,13 @@ Alles unter „Feste Regeln“ in `CLAUDE.md`. Kein Antworten auf Kommentare ode
 ## Offenes
 - Cross-Repo-Schreibrecht für `nina-insta-media`: Actions brauchen einen fein abgestuften Zugriffstoken (`MEDIA_TOKEN`, nur `contents:write` auf dieses eine Repo). Christian legt ihn einmal an.
 - Ninas Fotos müssen in Drive `NINA/Fotos` liegen, die Action holt sie mit rclone.
+
+## Instagram-Modul: Umgebungsvariablen und Limits
+- Umgebung: `IG_ACCESS_TOKEN`, `IG_USER_ID`, `MEDIA_REPO` (`owner/repo`), `MEDIA_TOKEN`; für Token-Erneuerung `TOKEN_KEY` (mind. 16 Zeichen, verschlüsselt `data/ig-token.enc` mit AES-256-GCM); optional `MEDIA_BRANCH` (Standard `main`), `IG_API_VERSION` (Standard `v25.0`).
+- Ein erneuertes Token liegt nur in `data/ig-token.enc`; die Automatik muss die Datei dauerhaft ablegen (Commit oder Cache). Wird `IG_ACCESS_TOKEN` von Hand neu gesetzt, gilt der neue Wert. Erneuern mindestens alle 30 Tage (Token läuft nach 60 Tagen ab, Erneuerung frühestens nach 24 h).
+- Limits: laut Doku 50 bzw. 100 API-Beiträge pro 24 h (das Modul liest `quota_total`), Karussell 2 bis 10 JPEG, Caption max. 2200 Zeichen, Reels MP4/MOV bis 300 MB, Story-Video bis 60 s / 100 MB. `media_publish` wird bei 5xx nie wiederholt (Doppelpostgefahr).
+- `{trocken:true}` sendet keine einzige Anfrage (auch keine Container) und gibt die geplanten Requests ohne Token zurück. Datei `PAUSE` im Projektwurzelordner blockiert jedes Veröffentlichen auch im Modul.
+- Tests: `node --test` (Node 24 akzeptiert `node --test automatik/test/` als Ordner nicht, stattdessen ohne Argument oder mit `automatik/test/*.test.mjs`).
+
+## QA-Agent (`automatik/qa.mjs`)
+`pruefe(item, absVerzeichnis)` → `{ verdikt, gruende[] }` (zusätzlich `hinweise`, `dauerMs`). Zwei Stufen: harte Messungen im Code (Maße 1080×1350 bzw. 1080×1920, Dateien vorhanden, Hashtag-Zahl, „Link in der Bio“ bei Angebot, Video: H.264/AAC), danach ein eigener Aufruf der Claude-CLI (`claude -p`, nur Werkzeug Read, temporäres Verzeichnis mit Bildkopien und einer Übersicht in Daumennagelgröße, Videos als Frames). Der Prüf-Agent bekommt nur die Prüfliste `automatik/qa/regeln.md` (aus `CLAUDE.md` abgeleitet, bei Regeländerung mitpflegen), die Bilder und die Caption. Das Verdikt leitet der Code aus der Punkteliste ab; Aufruf-, Parse- oder Vollständigkeitsfehler ergeben immer `abgelehnt` mit „Prüfung nicht durchführbar“. Umgebung: `CLAUDE_BIN` (sonst `claude` im PATH, sonst die Claude-App), `QA_MODEL` (Standard `sonnet`), `ANTHROPIC_API_KEY` wird im Kindprozess entfernt (nur Abo, in der Action über `CLAUDE_CODE_OAUTH_TOKEN`). Test: `node automatik/qa/test/lauf.mjs` (Testbeiträge nach `material/qa-test/`, gitignored).

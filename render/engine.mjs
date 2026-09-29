@@ -24,7 +24,7 @@ const CSS = Y.CSS.replace(/url\('fonts\//g, `url('file://${HERE}fonts/`) + EXTRA
 export const fotoUrl = (p) => 'file://' + path.join(FOTO_DIR, p.file)
 
 // ---------- Geometrie ----------
-function place(p, PW, PH, zoom, ax, ay) {
+export function place(p, PW, PH, zoom, ax, ay) {
   const s = Math.max(PW / p.w, PH / p.h) * zoom
   const dw = p.w * s, dh = p.h * s
   const x = (PW - dw) * ax, y = (PH - dh) * ay
@@ -32,14 +32,14 @@ function place(p, PW, PH, zoom, ax, ay) {
   return { dw, dh, x, y, faces: p.faces.map(f), keep: p.keepout.map(f) }
 }
 // gleiche Erweiterung wie im Gesichtsschutz (Stirn, Haare, Kinn), dazu Sicherheitsrand
-const pad = (b, m = 16) => [b[0] - b[2] * 0.22 - m, b[1] - b[3] * 0.35 - m, b[2] * 1.44 + 2 * m, b[3] * 1.55 + 2 * m]
-const inside = (b, PW, PH) => {
+export const pad = (b, m = 16) => [b[0] - b[2] * 0.22 - m, b[1] - b[3] * 0.35 - m, b[2] * 1.44 + 2 * m, b[3] * 1.55 + 2 * m]
+export const inside = (b, PW, PH) => {
   const w = Math.min(b[0] + b[2], PW) - Math.max(b[0], 0), h = Math.min(b[1] + b[3], PH) - Math.max(b[1], 0)
   return w > 0 && h > 0 ? (w * h) / (b[2] * b[3]) : 0
 }
 
 /** Größtes freies Band (volle Breite) zwischen lo und hi bei gegebenem Ausschnitt. */
-function freeBand(pl, PW, PH, lo, hi) {
+export function freeBand(pl, PW, PH, lo, hi) {
   const occ = [...pl.faces.map((f) => pad(f)), ...pl.keep.map((k) => [k[0] - 12, k[1] - 12, k[2] + 24, k[3] + 24])]
     .map((b) => [Math.max(lo, b[1]), Math.min(hi, b[1] + b[3])])
     .filter((v) => v[1] > v[0])
@@ -57,7 +57,7 @@ function freeBand(pl, PW, PH, lo, hi) {
 }
 
 /** Sucht einen Ausschnitt, in dem ein Textblock der Höhe need frei liegt. */
-function pickCrop(p, need, { PW = W, PH = 1350, lo = 70, hi = PH - 210, prefer = 'any' } = {}) {
+export function pickCrop(p, need, { PW = W, PH = 1350, lo = 70, hi = PH - 210, prefer = 'any' } = {}) {
   let best = null
   for (const zoom of [1, 1.1, 1.2, 1.35, 1.5])
     for (const ay of [1, 0.75, 0.5, 0.25, 0])
@@ -146,7 +146,7 @@ export async function createEngine() {
     hi = hi ?? PH - 210
     const head = spec.head.replace(/\s+/g, ' ').trim()
     let a = head, b = ''
-    const m = head.match(/^(.*[,:;])\s*(.+)$/)
+    const m = head.match(/^(.*[,:;.!?][“”"]?)\s+(.+)$/)
     if (m) { a = m[1]; b = m[2] } else { const w = head.split(' '); if (w.length >= 5) { a = w.slice(0, -2).join(' '); b = w.slice(-2).join(' ') } }
     const hh = `${esc(a)}${b ? `${m ? '<br>' : ' '}<span style="color:${Y.PINK}">${esc(b)}</span>` : ''}`
     for (const size of [172, 152, 134, 118, 104, 92]) {
@@ -224,7 +224,7 @@ export async function createEngine() {
     ][variant % 3]
     const head = spec.head.replace(/\s+/g, ' ').trim()
     let a = head, b = ''
-    const m = head.match(/^(.*[,:;])\s*(.+)$/)
+    const m = head.match(/^(.*[,:;.!?][“”"]?)\s+(.+)$/)
     if (m) { a = m[1]; b = m[2] } else { const w = head.split(' '); if (w.length >= 5) { a = w.slice(0, -2).join(' '); b = w.slice(-2).join(' ') } }
     const hh = `${esc(a)}${b ? `${m ? '<br>' : ' '}<span style="color:${V.acc}">${esc(b)}</span>` : ''}`
     const lo = 110, hi = PH - 230
@@ -242,7 +242,26 @@ export async function createEngine() {
     return null
   }
 
-  return { renderHtml, cover, coverText, text, split, close: () => browser.close() }
+  /** Zeilenrechtecke eines Textblocks (für Verdeckungsrechnung) und optional eines Teilelements #kb. */
+  const rects = (html, width, cls, size, extra = '') =>
+    mp.evaluate(async ([h, w, c, s, x]) => {
+      const m = document.getElementById('m')
+      m.style.width = w + 'px'
+      m.innerHTML = `<div class="${c}" style="font-size:${s}px;${x}">${h}</div>`
+      m.offsetHeight
+      await document.fonts.ready
+      m.innerHTML = `<div class="${c}" style="font-size:${s}px;${x}">${h}</div>`
+      const el = m.firstChild
+      const base = el.getBoundingClientRect()
+      const range = document.createRange()
+      range.selectNodeContents(el)
+      const lines = [...range.getClientRects()].filter((r) => r.width > 2).map((r) => [r.left - base.left, r.top - base.top, r.width, r.height])
+      const kb = el.querySelector('#kb')
+      let span = null
+      if (kb) { const rr = [...kb.getClientRects()].map((r) => [r.left - base.left, r.top - base.top, r.width, r.height]); span = rr }
+      return { h: base.height, lines, span }
+    }, [html, width, cls, size, extra])
+  return { renderHtml, cover, coverText, text, split, close: () => browser.close(), _i: { ctx, meas, rects, pageHtml, bgFull, bandShade, logo, CSS, W } }
 }
 
 // ---------- Fotoauswahl ----------
