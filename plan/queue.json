@@ -778,9 +778,17 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 1: Die große weiße/rosa Überschrift zeigt 'uhause.' statt 'Zuhause.' und 'eider.' statt 'Leider.' – die Anfangsbuchstaben Z und L fehlen vollständig, auch in der Übersichtsdatei erkennbar. Das Wort ist dadurch nicht sinnvoll lesbar.",
+        "COVER: Seite 1 (Cover): Der Hook ist durch die fehlenden Anfangsbuchstaben ('uhause.' statt 'Zuhause.', 'eider.' statt 'Leider.') nicht klar lesbar; zusätzlich ist die kleine Handschrift-Zeile darunter ('Warum vertraut nicht dasselbe ist wie sicher.') grammatisch verdreht und unverständlich.",
+        "SPRACHE: Seite 1: fehlerhafte/abgeschnittene Wörter 'uhause.' (statt Zuhause) und 'eider.' (statt Leider); zusätzlich grammatisch unklarer Satz 'Warum vertraut nicht dasselbe ist wie sicher.' – das ist kein korrektes Deutsch."
+      ],
+      "am": "2026-09-29T09:41:21.519Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -810,9 +818,15 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 3: Das öffnende Anführungszeichen „ am Zeilenanfang von „Du bist nicht“ hängt so tief, dass es sichtbar mit dem Wort „kaputt“ am Anfang der zweiten Zeile kollidiert/überlappt."
+      ],
+      "am": "2026-09-29T09:41:19.161Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -841,9 +855,13 @@
       "#beziehungsmuster",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:41:47.659Z"
+    },
     "ig": null,
     "fehler": null
   }
