@@ -11,13 +11,10 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: ./.github/actions/werkzeuge
         with: { claude: "true" }
       - env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: node automatik/think.mjs
-      - run: |
-          git config user.name "nina-insta-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add -A learnings.md plan
-          git diff --cached --quiet || (git commit -m "Denk-Lauf: Erkenntnis" && git pull --rebase -q && git push)
+      - run: node automatik/sichern.mjs "Denk-Lauf: Erkenntnis" learnings.md plan

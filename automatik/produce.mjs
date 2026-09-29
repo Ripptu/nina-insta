@@ -32,8 +32,8 @@ try {
       fs.rmSync(out, { recursive: true, force: true })
       const r = await buildCarousel(eng, post, out)
       q.push({
-        id, typ: 'karussell', quelle: `docs/content-posts.md#Karussell ${post.nr}`, titel: post.titel, format: post.format || null, angebot: post.angebot || 'keins',
-        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: post.fruehestens && post.fruehestens !== 'null' ? post.fruehestens : null,
+        id, typ: 'karussell', quelle: `docs/content-posts.md#Karussell ${post.nr}`, titel: post.titel, format: post.format || null, angebot: /^veranstaltung/i.test(post.angebot || '') ? 'Veranstaltungen' : post.angebot || 'keins',
+        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: post.fruehestens && post.fruehestens !== 'null' && /^\d{4}-\d{2}-\d{2}$/.test(post.fruehestens) ? post.fruehestens : null,
         dateien: r.files.map(rel), caption: post.caption, hashtags: tags(post.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null,
       })
       await speichereQueue(q)

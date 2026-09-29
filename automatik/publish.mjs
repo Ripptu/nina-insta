@@ -43,17 +43,32 @@ if (!jobs.length) { log('Nichts fällig.'); process.exit(0) }
 
 let fehler = 0
 for (const job of jobs) {
-  let item = waehle(q, { typ: job.typ, serie: !!job.serie, jetzt: jetztZeit })
+  let item = waehle(q, { typ: job.typ, serie: !!job.serie, jetzt: jetztZeit, log })
   // Ausweichen, wenn vom geplanten Format nichts bereit ist: Serie -> normales Reel -> Karussell (bzw. Reel statt Karussell)
-  if (!item && job.typ !== 'story') {
+  if (!item && job.typ !== 'story' && params.reels_aktiv) {
     const ersatz = job.typ === 'reel' ? [{ typ: 'reel', serie: false }, { typ: 'karussell' }] : [{ typ: 'reel', serie: false }]
-    for (const e of ersatz) { item = waehle(q, { ...e, jetzt: jetztZeit }); if (item) { log(`Kein ${job.typ}${job.serie ? '-Serienreel' : ''} bereit, weiche auf ${e.typ} aus.`); break } }
+    for (const e of ersatz) { item = waehle(q, { ...e, jetzt: jetztZeit, log }); if (item) { log(`Kein ${job.typ}${job.serie ? '-Serienreel' : ''} bereit, weiche auf ${e.typ} aus.`); break } }
   }
   if (!item) { log(`Kein geprüfter Beitrag für ${job.typ}${job.serie ? ' (Serie)' : ''}: Puffer leer.`); fehler++; continue }
   const dateien = item.dateien.map((f) => path.join(ROOT, f))
   const fehlt = dateien.filter((f) => !fs.existsSync(f))
-  if (fehlt.length) { item.status = 'fehler'; item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); await speichereQueue(q); fehler++; continue }
+  if (fehlt.length) { item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); if (!trocken) { item.status = 'fehler'; await speichereQueue(q) } log(item.fehler); fehler++; continue }
   const caption = item.caption + (item.hashtags?.length ? '\n\n' + (Array.isArray(item.hashtags) ? item.hashtags.join(' ') : item.hashtags) : '')
+  // Doppelpost-Sperre: steht dieselbe Caption schon in den letzten Beiträgen auf Instagram (z. B. weil der Status nicht
+  // gespeichert werden konnte), wird nicht noch einmal gepostet, sondern der Beitrag als veröffentlicht vermerkt.
+  if (!trocken && item.typ !== 'story' && item.caption) {
+    try {
+      const anfang = item.caption.replace(/\s+/g, ' ').trim().slice(0, 50)
+      const schon = (await ig.mediaListe(12)).find((m) => String(m.caption || '').replace(/\s+/g, ' ').trim().startsWith(anfang))
+      if (schon) {
+        item.status = 'veroeffentlicht'
+        item.ig = { id: schon.id, permalink: schon.permalink, am: schon.timestamp || new Date().toISOString() }
+        await speichereQueue(q)
+        log(`${item.id} steht schon auf Instagram (${schon.permalink}), nicht doppelt gepostet.`)
+        continue
+      }
+    } catch (e) { log(`Vorabprüfung der Beiträge nicht möglich (${String(e.message).slice(0, 120)}), fahre fort.`) }
+  }
   log(`${trocken ? '[trocken] ' : ''}Veröffentliche ${item.id} (${item.typ}) ${item.titel}`)
   try {
     const opts = { trocken }
@@ -67,15 +82,29 @@ for (const job of jobs) {
       item.fehler = null
       await speichereQueue(q)
       log(`Veröffentlicht: ${r.permalink}`)
+      // Quiz-Stories haben eine zweite Datei (Auflösung): gleich danach als eigene Story veröffentlichen
+      if (item.typ === 'story') for (const d of dateien.slice(1)) {
+        try { const r2 = await ig.veroeffentlicheStory({ datei: d }, opts); log(`Auflösung veröffentlicht: ${r2.permalink}`) } catch (e2) { log(`Auflösung nicht veröffentlicht: ${String(e2.message).slice(0, 200)}`) }
+      }
       // Bilder werden nicht mehr gebraucht; sie bleiben nur in der Git-Historie
       try { fs.rmSync(path.dirname(dateien[0]), { recursive: true, force: true }) } catch {}
     } else log('Trockenlauf ok', JSON.stringify(r).slice(0, 300))
   } catch (e) {
-    item.versuche = (item.versuche || 0) + 1
-    item.fehler = String(e.message || e).slice(0, 500)
-    if (item.versuche >= 3) item.status = 'fehler'
+    const meldung = String(e.message || e).slice(0, 500)
+    item.fehler = meldung
+    // Nur Fehler am Beitrag selbst zählen als Versuch (Datei, Caption, Container). Globale Fehler (Token, Rechte, Ratenlimit,
+    // Netzwerk, Ausfall) verbrennen keinen Beitrag: er bleibt „geprüft“ und der nächste Versuch kommt vom nächsten Takt.
+    const beitragsFehler = /Datei nicht gefunden|Keine gültige Datei|JPEG|zu groß|Caption|Hashtags|braucht 2 bis 10|status_code ERROR|abgelaufen \(24 h\)|ungültiger Parameter|Zeitüberschreitung: /i.test(meldung)
+    if (e.unklar) {
+      // Instagram hat evtl. schon veröffentlicht: nie automatisch wiederholen, sonst Doppelpost. Christian prüft das Profil.
+      item.status = 'unklar'
+      log(`UNKLAR bei ${item.id}: möglicherweise schon veröffentlicht, wird nicht wiederholt. ${meldung}`)
+    } else if (beitragsFehler) {
+      item.versuche = (item.versuche || 0) + 1
+      if (item.versuche >= 3) item.status = 'fehler'
+    }
     if (!trocken) await speichereQueue(q)
-    log(`FEHLER bei ${item.id}: ${item.fehler}`)
+    log(`FEHLER bei ${item.id}: ${meldung}`)
     fehler++
   }
 }

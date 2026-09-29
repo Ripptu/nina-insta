@@ -29,3 +29,4 @@ render/dbg*.mjs
 
 # Zwischenbilder der Reels
 out/**/*-stills/
+render/.measure.html

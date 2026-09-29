@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import nodemailer from 'nodemailer'
 import { ladeQueue } from './queue.mjs'
+import { zaehlePuffer } from './puffer-zaehlen.mjs'
 import { berlin } from './zeit.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
@@ -22,8 +23,9 @@ const zeile = (x) => {
 const k = mw.konto
 const fol = k.length ? k[k.length - 1].follower : null
 const fol7 = k.length > 1 ? k[Math.max(0, k.length - 8)].follower : null
-const bereit = q.filter((x) => x.status === 'geprueft' && (x.typ === 'karussell' || x.typ === 'reel')).length
-const fehler = q.filter((x) => x.status === 'fehler' || x.status === 'abgelehnt')
+const params = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), 'utf8'))
+const bereit = zaehlePuffer(q, params).feed
+const fehler = q.filter((x) => ['fehler', 'abgelehnt', 'unklar'].includes(x.status))
 const textCover = Object.values(cov).filter((v) => v === 'text').length
 const naechste = q.filter((x) => x.status === 'geprueft').slice(0, 5)
 const learn = fs.readFileSync(path.join(ROOT, 'learnings.md'), 'utf8').split('\n## ').slice(-1)[0].slice(0, 900)

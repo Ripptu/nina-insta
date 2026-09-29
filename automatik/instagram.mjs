@@ -448,6 +448,7 @@ async function lauf(opts, { dateien, bauer }) {
   const api = ctx.trocken ? apiTrocken(ctx) : apiEcht(ctx);
   let ergebnis;
   let hauptFehler = null;
+  let phase = 'vorher';
   try {
     await pruefeLimit(ctx, api);
     const ordner = `tmp/${Date.now()}-${randomBytes(3).toString('hex')}`;
@@ -455,9 +456,11 @@ async function lauf(opts, { dateien, bauer }) {
     for (let i = 0; i < dateien.length; i++) urls.push(await api.hochladen(dateien[i], ordner, i + 1));
     const containerId = await bauer(ctx, api, urls);
     // Ein 5xx bei media_publish wird nicht wiederholt: der Beitrag könnte schon live sein.
+    phase = 'publish';
     const pub = await api.post(`${api.uid}/media_publish`, { creation_id: containerId }, 'Veröffentlichen', 'nur-429');
     const id = pub?.id;
-    if (!id) throw new InstagramFehler('Instagram hat nach media_publish keine Beitrags-ID geliefert.');
+    if (!id) throw new InstagramFehler('Instagram hat nach media_publish keine Beitrags-ID geliefert. Der Beitrag könnte live sein.');
+    phase = 'nachher';
     let permalink = null;
     try {
       permalink = (await api.get(id, { fields: 'permalink' }, 'Permalink abfragen'))?.permalink ?? null;
@@ -467,6 +470,8 @@ async function lauf(opts, { dateien, bauer }) {
     ergebnis = { id, permalink };
   } catch (e) {
     hauptFehler = e;
+    // Fehler beim Veröffentlichen ohne eindeutige Ablehnung (kein HTTP 4xx): Beitrag könnte live sein, nie automatisch wiederholen
+    if (phase === 'publish' && !(e.status >= 400 && e.status < 500)) hauptFehler.unklar = true;
   }
   const aufraeumFehler = await api.aufraeumen();
   if (aufraeumFehler.length) ctx.log(`Aufräumen unvollständig: ${aufraeumFehler.join('; ')}`);

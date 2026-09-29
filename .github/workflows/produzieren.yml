@@ -15,6 +15,7 @@ jobs:
       noetig: ${{ steps.p.outputs.noetig }}
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - id: p
@@ -30,10 +31,7 @@ jobs:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      # render/.measure.html liegt im Repository, wird aber bei jedem Rendern mit den Pfaden des Rechners neu geschrieben.
-      # Ohne diesen Schritt bricht "git pull --rebase" mit "You have unstaged changes" ab und die Produktion würde nie hochgeladen.
-      - name: Laufzeitdatei des Renderers aus der Änderungsverfolgung nehmen
-        run: git update-index --skip-worktree render/.measure.html || true
+        with: { ref: main }
       - uses: ./.github/actions/werkzeuge
         with: { rendern: "true", claude: "true" }
       - name: Vorrat prüfen und ggf. neue Inhalte schreiben
@@ -41,22 +39,6 @@ jobs:
           node automatik/vorrat.mjs
       - name: Nachproduzieren und prüfen
         run: node automatik/fill.mjs
-      - name: Stand speichern
+      - name: Stand speichern (mit Zusammenführen bei parallelen Änderungen)
         if: always()
-        run: |
-          git config user.name "nina-insta-bot"
-          git config user.email "bot@users.noreply.github.com"
-          # Die Renderer-Datei zurücksetzen, sonst verweigert "git pull --rebase" wegen ungespeicherter Änderungen
-          git update-index --no-skip-worktree render/.measure.html || true
-          git checkout -- render/.measure.html || true
-          git add -A plan out data docs
-          git diff --cached --quiet || git commit -q -m "Produktion: Puffer aufgefüllt"
-          # Auch dann hochladen, wenn fill.mjs schon Zwischenstände lokal committet hat (dann ist hier nichts mehr zu committen).
-          # Parallel laufen andere Commits: bei abgelehntem Push neu aufsetzen und wiederholen.
-          for i in 1 2 3 4 5; do
-            git pull --rebase -q && git push -q && exit 0
-            git rebase --abort 2>/dev/null || true
-            sleep $((i * 5))
-          done
-          echo "::error::Push nach 5 Versuchen fehlgeschlagen"
-          exit 1
+        run: node automatik/sichern.mjs "Produktion: Puffer aufgefüllt" plan out data docs
