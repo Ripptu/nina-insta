@@ -242,9 +242,15 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 3: Die Handschrift-Zeile 'Sie plant etwas und sagt' überlagert direkt den gedruckten Buchtitel ('Single-Sein ist falscher Näh...') auf dem Buch in Ninas Hand. Beide Textebenen kollidieren an dieser Stelle und sind dort schwer auseinanderzuhalten/lesbar."
+      ],
+      "am": "2026-09-29T09:35:25.985Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -345,9 +351,13 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:35:38.208Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -377,9 +387,15 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Zeichensetzungsfehler auf Seite 3 und identisch in der Caption: „Du bist geprägt, von Erfahrungen, die dich damals schützen sollten.“ – das Komma zwischen „geprägt“ und „von“ ist grammatisch falsch (kein Komma vor der Präpositionalergänzung ohne Nebensatz)."
+      ],
+      "am": "2026-09-29T09:35:26.626Z"
+    },
     "ig": null,
     "fehler": null
   },
