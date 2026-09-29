@@ -6,6 +6,7 @@ import { pickCrop } from './engine.mjs'
 import { teile } from './viral.mjs'
 
 const esc = Y.esc
+const ohneAnf = (t) => t.replace(/[„“”"]/g, '').replace(/\s+/g, ' ').trim()
 const W = 1080
 const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
 const STOP = new Set('wenn dass damit weil aber oder dann doch wie was wer wo ich du mich dich mir dir nachher vorher manchmal sagst sag nimm nur auch noch schon immer wieder eigentlich vielleicht'.split(' '))
@@ -24,7 +25,7 @@ export function createInnen(eng) {
 
   /** Riesige Überschrift (letzter Teil in Butter), darunter der Rest, Kringel als Zierde. */
   async function gross(spec, p, { PH, lo, hi }) {
-    const ss = sentences(spec.text), head = ss[0], rest = ss.slice(1).join(' ')
+    const ss = sentences(spec.text), head = ohneAnf(ss[0]), rest = ss.slice(1).join(' ')
     const { a, b } = teile(head)
     const hh = `${esc(a)}${b ? ` <span style="color:${Y.BUTTER}">${esc(b)}</span>` : ''}`
     for (const size of [150, 132, 116, 104, 94, 84, 76]) {
@@ -45,7 +46,7 @@ export function createInnen(eng) {
 
   /** Kernwort dreifach gestapelt (zwei Umrisse, ein volles Wort), darunter die Aussage. */
   async function stapel(spec, p, { PH, lo, hi }) {
-    const ss = sentences(spec.text), head = ss[0]
+    const ss = sentences(spec.text), head = ohneAnf(ss[0])
     const w = langesWort(head).toUpperCase()
     if (!w || w.length > 11) return null
     const rest = ss.slice(1).join(' ')
@@ -85,7 +86,7 @@ export function createInnen(eng) {
 
   /** Überschrift plus handgeschriebene Randnotiz mit Pfeil (Caveat, gut lesbar). */
   async function hand(spec, p, { PH, lo, hi }) {
-    const ss = sentences(spec.text), head = ss[0]
+    const ss = sentences(spec.text), head = ohneAnf(ss[0])
     const note = ss.slice(1).join(' ')
     if (!note || note.length > 110) return null
     for (const size of [104, 94, 84, 76]) {

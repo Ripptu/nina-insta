@@ -16,7 +16,7 @@ const W = 1080
 const INK = 'rgba(12,14,12,'
 
 const EXTRA = `
-.hd{font-weight:700;letter-spacing:-.045em;line-height:.88;text-shadow:0 2px 24px rgba(0,0,0,.3)}
+.hd{font-weight:700;letter-spacing:-.04em;line-height:.96;text-shadow:0 2px 24px rgba(0,0,0,.3)}
 .tx{font-weight:500;letter-spacing:-.02em;line-height:1.16;text-shadow:0 1px 14px rgba(0,0,0,.35)}
 .cta{display:inline-block;background:#fff;color:#1c1c1c;font-weight:600;letter-spacing:-.02em;border-radius:60px;box-shadow:0 3px 14px rgba(0,0,0,.25)}
 `
@@ -93,7 +93,10 @@ export async function createEngine() {
       m.offsetHeight // Layout erzwingen, damit die Schriften anfangen zu laden
       await document.fonts.ready
       m.offsetHeight
-      return m.firstChild.getBoundingClientRect().height
+      const el = m.firstChild
+      // Wort breiter als die Box (ragt über den Rand): als „passt nicht“ melden, damit eine kleinere Größe gewählt wird
+      const zuBreit = [el, ...el.querySelectorAll('*')].some((x) => x.scrollWidth > x.clientWidth + 1 && x.clientWidth > 0)
+      return zuBreit ? 1e6 : el.getBoundingClientRect().height
     }, [html, width, style])
 
   /** Größte Schriftgröße aus sizes, bei der Text in maxH passt. */
@@ -257,10 +260,18 @@ export async function createEngine() {
       const range = document.createRange()
       range.selectNodeContents(el)
       const lines = [...range.getClientRects()].filter((r) => r.width > 2).map((r) => [r.left - base.left, r.top - base.top, r.width, r.height])
+      const words = []
+      const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT)
+      while (tw.nextNode()) {
+        const n = tw.currentNode, re = /\S+/g
+        let m
+        while ((m = re.exec(n.nodeValue))) { const rg = document.createRange(); rg.setStart(n, m.index); rg.setEnd(n, m.index + m[0].length); const rr = rg.getBoundingClientRect(); if (rr.width > 1) words.push([rr.left - base.left, rr.top - base.top, rr.width, rr.height, m[0]]) }
+      }
       const kb = el.querySelector('#kb')
       let span = null
       if (kb) { const rr = [...kb.getClientRects()].map((r) => [r.left - base.left, r.top - base.top, r.width, r.height]); span = rr }
-      return { h: base.height, lines, span }
+      const zuBreit = el.scrollWidth > el.clientWidth + 1
+      return { h: zuBreit ? 1e6 : base.height, lines: zuBreit ? [[0, 0, 1e6, 1e6]] : lines, span, words }
     }, [html, width, cls, size, extra])
   return { renderHtml, cover, coverText, text, split, close: () => browser.close(), _i: { ctx, meas, rects, pageHtml, bgFull, bandShade, logo, CSS, W } }
 }

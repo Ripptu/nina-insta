@@ -19,12 +19,10 @@ jobs:
       - uses: ./.github/actions/werkzeuge
         with: { claude: "true" }
       - run: sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
-      - name: Prüfen in Portionen (Zwischenstand wird jeweils gespeichert)
+      - name: Prüfen (acht gleichzeitig, Zwischenstand wird laufend gespeichert)
         run: |
           git config user.name "nina-insta-bot"
           git config user.email "bot@users.noreply.github.com"
-          for i in $(seq 1 10); do
-            node automatik/qa-lauf.mjs --max 8 || true
-            git add -A plan
-            git diff --cached --quiet || (git commit -q -m "Prüfung: Zwischenstand" && git pull --rebase -q && git push -q) || true
-          done
+          node automatik/qa-lauf.mjs --max 99 --parallel 8 || true
+          git add -A plan
+          git diff --cached --quiet || (git commit -q -m "Prüfung: Ergebnisse" && git pull --rebase -q && git push -q) || true

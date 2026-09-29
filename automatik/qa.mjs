@@ -304,7 +304,11 @@ export async function pruefe(item, absVerzeichnis) {
     }
     // Gesichtsprüfung je Seite: jede verdeckte Seite ist ein Fehler, unabhängig vom Gesamturteil des Modells
     for (const g of ergebnis.gesichter) {
-      const verdeckt = String(g.gesicht || '').toLowerCase().startsWith('verdeckt') || g.augen_nase_mund_frei === false
+      const status = String(g.gesicht || '').toLowerCase()
+      const darueber = String(g.darueber_liegt || '').toLowerCase().trim()
+      const nichtsDarueber = !darueber || /^(nichts|keine?s?|-|n\/a)\b/.test(darueber)
+      // abgewandtes oder nicht erkennbares Gesicht ist kein Fehler; verdeckt heißt: etwas liegt darüber
+      const verdeckt = !nichtsDarueber && (status.startsWith('verdeckt') || (g.augen_nase_mund_frei === false && !status.startsWith('nicht')))
       if (verdeckt && !gruende.some((x) => x.startsWith('GESICHT'))) gruende.push(`GESICHT: ${g.datei}: ${g.darueber_liegt || 'Text oder Grafik liegt über dem Gesicht'}`)
     }
     if (ergebnis.modellVerdikt === 'abgelehnt' && !gruende.length) gruende.push('Prüf-Agent hat abgelehnt, ohne einen Punkt zu nennen')

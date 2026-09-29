@@ -135,6 +135,12 @@ export function createViral(eng) {
               }
               const avg = sum / lines.length
               if (mx > 0.22 || avg < 0.03) continue
+              // jedes einzelne Wort muss zu mindestens 70 % (kurze Wörter zu 80 %) sichtbar bleiben
+              let wortOk = true
+              for (const w of r.words || []) {
+                if (coverage(pl, p, g, [30 + w[0], y + w[1], w[2], w[3]], 8) > (w[4].replace(/[^\p{L}]/gu, '').length <= 3 ? 0.2 : 0.3)) { wortOk = false; break }
+              }
+              if (!wortOk) continue
               const score = -Math.abs(avg - 0.1) * 40 - (zoom - 1) * 25 - Math.abs(ax - 0.5) * 10 - y * 0.004
               if (!best || score > best.score) best = { pl, y, score }
             }

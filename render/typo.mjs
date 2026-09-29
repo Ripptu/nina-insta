@@ -18,7 +18,7 @@ html,body{width:1080px}
 .photo{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
 .shade{position:absolute;inset:0}
 .abs{position:absolute}
-.big{position:absolute;font-weight:700;letter-spacing:-.045em;line-height:.86;text-shadow:0 2px 24px rgba(0,0,0,.28)}
+.big{position:absolute;font-weight:700;letter-spacing:-.04em;line-height:.94;text-shadow:0 2px 24px rgba(0,0,0,.28)}
 .hand{position:absolute;font-family:'Caveat',cursive;font-weight:700;line-height:1;color:${WHITE};text-shadow:0 2px 14px rgba(0,0,0,.55),0 0 3px rgba(0,0,0,.35)}
 .script{position:absolute;font-family:'Caveat',cursive;font-weight:700;line-height:.95;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.55),0 0 3px rgba(0,0,0,.35)}
 .pill{position:absolute;background:#fff;color:#1c1c1c;font-weight:500;font-size:34px;letter-spacing:-.01em;padding:10px 24px;border-radius:40px;box-shadow:0 3px 10px rgba(0,0,0,.16);white-space:nowrap}
