@@ -25,9 +25,15 @@
       "#oldenburg",
       "#beziehungsmuster"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: seite-02.jpg: nichts"
+      ],
+      "am": "2026-09-29T08:23:36.144Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -57,9 +63,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:24:28.846Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -89,9 +99,13 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:25:46.114Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -121,9 +135,13 @@
       "#coachingoldenburg",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:26:43.713Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -152,9 +170,15 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 5: Die gelb markierte Zeile „an.“ überlappt mit dem darunterliegenden Fließtext „Du rufst jemanden an...“ – deutliche Textkollision, auch in der Übersichtsdatei in Daumennagelgröße gut erkennbar (unten links im Übersichtsbild, zweite Reihe erste Kachel)."
+      ],
+      "am": "2026-09-29T08:27:45.995Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -184,9 +208,15 @@
       "#datingtipps",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 8: Der Account-Handle wird als „@ninahoemmencoach“ dargestellt und läuft bis an den rechten Bildrand; die Endung „-ing“ zu „@ninahoemmencoaching“ fehlt bzw. ist am Rand abgeschnitten, dadurch nicht vollständig lesbar."
+      ],
+      "am": "2026-09-29T08:30:40.206Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -215,9 +245,13 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:31:44.132Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -247,9 +281,13 @@
       "#beziehungsmuster",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:32:49.890Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -279,9 +317,17 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 2: Die weiße Zeile „Nicht mehr antworten oder plötzlich kühl“ liegt direkt unter/hinter dem gelb hinterlegten Textblock „abzutauchen.“ und kollidiert damit sichtbar – in der Übersichtsdatei ist diese Zeile kaum lesbar (schlechter Kontrast, Überlappung mit der gelben Markierung).",
+        "SPRACHE: Seite 5: „Für dich: ..Ich darf langsam sein.“ – anstelle eines korrekten öffnenden Anführungszeichens („) stehen zwei Punkte (..), das ist ein Zeichensetzungsfehler.",
+        "GESICHT: seite-02.jpg: nichts"
+      ],
+      "am": "2026-09-29T08:34:09.441Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -311,9 +357,13 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:35:09.013Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -338,9 +388,15 @@
       "#singlecoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: frame-01.jpg (Cover-Frame bei 2,3 s): Der weiße Textkasten 'Hab ich zu viel erzählt?' samt darüberliegender 'Kopieren/Alles auswählen/Nachschlagen'-Leiste liegt direkt über Ninas Gesicht (Bereich unterhalb des Dutts, wo laut seite-07.jpg Augen, Nase und Mund liegen). Augen, Nase und Mund sind vollständig verdeckt."
+      ],
+      "am": "2026-09-29T08:38:27.417Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -365,9 +421,13 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:40:00.308Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -392,9 +452,13 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T08:41:09.219Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -419,9 +483,15 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: frame-01.jpg (auch in der Übersicht, Bild 1 oben links): Die halbtransparente Überschrift „Die Dating-App ist gelöscht. Mal wieder.“ und die gelb hervorgehobene Textbox „Zu viele Chats, die einfach versanden.“ überlagern sich direkt. Rechts neben der Box lugt nur das Fragment „hler.“ von „wieder.“ hervor, der Rest ist verdeckt bzw. mit der schwarzen Box verschmolzen – die Textebenen kollidieren und sind in Daumennagelgröße nicht klar lesbar."
+      ],
+      "am": "2026-09-29T08:44:04.298Z"
+    },
     "ig": null,
     "fehler": null
   },
