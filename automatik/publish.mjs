@@ -41,7 +41,12 @@ if (!jobs.length) { log('Nichts fällig.'); process.exit(0) }
 
 let fehler = 0
 for (const job of jobs) {
-  const item = waehle(q, { typ: job.typ, serie: !!job.serie, jetzt: jetztZeit })
+  let item = waehle(q, { typ: job.typ, serie: !!job.serie, jetzt: jetztZeit })
+  // Ausweichen, wenn vom geplanten Format nichts bereit ist: Serie -> normales Reel -> Karussell (bzw. Reel statt Karussell)
+  if (!item && job.typ !== 'story') {
+    const ersatz = job.typ === 'reel' ? [{ typ: 'reel', serie: false }, { typ: 'karussell' }] : [{ typ: 'reel', serie: false }]
+    for (const e of ersatz) { item = waehle(q, { ...e, jetzt: jetztZeit }); if (item) { log(`Kein ${job.typ}${job.serie ? '-Serienreel' : ''} bereit, weiche auf ${e.typ} aus.`); break } }
+  }
   if (!item) { log(`Kein geprüfter Beitrag für ${job.typ}${job.serie ? ' (Serie)' : ''}: Puffer leer.`); fehler++; continue }
   const dateien = item.dateien.map((f) => path.join(ROOT, f))
   const fehlt = dateien.filter((f) => !fs.existsSync(f))

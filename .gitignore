@@ -26,3 +26,6 @@ render/cut-preview.jpg
 render/demo-sheet.jpg
 render/mask-*.png
 render/dbg*.mjs
+
+# Zwischenbilder der Reels
+out/**/*-stills/

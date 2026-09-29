@@ -165,7 +165,7 @@ function baueVideo(stills, out, { audio, total }) {
   chains.push(`[${vl}]format=yuv420p[vout]`)
   chains.push(`[${n}:a]aresample=44100,apad=whole_dur=${total},atrim=0:${total},asetpts=N/SR/TB[aout]`)
   args.push('-filter_complex', chains.join(';'), '-map', '[vout]', '-map', '[aout]',
-    '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-r', String(FPS),
+    '-c:v', 'libx264', '-preset', 'medium', '-crf', '23', '-maxrate', '5M', '-bufsize', '10M', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-r', String(FPS),
     '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-ac', '2', '-movflags', '+faststart', '-t', String(total), out)
   execFileSync(FFMPEG, args, { stdio: ['ignore', 'inherit', 'inherit'], maxBuffer: 1e8 })
 }
