@@ -1,0 +1,6 @@
+{
+  "feed": { "uhrzeit": "20:00", "fenster_min": 30, "tage": { "1": "reel", "2": "karussell", "3": "reel", "4": "karussell", "5": "reel" }, "max_pro_monat": 24 },
+  "stories": { "uhrzeit": "12:30", "fenster_min": 30, "tage": [2, 4, 0] },
+  "puffer_min": 10,
+  "reel_serie_tag": 3
+}

@@ -1,0 +1,34 @@
+# Prüfliste für Instagram-Beiträge von @ninahoemmencoaching
+
+Abgeleitet aus `CLAUDE.md` (feste Regeln). Jeder Punkt hat eine Kennung. Du bewertest jeden Punkt mit `ok` oder `fehler`. Bei jedem `fehler` nennst du Seite und Beleg (was genau, wo im Bild oder in der Caption).
+
+Über den Account: Nina Hömmen, traumasensible Beziehungs-Coachin in Oldenburg und online. Marke: Ninas echte Fotos im Vollbild, leicht abgedunkelt, riesige enge Schrift in Weiß, Butter (hellgelb) und Rosa, dazu Handschrift (Caveat), Pfeile, Blasen, weiße Pillen. Das kleine cremefarbene Logo mit Blumen-Doodle sitzt unten links auf jeder Seite.
+
+## Bild und Gestaltung
+
+- **LOGO**: Auf jeder Seite ist das Logo bzw. der Blumen-Doodle erkennbar (klein, cremefarben, meist unten links, dezent). Fehlt es auf einer Seite: fehler. Es darf dezent sein, aber es muss sichtbar sein, wenn man genau hinsieht.
+- **GESICHT**: Ein Gesicht (Stirn, Augen, Nase, Mund, Kinn) wird nie von Text, Pfeil, Pille, Blase oder Logo verdeckt, auch nicht teilweise. Schrift, die über Ninas Gesicht läuft, ist immer ein fehler, auch wenn sie durchscheint.
+- **LESBAR**: Alle Schrift ist auch in Daumennagelgröße lesbar (prüfe dazu die Übersichtsdatei, in der jede Seite klein dargestellt ist): ausreichender Kontrast zum Hintergrund, große Schrift. Nichts ist am Rand abgeschnitten, nichts ragt aus dem Bild, keine Zeilen überlappen sich, kein Text kollidiert mit anderem Text oder mit einer Pille.
+- **BILD**: Fotos sind nicht verzerrt (Personen und Gegenstände haben natürliche Proportionen, nicht gestaucht oder gestreckt) und nicht unscharf hochgezogen. Die Seite ist nicht leer, nicht schwarz, nicht halb gerendert.
+- **COVER**: Die erste Seite hat eine große, fette Schrift mit einem Hook, lesbar in Daumennagelgröße. Bei einer Story oder einem Reel gilt das für das erste Bild bzw. den ersten Frame.
+- **DEKO**: Auf den Bildern stehen keine dekorativen Nummerierungen („01", „02", „1/8" als Zierde), keine Kapitälchen-Kicker über Überschriften und keine Emojis. Emojis in der Caption sind erlaubt.
+
+## Inhalt auf den Seiten
+
+- **MITNAHME**: Der Beitrag enthält etwas, das die Leserin oder der Leser sofort für sich mitnehmen kann (ein Satz, eine Erkenntnis, eine kleine Frage an sich selbst, eine Übung). Ein reines Ankündigen oder reine Werbung ohne so einen Satz ist ein fehler.
+- **SCHEMA**: Keine „Aufgabe 1 / Aufgabe 2 / Aufgabe 3"-Schemata und keine Aufgaben-Listen in diesem Muster.
+- **SPRACHE**: Deutsch, Du-Form, warm, klar, kein Marktschreier-Ton (keine Ausrufe-Reklame, kein „Jetzt buchen!", keine Panikmache). Rechtschreibung, Grammatik und Zeichensetzung auf den Seiten und in der Caption sind korrekt. Ein Tippfehler oder ein grammatischer Fehler ist ein fehler.
+- **ZIELGRUPPE**: Der Beitrag verengt sich nicht auf Frauen: neutrale Ansprache („du", „Menschen", „Paare"). Aussagen wie „Frauen erleben oft ...", „Als Frau ...", „für Frauen" als Zielgruppe des ganzen Beitrags sind ein fehler. Ausnahme: Die Namen echter Frauenangebote (Frauenkreis HERZ.ZEIT, FREUNDINNEN.ZEIT, „Zurück zu dir – 8 Abende für Frauen", „Frauenkreise") dürfen wörtlich stehen und müssen erkennbar als Frauenangebot benannt sein. Solange das heutige Datum vor dem 01.01.2027 liegt, darf nirgends stehen, dass Nina auch Männer begleitet.
+
+## Schutz (traumasensibel)
+
+- **SCHUTZ**: Keine Diagnosen (z. B. „Du hast eine Bindungsstörung", „Das ist ein Trauma / eine Depression / Narzissmus" über die Leserin oder Dritte gesagt), keine Heilversprechen („dann bist du geheilt", „garantiert", „nie wieder", „in 30 Tagen frei von ..."), keine Schuld bei der Leserin („du bist selbst schuld", „du ziehst das an, weil du ..."). Muster beschreiben und Einladungen aussprechen ist erlaubt, Urteile über die Person nicht.
+- **GRENZE**: Bei Themen, die riskant gelesen werden können (bleiben, verzeihen, Nähe zulassen, „sich mehr öffnen", „aushalten"), steht die Grenze im Beitrag (Respektlosigkeit, Kontrolle, Gewalt sind kein Muster, das man aushalten oder heilen muss) und, wo es passt, das Hilfetelefon „Gewalt gegen Frauen" 116 016. Ist das Thema nicht riskant lesbar, gilt der Punkt als ok.
+- **GESCHICHTE**: Erzählt der Beitrag eine Mini-Geschichte einer anderen Person oder aus dem Coaching, trägt er den Hinweis, dass sie aus vielen Erfahrungen zusammengesetzt ist, und enthält keine erkennbaren Details (Namen, Orte, Berufe, Alter). Ninas eigene Lebensgeschichte („Wer ich bin"-Beitrag) braucht diesen Hinweis nicht. Gibt es keine Mini-Geschichte, ist der Punkt ok.
+- **ERFUNDEN**: Keine erfundenen Zahlen, Prozentangaben, Studien, Statistiken („87 % der ...", „Studien zeigen ..."), Preise, Termine, Personen, Klientinnen-Zitate oder Kundenstimmen. Angaben über Nina selbst aus ihrer eigenen Geschichte (Herkunft, Wohnort, Werdegang, „seit 2008 in Oldenburg", „Erstgespräch etwa 30 Minuten, kostenfrei") sind erlaubt. Ein Zitat gilt als erlaubt, wenn es erkennbar Ninas eigener Satz ist. Alles andere Belegbare, das nach Statistik oder Studie klingt, ist ein fehler.
+
+## Angebot und Caption
+
+- **ANGEBOT**: Der Beitrag passt zu `angebot` aus den Beitragsdaten. Ist `angebot` ein Angebot (Coaching, Buch, Shop, Veranstaltungen), wird genau dieses Angebot am Ende genannt, mit dem Hinweis „Link in der Bio" (in der Caption oder auf der letzten Seite), ohne Preise und ohne erfundene Termine. Ist `angebot` gleich „keins", wird kein Angebot beworben. Bewirbt der Beitrag ein anderes Angebot als angegeben, ist das ein fehler. Ob ein Beitrag „an der Reihe" ist, prüfst du nicht.
+- **CAPTION**: Die Caption passt inhaltlich zu den Seiten (gleicher Hook, kein Widerspruch), ist warm und ohne Marktschreier-Ton und hat ihren Inhalt nicht nur als Hashtag-Block. Die Caption enthält keine Heilversprechen, Diagnosen oder Schuldzuweisungen (siehe SCHUTZ).
+- **HASHTAGS**: Höchstens 5 Hashtags insgesamt (Hashtag-Zeile und Caption-Text zusammengezählt). Zähle genau.
