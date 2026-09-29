@@ -588,11 +588,11 @@ Alle Stories 1080×1920. Text in der Mitte halten, oben und unten Rand für die 
 - Interaktion: Quiz
 - Kernthema: 1
 - Ziel: Neugier wecken und Ninas Haltung zur Anziehung erklären.
-- Text auf dem Hintergrund: „Was glaubst du? Warum wirkt jemand, der sich rarmacht, oft so anziehend?“
+- Text auf dem Hintergrund: „Was glaubst du? Warum wirkt jemand, der sich rar macht, oft so anziehend?“
 - Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Was glaubst du?“ Antworten: „Die Person ist spannender“ / „Es fühlt sich vertraut an“ / „Reiner Zufall“. Als richtig markieren: „Es fühlt sich vertraut an“.
 - Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Oft ist es gar nicht die Person, sondern das Gefühl, das sie auslöst. Wenn du früh um Zuwendung kämpfen musstest, kann sich Kämpfen wie Liebe anfühlen. Das ist gelernt, nicht falsch. Und Gelerntes kann sich verändern.“
 - Hintergrund: Frage auf Salbei #6d7965 mit Creme-Schrift, Auflösung auf Creme #f9f7f4 mit Salbei-Schrift.
-- Automatik-Fassung (ohne Sticker): „Was glaubst du: Warum wirkt jemand, der sich rarmacht, oft so anziehend? Weil die Person spannender ist, weil es sich vertraut anfühlt, oder ist es Zufall? Schreib mir ein Wort als Nachricht.“
+- Automatik-Fassung (ohne Sticker): „Was glaubst du: Warum wirkt jemand, der sich rar macht, oft so anziehend? Weil die Person spannender ist, weil es sich vertraut anfühlt, oder ist es Zufall? Schreib mir ein Wort als Nachricht.“
 
 ## Story 10: Rückzug und Liebe
 - Interaktion: Quiz
