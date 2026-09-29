@@ -108,7 +108,7 @@ export function createViral(eng) {
   const headHtml = (a, b, ca, cb, br) => `${esc(a)}${b ? `${br ? '<br>' : ' '}<span id="kb" style="color:${cb}">${esc(b)}</span>` : ''}`
 
   // ---------- Vorlage: Text hinter Nina ----------
-  async function behind(spec, p, { PH = 1350, outline = false } = {}) {
+  async function behind(spec, p, { PH = 1350, outline = false, lo: LO, hi: HI } = {}) {
     const g = await maskGrid(p.id)
     if (!g || !p.faces.length) return null
     const { a, b, mehrTeile } = teile(spec.head)
@@ -127,7 +127,7 @@ export function createViral(eng) {
             if (pl.faces.some((f) => inside(f, W, PH) < 0.98)) continue
             // Gesichtskern muss von der Person überdeckt sein, sonst würde Text durchscheinen
             if (pl.faces.some((f) => coverage(pl, p, g, core(f), 8) < 0.97)) continue
-            for (let y = 70; y + r.h <= PH - 260; y += 20) {
+            for (let y = LO ?? 70; y + r.h <= (HI ?? PH - 260); y += 20) {
               let mx = 0, sum = 0
               for (const l of lines) {
                 const cov = coverage(pl, p, g, [30 + l[0], y + l[1], l[2], l[3]], 12)
@@ -151,7 +151,7 @@ export function createViral(eng) {
   }
 
   // ---------- Vorlage: Chat ----------
-  async function message(spec, p, { PH = 1350 } = {}) {
+  async function message(spec, p, { PH = 1350, lo: LO, hi: HI } = {}) {
     const { a, b } = teile(spec.head)
     const texts = b ? [a, b] : [a]
     for (const size of [72, 64, 58, 52, 46]) {
@@ -159,7 +159,7 @@ export function createViral(eng) {
       for (const t of texts) hs.push(await meas(esc(t), 900 - 88, 'tx', size, 'position:static;line-height:1.14;font-weight:500') + 64)
       const typing = 96
       const need = hs.reduce((s, h) => s + h + 22, 0) + typing + 22 + 44
-      const crop = pickCrop(p, need, { PH, lo: 90, hi: PH - 220, prefer: 'bottom' })
+      const crop = pickCrop(p, need, { PH, lo: LO ?? 90, hi: HI ?? PH - 220, prefer: 'bottom' })
       if (!crop) continue
       let y = crop.top ? crop.band[0] : crop.band[1] - need
       const y0 = y
@@ -177,14 +177,14 @@ export function createViral(eng) {
   }
 
   // ---------- Vorlage: markierter Text ----------
-  async function markiert(spec, p, { PH = 1350 } = {}) {
+  async function markiert(spec, p, { PH = 1350, lo: LO, hi: HI } = {}) {
     const { a, b } = teile(spec.head)
     const inner = `${esc(a)}${b ? ` <mark style="background:${Y.BUTTER};color:#1c1c1c;padding:0 8px;border-radius:6px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${esc(b)}</mark>` : ''}`
     for (const size of [112, 100, 90, 80, 72, 64]) {
       const h = await meas(inner, 960, 'tx', size, 'position:static;font-weight:600;letter-spacing:-.035em;line-height:1.12')
       const sub = spec.sub ? await meas(esc(spec.sub), 700, 'hand', 66, 'position:static;line-height:1.02') + 30 : 0
       const need = h + 84 + sub
-      const crop = pickCrop(p, need, { PH, lo: 80, hi: PH - 210, prefer: 'top' })
+      const crop = pickCrop(p, need, { PH, lo: LO ?? 80, hi: HI ?? PH - 210, prefer: 'top' })
       if (!crop) continue
       const y = crop.top ? crop.band[0] : crop.band[1] - need
       let body = bandShade(y, y + need, 0.4)
@@ -197,7 +197,7 @@ export function createViral(eng) {
   }
 
   // ---------- Vorlage: eingekreistes Kernwort ----------
-  async function kreis(spec, p, { PH = 1350 } = {}) {
+  async function kreis(spec, p, { PH = 1350, lo: LO, hi: HI } = {}) {
     const { a, b, mehrTeile } = teile(spec.head)
     if (!b) return null
     const html = headHtml(a, b, '#fff', '#fff', mehrTeile)
@@ -206,7 +206,7 @@ export function createViral(eng) {
       if (!r.span || r.span.length !== 1) continue
       const sub = spec.sub ? await meas(esc(spec.sub), 640, 'hand', 66, 'position:static;line-height:1.02') + 30 : 0
       const need = r.h + sub + 60
-      const crop = pickCrop(p, need, { PH, lo: 90, hi: PH - 210, prefer: 'top' })
+      const crop = pickCrop(p, need, { PH, lo: LO ?? 90, hi: HI ?? PH - 210, prefer: 'top' })
       if (!crop) continue
       const y = (crop.top ? crop.band[0] : crop.band[1] - need) + 20
       const s0 = r.span[0], s1 = r.span[r.span.length - 1]
@@ -225,7 +225,7 @@ export function createViral(eng) {
   }
 
   // ---------- Vorlage: gestapeltes Echo-Wort ----------
-  async function stapel(spec, p, { PH = 1350 } = {}) {
+  async function stapel(spec, p, { PH = 1350, lo: LO, hi: HI } = {}) {
     const { a, b, mehrTeile } = teile(spec.head)
     const wort = schluesselwort(b || a).toUpperCase()
     if (!wort || wort.length > 11) return null
@@ -239,7 +239,7 @@ export function createViral(eng) {
         const h = await meas(full, 960, 'hd', hs, 'position:static;line-height:.95;letter-spacing:-.03em')
         const echoH = es * 0.8 * 2 + es * 0.9
         const need = echoH + 30 + h
-        const crop = pickCrop(p, need, { PH, lo: 80, hi: PH - 210, prefer: 'top' })
+        const crop = pickCrop(p, need, { PH, lo: LO ?? 80, hi: HI ?? PH - 210, prefer: 'top' })
         if (!crop) continue
         const y = crop.top ? crop.band[0] : crop.band[1] - need
         let body = bandShade(y, y + need, 0.34)
@@ -262,4 +262,17 @@ export const VORLAGEN = ['behind-rand', 'message', 'kreis', 'markiert', 'stapel'
 export function vorlagenFuer(nr) {
   const start = (nr - 1) % VORLAGEN.length
   return [...VORLAGEN.slice(start), ...VORLAGEN.slice(0, start)]
+}
+
+/** Probiert Vorlagen × Fotos durch, bis eine ohne Gesichtsverletzung rendert. Gibt {foto, vorlage} oder null. */
+export async function viralCover(V, spec, cands, file, { PH = 1350, nr = 1, lo, hi, nachher = (h) => h } = {}) {
+  for (const p of cands) {
+    for (const v of vorlagenFuer(nr)) {
+      const vr = await V[v === 'behind-rand' ? 'behind' : v](spec, p, { PH, lo, hi, outline: v === 'behind-rand' })
+      if (!vr) continue
+      const pr = await V.render(nachher(vr.html), file, PH)
+      if (!pr.length) return { foto: p.id, vorlage: v }
+    }
+  }
+  return null
 }

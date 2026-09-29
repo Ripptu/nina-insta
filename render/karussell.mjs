@@ -2,7 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { ranked } from './engine.mjs'
-import { createViral, vorlagenFuer } from './viral.mjs'
+import { createViral, viralCover } from './viral.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 
 export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 1350 } = {}) {
@@ -20,15 +20,8 @@ export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 13
       let r = null
       if (pg.role === 'cover') {
         // Viral-Vorlagen der Reihe nach, zuletzt die einfache Titelvorlage
-        for (const v of vorlagenFuer(post.nr)) {
-          const vr = await V[v === 'behind-rand' ? 'behind' : v](pg, p, { PH, outline: v === 'behind-rand' })
-          if (!vr) continue
-          const pr = await V.render(vr.html, file, PH)
-          if (pr.length) { log.push(`  Cover ${v} mit Foto ${p.id} verworfen (${pr[0]})`); continue }
-          r = { viral: v }
-          break
-        }
-        if (r) { used.add(p.id); registriereCover(`k${post.nr}`, p.id); files.push(file); log.push(`  Seite ${pg.n}: Cover ${r.viral}, Foto ${p.id}`); done = true; break }
+        const vc = await viralCover(V, pg, [p], file, { PH, nr: post.nr })
+        if (vc) { used.add(p.id); registriereCover(`k${post.nr}`, p.id); files.push(file); log.push(`  Seite ${pg.n}: Cover ${vc.vorlage}, Foto ${p.id}`); done = true; break }
         r = await eng.cover(pg, p, { PH })
       }
       else if (pg.role === 'cover') { /* oben behandelt */ }

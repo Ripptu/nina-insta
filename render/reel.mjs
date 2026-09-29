@@ -7,8 +7,9 @@ import path from 'node:path'
 import { execFileSync } from 'node:child_process'
 import os from 'node:os'
 import { ranked, CAT } from './engine.mjs'
-import { renderSlide, SAFE, PH } from './story.mjs'
+import { renderSlide, SAFE, PH, fixLogo } from './story.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
+import { createViral, viralCover } from './viral.mjs'
 
 const FFMPEG = process.env.FFMPEG_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffmpeg')
 const FFPROBE = process.env.FFPROBE_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffprobe')
@@ -209,7 +210,15 @@ export async function renderReel(eng, reel, outDir, opts = {}) {
     let cands = pl.cands
     if (pl.zurueck) cands = [byId(fotos[0]), ...cands].filter((p, k, a) => a.indexOf(p) === k)
     else if (!pl.neu && prevFoto != null) cands = [byId(prevFoto), ...cands].filter((p, k, a) => a.indexOf(p) === k)
-    let r = await renderSlide(eng, { kind, spec, cands, file, log })
+    let r = null
+    if (i === 0) {
+      // Erstes Bild = Cover: eine der Viral-Vorlagen, Foto darf noch nie Cover gewesen sein
+      const gesperrt = benutzteCoverFotos(reel.id)
+      const V = (eng._viral ||= createViral(eng))
+      const vc = await viralCover(V, { head: text }, cands.filter((p) => !gesperrt.has(p.id)), file, { PH, nr: reel.nr + 3, lo: SAFE.lo, hi: SAFE.hi + 120, nachher: fixLogo })
+      if (vc) { r = { foto: vc.foto }; log.push(`Cover-Vorlage ${vc.vorlage}`) }
+    }
+    if (!r) r = await renderSlide(eng, { kind, spec, cands, file, log })
     if (!r) throw new Error(`${reel.id} Abschnitt ${i + 1}: kein Foto passt (${log.slice(-3).join('; ')})`)
     used.add(r.foto)
     fotos.push(r.foto)
