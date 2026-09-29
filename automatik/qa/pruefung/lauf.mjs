@@ -29,7 +29,7 @@ import { pruefe } from '../../qa.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(HERE, '../../..')
-const DIR = path.join(ROOT, 'material/qa-test')
+const DIR = process.env.QA_TEST_DIR ? path.resolve(ROOT, process.env.QA_TEST_DIR) : path.join(ROOT, 'material/qa-test')
 
 const FAELLE = [
   { name: 'a', erwartet: 'abgelehnt', beschreibung: 'Überschrift über Ninas Gesicht', schluessel: ['GESICHT'] },
