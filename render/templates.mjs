@@ -28,12 +28,12 @@ html,body{width:1080px;background:${CREME}}
 .wordmark{position:absolute;right:52px;bottom:40px;font-size:46px;line-height:1}
 `
 
-const doodle = (size = 90, color = SAGE, extra = '') => `
-<svg class="abs" ${extra} width="${size}" height="${size}" viewBox="-60 -70 120 150" fill="none" stroke="${color}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-  <g><path id="pt" d="M0 -6 C -20 -26 -18 -54 0 -60 C 18 -54 20 -26 0 -6 Z"/></g>
-  <use href="#pt" transform="rotate(72)"/><use href="#pt" transform="rotate(144)"/><use href="#pt" transform="rotate(216)"/><use href="#pt" transform="rotate(288)"/>
-  <circle r="6" fill="${color}" stroke="none"/><path d="M0 62 C -2 76 -8 82 -14 90"/>
-</svg>`
+const ASSETS = new URL('../assets/', import.meta.url).pathname
+const doodle = (size = 90, color = SAGE, extra = '') => {
+  const st = (extra.match(/style="([^"]*)"/) || [, ''])[1]
+  const file = color === CREME ? 'doodle-creme.png' : 'doodle-sage.png'
+  return `<img class="abs" src="file://${ASSETS}${file}" style="height:${size * 2.1}px;${st}">`
+}
 
 const heart = (size, fill, stroke, rot = 0, style = '') => `
 <svg class="sticker" style="width:${size}px;height:${size}px;transform:rotate(${rot}deg);${style}" viewBox="0 0 100 100">
@@ -61,7 +61,8 @@ const page = (body, h = 1350) => `<!doctype html><html><head><meta charset="utf-
 <body><div class="page" style="--h:${h}px">${body}<div class="handle">@ninahoemmencoaching</div></div></body></html>`
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
-const wordmark = `<div class="script wordmark">Nina Hömmen</div>`
+const logo = (color = SAGE, style = 'right:44px;bottom:36px') => `<img class="abs" src="file://${ASSETS}${color === CREME ? 'logo-creme.png' : 'logo-sage.png'}" style="width:250px;${style}">`
+const wordmark = logo()
 const imgUrl = (p) => `file://${p}`
 
 /** Cover mit freigestelltem Foto. Nina sitzt rechts unten, die Salbei-Fläche liegt dahinter. */
@@ -75,8 +76,8 @@ export function coverFoto({ script, headline, subline, foto, hint = 'mehr in der
     <img class="sticker" src="${imgUrl(foto)}" style="right:-40px;bottom:-150px;height:1010px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.22))">
     ${heart(150, MIST, SAGE, -10, 'left:700px;top:230px')}
     ${question(120, SAGE, 12, 'right:60px;top:70px')}
-    <div class="abs hand" style="left:78px;bottom:170px;font-size:56px;color:${CREME}">${esc(hint)}</div>
-    ${arrow(120, 8, `left:300px;bottom:120px;opacity:.9;stroke:${CREME}`)}
+    <div class="abs hand" style="left:230px;bottom:150px;font-size:56px;color:${CREME}">${esc(hint)}</div>
+    ${arrow(120, 8, `left:470px;bottom:100px;opacity:.9;stroke:${CREME}`)}
     ${doodle(84, CREME, `style="left:64px;bottom:60px"`)}
   `)
 }
@@ -118,18 +119,16 @@ export function zitat({ quote, foto }) {
     <div class="blob" style="left:0;top:150px;width:1080px;height:760px;border-radius:0 340px 0 0"></div>
     <div class="tape" style="right:90px;top:112px;transform:rotate(5deg)"></div>
     <div class="abs script" style="left:70px;top:210px;font-size:340px;color:${CREME};line-height:1">“</div>
-    <div class="abs cond" style="left:110px;top:430px;width:860px;font-size:104px;color:${CREME};line-height:1.02">${esc(quote)}</div>
-    ${foto ? `<img class="sticker" src="${imgUrl(foto)}" style="right:-20px;bottom:-30px;height:780px">` : ''}
-    ${heart(130, MIST, SAGE, -8, 'left:80px;bottom:150px')}
-    ${doodle(70, SAGE, `style="left:72px;bottom:44px"`)}
-    <div class="script" style="position:absolute;left:170px;bottom:52px;font-size:46px;line-height:1">Nina Hömmen</div>
+    <div class="abs cond" style="left:110px;top:430px;width:640px;font-size:96px;color:${CREME};line-height:1.02">${esc(quote)}</div>
+    ${foto ? `<img class="sticker" src="${imgUrl(foto)}" style="right:-20px;bottom:-30px;height:700px">` : ''}
+    ${logo(SAGE, 'left:64px;bottom:36px')}
   `)
 }
 
 /** Listenseite: Punkte als Klebestreifen-Zeilen. */
 export function liste({ script, title, items }) {
   const rows = items.map((t, i) => `
-    <div class="abs" style="left:${70 + (i % 2) * 40}px;top:${480 + i * 190}px;width:850px;background:${i % 2 ? SAGE : MIST};color:${i % 2 ? CREME : SAGE};border-radius:26px;padding:26px 40px;transform:rotate(${i % 2 ? 1.2 : -1.2}deg);box-shadow:0 3px 6px rgba(0,0,0,.12)">
+    <div class="abs" style="left:${70 + (i % 2) * 40}px;top:${450 + i * 165}px;width:850px;background:${i % 2 ? SAGE : MIST};color:${i % 2 ? CREME : SAGE};border-radius:26px;padding:22px 40px;transform:rotate(${i % 2 ? 1.2 : -1.2}deg);box-shadow:0 3px 6px rgba(0,0,0,.12)">
       <div class="cond" style="font-size:52px;line-height:1.05;font-weight:500">${esc(t)}</div>
     </div>`).join('')
   return page(`
