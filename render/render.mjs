@@ -3,6 +3,9 @@ import { chromium } from 'playwright-core'
 import fs from 'node:fs'
 import path from 'node:path'
 import os from 'node:os'
+import { applyPalette } from './templates.mjs'
+
+const PALETTE = JSON.parse(fs.readFileSync(new URL('./palette.json', import.meta.url), 'utf8'))
 
 const CHROME = process.env.CHROME_PATH || path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
 
@@ -14,7 +17,7 @@ export async function renderPages(pages, outDir, { height = 1350, prefix = 'seit
   for (let i = 0; i < pages.length; i++) {
     const tmp = path.join(outDir, `.${prefix}-${i + 1}.html`)
     // Schriften liegen relativ zu render/, deshalb die Datei dorthin schreiben.
-    const html = pages[i].replace(/url\('fonts\//g, `url('file://${path.resolve('fonts')}/`)
+    const html = applyPalette(pages[i], PALETTE).replace(/url\('fonts\//g, `url('file://${path.resolve('fonts')}/`)
     fs.writeFileSync(tmp, html)
     const page = await ctx.newPage()
     await page.goto('file://' + path.resolve(tmp))

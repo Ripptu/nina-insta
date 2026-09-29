@@ -16,6 +16,11 @@ const make = async (rgb, file, crop) => {
   if (crop) img = img.extract({ left: crop[0] * SCALE, top: crop[1] * SCALE, width: crop[2] * SCALE, height: crop[3] * SCALE })
   await img.png().toFile(file)
 }
+import fs from 'node:fs'
+const pal = JSON.parse(fs.readFileSync('palette.json', 'utf8'))
+const inkRgb = pal.ink.match(/\w\w/g).map((h) => parseInt(h, 16))
+await make(inkRgb, '../assets/logo-ink.png')
+await make(inkRgb, '../assets/doodle-ink.png', [108, 88, 184, 248])
 await make([109, 121, 101], '../assets/logo-sage.png')
 await make([249, 247, 244], '../assets/logo-creme.png')
 // Nur die Blume als Doodle (ohne Ring und Schrift)

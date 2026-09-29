@@ -1,5 +1,7 @@
 # Gestaltung: Collage-Stil
 
+**Farbe (Stand 29.09.2026, Christians Wahl): Altrosa** (`render/palette.json`). Die Übertragung unten nennt noch Salbei und gilt nur für die Struktur, nicht für die Farbwerte.
+
 Vorgabe von Christian am 29.09.2026: Die Beiträge sollen optisch genau so aussehen wie `referenz/stil-collage.webp` (vier Posts von @opus.socialmeida), nur in einer passenderen Farbe. Umgesetzt wird das in Phase 3 als HTML/CSS/SVG-Vorlagen.
 
 ## Was den Stil ausmacht

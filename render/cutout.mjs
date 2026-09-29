@@ -12,7 +12,7 @@ const SRC = process.env.HOME + '/NINA'
 const OUT = '../material/freisteller'
 fs.mkdirSync(OUT, { recursive: true })
 const LONG = 1600 // längste Kante, reicht für 1080er Beiträge
-const BORDER = 16
+const BORDER = 26
 
 const model = await AutoModel.from_pretrained(MODEL, { dtype: 'fp32' })
 const processor = await AutoProcessor.from_pretrained(MODEL)
