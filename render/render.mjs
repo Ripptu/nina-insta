@@ -13,7 +13,7 @@ const HERE = new URL('.', import.meta.url).pathname
 const CHROME = process.env.CHROME_PATH || path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
 
 /** Gesichtsboxen [x,y,w,h] in Seitenkoordinaten, mit Rand (Haare, Kinn, Stirn). */
-function findFaces(png) {
+export function findFaces(png) {
   const out = JSON.parse(execFileSync(path.join(HERE, 'py/.venv/bin/python'), [path.join(HERE, 'py/faces.py'), png], { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString())
   const boxes = []
   for (const [x, y, w, h] of out[png]) {
@@ -27,7 +27,7 @@ function findFaces(png) {
 }
 
 /** Rechtecke aller Elemente über dem Foto. Text zählt zeilengenau, Kästen (Pille, Blase) als Ganzes. */
-const COLLECT = () => {
+export const COLLECT = () => {
   const rects = []
   const els = [...document.querySelectorAll('.page > *')].filter((e) => !e.classList.contains('photo') && !e.classList.contains('shade'))
   for (const el of els) {
@@ -45,7 +45,7 @@ const COLLECT = () => {
   return rects
 }
 
-const overlap = (a, b) => {
+export const overlap = (a, b) => {
   const w = Math.min(a[0] + a[2], b[0] + b[2]) - Math.max(a[0], b[0])
   const h = Math.min(a[1] + a[3], b[1] + b[3]) - Math.max(a[1], b[1])
   return w > 0 && h > 0 ? w * h : 0

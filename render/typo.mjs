@@ -10,7 +10,7 @@ export const BROWN = '#2a1710'
 const fontCss = fs.readFileSync(new URL('./fonts/all.css', import.meta.url), 'utf8')
 const ASSETS = new URL('../assets/', import.meta.url).pathname
 
-const CSS = `
+export const CSS = `
 ${fontCss}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px}
@@ -28,7 +28,7 @@ html,body{width:1080px}
 .logo{position:absolute;opacity:.92}
 `
 
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+export const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
 
 /** grade: Farbstimmung des Fotos. dark = Stärke der Abdunklung (0 bis .7). */
 export function photoPage(body, { photo, pos = 'center', size = 'cover', dark = 0.32, grade = 'saturate(.86) contrast(1.06) brightness(.9)', top = 0, bottom = 0.45, logo = true } = {}) {

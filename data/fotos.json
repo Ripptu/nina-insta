@@ -1,0 +1,871 @@
+[
+ {
+  "id": 0,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22 (1).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 107,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    603,
+    415,
+    138,
+    172
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 1,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22 (2).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 135,
+  "kind": "ruecken",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    872,
+    418,
+    300,
+    347
+   ]
+  ],
+  "keepout": [
+   [
+    120,
+    80,
+    840,
+    880
+   ]
+  ]
+ },
+ {
+  "id": 2,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22 (3).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 101,
+  "kind": "ruecken",
+  "tier": 1,
+  "buch": false,
+  "faces": [],
+  "keepout": [
+   [
+    300,
+    240,
+    504,
+    512
+   ]
+  ]
+ },
+ {
+  "id": 3,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22 (4).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 116,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    539,
+    399,
+    103,
+    140
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 4,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22 (5).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 118,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    527,
+    567,
+    95,
+    136
+   ],
+   [
+    319,
+    603,
+    53,
+    62
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 5,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.22.jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 110,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    362,
+    324,
+    101,
+    134
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 6,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (1).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 108,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    592,
+    510,
+    161,
+    215
+   ],
+   [
+    233,
+    1528,
+    23,
+    27
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 7,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (2).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 117,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    616,
+    365,
+    184,
+    244
+   ],
+   [
+    1035,
+    1139,
+    24,
+    31
+   ],
+   [
+    397,
+    1443,
+    21,
+    27
+   ],
+   [
+    510,
+    1456,
+    19,
+    25
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 8,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (3).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 143,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    525,
+    598,
+    109,
+    146
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 9,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (4).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 152,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    306,
+    586,
+    124,
+    137
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 10,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (5).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 145,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    501,
+    306,
+    181,
+    260
+   ],
+   [
+    904,
+    857,
+    249,
+    274
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 11,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (6).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 99,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    634,
+    451,
+    92,
+    142
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 12,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (7).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 133,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    745,
+    419,
+    126,
+    147
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 13,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (8).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 133,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    527,
+    283,
+    188,
+    253
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 14,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23 (9).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 111,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    492,
+    314,
+    139,
+    237
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 15,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.23.jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 116,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    428,
+    358,
+    156,
+    218
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 16,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (1).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 118,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    575,
+    157,
+    159,
+    216
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 17,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (10).jpeg",
+  "w": 1046,
+  "h": 1600,
+  "luma": 142,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    535,
+    228,
+    55,
+    76
+   ],
+   [
+    814,
+    1295,
+    23,
+    28
+   ],
+   [
+    341,
+    857,
+    23,
+    27
+   ],
+   [
+    433,
+    825,
+    19,
+    25
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 18,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (11).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 173,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    365,
+    361,
+    99,
+    137
+   ],
+   [
+    537,
+    630,
+    102,
+    130
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 19,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (2).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 145,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    681,
+    324,
+    159,
+    234
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 20,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (3).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 155,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    643,
+    239,
+    181,
+    256
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 21,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (4).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 141,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    511,
+    440,
+    127,
+    192
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 22,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (5).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 121,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    553,
+    141,
+    185,
+    265
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 23,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (6).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 97,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    633,
+    629,
+    95,
+    116
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 24,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (7).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 129,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    371,
+    337,
+    63,
+    80
+   ],
+   [
+    977,
+    132,
+    60,
+    64
+   ],
+   [
+    682,
+    162,
+    87,
+    117
+   ],
+   [
+    393,
+    1031,
+    86,
+    152
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 25,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (8).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 128,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    507,
+    326,
+    571,
+    554
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 26,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24 (9).jpeg",
+  "w": 1048,
+  "h": 1600,
+  "luma": 101,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    508,
+    709,
+    264,
+    313
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 27,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.24.jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 183,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    411,
+    392,
+    90,
+    140
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 28,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (1).jpeg",
+  "w": 739,
+  "h": 1600,
+  "luma": 76,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    390,
+    1220,
+    56,
+    73
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 29,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (2).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 112,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    544,
+    459,
+    28,
+    34
+   ],
+   [
+    317,
+    6,
+    217,
+    204
+   ],
+   [
+    391,
+    551,
+    46,
+    49
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 30,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (3).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 124,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    631,
+    987,
+    38,
+    44
+   ],
+   [
+    1028,
+    1384,
+    123,
+    143
+   ],
+   [
+    517,
+    1400,
+    35,
+    52
+   ],
+   [
+    896,
+    1466,
+    29,
+    31
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 31,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (4).jpeg",
+  "w": 1066,
+  "h": 1600,
+  "luma": 116,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": true,
+  "faces": [
+   [
+    386,
+    102,
+    258,
+    375
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 32,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (5).jpeg",
+  "w": 1066,
+  "h": 1600,
+  "luma": 92,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": true,
+  "faces": [
+   [
+    443,
+    530,
+    186,
+    255
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 33,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (6).jpeg",
+  "w": 1052,
+  "h": 1600,
+  "luma": 166,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 34,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (7).jpeg",
+  "w": 901,
+  "h": 1600,
+  "luma": 127,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 35,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25 (8).jpeg",
+  "w": 901,
+  "h": 1600,
+  "luma": 119,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 36,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.25.jpeg",
+  "w": 1047,
+  "h": 1367,
+  "luma": 175,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    321,
+    300,
+    93,
+    121
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 37,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26 (1).jpeg",
+  "w": 901,
+  "h": 1600,
+  "luma": 124,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 38,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26 (2).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 129,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 39,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26 (3).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 128,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 40,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26 (4).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 164,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 41,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26 (5).jpeg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 163,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 42,
+  "file": "WhatsApp Image 2026-09-15 at 08.20.26.jpeg",
+  "w": 901,
+  "h": 1600,
+  "luma": 147,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ }
+]
