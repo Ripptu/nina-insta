@@ -884,9 +884,15 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ist als 'keins' angegeben, doch auf Seite 1 wird Ninas Buch 'Zwischen Single-Sein & falscher Nähe' mit vollständig lesbarem Titel und Untertitel prominent ins Bild gehalten – das bewirbt ein Angebot, das nicht angegeben ist."
+      ],
+      "am": "2026-09-29T10:28:59.669Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -917,9 +923,15 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 4: Tippfehler 'Äbende für Frauen' statt 'Abende für Frauen' (fälschliches Ä statt A). Zusätzlich wirkt die Anführungszeichen-Setzung fehlerhaft: vor 'Äbende' steht ein weiteres öffnendes Anführungszeichen statt eines durchgehenden Zitats."
+      ],
+      "am": "2026-09-29T10:29:12.974Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -950,9 +962,13 @@
       "#traumasensibel",
       "#näherzudir"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T10:28:57.092Z"
+    },
     "ig": null,
     "fehler": null
   }
