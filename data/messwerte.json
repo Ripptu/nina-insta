@@ -1,0 +1,732 @@
+{
+ "konto": [
+  {
+   "datum": "2026-09-29",
+   "follower": 139,
+   "gefolgt": 95,
+   "beitraege": 87
+  }
+ ],
+ "beitraege": {
+  "18061980197535913": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DduDdYCjVpr/",
+   "zeit": "2026-09-25T18:00:25+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 35,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 73,
+     "total_interactions": 6,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18023195687868943": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdrewraiRRX/",
+   "zeit": "2026-09-24T18:01:15+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 2,
+     "reach": 34,
+     "comments": 2,
+     "saved": 0,
+     "shares": 0,
+     "views": 75,
+     "total_interactions": 8,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18117420778757213": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Ddo52bClN9R/",
+   "zeit": "2026-09-23T18:00:15+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 0,
+     "reach": 31,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 66,
+     "total_interactions": 3,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "17945848326302712": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdmVHRvjI2L/",
+   "zeit": "2026-09-22T18:00:46+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 4,
+     "reach": 33,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 72,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18103358264457948": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdjwSJ7iDfQ/",
+   "zeit": "2026-09-21T18:00:27+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 10,
+     "kommentare": 1,
+     "reach": 55,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 116,
+     "total_interactions": 11,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "17999589860809561": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdcB8UVjFjr/",
+   "zeit": "2026-09-18T18:00:50+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 4,
+     "kommentare": 0,
+     "reach": 35,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 105,
+     "total_interactions": 4,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "17908753065497033": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdZdEYBDIW9/",
+   "zeit": "2026-09-17T18:00:08+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 35,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 106,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18332676568274262": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdW4TDJlaC5/",
+   "zeit": "2026-09-16T18:00:21+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 30,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 78,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 2
+    }
+   ]
+  },
+  "18490983169098618": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdUTh-3Cs0W/",
+   "zeit": "2026-09-15T18:00:03+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 32,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 82,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18124348573650656": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdRurOAjl2J/",
+   "zeit": "2026-09-14T18:00:02+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 49,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 120,
+     "total_interactions": 6,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "17979392892081009": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdKAT12jm9W/",
+   "zeit": "2026-09-11T18:00:02+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 4,
+     "kommentare": 0,
+     "reach": 36,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 104,
+     "total_interactions": 4,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18094441286633446": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdHbmVFDrUw/",
+   "zeit": "2026-09-10T18:00:04+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 34,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 87,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18138234505719400": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdE2uQYjrts/",
+   "zeit": "2026-09-09T18:00:02+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 4,
+     "kommentare": 0,
+     "reach": 34,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 82,
+     "total_interactions": 4,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18045855506809350": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DdCR5wmjiuI/",
+   "zeit": "2026-09-08T18:00:03+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 33,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 79,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18388964122201237": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dc_tI7PjjHl/",
+   "zeit": "2026-09-07T18:00:05+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 0,
+     "reach": 29,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 74,
+     "total_interactions": 3,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18096066638373860": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dc6jmD5jhNc/",
+   "zeit": "2026-09-05T18:00:01+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 1,
+     "kommentare": 0,
+     "reach": 35,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 87,
+     "total_interactions": 1,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18089757659249068": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dc3-v40Duns/",
+   "zeit": "2026-09-04T18:00:06+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 0,
+     "reach": 30,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 69,
+     "total_interactions": 3,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "17955731952212523": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dc1aAOIDnyS/",
+   "zeit": "2026-09-03T18:00:04+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 2,
+     "kommentare": 0,
+     "reach": 29,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 68,
+     "total_interactions": 2,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18128651377721427": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dcy1N1fDgSE/",
+   "zeit": "2026-09-02T18:00:02+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 0,
+     "reach": 34,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 86,
+     "total_interactions": 3,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "17943607347073460": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcwQX_gDv62/",
+   "zeit": "2026-09-01T18:00:03+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 44,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 93,
+     "total_interactions": 6,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18182492053420470": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcsZADWCmEE/",
+   "zeit": "2026-08-31T05:58:47+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 3,
+     "reach": 35,
+     "comments": 3,
+     "saved": 0,
+     "shares": 0,
+     "views": 91,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18113579257956253": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcqOIXQDl2g/",
+   "zeit": "2026-08-30T09:45:18+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 4,
+     "kommentare": 1,
+     "reach": 33,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 72,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "17889440337438789": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcnZmDMjOxm/",
+   "zeit": "2026-08-29T07:27:46+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 8,
+     "kommentare": 4,
+     "reach": 43,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 94,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18017762057876725": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DckXRB9CuXq/",
+   "zeit": "2026-08-28T03:09:42+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 1,
+     "reach": 37,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 85,
+     "total_interactions": 4,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18138491848522229": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dciko9_DoRy/",
+   "zeit": "2026-08-27T10:28:04+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 3,
+     "reach": 41,
+     "comments": 3,
+     "saved": 1,
+     "shares": 0,
+     "views": 84,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18122841610871134": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcffdQPCsWC/",
+   "zeit": "2026-08-26T05:45:04+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 7,
+     "kommentare": 7,
+     "reach": 40,
+     "comments": 7,
+     "saved": 0,
+     "shares": 0,
+     "views": 99,
+     "total_interactions": 14,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18122232848504248": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dccqd-VCmWB/",
+   "zeit": "2026-08-25T03:23:34+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 10,
+     "kommentare": 8,
+     "reach": 50,
+     "comments": 8,
+     "saved": 0,
+     "shares": 0,
+     "views": 127,
+     "total_interactions": 18,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18196201312380545": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/Dcb692wDuIo/",
+   "zeit": "2026-08-24T20:28:29+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 5,
+     "kommentare": 4,
+     "reach": 36,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 91,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 0
+    }
+   ]
+  },
+  "18228316834321670": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcYqp61Cq5l/",
+   "zeit": "2026-08-23T14:08:14+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 3,
+     "kommentare": 1,
+     "reach": 46,
+     "comments": 1,
+     "saved": 1,
+     "shares": 1,
+     "views": 120,
+     "total_interactions": 6,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "18152908378510246": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DcVdf3GjvSq/",
+   "zeit": "2026-08-22T08:15:32+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-09-29",
+     "likes": 6,
+     "kommentare": 4,
+     "reach": 37,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 101,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  }
+ }
+}
