@@ -1,7 +1,7 @@
 name: Produzieren und prüfen
 on:
   schedule:
-    - cron: "20 2 * * *"
+    - cron: "20 2,14 * * *"
   workflow_dispatch:
 permissions:
   contents: write
