@@ -775,9 +775,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:44:34.090Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -807,9 +811,15 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 1, Handschrift-Zeile: 'Warum vertraut nicht dasselbe ist wie sicher.' ist grammatisch fehlerhaft (falsche Wortstellung/Satzbau, ergibt keinen korrekten deutschen Satz)."
+      ],
+      "am": "2026-09-29T09:45:29.132Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -839,9 +849,13 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:45:01.865Z"
+    },
     "ig": null,
     "fehler": null
   }
