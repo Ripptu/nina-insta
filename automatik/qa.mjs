@@ -171,7 +171,9 @@ ${hatUebersicht ? '- uebersicht.jpg (alle Seiten verkleinert nebeneinander, zur 
 3. Bewerte JEDEN Punkt der Prüfliste. Im Zweifel bei einem plausiblen Verstoß: fehler. Lege den Maßstab streng an, aber melde nichts, was nicht in den Bildern oder der Caption zu sehen ist.
 4. Antworte ausschließlich mit einem einzigen JSON-Objekt, ohne Text davor oder danach und ohne Codeblock, in genau dieser Form:
 
-{"pruefpunkte":[{"id":"LOGO","status":"ok","befund":"kurz, bei fehler mit Seitenzahl und Beleg"}, ...],"hinweise":["nicht blockierende Beobachtungen, sonst leer"],"verdikt":"ok oder abgelehnt"}
+{"gesichtspruefung":[{"datei":"seite-01.jpg","gesicht":"frei | verdeckt | nicht sichtbar","augen_nase_mund_frei":true,"darueber_liegt":"Schrift/Pfeil/Pille/Logo oder nichts"}, ...],"pruefpunkte":[{"id":"LOGO","status":"ok","befund":"kurz, bei fehler mit Seitenzahl und Beleg"}, ...],"hinweise":["nicht blockierende Beobachtungen, sonst leer"],"verdikt":"ok oder abgelehnt"}
+
+Die "gesichtspruefung" ist Pflicht und steht ZUERST: ein Eintrag für JEDE Seitendatei. Suche auf jeder Seite zuerst das Gesicht der Person (auch auf Fotos mit Schrift darüber). Frage dich konkret: Sind beide Augen, die Nase und der Mund vollständig frei sichtbar, oder läuft ein Buchstabe, Wort, Pfeil, eine Pille, Blase oder das Logo darüber, auch nur durch Stirn, Augen, Nase oder Mund? "verdeckt" heißt: irgendein Teil von Stirn bis Kinn liegt unter Schrift oder Grafik. Auf Seiten ohne Person oder wenn das Gesicht abgewandt oder nicht erkennbar ist: "nicht sichtbar".
 
 Der Wert von "status" ist "ok" oder "fehler". "verdikt" ist "abgelehnt", sobald ein Punkt "fehler" ist, sonst "ok". Die Kennungen: ${regeln.ids.join(', ')}. Jede Kennung kommt genau einmal vor.`
 }
@@ -245,10 +247,11 @@ export function wertAus(stdout, ids) {
   for (const p of o.pruefpunkte) {
     if (p && typeof p.id === 'string') punkte.set(p.id.toUpperCase(), { status: String(p.status).toLowerCase(), befund: String(p.befund || '') })
   }
+  const gesichter = Array.isArray(o.gesichtspruefung) ? o.gesichtspruefung : []
   const fehlend = ids.filter((id) => !punkte.has(id))
   if (fehlend.length) throw new Error(`Prüfpunkte fehlen in der Antwort: ${fehlend.join(', ')}`)
   for (const [id, p] of punkte) if (!['ok', 'fehler'].includes(p.status)) throw new Error(`Ungültiger Status bei ${id}: ${p.status}`)
-  return { punkte, hinweise: Array.isArray(o.hinweise) ? o.hinweise.map(String) : [], modellVerdikt: String(o.verdikt || '').toLowerCase() }
+  return { punkte, gesichter, hinweise: Array.isArray(o.hinweise) ? o.hinweise.map(String) : [], modellVerdikt: String(o.verdikt || '').toLowerCase() }
 }
 
 /**
@@ -298,6 +301,11 @@ export async function pruefe(item, absVerzeichnis) {
     for (const id of regeln.ids) {
       const p = ergebnis.punkte.get(id)
       if (p.status === 'fehler' && !(id === 'HASHTAGS' && schonGemessen.has(id))) gruende.push(`${id}: ${p.befund || 'Verstoß (ohne Beleg)'}`)
+    }
+    // Gesichtsprüfung je Seite: jede verdeckte Seite ist ein Fehler, unabhängig vom Gesamturteil des Modells
+    for (const g of ergebnis.gesichter) {
+      const verdeckt = String(g.gesicht || '').toLowerCase().startsWith('verdeckt') || g.augen_nase_mund_frei === false
+      if (verdeckt && !gruende.some((x) => x.startsWith('GESICHT'))) gruende.push(`GESICHT: ${g.datei}: ${g.darueber_liegt || 'Text oder Grafik liegt über dem Gesicht'}`)
     }
     if (ergebnis.modellVerdikt === 'abgelehnt' && !gruende.length) gruende.push('Prüf-Agent hat abgelehnt, ohne einen Punkt zu nennen')
     return { verdikt: gruende.length ? 'abgelehnt' : 'ok', gruende, hinweise: ergebnis.hinweise, dauerMs: Date.now() - t0 }
