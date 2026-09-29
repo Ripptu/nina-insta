@@ -1,0 +1,45 @@
+name: Werkzeuge
+description: Node, Abhängigkeiten und je nach Bedarf Chromium, Python (Gesichtsschutz), rclone und Ninas Fotos aus Drive
+inputs:
+  rendern:
+    description: "true = Chromium, Python/OpenCV, rclone und Fotos einrichten"
+    default: "false"
+  claude:
+    description: "true = Claude-CLI installieren"
+    default: "false"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with: { node-version: 20, cache: npm }
+    - run: npm ci --no-audit --no-fund
+      shell: bash
+    - if: inputs.claude == 'true'
+      run: npm install -g @anthropic-ai/claude-code
+      shell: bash
+    - if: inputs.rendern == 'true'
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/ms-playwright
+        key: playwright-1.47.2-chromium
+    - if: inputs.rendern == 'true'
+      run: npx playwright-core install --with-deps chromium
+      shell: bash
+    - if: inputs.rendern == 'true'
+      uses: actions/setup-python@v5
+      with: { python-version: "3.12" }
+    - if: inputs.rendern == 'true'
+      run: pip install --quiet opencv-python-headless numpy && echo "PYTHON_BIN=$(which python)" >> "$GITHUB_ENV"
+      shell: bash
+    - if: inputs.rendern == 'true'
+      run: |
+        curl -fsSL https://rclone.org/install.sh | sudo bash
+        rclone copy "nina:${DRIVE_FOLDER}/Fotos" "$GITHUB_WORKSPACE/fotos" --include "*.{jpg,jpeg,png,JPG,JPEG,PNG}" --log-level ERROR
+        echo "FOTO_DIR=$GITHUB_WORKSPACE/fotos" >> "$GITHUB_ENV"
+        ls "$GITHUB_WORKSPACE/fotos" | wc -l
+      shell: bash
+      env:
+        RCLONE_CONFIG: /dev/null
+        RCLONE_CONFIG_NINA_TYPE: drive
+        RCLONE_CONFIG_NINA_SCOPE: drive
+        RCLONE_CONFIG_NINA_TOKEN: ${{ env.RCLONE_DRIVE_TOKEN }}

@@ -1,0 +1,24 @@
+name: Messen
+on:
+  schedule:
+    - cron: "10 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  messen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/werkzeuge
+      - env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+        run: node automatik/messen.mjs
+      - run: |
+          git config user.name "nina-insta-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet || (git commit -m "Messwerte" && git pull --rebase -q && git push)

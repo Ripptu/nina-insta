@@ -1,0 +1,15 @@
+name: QA-Test (Phase 5)
+on: workflow_dispatch
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      RCLONE_DRIVE_TOKEN: ${{ secrets.RCLONE_DRIVE_TOKEN }}
+      DRIVE_FOLDER: ${{ secrets.DRIVE_FOLDER }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/werkzeuge
+        with: { rendern: "true", claude: "true" }
+      - run: node automatik/qa/pruefung/bauen.mjs && node automatik/qa/pruefung/lauf.mjs
