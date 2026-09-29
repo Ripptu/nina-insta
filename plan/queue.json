@@ -74,84 +74,6 @@
     "fehler": null
   },
   {
-    "id": "k03",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 3",
-    "titel": "Alles gut",
-    "format": "Das sagst du / das meinst du",
-    "angebot": "keins",
-    "kernthema": 2,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k03/01.jpg",
-      "out/k03/02.jpg",
-      "out/k03/03.jpg",
-      "out/k03/04.jpg",
-      "out/k03/05.jpg",
-      "out/k03/06.jpg",
-      "out/k03/07.jpg",
-      "out/k03/08.jpg"
-    ],
-    "caption": "Du sagst „alles gut“. Nichts ist gut.\n\nAngst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.\n\nHinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Hinter „Lass es uns locker angehen“ steckt manchmal: Ich mag dich, und genau das macht mir Angst.\n\nDafür musst du dich nicht schämen. Solche Sätze haben dich einmal geschützt. Sie dürfen in deinem Tempo leiser werden.\n\nFür heute: Nimm einen Satz, den du oft sagst, und frag dich, was du sagen würdest, wenn du keine Angst hättest, zu viel zu sein. Du musst es niemandem sagen. Es zu wissen, reicht.\n\nWichtig: Nicht jeder Rückzug ist Angst. Wenn jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand gesunder Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Schutzsätze besser verstehen willst.\n\nWelcher dieser Sätze ist deiner?",
-    "hashtags": [
-      "#angstvornähe",
-      "#bindungsangst",
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#coachingoldenburg"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "LESBAR: Seite 4: Das Wort „Beziehungsmensch“ wird am rechten Bildrand abgeschnitten dargestellt als „Beziehungsmen“, die Endung „sch“ fehlt/ragt aus dem Bild. Auch in der Übersichtsdatei bestätigt sich der Abschnitt."
-      ],
-      "am": "2026-09-29T09:26:23.780Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k04",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 4",
-    "titel": "Nett zu allen außer zu dir",
-    "format": "Vorher/Nachher",
-    "angebot": "Shop",
-    "kernthema": 3,
-    "fruehestens": "2026-11-01",
-    "dateien": [
-      "out/k04/01.jpg",
-      "out/k04/02.jpg",
-      "out/k04/03.jpg",
-      "out/k04/04.jpg",
-      "out/k04/05.jpg",
-      "out/k04/06.jpg",
-      "out/k04/07.jpg",
-      "out/k04/08.jpg"
-    ],
-    "caption": "Du bist nett zu allen. Außer zu dir.\n\nWer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“\n\nDiese Sätze kommen nicht aus dem Nichts. Vielleicht haben sie dir einmal geholfen, Streit oder Ablehnung zu vermeiden. Heute halten sie dich klein, auch dann, wenn niemand etwas von dir verlangt.\n\nNachher-Sätze klingen anders: „Ich darf etwas brauchen.“ Oder: „Ich muss mir Liebe nicht verdienen.“\n\nFür heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen.\n\nUnd falls jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut: Das liegt nicht an deiner Empfindlichkeit. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nWenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journale und Karten, zum Beispiel „90 Tage näher zu dir“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du freundlicher mit dir reden lernen willst.\n\nWelcher Vorher-Satz läuft bei dir am häufigsten?",
-    "hashtags": [
-      "#selbstmitgefühl",
-      "#selbstwert",
-      "#beziehungsmuster",
-      "#coachingoldenburg",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Seite 8: Tippfehler 'zű dir' statt 'zu dir' im Titel des Journals ('90 Tage näher zű dir'). Zusätzlich zeigen Seite 3 ('Vorher: „Ich' + Stray-Anführungszeichen nach 'Ich' und nach 'keine') und Seite 6 ('Vorher: „Wenn' + Stray-Anführungszeichen nach 'Wenn' und nach 'mich') fehlerhaft gesetzte, doppelte Anführungszeichen mitten im Satz."
-      ],
-      "am": "2026-09-29T09:27:38.946Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "k05",
     "typ": "karussell",
     "quelle": "docs/content-posts.md#Karussell 5",
@@ -188,6 +110,72 @@
     "fehler": null
   },
   {
+    "id": "k03",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 3",
+    "titel": "Alles gut",
+    "format": "Das sagst du / das meinst du",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k03/01.jpg",
+      "out/k03/02.jpg",
+      "out/k03/03.jpg",
+      "out/k03/04.jpg",
+      "out/k03/05.jpg",
+      "out/k03/06.jpg",
+      "out/k03/07.jpg",
+      "out/k03/08.jpg"
+    ],
+    "caption": "Du sagst „alles gut“. Nichts ist gut.\n\nAngst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.\n\nHinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Hinter „Lass es uns locker angehen“ steckt manchmal: Ich mag dich, und genau das macht mir Angst.\n\nDafür musst du dich nicht schämen. Solche Sätze haben dich einmal geschützt. Sie dürfen in deinem Tempo leiser werden.\n\nFür heute: Nimm einen Satz, den du oft sagst, und frag dich, was du sagen würdest, wenn du keine Angst hättest, zu viel zu sein. Du musst es niemandem sagen. Es zu wissen, reicht.\n\nWichtig: Nicht jeder Rückzug ist Angst. Wenn jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand gesunder Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Schutzsätze besser verstehen willst.\n\nWelcher dieser Sätze ist deiner?",
+    "hashtags": [
+      "#angstvornähe",
+      "#bindungsangst",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#coachingoldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k04",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 4",
+    "titel": "Nett zu allen außer zu dir",
+    "format": "Vorher/Nachher",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k04/01.jpg",
+      "out/k04/02.jpg",
+      "out/k04/03.jpg",
+      "out/k04/04.jpg",
+      "out/k04/05.jpg",
+      "out/k04/06.jpg",
+      "out/k04/07.jpg",
+      "out/k04/08.jpg"
+    ],
+    "caption": "Du bist nett zu allen. Außer zu dir.\n\nWer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“\n\nDiese Sätze kommen nicht aus dem Nichts. Vielleicht haben sie dir einmal geholfen, Streit oder Ablehnung zu vermeiden. Heute halten sie dich klein, auch dann, wenn niemand etwas von dir verlangt.\n\nNachher-Sätze klingen anders: „Ich darf etwas brauchen.“ Oder: „Ich muss mir Liebe nicht verdienen.“\n\nFür heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen.\n\nUnd falls jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut: Das liegt nicht an deiner Empfindlichkeit. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nWenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journale und Karten, zum Beispiel „90 Tage näher zu dir“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du freundlicher mit dir reden lernen willst.\n\nWelcher Vorher-Satz läuft bei dir am häufigsten?",
+    "hashtags": [
+      "#selbstmitgefühl",
+      "#selbstwert",
+      "#beziehungsmuster",
+      "#coachingoldenburg",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
     "id": "k06",
     "typ": "karussell",
     "quelle": "docs/content-posts.md#Karussell 6",
@@ -214,16 +202,9 @@
       "#datingtipps",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "LESBAR: Seite 1: Das große Anführungszeichen überlagert den Buchstaben 'I' von 'Ich', dadurch liest sich die Zeile wie 'loh hab halt Pech'; zusätzlich wird das Wort 'der' durch ihren Kopf/Haare verdeckt, sodass nur 'er Liebe.' zu lesen ist. Seite 2: Das Wort 'Liebesgeschichten' wird am rechten Bildrand abgeschnitten (das 'n' ragt über den Bildrand hinaus), beides bereits in der Übersichtsdatei in Daumennagelgröße erkennbar.",
-        "COVER: Seite 1 (Cover) hat zwar große fette Schrift mit Hook, ist aber durch die Überlagerung von Anführungszeichen und Kopf/Haaren nicht sauber lesbar ('loh hab halt Pech ... er Liebe.' statt 'Ich hab halt Pech ... in der Liebe.'), auch nicht in Daumennagelgröße laut Übersicht."
-      ],
-      "am": "2026-09-29T09:29:18.323Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -253,15 +234,9 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "GESICHT: seite-04.jpg: nichts (Person von hinten fotografiert)"
-      ],
-      "am": "2026-09-29T09:27:24.421Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -292,15 +267,9 @@
       "#beziehungsmuster",
       "#coachingoldenburg"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "GESICHT: seite-03.jpg: nichts"
-      ],
-      "am": "2026-09-29T09:28:53.205Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
