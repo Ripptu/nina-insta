@@ -599,9 +599,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 1: Tippfehler 'der sich rarmacht' – korrekt müsste es 'der sich rar macht' (getrennt geschrieben) heißen."
+      ],
+      "am": "2026-09-29T09:39:51.386Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -667,9 +673,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:39:56.005Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -732,9 +742,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:39:51.386Z"
+    },
     "ig": null,
     "fehler": null
   },
