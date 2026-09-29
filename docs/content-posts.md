@@ -246,7 +246,7 @@ Welche dieser Annahmen hast du selbst schon gedacht?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel, Fineline: Handy mit dunklem Display auf einem Tisch | **Es fühlt sich an wie Zuhause. Leider.** / Warum vertraut nicht dasselbe ist wie sicher. |
+| 1 | Cover dunkel, Fineline: Handy mit dunklem Display auf einem Tisch | **Es fühlt sich an wie Zuhause. Leider.** / Warum Vertrautes nicht dasselbe ist wie Sicheres. |
 | 2 | Mini-Geschichte | Aus vielen Erfahrungen zusammengesetzt. / Stell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du. |
 | 3 | Mini-Geschichte | Die Person meldet sich mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher. |
 | 4 | Mini-Geschichte | Irgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. |

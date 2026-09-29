@@ -786,44 +786,6 @@
     "fehler": null
   },
   {
-    "id": "k07",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 7",
-    "titel": "Wie Zuhause",
-    "format": "Mini-Geschichte",
-    "angebot": "Coaching",
-    "kernthema": 1,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k07/01.jpg",
-      "out/k07/02.jpg",
-      "out/k07/03.jpg",
-      "out/k07/04.jpg",
-      "out/k07/05.jpg",
-      "out/k07/06.jpg",
-      "out/k07/07.jpg"
-    ],
-    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt?",
-    "hashtags": [
-      "#singlecoaching",
-      "#immerdiefalschen",
-      "#beziehungsmuster",
-      "#dating",
-      "#oldenburg"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Seite 1, Handschrift-Zeile: 'Warum vertraut nicht dasselbe ist wie sicher.' ist grammatisch fehlerhaft (falsche Wortstellung/Satzbau, ergibt keinen korrekten deutschen Satz)."
-      ],
-      "am": "2026-09-29T09:45:29.132Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "k11",
     "typ": "karussell",
     "quelle": "docs/content-posts.md#Karussell 11",
@@ -856,6 +818,38 @@
       "gruende": [],
       "am": "2026-09-29T09:45:01.865Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k07",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 7",
+    "titel": "Wie Zuhause",
+    "format": "Mini-Geschichte",
+    "angebot": "Coaching",
+    "kernthema": 1,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k07/01.jpg",
+      "out/k07/02.jpg",
+      "out/k07/03.jpg",
+      "out/k07/04.jpg",
+      "out/k07/05.jpg",
+      "out/k07/06.jpg",
+      "out/k07/07.jpg"
+    ],
+    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt?",
+    "hashtags": [
+      "#singlecoaching",
+      "#immerdiefalschen",
+      "#beziehungsmuster",
+      "#dating",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
