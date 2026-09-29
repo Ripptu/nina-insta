@@ -221,44 +221,6 @@
     "fehler": null
   },
   {
-    "id": "k07",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 7",
-    "titel": "Wie Zuhause",
-    "format": "Mini-Geschichte",
-    "angebot": "Coaching",
-    "kernthema": 1,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k07/01.jpg",
-      "out/k07/02.jpg",
-      "out/k07/03.jpg",
-      "out/k07/04.jpg",
-      "out/k07/05.jpg",
-      "out/k07/06.jpg",
-      "out/k07/07.jpg"
-    ],
-    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt?",
-    "hashtags": [
-      "#singlecoaching",
-      "#immerdiefalschen",
-      "#beziehungsmuster",
-      "#dating",
-      "#oldenburg"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "LESBAR: Seite 3: Die Handschrift-Zeile 'Sie plant etwas und sagt' überlagert direkt den gedruckten Buchtitel ('Single-Sein ist falscher Näh...') auf dem Buch in Ninas Hand. Beide Textebenen kollidieren an dieser Stelle und sind dort schwer auseinanderzuhalten/lesbar."
-      ],
-      "am": "2026-09-29T09:35:25.985Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "k08",
     "typ": "karussell",
     "quelle": "docs/content-posts.md#Karussell 8",
@@ -370,44 +332,6 @@
     "fehler": null
   },
   {
-    "id": "k11",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 11",
-    "titel": "Mir hat ein Buch gefehlt",
-    "format": "Werbung",
-    "angebot": "Buch",
-    "kernthema": 1,
-    "fruehestens": null,
-    "dateien": [
-      "out/k11/01.jpg",
-      "out/k11/02.jpg",
-      "out/k11/03.jpg",
-      "out/k11/04.jpg",
-      "out/k11/05.jpg",
-      "out/k11/06.jpg",
-      "out/k11/07.jpg"
-    ],
-    "caption": "Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen. Also habe ich es geschrieben.\n\n„Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.\n\nWenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt, von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.\n\nDas Buch findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍",
-    "hashtags": [
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#buchtipp",
-      "#singleleben",
-      "#oldenburg"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Zeichensetzungsfehler auf Seite 3 und identisch in der Caption: „Du bist geprägt, von Erfahrungen, die dich damals schützen sollten.“ – das Komma zwischen „geprägt“ und „von“ ist grammatisch falsch (kein Komma vor der Präpositionalergänzung ohne Nebensatz)."
-      ],
-      "am": "2026-09-29T09:35:26.626Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "k12",
     "typ": "karussell",
     "quelle": "docs/content-posts.md#Karussell 12",
@@ -439,43 +363,6 @@
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-09-29T09:35:51.346Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k13",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 13",
-    "titel": "Für zwischendurch",
-    "format": "Werbung",
-    "angebot": "Shop",
-    "kernthema": 4,
-    "fruehestens": "2026-11-01",
-    "dateien": [
-      "out/k13/01.jpg",
-      "out/k13/02.jpg",
-      "out/k13/03.jpg",
-      "out/k13/04.jpg",
-      "out/k13/05.jpg",
-      "out/k13/06.jpg"
-    ],
-    "caption": "Nicht alles klärt sich an einem Abend oder in einem Gespräch. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.\n\nIn meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.\n\nSchau in Ruhe durch, was zu dir passt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen möchtest.\n\nWas würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio? 🤍",
-    "hashtags": [
-      "#journaling",
-      "#selbstreflexion",
-      "#traumasensibel",
-      "#beziehungsmuster",
-      "#oldenburg"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Seite 4: „Oder Deine Beziehungslandkarte, ebenfalls unter Journale & Karten.“ – das Possessivpronomen „Deine“ ist großgeschrieben, während im restlichen Beitrag durchgängig klein geschrieben wird (z. B. Seite 2 „an dem du ganz bei dir sein darfst“, Seite 3 „findest du unter“). Das ist eine uneinheitliche/falsche Groß-Kleinschreibung."
-      ],
-      "am": "2026-09-29T09:36:04.503Z"
     },
     "ig": null,
     "fehler": null
@@ -527,15 +414,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:35:49.550Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -552,15 +433,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:35:54.234Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -577,15 +452,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:06.890Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -602,15 +471,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:08.993Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -627,15 +490,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:13.050Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -652,15 +509,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:17.267Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -677,15 +528,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:19.509Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -702,15 +547,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:41.618Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -728,15 +567,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:45.702Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -754,15 +587,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:38.026Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -780,15 +607,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:54.635Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -806,15 +627,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:47.176Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -831,15 +646,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:58.291Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -856,15 +665,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:36:44.870Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -881,15 +684,104 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "CAPTION: Caption fehlt"
-      ],
-      "am": "2026-09-29T09:37:04.647Z"
-    },
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k07",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 7",
+    "titel": "Wie Zuhause",
+    "format": "Mini-Geschichte",
+    "angebot": "Coaching",
+    "kernthema": 1,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k07/01.jpg",
+      "out/k07/02.jpg",
+      "out/k07/03.jpg",
+      "out/k07/04.jpg",
+      "out/k07/05.jpg",
+      "out/k07/06.jpg",
+      "out/k07/07.jpg"
+    ],
+    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt?",
+    "hashtags": [
+      "#singlecoaching",
+      "#immerdiefalschen",
+      "#beziehungsmuster",
+      "#dating",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k11",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 11",
+    "titel": "Mir hat ein Buch gefehlt",
+    "format": "Werbung",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/k11/01.jpg",
+      "out/k11/02.jpg",
+      "out/k11/03.jpg",
+      "out/k11/04.jpg",
+      "out/k11/05.jpg",
+      "out/k11/06.jpg",
+      "out/k11/07.jpg"
+    ],
+    "caption": "Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen. Also habe ich es geschrieben.\n\n„Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.\n\nWenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.\n\nDas Buch findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍",
+    "hashtags": [
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#buchtipp",
+      "#singleleben",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k13",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 13",
+    "titel": "Für zwischendurch",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 4,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k13/01.jpg",
+      "out/k13/02.jpg",
+      "out/k13/03.jpg",
+      "out/k13/04.jpg",
+      "out/k13/05.jpg",
+      "out/k13/06.jpg"
+    ],
+    "caption": "Nicht alles klärt sich an einem Abend oder in einem Gespräch. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.\n\nIn meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.\n\nSchau in Ruhe durch, was zu dir passt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen möchtest.\n\nWas würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio? 🤍",
+    "hashtags": [
+      "#journaling",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#beziehungsmuster",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
