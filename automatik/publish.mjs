@@ -19,7 +19,7 @@ if (fs.existsSync(path.join(ROOT, 'PAUSE'))) { log('PAUSE vorhanden, nichts ver�
 const params = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), 'utf8'))
 const jetztZeit = new Date()
 const b = berlin(jetztZeit)
-const q = ladeQueue()
+const q = await ladeQueue()
 const heuteVeroeffentlicht = (typen) => q.some((x) => x.status === 'veroeffentlicht' && typen.includes(x.typ) && x.ig?.am && berlin(new Date(x.ig.am)).datum === b.datum)
 
 const jobs = []
@@ -45,7 +45,7 @@ for (const job of jobs) {
   if (!item) { log(`Kein geprüfter Beitrag für ${job.typ}${job.serie ? ' (Serie)' : ''}: Puffer leer.`); fehler++; continue }
   const dateien = item.dateien.map((f) => path.join(ROOT, f))
   const fehlt = dateien.filter((f) => !fs.existsSync(f))
-  if (fehlt.length) { item.status = 'fehler'; item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); speichereQueue(q); fehler++; continue }
+  if (fehlt.length) { item.status = 'fehler'; item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); await speichereQueue(q); fehler++; continue }
   const caption = item.caption + (item.hashtags?.length ? '\n\n' + (Array.isArray(item.hashtags) ? item.hashtags.join(' ') : item.hashtags) : '')
   log(`${trocken ? '[trocken] ' : ''}Veröffentliche ${item.id} (${item.typ}) ${item.titel}`)
   try {
@@ -58,14 +58,16 @@ for (const job of jobs) {
       item.status = 'veroeffentlicht'
       item.ig = { id: r.id, permalink: r.permalink, am: new Date().toISOString() }
       item.fehler = null
-      speichereQueue(q)
+      await speichereQueue(q)
       log(`Veröffentlicht: ${r.permalink}`)
+      // Bilder werden nicht mehr gebraucht; sie bleiben nur in der Git-Historie
+      try { fs.rmSync(path.dirname(dateien[0]), { recursive: true, force: true }) } catch {}
     } else log('Trockenlauf ok', JSON.stringify(r).slice(0, 300))
   } catch (e) {
     item.versuche = (item.versuche || 0) + 1
     item.fehler = String(e.message || e).slice(0, 500)
     if (item.versuche >= 3) item.status = 'fehler'
-    if (!trocken) speichereQueue(q)
+    if (!trocken) await speichereQueue(q)
     log(`FEHLER bei ${item.id}: ${item.fehler}`)
     fehler++
   }

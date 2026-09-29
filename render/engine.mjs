@@ -10,7 +10,8 @@ import { findFaces, COLLECT, overlap } from './render.mjs'
 const HERE = new URL('.', import.meta.url).pathname
 export const CAT = JSON.parse(fs.readFileSync(HERE + '../data/fotos.json', 'utf8'))
 const FOTO_DIR = process.env.FOTO_DIR || path.join(os.homedir(), 'NINA')
-const CHROME = process.env.CHROME_PATH || path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
+const MAC_CHROME = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
+const CHROME = process.env.CHROME_PATH || (fs.existsSync(MAC_CHROME) ? MAC_CHROME : undefined)
 const W = 1080
 const INK = 'rgba(24,12,6,'
 

@@ -1,5 +1,5 @@
 // Baut die vier Testbeiträge für den QA-Agenten nach material/qa-test/<fall>/ (gitignored).
-//   node automatik/qa/test/bauen.mjs
+//   node automatik/qa/pruefung/bauen.mjs
 // a = Text über Ninas Gesicht (Gesichtsschutz absichtlich umgangen)
 // b = „Aufgabe 1/2“, erfundene Zahl, Diagnose
 // c = Heilversprechen, 8 Hashtags, abgeschnittener Text, verzerrtes Bild

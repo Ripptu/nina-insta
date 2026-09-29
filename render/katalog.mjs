@@ -25,7 +25,7 @@ const MANUELL = {
 }
 
 const paths = sheet.map((f) => path.join(dir, f))
-const faces = JSON.parse(execFileSync(HERE + 'py/.venv/bin/python', [HERE + 'py/faces.py', ...paths], { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString())
+const faces = JSON.parse(execFileSync(process.env.PYTHON_BIN || (fs.existsSync(HERE + 'py/.venv/bin/python') ? HERE + 'py/.venv/bin/python' : 'python3'), [HERE + 'py/faces.py', ...paths], { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString())
 
 const out = []
 for (let i = 0; i < sheet.length; i++) {

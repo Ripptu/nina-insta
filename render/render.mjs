@@ -10,11 +10,14 @@ import { applyPalette } from './templates.mjs'
 
 const PALETTE = JSON.parse(fs.readFileSync(new URL('./palette.json', import.meta.url), 'utf8'))
 const HERE = new URL('.', import.meta.url).pathname
-const CHROME = process.env.CHROME_PATH || path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
+const VENV_PY = path.join(HERE, 'py/.venv/bin/python')
+const PY = process.env.PYTHON_BIN || (fs.existsSync(VENV_PY) ? VENV_PY : 'python3')
+const MAC_CHROME = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
+const CHROME = process.env.CHROME_PATH || (fs.existsSync(MAC_CHROME) ? MAC_CHROME : undefined)
 
 /** Gesichtsboxen [x,y,w,h] in Seitenkoordinaten, mit Rand (Haare, Kinn, Stirn). */
 export function findFaces(png) {
-  const out = JSON.parse(execFileSync(path.join(HERE, 'py/.venv/bin/python'), [path.join(HERE, 'py/faces.py'), png], { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString())
+  const out = JSON.parse(execFileSync(PY, [path.join(HERE, 'py/faces.py'), png], { maxBuffer: 1e8, stdio: ['ignore', 'pipe', 'ignore'] }).toString())
   const boxes = []
   for (const [x, y, w, h] of out[png]) {
     // Gesicht großzügig erweitern: Stirn und Haaransatz oben, Kinn unten, seitlich etwas

@@ -1,6 +1,6 @@
 // Testlauf für den QA-Agenten: ruft pruefe() für vier Beiträge auf (echte Claude-Aufrufe über die CLI und das Abo).
-//   node automatik/qa/test/lauf.mjs            (baut die Testbeiträge bei Bedarf mit bauen.mjs)
-//   node automatik/qa/test/lauf.mjs a c        (nur einzelne Fälle)
+//   node automatik/qa/pruefung/lauf.mjs            (baut die Testbeiträge bei Bedarf mit bauen.mjs)
+//   node automatik/qa/pruefung/lauf.mjs a c        (nur einzelne Fälle)
 // Ausgabe: Tabelle erwartet / tatsächlich / Dauer, darunter die Gründe. Exit-Code 1, wenn ein Fall abweicht.
 //
 // Erwartung: a, b, c abgelehnt (mit den unten genannten Gründen), gut ok.
