@@ -318,9 +318,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:35:41.875Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -425,9 +429,13 @@
       "#singlecoaching",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:35:51.346Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -505,9 +513,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "CAPTION: Caption fehlt"
+      ],
+      "am": "2026-09-29T09:35:49.550Z"
+    },
     "ig": null,
     "fehler": null
   },
