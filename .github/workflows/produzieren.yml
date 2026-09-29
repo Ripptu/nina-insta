@@ -41,4 +41,4 @@ jobs:
         run: node automatik/fill.mjs
       - name: Stand speichern (mit Zusammenführen bei parallelen Änderungen)
         if: always()
-        run: node automatik/sichern.mjs "Produktion: Puffer aufgefüllt" plan out data docs
+        run: 'node automatik/sichern.mjs "Produktion: Puffer aufgefüllt" plan out data docs'

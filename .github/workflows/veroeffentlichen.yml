@@ -42,4 +42,4 @@ jobs:
           node automatik/publish.mjs $ARGS
       - name: Stand speichern (mit Zusammenführen bei parallelen Änderungen)
         if: always()
-        run: node automatik/sichern.mjs "Veröffentlichung: Queue aktualisiert" plan out data
+        run: 'node automatik/sichern.mjs "Veröffentlichung: Queue aktualisiert" plan out data'
