@@ -15,6 +15,10 @@ Der frühere Collage-Stil (`referenz/stil-collage.webp`, Vorlagen in `render/tem
 - **Gesicht bleibt frei (hart geprüft):** `render/render.mjs` sucht vor dem Speichern auf dem nackten Foto mit OpenCV YuNet (`render/py/faces.py`, Modell `render/py/yunet.onnx`) alle Gesichter, erweitert die Box um Stirn, Haare und Kinn und vergleicht sie mit jeder Textzeile, Pille, Blase, jedem Pfeil und dem Logo. Bei Überlappung bricht das Rendern mit Fehler ab (`faceGuard`, Standard an). Die Automatik muss dann Position, Größe oder Foto ändern. Mit `FACE_DEBUG=1` entstehen `debug-N.jpg` mit roten Gesichtsboxen und grünen Textboxen. Einrichtung: `uv venv render/py/.venv` und `uv pip install opencv-python-headless numpy` (in der Action derselbe Schritt).
 - **Logo** (Creme-Fassung, klein) unten links auf jeder Seite, außer wenn es Text stört.
 
+## Fotos nur auf dem Cover (Christian, 29.09.2026)
+
+Ninas Fotos erscheinen nur auf dem Cover, jedes Foto nur einmal (`render/covers.mjs`). Innenseiten, Reel-Abschnitte nach dem ersten Bild und Stories sind Farbflächen mit riesiger Schrift, Markierung, Chat-Blasen und eigenen Strichzeichnungen (`render/seiten.mjs`, `render/deko.mjs`). Cover-Vorlagen: Text hinter Nina, Chat, markierter Text, eingekreistes Kernwort, gestapeltes Echo-Wort (`render/viral.mjs`), Freistell-Masken in `data/masken/`. Sind alle Fotos Cover gewesen, gibt es reine Textcover.
+
 ## Umsetzung
 
 `render/typo.mjs` (Bausteine) und `render/demo-typo.mjs` (Karussell 1 als Beispiel). Farben und Schriftstärken stehen dort, `render/palette.json` gilt für diesen Stil nicht.

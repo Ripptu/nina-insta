@@ -44,7 +44,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 
 ## Gestaltung
 
-Stil „Foto-Typo“ nach den Referenzen in `docs/referenz/`, Details in `docs/gestaltung.md`, Bausteine in `render/typo.mjs`. Ninas echte Fotos im Vollbild, riesige enge Schrift in Weiß/Butter/Rosa, dünne Schreibschrift, Pfeile, Blasen, Pillen. Gesichter nie mit Text, Pfeilen, Pillen oder Logo überdecken (der Renderer prüft das automatisch und bricht sonst ab). Handschrift nur in Caveat, nie in dünner Schreibschrift. Nur Ninas echte Fotos, Objekte höchstens als eigene Zeichnungen. Der frühere Collage-Stil und die Salbei/Altrosa-Palette gelten nicht mehr.
+Stil „Foto-Typo“ nach den Referenzen in `docs/referenz/`, Details in `docs/gestaltung.md`, Bausteine in `render/typo.mjs`. Ninas echte Fotos nur auf dem Cover (Karussell-Seite 1, Reel-Titelbild), riesige enge Schrift in Weiß/Butter/Rosa, Handschrift, Pfeile, Blasen, Pillen. Alle anderen Seiten, Reel-Abschnitte und Stories sind Farbflächen (Braun, Rosa, Butter, Creme) mit Schrift und eigenen Strichzeichnungen (`render/seiten.mjs`, `render/deko.mjs`), damit die Fotos nicht ausgehen. Einzige Ausnahme: Buchfoto (Gegenstand, ohne Person) auf der Buch-Angebotsseite. Gesichter nie mit Text, Pfeilen, Pillen oder Logo überdecken (der Renderer prüft das automatisch und bricht sonst ab). Handschrift nur in Caveat, nie in dünner Schreibschrift. Nur Ninas echte Fotos, Objekte höchstens als eigene Zeichnungen. Der frühere Collage-Stil und die Salbei/Altrosa-Palette gelten nicht mehr.
 
 ## Weitere Regeln aus der Strategie
 

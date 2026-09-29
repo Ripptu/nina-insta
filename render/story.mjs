@@ -2,6 +2,7 @@
 // Fassung "Automatik-Fassung (ohne Sticker)"; bei Quiz-Stories zusätzlich die Auflösung (zweite Story).
 // Foto und Ausschnitt wählt die Layout-Engine; verletzt ein Foto den Gesichtsschutz, kommt das nächste dran.
 import fs from 'node:fs'
+import { createSeiten, paletteFor, PALETTEN } from './seiten.mjs'
 import path from 'node:path'
 import { ranked, CAT } from './engine.mjs'
 
@@ -53,7 +54,16 @@ const usable = (p) => p && (p.kind === 'portrait' || p.kind === 'ruecken')
  * Rendert eine Seite: probiert die Kandidaten der Reihe nach durch (Engine-Layout, dann Gesichtsschutz).
  * kind: 'text' | 'quote' | 'cover' | 'split'. Rückgabe {foto, crop} oder null, wenn kein Foto passt.
  */
-export async function renderSlide(eng, { kind = 'text', spec, cands, file, log = [] }) {
+export async function renderSlide(eng, { kind = 'text', spec, cands, file, log = [], palette, index = 1, nr = 1 }) {
+  // Fotos von Nina nur auf dem Cover; alle anderen Bilder sind Farbflächen mit Schrift und Zeichnungen
+  if (kind === 'text' || kind === 'quote') {
+    const S = (eng._seiten ||= createSeiten(eng))
+    const r = await S.seite({ ...spec, role: 'text' }, { PH, palette: palette || PALETTEN.braun, index, nr, lo: SAFE.lo, hi: SAFE.hi })
+    if (!r) { log.push('Seite: Text passt nicht in die Fläche'); return null }
+    const problems = await eng.renderHtml(fixLogo(r.html), file, PH)
+    if (problems.length) { log.push(`Seite verworfen (${problems[0]})`); return null }
+    return { foto: null, crop: null }
+  }
   for (const p of cands) {
     let r
     if (kind === 'cover') r = await eng.cover(spec, p, SAFE)
@@ -87,9 +97,9 @@ export async function renderStory(eng, story, outDir, opts = {}) {
     const cands = [...pre.filter((p) => usable(p) && !used.has(p.id)), ...ranked('portrait', used, story.nr * 3 + k).filter((p) => pre.length || ![31, 32].includes(p.id))]
     const seen = new Set()
     const uniq = cands.filter((p) => !seen.has(p.id) && seen.add(p.id))
-    const r = await renderSlide(eng, { kind: 'text', spec: { text: pg.text }, cands: uniq, file: pg.file, log })
+    const r = await renderSlide(eng, { kind: 'text', spec: { text: pg.text }, cands: uniq, file: pg.file, log, palette: paletteFor(story.nr, k + 1), index: k + 2, nr: story.nr })
     if (!r) throw new Error(`Story ${story.nr}${k ? ' (Auflösung)' : ''}: kein Foto passt (${log.join('; ')})`)
-    used.add(r.foto)
+    if (r.foto != null) used.add(r.foto)
     files.push(pg.file); fotos.push(r.foto)
     log.push(`${path.basename(pg.file)}: Foto ${r.foto}`)
   }

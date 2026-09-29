@@ -25,13 +25,9 @@
       "#oldenburg",
       "#beziehungsmuster"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T07:56:12.473Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -61,13 +57,9 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T07:57:08.830Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -97,13 +89,9 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T07:58:30.797Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -330,158 +318,6 @@
     "fehler": null
   },
   {
-    "id": "s01",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 1",
-    "titel": "Das Unklare oder das Verlässliche",
-    "angebot": "keins",
-    "kernthema": 1,
-    "fruehestens": null,
-    "dateien": [
-      "out/s01/s1.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s02",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 2",
-    "titel": "Ja gesagt, Nein gemeint",
-    "angebot": "keins",
-    "kernthema": 3,
-    "fruehestens": null,
-    "dateien": [
-      "out/s02/s2.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s03",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 3",
-    "titel": "Sonntag allein",
-    "angebot": "keins",
-    "kernthema": 4,
-    "fruehestens": null,
-    "dateien": [
-      "out/s03/s3.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s04",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 4",
-    "titel": "Nach dem schönen Abend",
-    "angebot": "keins",
-    "kernthema": 2,
-    "fruehestens": null,
-    "dateien": [
-      "out/s04/s4.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s05",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 5",
-    "titel": "Dein Satz in der Liebe",
-    "angebot": "keins",
-    "kernthema": 1,
-    "fruehestens": null,
-    "dateien": [
-      "out/s05/s5.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s06",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 6",
-    "titel": "Verkniffen",
-    "angebot": "keins",
-    "kernthema": 3,
-    "fruehestens": null,
-    "dateien": [
-      "out/s06/s6.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s07",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 7",
-    "titel": "Nach dem Date",
-    "angebot": "keins",
-    "kernthema": 4,
-    "fruehestens": null,
-    "dateien": [
-      "out/s07/s7.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s08",
-    "typ": "story",
-    "quelle": "docs/content-posts.md#Story 8",
-    "titel": "Frag mich zu Mustern",
-    "angebot": "keins",
-    "kernthema": 2,
-    "fruehestens": null,
-    "dateien": [
-      "out/s08/s8.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "neu",
-    "geplant": null,
-    "qa": null,
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "r01",
     "typ": "reel",
     "quelle": "docs/content-reels.md#Reel 1",
@@ -691,6 +527,158 @@
       "#liebe",
       "#traumasensibel"
     ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s01",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 1",
+    "titel": "Das Unklare oder das Verlässliche",
+    "angebot": "keins",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/s01/s1.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s02",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 2",
+    "titel": "Ja gesagt, Nein gemeint",
+    "angebot": "keins",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/s02/s2.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s03",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 3",
+    "titel": "Sonntag allein",
+    "angebot": "keins",
+    "kernthema": 4,
+    "fruehestens": null,
+    "dateien": [
+      "out/s03/s3.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s04",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 4",
+    "titel": "Nach dem schönen Abend",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": null,
+    "dateien": [
+      "out/s04/s4.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s05",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 5",
+    "titel": "Dein Satz in der Liebe",
+    "angebot": "keins",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/s05/s5.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s06",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 6",
+    "titel": "Verkniffen",
+    "angebot": "keins",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/s06/s6.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s07",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 7",
+    "titel": "Nach dem Date",
+    "angebot": "keins",
+    "kernthema": 4,
+    "fruehestens": null,
+    "dateien": [
+      "out/s07/s7.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s08",
+    "typ": "story",
+    "quelle": "docs/content-posts.md#Story 8",
+    "titel": "Frag mich zu Mustern",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": null,
+    "dateien": [
+      "out/s08/s8.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
     "status": "neu",
     "geplant": null,
     "qa": null,

@@ -10,6 +10,7 @@ import { ranked, CAT } from './engine.mjs'
 import { renderSlide, SAFE, PH, fixLogo } from './story.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 import { createViral, viralCover } from './viral.mjs'
+import { paletteFor } from './seiten.mjs'
 
 const FFMPEG = process.env.FFMPEG_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffmpeg')
 const FFPROBE = process.env.FFPROBE_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffprobe')
@@ -218,9 +219,9 @@ export async function renderReel(eng, reel, outDir, opts = {}) {
       const vc = await viralCover(V, { head: text }, cands.filter((p) => !gesperrt.has(p.id)), file, { PH, nr: reel.nr + 3, lo: SAFE.lo, hi: SAFE.hi + 120, nachher: fixLogo })
       if (vc) { r = { foto: vc.foto }; log.push(`Cover-Vorlage ${vc.vorlage}`) }
     }
-    if (!r) r = await renderSlide(eng, { kind, spec, cands, file, log })
+    if (!r) r = await renderSlide(eng, { kind, spec, cands, file, log, palette: paletteFor(reel.nr, i + 1), index: i + 1, nr: reel.nr })
     if (!r) throw new Error(`${reel.id} Abschnitt ${i + 1}: kein Foto passt (${log.slice(-3).join('; ')})`)
-    used.add(r.foto)
+    if (r.foto != null) used.add(r.foto)
     fotos.push(r.foto)
     log.push(`Abschnitt ${i + 1} (${seg.von}-${seg.bis} s): Foto ${r.foto}, ${kind}`)
     prevFile = file; prevFoto = r.foto
