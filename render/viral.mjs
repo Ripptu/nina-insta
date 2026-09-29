@@ -139,6 +139,9 @@ export function createViral(eng) {
               let wortOk = true
               for (const w of r.words || []) {
                 if (coverage(pl, p, g, [30 + w[0], y + w[1], w[2], w[3]], 8) > (w[4].replace(/[^\p{L}]/gu, '').length <= 3 ? 0.2 : 0.3)) { wortOk = false; break }
+                // kein einzelner Buchstabe darf stark verdeckt sein (sonst liest sich „Zuhause“ als „uhause“)
+                for (const c of w[5] || []) if (/\p{L}/u.test(c[4]) && coverage(pl, p, g, [30 + c[0], y + c[1], c[2], c[3]], 4) > 0.45) { wortOk = false; break }
+                if (!wortOk) break
               }
               if (!wortOk) continue
               const score = -Math.abs(avg - 0.1) * 40 - (zoom - 1) * 25 - Math.abs(ax - 0.5) * 10 - y * 0.004

@@ -174,12 +174,12 @@ export async function createEngine() {
     let pillText = ''
     if (cta) { const m = t.match(/\s*Link in der Bio\.?/i); if (m) { t = t.replace(m[0], '').trim(); pillText = 'Link in der Bio' } }
     const ss = sentences(t)
-    const first = quote ? t : ss[0]
+    const first = quote ? t.replace(/^„/, '“').replace(/“$/, '”') : ss[0]
     const rest = quote ? '' : ss.slice(1).join(' ')
     const sizes = quote ? [124, 112, 100, 90, 80, 72] : [74, 68, 62, 58, 54, 50, 46]
     for (const hs of sizes) {
       const bs = Math.round(hs * 0.82)
-      const h1 = await meas(esc(first), 960, quote ? 'hd' : 'hd', hs, `color:${Y.BUTTER};line-height:${quote ? 0.95 : 1};letter-spacing:-.035em`)
+      const h1 = await meas(esc(first), 960, quote ? 'hd' : 'hd', hs, `color:${Y.BUTTER};line-height:${quote ? 1 : 1};letter-spacing:-.035em`)
       const h2 = rest ? await meas(esc(rest), 960, 'tx', bs, 'color:#fff') : 0
       const hp = pillText ? 96 : 0
       const need = h1 + (rest ? h2 + 28 : 0) + (pillText ? hp + 34 : 0)
@@ -187,7 +187,7 @@ export async function createEngine() {
       if (!crop) continue
       const y = crop.top ? crop.band[0] : crop.band[1] - need
       let yy = y
-      let body = bandShade(y, y + need, 0.5) + `<div class="abs hd" style="left:60px;top:${yy}px;width:960px;font-size:${hs}px;color:${Y.BUTTER};line-height:${quote ? 0.95 : 1};letter-spacing:-.035em">${esc(first)}</div>`
+      let body = bandShade(y, y + need, 0.5) + `<div class="abs hd" style="left:60px;top:${yy}px;width:960px;font-size:${hs}px;color:${Y.BUTTER};line-height:${quote ? 1 : 1};letter-spacing:-.035em">${esc(first)}</div>`
       yy += h1 + 28
       if (rest) { body += `<div class="abs tx" style="left:60px;top:${yy}px;width:960px;font-size:${bs}px;color:#fff">${esc(rest)}</div>`; yy += h2 + 34 }
       if (pillText) body += `<div class="abs cta" style="left:60px;top:${yy}px;font-size:46px;padding:16px 40px">${pillText}</div>`
@@ -265,7 +265,14 @@ export async function createEngine() {
       while (tw.nextNode()) {
         const n = tw.currentNode, re = /\S+/g
         let m
-        while ((m = re.exec(n.nodeValue))) { const rg = document.createRange(); rg.setStart(n, m.index); rg.setEnd(n, m.index + m[0].length); const rr = rg.getBoundingClientRect(); if (rr.width > 1) words.push([rr.left - base.left, rr.top - base.top, rr.width, rr.height, m[0]]) }
+        while ((m = re.exec(n.nodeValue))) {
+          const rg = document.createRange(); rg.setStart(n, m.index); rg.setEnd(n, m.index + m[0].length)
+          const rr = rg.getBoundingClientRect()
+          if (rr.width <= 1) continue
+          const chars = []
+          for (let k = 0; k < m[0].length; k++) { const cr = document.createRange(); cr.setStart(n, m.index + k); cr.setEnd(n, m.index + k + 1); const c = cr.getBoundingClientRect(); if (c.width > 1) chars.push([c.left - base.left, c.top - base.top, c.width, c.height, m[0][k]]) }
+          words.push([rr.left - base.left, rr.top - base.top, rr.width, rr.height, m[0], chars])
+        }
       }
       const kb = el.querySelector('#kb')
       let span = null
