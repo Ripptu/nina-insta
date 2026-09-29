@@ -16,6 +16,8 @@ const log = (...a) => console.log(new Date().toISOString(), ...a)
 
 if (fs.existsSync(path.join(ROOT, 'PAUSE'))) { log('PAUSE vorhanden, nichts veröffentlicht.'); process.exit(0) }
 
+if (!trocken && !process.env.MEDIA_TOKEN) { log('MEDIA_TOKEN fehlt (GitHub-Zugriff für Bilder). Nichts veröffentlicht, kein Versuch gezählt.'); process.exit(1) }
+
 const params = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), 'utf8'))
 const jetztZeit = new Date()
 const b = berlin(jetztZeit)
