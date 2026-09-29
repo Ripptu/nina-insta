@@ -31,11 +31,13 @@ CLAUDE.md            feste Regeln (Marke, Inhalt, Schutz, System), gilt vor alle
 docs/                Strategie, Referenzanalyse, Inhalte (content-*.md), Gestaltung, Architektur
 plan/                queue.json (alle Beiträge und ihr Status), params.json (freie Stellgrößen)
 automatik/           produce, qa (Prüf-Agent), publish, fill, messen, think, neu-schreiben, bericht
-render/              Layout-Engine, Cover-Vorlagen, Innenseiten, Stories, Reels, Gesichtsschutz
+render/              Layout-Engine, Designer-Stil (designer.mjs: Karussells, Reel- und Story-Bilder), Foto-Typo (Ersatz), Stories, Reels, Gesichtsschutz
 data/                Fotokatalog, Freistell-Masken, Cover-Verbrauch, Messwerte, Angebote
 app/                 Tauri-Mac-App (Rust + React)
 learnings.md         was getestet wurde und was gilt
 ```
+
+Werbe-Beiträge (`Format: Werbung`, etwa jeder vierte Karussell-Beitrag) stellen Buch, Coaching, Shop oder Veranstaltungen vor; Gestaltung siehe `docs/gestaltung.md`.
 
 Ablauf: Vorrat (`docs/content-*.md`, bei Bedarf von Claude neu geschrieben) → Bilder und Videos (`render/`) → unabhängiger Prüf-Agent (`automatik/qa.mjs`) → Puffer von mindestens 10 geprüften Beiträgen → Veröffentlichen über die Instagram API → Messen → Denken.
 
