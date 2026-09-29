@@ -16,3 +16,13 @@ __pycache__/
 .DS_Store
 tmp/
 cache/
+
+# Ninas Fotos und gerenderte Dateien bleiben lokal bzw. in Drive
+material/
+render/node_modules/
+render/sheet.jpg
+render/masks.jpg
+render/cut-preview.jpg
+render/demo-sheet.jpg
+render/mask-*.png
+render/dbg*.mjs

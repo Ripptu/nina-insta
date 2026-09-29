@@ -285,9 +285,11 @@ function DriveStep({ state, onDone }: { state: SetupState; onDone: () => void })
   const [msg, setMsg] = useState<{ tone: 'ok' | 'err' | 'muted'; text: string } | null>(null)
 
   const loadFolders = async () => {
+    setMsg({ tone: 'muted', text: 'Lade Ordner aus Google Drive …' })
     try {
       const f = await api.driveFolders()
       setFolders(f)
+      setMsg(null)
       if (f.includes('NINA')) setChoice('NINA')
     } catch (e) {
       setMsg({ tone: 'err', text: errorText(e) })
@@ -338,6 +340,7 @@ function DriveStep({ state, onDone }: { state: SetupState; onDone: () => void })
           {state.drive_folder ? 'Erneut anmelden' : 'Mit Google anmelden'}
         </BigButton>
       </div>
+      {!folders && <Button kind="quiet" onClick={loadFolders}>Ordner aus Drive laden</Button>}
       {folders && (
         <div className="rounded-xl p-5" style={{ background: 'var(--panel)', border: '1px solid var(--line)' }}>
           <p className="mb-3 text-[13px]" style={{ color: 'var(--muted)' }}>

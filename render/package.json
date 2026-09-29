@@ -1,0 +1,1 @@
+{"name":"nina-render","private":true,"type":"module","dependencies":{"@huggingface/transformers":"^4.3.0","playwright-core":"^1.47.2","sharp":"^0.35.5"}}

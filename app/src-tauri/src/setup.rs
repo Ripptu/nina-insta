@@ -249,7 +249,14 @@ pub fn rclone(args: &[&str]) -> tools::Output {
     let token = keychain::get("drive_token").unwrap_or_default();
     let env = drive_env(&token);
     let env: Vec<(&str, &str)> = env.iter().map(|(k, v)| (*k, v.as_str())).collect();
-    run(&tools::rclone(), args, None, &env)
+    // Kurze Fristen, damit ein hängender Aufruf als Fehler im Fenster landet statt endlos zu warten.
+    let mut full: Vec<&str> = args.to_vec();
+    full.extend(["--timeout", "20s", "--contimeout", "15s", "--low-level-retries", "2", "--retries", "1", "--log-level", "ERROR"]);
+    let o = run(&tools::rclone(), &full, None, &env);
+    if !o.ok {
+        log(&format!("rclone {} fehlgeschlagen: {}", args.first().unwrap_or(&""), o.stderr.lines().last().unwrap_or("")));
+    }
+    o
 }
 
 /// Google-Anmeldung über rclone (kostenlos, ohne eigenes Cloud-Projekt). rclone öffnet den Browser selbst.
@@ -277,8 +284,9 @@ pub async fn drive_folders() -> Result<Vec<String>, String> {
     tauri::async_runtime::spawn_blocking(|| {
         let o = rclone(&["lsf", "nina:", "--dirs-only", "--max-depth", "1"]);
         if !o.ok {
-            return Err(o.stderr);
+            return Err(format!("Drive antwortet nicht: {}", o.stderr.lines().last().unwrap_or("keine Antwort")));
         }
+        log(&format!("Drive: {} Ordner gefunden", o.stdout.lines().count()));
         Ok(o.stdout.lines().map(|l| l.trim_end_matches('/').to_string()).filter(|l| !l.is_empty()).collect())
     })
     .await
