@@ -25,9 +25,13 @@
       "#oldenburg",
       "#beziehungsmuster"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T07:56:12.473Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -57,9 +61,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T07:57:08.830Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -89,9 +97,13 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T07:58:30.797Z"
+    },
     "ig": null,
     "fehler": null
   },
