@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" rx="230" fill="#6d7965"/>
+  <g transform="translate(512 500)" fill="none" stroke="#f9f7f4" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <g id="p"><path d="M0 -40 C -95 -130 -80 -270 0 -300 C 80 -270 95 -130 0 -40 Z"/></g>
+    <use href="#p" transform="rotate(72)"/><use href="#p" transform="rotate(144)"/><use href="#p" transform="rotate(216)"/><use href="#p" transform="rotate(288)"/>
+    <circle r="34" fill="#f9f7f4" stroke="none"/>
+    <path d="M0 300 C -6 380 -30 420 -50 450" />
+  </g>
+</svg>

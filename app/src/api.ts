@@ -1,0 +1,49 @@
+import { invoke } from '@tauri-apps/api/core'
+import { listen } from '@tauri-apps/api/event'
+
+export type SetupState = {
+  github_login: string | null
+  repos_ok: boolean
+  claude_ok: boolean
+  drive_folder: string | null
+  instagram_username: string | null
+  gmail_ok: boolean
+  finished: boolean
+}
+
+export type Done = { ok: boolean; detail: string }
+export type Check = { name: string; ok: boolean; detail: string }
+
+export const api = {
+  state: () => invoke<SetupState>('get_state'),
+  openUrl: (url: string) => invoke('open_url', { url }),
+  githubLogin: () => invoke('github_login'),
+  githubRepos: () => invoke<string[]>('github_repos'),
+  claudeSetup: () => invoke('claude_setup'),
+  claudeSend: (text: string) => invoke('claude_send', { text }),
+  claudeManual: (token: string) => invoke('claude_manual', { token }),
+  driveConnect: () => invoke('drive_connect'),
+  driveFolders: () => invoke<string[]>('drive_folders'),
+  driveSetup: (folder: string) => invoke<string[]>('drive_setup', { folder }),
+  instagramSave: (token: string) => invoke<string>('instagram_save', { token }),
+  gmailSave: (password: string) => invoke('gmail_save', { password }),
+  finalCheck: () => invoke<Check[]>('final_check'),
+}
+
+/** Hört auf ein Ereignis aus dem Rust-Teil und gibt die Abmeldung zurück. */
+export function on<T>(event: string, fn: (payload: T) => void): () => void {
+  let stop: (() => void) | undefined
+  let cancelled = false
+  listen<T>(event, (e) => fn(e.payload)).then((u) => {
+    if (cancelled) u()
+    else stop = u
+  })
+  return () => {
+    cancelled = true
+    stop?.()
+  }
+}
+
+export function errorText(e: unknown): string {
+  return typeof e === 'string' ? e : e instanceof Error ? e.message : JSON.stringify(e)
+}
