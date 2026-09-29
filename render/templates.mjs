@@ -92,6 +92,35 @@ export function coverFoto({ script, headline, subline, foto, hint = 'mehr in der
   `)
 }
 
+const P2 = '#f9f7f5' // Papierfarbe als eigener Marker, applyPalette setzt hier das Papier der Palette ein
+const SHADOW = "filter:drop-shadow(10px 12px 0 rgba(109,121,101,.30)) drop-shadow(0 10px 18px rgba(0,0,0,.2))"
+const dots = (size, style) => `<div class="abs" style="width:${size}px;height:${size}px;border-radius:50%;background-image:radial-gradient(${SAGE} 22%,transparent 24%);background-size:26px 26px;opacity:.16;${style}"></div>`
+
+/** Hingucker-Cover: Vollfläche, Schreibschrift-Wort mit hartem Schatten, Headline auf schiefen Papierstreifen, Nina riesig davor. */
+export function coverViral({ script, lines, subline, foto, swipe = 'wisch weiter' }) {
+  const strips = lines.map((t, i) => {
+    const last = i === lines.length - 1
+    const rot = [-2.5, 1.8, -1.6, 2][i % 4]
+    return `<div class="abs cond" style="left:${44 + (i % 2) * 44}px;top:${445 + i * 176}px;font-size:132px;font-weight:700;line-height:1;padding:4px 30px 14px;transform:rotate(${rot}deg);background:${last ? SAGE : P2};color:${last ? P2 : SAGE};box-shadow:10px 10px 0 ${last ? MIST : SAGE}">${esc(t)}</div>`
+  }).join('')
+  return page(`
+    <div class="blob" style="inset:0"></div>
+    ${dots(1050, 'right:-380px;top:120px')}
+    <div class="abs" style="right:-150px;top:190px;width:820px;height:820px;border-radius:50%;background:${P2}"></div>
+    <div class="abs script" style="left:20px;top:88px;font-size:318px;color:${P2};transform:rotate(-5deg);text-shadow:9px 9px 0 ${SAGE};white-space:nowrap">${esc(script)}</div>
+    ${strips}
+    <img class="sticker" src="${imgUrl(foto)}" style="right:-215px;bottom:-110px;height:1290px;transform:rotate(-3deg);${SHADOW}">
+    <div class="abs hand" style="left:52px;top:${445 + lines.length * 176 + 40}px;width:440px;font-size:60px;line-height:.95;color:${SAGE}">${esc(subline)}</div>
+    ${heart(170, P2, SAGE, -12, 'left:520px;top:1010px')}
+    ${question(130, SAGE, 14, 'right:40px;top:60px')}
+    ${sparkle(84, 'left:660px;top:300px', P2)}
+    ${sparkle(50, 'left:760px;top:220px', SAGE)}
+    ${sparkle(46, 'right:60px;top:820px', P2)}
+    <div class="abs hand" style="left:56px;bottom:44px;font-size:56px;color:${P2};background:${SAGE};padding:2px 30px 10px;transform:rotate(-3deg);box-shadow:6px 6px 0 ${MIST}">${esc(swipe)} &rarr;</div>
+    ${doodle(56, SAGE, `style="left:400px;bottom:40px"`)}
+  `)
+}
+
 /** Cover ohne Foto, mit gezeichneten Sticker-Objekten. */
 export function coverText({ script, headline, subline, hint = 'mehr in der Caption' }) {
   return page(`

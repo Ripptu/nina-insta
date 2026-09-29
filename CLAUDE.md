@@ -25,6 +25,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 - Keine „Aufgabe 1 / Aufgabe 2"-Schemata.
 - Angebote im Wechsel: Coaching, Buch, Shop, Veranstaltungen, jeder dritte Beitrag ohne Angebot. Hinweis immer auf „Link in der Bio".
 - Deutsch, Du-Form, warm, klar, kein Marktschreier-Ton.
+- Zielgruppe nicht auf Frauen verengen (Nina, 29.09.2026: „ab dem 1.1.27 arbeite ich auch mit Männern und Paaren“). Neutral ansprechen („du“, „Menschen“, „Paare“). Bezeichnungen echter Frauen-Angebote (Frauenkreis HERZ.ZEIT, FREUNDINNEN.ZEIT, „Zurück zu dir – 8 Abende für Frauen“) bleiben wörtlich und werden als solche gekennzeichnet. Vor dem 01.01.2027 keine Aussage, dass Männer begleitet werden; ab dann ausdrücklich erlaubt.
 
 **Schutz**
 - Traumasensibel: keine Diagnosen, keine Heilversprechen, keine Schuld bei der Leserin. Bei riskant lesbaren Themen (bleiben, verzeihen, Nähe zulassen) gehört die Grenze hinein (Respektlosigkeit, Kontrolle, Gewalt). Wo es passt, Hilfetelefon „Gewalt gegen Frauen" 116 016.
