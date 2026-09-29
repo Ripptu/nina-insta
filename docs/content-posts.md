@@ -401,7 +401,7 @@ Welcher Nachher-Satz fällt dir am schwersten?
 |---|---|---|
 | 1 | Cover mit Foto (Nina, Porträt) | **Mir hat ein Buch gefehlt. Also habe ich es geschrieben.** / Über Beziehungsmuster und Nähe. |
 | 2 | Textseite | Eins, das Beziehungsmuster verständlich erklärt. Das zeigt, warum wir uns selbst im Weg stehen, und uns trotzdem einlädt, uns selbst nah zu kommen. |
-| 3 | Zitat | „Du bist nicht kaputt. Du bist geprägt, von Erfahrungen, die dich damals schützen sollten.“ |
+| 3 | Zitat | „Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten.“ |
 | 4 | Textseite | Es ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. |
 | 5 | Textseite | Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Du liest in deinem Tempo und nimmst mit, was heute passt. |
 | 6 | Textseite | Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches. |
@@ -412,7 +412,7 @@ Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklä
 
 „Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.
 
-Wenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt, von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.
+Wenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.
 
 Das Buch findest du über den Link in der Bio.
 

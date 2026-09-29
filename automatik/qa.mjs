@@ -279,7 +279,7 @@ export async function pruefe(item, absVerzeichnis) {
     if (!seiten.length) return { verdikt: 'abgelehnt', gruende: gruende.length ? gruende : ['Format: keine prüfbaren Bilder'], dauerMs: Date.now() - t0 }
     const tags = zaehleHashtags(item)
     if (tags.length > 5) gruende.push(`HASHTAGS: ${tags.length} Hashtags, erlaubt sind höchstens 5`)
-    if (!String(item.caption || '').trim()) gruende.push('CAPTION: Caption fehlt')
+    if (item.typ !== 'story' && !String(item.caption || '').trim()) gruende.push('CAPTION: Caption fehlt')
     if (item.angebot && item.angebot !== 'keins' && !/link in der bio/i.test(item.caption || '')) gruende.push('ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption')
 
     // 2. Claude-Aufruf (ein Wiederholungsversuch bei Aufruf- oder Parsefehlern)

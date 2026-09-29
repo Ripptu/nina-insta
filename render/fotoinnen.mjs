@@ -6,7 +6,8 @@ import { pickCrop } from './engine.mjs'
 import { teile } from './viral.mjs'
 
 const esc = Y.esc
-const ohneAnf = (t) => t.replace(/[„“”"]/g, '').replace(/\s+/g, ' ').trim()
+// Anführungszeichen nur bei „Vorher: „…“ / „Du sagst: „…“ weglassen (in Riesenschrift wirken sie wie Fehler); Produktnamen behalten sie
+const ohneAnf = (t) => (/^(Vorher|Nachher|Du sagst|Manchmal meinst du)\b[^„“"]{0,6}[„"“]/.test(t) ? t.replace(/[„“”"]/g, '') : t).replace(/\s+/g, ' ').trim()
 const W = 1080
 const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
 const STOP = new Set('wenn dass damit weil aber oder dann doch wie was wer wo ich du mich dich mir dir nachher vorher manchmal sagst sag nimm nur auch noch schon immer wieder eigentlich vielleicht'.split(' '))
