@@ -379,7 +379,12 @@ export function Einstellungen({ state, onSetup }: { state: SetupState; onSetup: 
       {fehlt && (
         <Card title="Noch nötig: Zugriff für Bilder">
           <p className="mb-3 text-[13px] leading-relaxed" style={{ color: 'var(--muted)' }}>Instagram holt Bilder von einer öffentlichen Adresse. Dafür legt die Automatik sie kurz im öffentlichen Repository <b>nina-insta-media</b> ab und braucht dazu einen eigenen, eng begrenzten GitHub-Zugriff: <Link href="https://github.com/settings/personal-access-tokens/new">Neues Token anlegen</Link>, Name „nina-insta-media“, Repository access: „Only select repositories“ und dort nur <b>nina-insta-media</b>, Berechtigung „Contents: Read and write“, Ablauf ein Jahr. Das Token unten einfügen.</p>
-          <Field label="GitHub-Token" value={token} onChange={setToken} secret placeholder="github_pat_…" />
+          <div className="mb-4 rounded-lg p-4" style={{ border: '1px solid var(--line)' }}>
+            <div className="mb-1 font-medium">Einfachster Weg für den Start</div>
+            <p className="mb-3 text-[13px] leading-relaxed" style={{ color: 'var(--muted)' }}>Nutzt den GitHub-Zugang, mit dem diese App schon angemeldet ist. Er gilt für alle deine Repositories und liegt nur als Secret im privaten Repository. Später kannst du ihn unten durch ein enges Token ersetzen.</p>
+            <Button onClick={async () => { try { await api.mediaTokenAusGithub(); setMsg({ tone: 'ok', text: 'Eingerichtet.' }); laden() } catch (e) { setMsg({ tone: 'err', text: errorText(e) }) } }}>Mit meinem GitHub-Zugang einrichten</Button>
+          </div>
+          <Field label="Oder: enges GitHub-Token einfügen" value={token} onChange={setToken} secret placeholder="github_pat_…" />
           <div className="mt-3"><Button disabled={token.trim().length < 20} onClick={sichern}>Speichern</Button></div>
           {msg && <div className="mt-3"><Note tone={msg.tone}>{msg.text}</Note></div>}
         </Card>

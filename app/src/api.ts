@@ -36,6 +36,7 @@ export const api = {
   workflowStarten: (datei: string, trocken?: boolean) => invoke('workflow_starten', { datei, trocken }),
   secretsListe: () => invoke<string[]>('secrets_liste'),
   secretSetzen: (name: string, wert: string) => invoke('secret_setzen', { name, wert }),
+  mediaTokenAusGithub: () => invoke('media_token_aus_github'),
   fotosHochladen: (quelle?: string) => invoke<string>('fotos_hochladen', { quelle }),
   fotosZaehlen: () => invoke<number>('fotos_zaehlen'),
   logLesen: (zeilen: number) => invoke<string>('log_lesen', { zeilen }),

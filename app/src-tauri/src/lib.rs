@@ -130,6 +130,7 @@ pub fn run() {
             daten::workflow_starten,
             daten::secrets_liste,
             daten::secret_setzen,
+            daten::media_token_aus_github,
             daten::fotos_hochladen,
             daten::fotos_zaehlen,
             daten::log_lesen,

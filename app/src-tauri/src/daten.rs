@@ -148,6 +148,17 @@ pub fn secret_setzen(name: String, wert: String) -> Result<(), String> {
     Ok(())
 }
 
+/// Nimmt den vorhandenen GitHub-Zugang der App als MEDIA_TOKEN (einfacher Start, weiter gefasst als ein Fein-Token).
+#[tauri::command]
+pub fn media_token_aus_github() -> Result<(), String> {
+    let token = keychain::get("github_token").ok_or_else(|| "Kein GitHub-Zugang im Schlüsselbund.".to_string())?;
+    let r = repo()?;
+    let o = gh(&["secret", "set", "MEDIA_TOKEN", "-R", &r], Some(&token));
+    if !o.ok { return Err(o.stderr); }
+    log("MEDIA_TOKEN aus dem GitHub-Zugang der App gesetzt");
+    Ok(())
+}
+
 /// Fotos aus einem lokalen Ordner (Standard ~/NINA) nach Drive `<Ordner>/Fotos` kopieren, ohne Vorhandenes zu überschreiben.
 #[tauri::command]
 pub async fn fotos_hochladen(quelle: Option<String>) -> Result<String, String> {
