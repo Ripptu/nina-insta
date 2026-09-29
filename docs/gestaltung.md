@@ -1,4 +1,19 @@
-# Gestaltung: Foto-Typo (gilt seit 29.09.2026)
+# Gestaltung
+
+## Karussells: Designer-Stil (gilt seit 29.09.2026, löst Foto-Typo bei Karussells ab)
+
+Referenz: Panorama-Karussell einer Designerin (Christian, 29.09.2026): „wie von einem Designer gemacht, aber dennoch viral“. Umsetzung in `render/designer.mjs`, Demo `node render/demo-designer.mjs [Nr …]` (Ergebnis in `material/designer/`, ändert das Cover-Verzeichnis nicht, wenn `DEMO=1`).
+
+- **Eine Leinwand, viele Seiten.** Jede Seite ist ein Ausschnitt einer Leinwand von N × 1080 Pixeln. Sticker (`verbinder`) liegen auf den Seitenkanten und sind auf beiden Seiten halb zu sehen, sie werden nur dort gesetzt, wo beide Seiten frei sind.
+- **Schrift:** Playfair Display 900 für Überschriften, kursiv 700 für den Akzent (zweiter Teil des Hooks), Inter Tight für Fließtext, Caveat für Handschrift. Kopfzeile auf jeder Seite: Name, „traumasensibles Coaching“, Handle.
+- **Farbwelt:** Rosa #ffc4e4, Braun #2a1710, Creme #f6efe6, Akzente Beere #b5347a und Butter. Seitenfolge wechselt je Beitrag (`themen`), Schlussseite immer Rosa.
+- **Seitentypen:** Papier (Überschrift plus weiße Karte mit gerissenem Rand und Klebeband), Label (Überschrift in rosa Bändern), Statement (Überschrift mit Marker), Zitat, Chat (Du sagst / Manchmal meinst du), Schlussseite (Hinweis mit Button „Link in der Bio“, bei Buch ein Polaroid mit dem Buchfoto).
+- **Cover:** Freisteller (Maske aus `data/masken/`) mit weißem Rand vor gerissenem Papier, Überschrift oben, Untertitel auf einem Papierstreifen. Die Person beginnt unter der Überschrift, nie darunter drüber; der Gesichtsschutz prüft zusätzlich alles, was nach der Person gezeichnet wird. Jedes Foto nur einmal als Cover (`render/covers.mjs`), danach Textcover im selben Stil.
+- **Sticker:** eigene Zeichnungen (Herz, Funke, Blume, Tasse, Bücher, Sprechblase, Brief, Handy) mit weißem Rand, passend zum Text gewählt, bei Werbebeiträgen der Sticker des Angebots.
+- Ersatz: Scheitert der Designer-Stil, rendert `render/karussell.mjs` den früheren Foto-Typo-Stil.
+
+## Reels, Stories und der frühere Foto-Typo-Stil (bis 29.09.2026)
+
 
 Christian hat zwei Referenzen vorgegeben, die Karussells sollen „exakt so aussehen“:
 - `referenz/stil-typo-raster.webp` (Raster mit Vollbild-Fotos, riesige enge Schrift in Butter und Rosa)

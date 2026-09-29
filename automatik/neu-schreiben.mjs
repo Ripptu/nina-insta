@@ -27,7 +27,12 @@ const q = await ladeQueue()
 const themen = [...new Set([...vorhanden.map((p) => p.titel), ...q.map((x) => x.titel)])].slice(-60)
 const angebotsFolge = ['Coaching', 'Buch', 'keins', 'Veranstaltungen', 'Shop', 'keins']
 const start = vorhanden.length
-const plan = Array.from({ length: anzahl }, (_, i) => ({ nr: naechsteNr + i, angebot: angebotsFolge[(start + i) % 6] }))
+const werbeAngebote = ['Buch', 'Coaching', 'Shop', 'Veranstaltungen']
+// Bei Karussells ist jeder vierte Beitrag ein Werbe-Beitrag (Format: Werbung), der ein Angebot ausführlich vorstellt
+const plan = Array.from({ length: anzahl }, (_, i) => {
+  const werbung = cfg.wort === 'Karussell' && (start + i) % 4 === 3
+  return { nr: naechsteNr + i, werbung, angebot: werbung ? werbeAngebote[Math.floor((start + i) / 4) % 4] : angebotsFolge[(start + i) % 6] }
+})
 
 const basisText = lies(cfg.basis)
 const beispiel = cfg.beispiel(basisText)
@@ -49,7 +54,7 @@ ${lies('learnings.md').slice(-2500)}
 
 BEREITS VERWENDETE THEMEN/TITEL (nicht wiederholen, auch nicht sinngemäß): ${themen.join(' | ')}
 
-AUFGABE: Schreibe ${anzahl} neue ${cfg.wort}-Blöcke mit diesen Nummern und Angeboten: ${plan.map((p) => `${cfg.wort} ${p.nr} (Angebot: ${p.angebot})`).join('; ')}.
+AUFGABE: Schreibe ${anzahl} neue ${cfg.wort}-Blöcke mit diesen Nummern und Angeboten: ${plan.map((p) => `${cfg.wort} ${p.nr} (Angebot: ${p.angebot}${p.werbung ? ', Format: Werbung' : ''})`).join('; ')}.\nBei "Format: Werbung" stellt der ganze Beitrag das Angebot vor (Cover-Hook zum Nutzen, 4 bis 6 Seiten mit dem, was auf der Homepage oder in data/angebote.json steht, Schlussseite mit "Link in der Bio"), ohne Preise, Termine und erfundene Details; Vorbild sind Karussell 11 bis 14 in docs/content-posts.md. Metazeile "- Format: Werbung".
 Halte dich EXAKT an das Format des Beispielblocks (Überschrift "## ${cfg.wort} N: Titel", Metazeilen mit "- Schlüssel: Wert", Tabelle, Caption mit "**Caption:**", "**Hashtags:**"). Jeder Beitrag hat einen Mitnahme-Satz, eine Frage am Ende der Caption, höchstens 5 Hashtags, "Link in der Bio" nur bei Angebot, keine erfundenen Zahlen, Studien, Kundenstimmen, Preise oder Termine, keine Diagnosen oder Heilversprechen, niemanden als "Frauen" ansprechen (Angebote für Frauen ausgenommen), Du-Form, kein Emoji auf Slides. Bei Themen, die riskant gelesen werden können (bleiben, verzeihen, Nähe zulassen), gehört die Grenze (Respektlosigkeit, Kontrolle, Gewalt) und das Hilfetelefon hinein. Neue Themen aus den vier Kernthemen, mit einem frischen Hook.
 ${fehler ? `\nDEIN LETZTER VERSUCH WURDE ABGELEHNT WEGEN: ${fehler}\nKorrigiere genau das.\n` : ''}
 BEISPIELBLOCK (Format!):

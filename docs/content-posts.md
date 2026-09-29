@@ -392,6 +392,122 @@ Welcher Nachher-Satz fällt dir am schwersten?
 
 **Hashtags:** #situationship #beziehungsmuster #dating #singlesein #traumasensibel
 
+## Karussell 11: Mir hat ein Buch gefehlt
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Buch
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Mir hat ein Buch gefehlt. Also habe ich es geschrieben.** / Über Beziehungsmuster und Nähe. |
+| 2 | Textseite | Eins, das Beziehungsmuster verständlich erklärt. Das zeigt, warum wir uns selbst im Weg stehen, und uns trotzdem einlädt, uns selbst nah zu kommen. |
+| 3 | Zitat | „Du bist nicht kaputt. Du bist geprägt, von Erfahrungen, die dich damals schützen sollten.“ |
+| 4 | Textseite | Es ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. |
+| 5 | Textseite | Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Du liest in deinem Tempo und nimmst mit, was heute passt. |
+| 6 | Textseite | Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches. |
+| 7 | Schlussseite Buch | „Zwischen Single-Sein & falscher Nähe“. Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Link in der Bio. |
+
+**Caption:**
+Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen. Also habe ich es geschrieben.
+
+„Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.
+
+Wenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt, von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.
+
+Das Buch findest du über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.
+
+Welcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍
+
+**Hashtags:** #beziehungsmuster #traumasensibel #buchtipp #singleleben #oldenburg
+
+## Karussell 12: Das Erstgespräch
+- Format: Werbung
+- Kernthema: 3
+- Angebot: Coaching
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du musst nicht schon wissen, was du brauchst.** / Das Erstgespräch ist kostenfrei. |
+| 2 | Textseite | Vielleicht wiederholt sich in deiner Liebe etwas, und du weißt nicht, warum. Das musst du nicht allein herausfinden. |
+| 3 | Textseite | Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. |
+| 4 | Textseite | Traumasensibel und körperorientiert. Du entscheidest, worüber du sprichst und wie viel. |
+| 5 | Zitat | „Du musst dich nicht reparieren.“ |
+| 6 | Textseite | Im Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. |
+| 7 | Schlussseite | In Oldenburg und online. Kostenfreies Erstgespräch: Link in der Bio. |
+
+**Caption:**
+Du musst nicht schon wissen, was du brauchst.
+
+Vielleicht wiederholt sich in deiner Liebe etwas, und du weißt nicht, warum. Das musst du nicht allein herausfinden. Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel und körperorientiert, in Oldenburg oder online.
+
+Du entscheidest, worüber du sprichst und wie viel. Und du musst dich nicht reparieren.
+
+Im Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten, ist kostenfrei und findet telefonisch oder in meinen Räumen in Oldenburg statt. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.
+
+Was würdest du gern einmal in Ruhe ansehen? 🤍
+
+**Hashtags:** #beziehungscoach #traumasensibel #coachingoldenburg #singlecoaching #oldenburg
+
+## Karussell 13: Für zwischendurch
+- Format: Werbung
+- Kernthema: 4
+- Angebot: Shop
+- Frühestens: 2026-11-01
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Nicht alles klärt sich an einem Abend.** / Journale, Karten und Audios aus meinem Shop. |
+| 2 | Textseite | Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst. |
+| 3 | Textseite | In meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“. |
+| 4 | Textseite | Oder „Deine Beziehungslandkarte“, ebenfalls unter Journale & Karten. |
+| 5 | Textseite | Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo. |
+| 6 | Schlussseite | Schau in Ruhe durch, was zu dir passt. Link in der Bio. |
+
+**Caption:**
+Nicht alles klärt sich an einem Abend oder in einem Gespräch. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.
+
+In meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.
+
+Schau in Ruhe durch, was zu dir passt. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du dich selbst besser verstehen möchtest.
+
+Was würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio? 🤍
+
+**Hashtags:** #journaling #selbstreflexion #traumasensibel #beziehungsmuster #oldenburg
+
+## Karussell 14: Ein Ort zum Sein
+- Format: Werbung
+- Kernthema: 3
+- Angebot: Veranstaltungen
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Ein Ort, an dem du einfach sein darfst.** / Für Frauen: HERZ.ZEIT in Oldenburg. |
+| 2 | Textseite | Wenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg. Ohne Maske, ohne Rolle. |
+| 3 | Textseite | Du musst nichts leisten und nichts erklären. Du darfst einfach da sein. |
+| 4 | Textseite | Wenn du aufhören möchtest, nur zu funktionieren: Für dich gibt es meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“. |
+| 5 | Schlussseite | Beides sind Angebote für Frauen. Alle Infos über den Link in der Bio. |
+
+**Caption:**
+Ein Ort, an dem du einfach sein darfst.
+
+Wenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg. Ohne Maske, ohne Rolle. Du musst nichts leisten und nichts erklären.
+
+Und wenn du aufhören möchtest, nur zu funktionieren: Für dich gibt es meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“.
+
+Beides sind Angebote für Frauen. Alle Infos über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du mehr über diese Abende erfahren möchtest.
+
+Wann durftest du zuletzt einfach nur da sein? 🤍
+
+**Hashtags:** #frauenkreis #oldenburg #traumasensibel #zurueckzudir #herzzeit
+
 # Stories
 
 Alle Stories 1080×1920. Text in der Mitte halten, oben und unten Rand für die Bedienelemente von Instagram lassen; in der Sticker-Fassung bleibt im unteren Drittel Platz für den Sticker. Der Sticker wird immer von Hand in der App gesetzt und ist freiwillig für Nina. Ohne Nina läuft die Automatik-Fassung.

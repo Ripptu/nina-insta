@@ -5,8 +5,21 @@ import { ranked } from './engine.mjs'
 import { createViral, viralCover } from './viral.mjs'
 import { createSeiten, paletteFor } from './seiten.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
+import { buildDesigner } from './designer.mjs'
 
-export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 1350 } = {}) {
+/** Standard ist der Designer-Stil (Panorama, Freisteller-Cover). Nur wenn der nicht geht, der frühere Foto-Typo-Stil. */
+export async function buildCarousel(eng, post, outDir, opts = {}) {
+  try {
+    return await buildDesigner(eng, post, outDir, opts)
+  } catch (e) {
+    console.error(`Designer-Stil fehlgeschlagen (${e.message}), Ersatz: Foto-Typo`)
+    const r = await buildCarouselFotoTypo(eng, post, outDir, opts)
+    r.log.unshift(`  Ersatzstil Foto-Typo (${e.message})`)
+    return r
+  }
+}
+
+export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr, PH = 1350 } = {}) {
   const V = (eng._viral ||= createViral(eng))
   const S = (eng._seiten ||= createSeiten(eng))
   fs.mkdirSync(outDir, { recursive: true })

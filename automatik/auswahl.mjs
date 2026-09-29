@@ -15,6 +15,13 @@ export function waehle(q, { typ, serie = false, jetzt = new Date() }) {
   if (ohneAngebotNoetig) pool = kand.filter((x) => !x.angebot || x.angebot === 'keins')
   else pool = kand.filter((x) => !(letzte.length && letzte[letzte.length - 1].angebot === x.angebot && x.angebot !== 'keins'))
   if (!pool.length) pool = kand
+  // Werbe-Beiträge (Format „Werbung“): etwa jeder vierte Feed-Beitrag, nie zwei hintereinander
+  if (typ === 'karussell') {
+    const werbeVor = veroeffentlichteFeed(q).slice(-3).some((x) => x.format === 'Werbung')
+    const ohne = pool.filter((x) => x.format !== 'Werbung'), mit = pool.filter((x) => x.format === 'Werbung')
+    if (werbeVor && ohne.length) pool = ohne
+    else if (!werbeVor && mit.length && !ohneAngebotNoetig) pool = mit
+  }
   const lastThema = letzte.length ? letzte[letzte.length - 1].kernthema : null
   const anders = pool.filter((x) => x.kernthema !== lastThema)
   const wahl = (anders.length ? anders : pool)
