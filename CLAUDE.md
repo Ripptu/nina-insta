@@ -14,7 +14,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 
 **Marke**
 - Feed 1080 × 1350 JPG, Stories und Reels 1080 × 1920, Reels als MP4 (H.264, AAC).
-- Farben laut `render/palette.json` (seit 29.09.2026 Altrosa: Text #7a4e48, Fläche #e2b7ab, zweite Fläche #f0dcd3, Papier #fbf7f3). Christian hat das gewählt; Ninas frühere Salbei-Palette (#6d7965, #f9f7f4, #d7dfde) gilt nicht mehr. Vor dem Livegang mit Nina abstimmen.
+- Farben: Weiß, Butter #fff0a6 und Rosa #ffc4e4 auf abgedunkelten Fotos (Stil Foto-Typo, Christian 29.09.2026). Ninas frühere Salbei-Palette gilt nicht mehr. Vor dem Livegang mit Nina abstimmen.
 - Logo/Blumen-Doodle auf jeder Seite, jedem Reel und jeder Story (Datei in Drive `NINA/Marke`).
 - Schrift aus Ninas bestehenden Beiträgen ermitteln (Beispiele in `NINA/Referenz`), nur frei lizenzierte Schriften, lokal eingebunden.
 - Bilder nie verzerren, immer proportional skalieren und zuschneiden.
@@ -43,7 +43,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 
 ## Gestaltung
 
-Collage-Stil nach `docs/referenz/stil-collage.webp`, Details und Übertragung in `docs/gestaltung.md`. Die festen Regeln oben gehen vor: Farben nur aus `render/palette.json`, nur Ninas echte Fotos, Objekte als eigene Zeichnungen. Personen groß und freigestellt mit weißem Aufkleberrand, leicht gekippt, Schreibschrift-Wort läuft hinter ihnen.
+Stil „Foto-Typo“ nach den Referenzen in `docs/referenz/`, Details in `docs/gestaltung.md`, Bausteine in `render/typo.mjs`. Ninas echte Fotos im Vollbild, riesige enge Schrift in Weiß/Butter/Rosa, dünne Schreibschrift, Pfeile, Blasen, Pillen. Gesichter nie mit Text überdecken. Nur Ninas echte Fotos, Objekte höchstens als eigene Zeichnungen. Der frühere Collage-Stil und die Salbei/Altrosa-Palette gelten nicht mehr.
 
 ## Weitere Regeln aus der Strategie
 

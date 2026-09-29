@@ -1,34 +1,27 @@
-# Gestaltung: Collage-Stil
+# Gestaltung: Foto-Typo (gilt seit 29.09.2026)
 
-**Farbe (Stand 29.09.2026, Christians Wahl): Altrosa** (`render/palette.json`). Die Übertragung unten nennt noch Salbei und gilt nur für die Struktur, nicht für die Farbwerte.
+Christian hat zwei Referenzen vorgegeben, die Karussells sollen „exakt so aussehen“:
+- `referenz/stil-typo-raster.webp` (Raster mit Vollbild-Fotos, riesige enge Schrift in Butter und Rosa)
+- ein zweiter Raster-Screenshot (Instagram-Grid mit weißer Grotesk, dünner Schreibschrift, handgezeichneten Pfeilen und Kringeln, gestapeltem Wort „VLOG“)
 
-Vorgabe von Christian am 29.09.2026: Die Beiträge sollen optisch genau so aussehen wie `referenz/stil-collage.webp` (vier Posts von @opus.socialmeida), nur in einer passenderen Farbe. Umgesetzt wird das in Phase 3 als HTML/CSS/SVG-Vorlagen.
+Der frühere Collage-Stil (`referenz/stil-collage.webp`, Vorlagen in `render/templates.mjs`) ist damit **abgelöst**. Er bleibt im Repo, wird aber nicht mehr benutzt.
 
 ## Was den Stil ausmacht
 
-- **Hintergrund:** gebrochenes Weiß mit feinem Karopapier-Raster.
-- **Farbflächen:** eine kräftige Akzentfarbe als große, weich gerundete Fläche. Sie liegt teils hinter der Person, teils läuft sie aus dem Bild.
-- **Freigestellte Person:** Foto ohne Hintergrund, mit dickem weißem Rand wie ein Aufkleber. Sie sprengt den Rahmen der Farbfläche.
-- **Schrift im Mix:**
-  - eine elegante Schreibschrift mit großem Schwung, nur für den ersten Buchstaben oder ein Schlüsselwort („Conteúdo", „Autenticidade")
-  - eine schmale, serifenlose Groteskschrift für die eigentliche Headline
-  - eine dünne, schmale Handschrift für Nebensätze („Leia a legenda e entenda o porquê…")
-  - klein und grau der Account-Name oben mittig
-- **Deko:** Herz-Sprechblasen als 3D-Aufkleber, Fragezeichen-Sticker, handgezeichnete Pfeile und Kringel, Klebeband-Streifen, schwarzweiße freigestellte Objekte (Megafon, Hand) im Halbton-Look.
-- **Layouts:** Cover mit Person, Cover mit Objekt, Kalender-Raster mit markiertem Datum.
-- **Hinweis zur Caption** direkt auf dem Bild („Entenda melhor na legenda!"). Passt zu Ingas „Dann lies die Caption".
+- **Ninas echte Fotos im Vollbild** (1080 × 1350), leicht abgedunkelt und entsättigt (Verlauf oben und unten), damit Schrift lesbar bleibt. Keine Freisteller nötig.
+- **Riesige enge Schrift** (Inter Tight 700, Zeilenabstand .86, Buchstabenabstand −4,5 %) in Weiß, Butter #fff0a6 und Rosa #ffc4e4. Meist 2 bis 4 Zeilen, oft eine Zeile in Rosa als Betonung.
+- **Dünne Schreibschrift** (Mrs Saint Delafield) für Nebenbemerkungen, dazu handgezeichnete Pfeile und Kringel.
+- **Handschrift-Notiz** (Reenie Beanie) für kleine Zusätze.
+- **Bausteine:** iMessage-Blasen (rosa und weiß), Text-Markierung wie im iOS-Textfeld mit „Kopieren / Alles auswählen“, weiße Pillen mit Fakten rund um die Person, gestapelte Wiederholung eines Worts, Zitat in Butter.
+- **Gesicht bleibt frei:** Text nie über Ninas Gesicht. Die Foto-Position wird pro Seite so gewählt, dass die Schrift in leeren Bildbereichen (Himmel, Wand, Boden) steht.
+- **Logo** (Creme-Fassung, klein) unten links auf jeder Seite, außer wenn es Text stört.
 
-## Übertragung auf Nina
+## Umsetzung
 
-| Referenz | Nina |
-|---|---|
-| Lime-Grün als Akzent | Salbei #6d7965 für Flächen und Schrift, Hellgrau-Grün #d7dfde für ruhige Flächen und das Raster, Creme #f9f7f4 als Papier. Keine weiteren Farben (feste Regel). |
-| Stockfotos von fremden Personen | nur Ninas echte Fotos, lokal freigestellt (kostenlos, ohne Bild-API), mit weißem Aufkleberrand |
-| Foto-Objekte (Megafon, Hand, Katze) | als eigene Zeichnungen (SVG), keine fremden Fotos. Motive passend zum Thema: Tasse, Brief, Handy, Schlüssel, Herz, Pflaster, Kompass |
-| 3D-Herz-Sprechblasen | flache gezeichnete Aufkleber in Salbei und Creme |
-| Fake-Zähler (97 Kommentare, 222 Likes) | entfällt, keine erfundenen Zahlen |
-| Schriften | frei lizenziert von Google Fonts, lokal eingebunden. Kandidaten in Phase 3 gegen die Referenz prüfen. |
-| Kalender-Layout | für Veranstaltungen und Shop-Starts, nur mit echten Terminen von der Homepage |
-| Logo/Blumen-Doodle | auf jeder Seite (feste Regel), klein in einer Ecke |
+`render/typo.mjs` (Bausteine) und `render/demo-typo.mjs` (Karussell 1 als Beispiel). Farben und Schriftstärken stehen dort, `render/palette.json` gilt für diesen Stil nicht.
 
-Reels und Stories nutzen dieselben Bausteine im Format 1080 × 1920: Papier-Raster, Salbei-Fläche, freigestelltes Foto von Nina, Hook in Schreibschrift plus Groteskschrift.
+## Offen
+
+- Die Farben Butter und Rosa kommen aus der Referenz und weichen von Ninas Salbei ab. Mit Nina abstimmen.
+- Bei hellen Fotos (Sonne, Himmel) reicht die Abdunklung teils knapp. Pro Foto prüfen.
+- Ausgeschnittene Personen mit weißer Kontur wie im zweiten Raster (Person umrandet) sind noch nicht gebaut.
