@@ -847,9 +847,13 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:49:24.147Z"
+    },
     "ig": null,
     "fehler": null
   }
