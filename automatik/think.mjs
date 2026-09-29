@@ -34,9 +34,8 @@ BEITRÄGE MIT KENNZAHLEN (letzter Messwert):
 ${JSON.stringify(posts)}
 
 AUFGABE: Finde genau ein Muster, das die Zahlen belegen (Format, Wochentag, Thema, Angebot, Hook-Art), und entscheide, ob eine einzige Stellgröße geändert wird. Erlaubte Änderungen, nur diese:
-- feed.uhrzeit (Format "HH:MM", zwischen 17:00 und 21:30)
-- feed.tage (Objekt Wochentag 1-5 -> "reel" oder "karussell"; mindestens 2 Karussells und 2 Reels pro Woche)
-- stories.uhrzeit (Format "HH:MM", zwischen 09:00 und 20:00)
+- feed.uhrzeit (Format "HH:MM", zwischen 19:00 und 21:30; das Veröffentlichen läuft per Cron erst ab 20:05 Berliner Sommerzeit, frühere Zeiten würden nie treffen)
+${params.reels_aktiv ? '- feed.tage (Objekt Wochentag 1-5 -> "reel" oder "karussell"; mindestens 2 Karussells und 2 Reels pro Woche)\n' : '(feed.tage bleibt unverändert: Reels sind pausiert, es gibt nur Karussells.)\n'}- stories.uhrzeit (Format "HH:MM", zwischen 11:00 und 14:00; der Cron für Stories läuft nur zwischen 11:35 und 15:05 Berliner Zeit)
 Nicht erlaubt und nicht deine Aufgabe: Marke, Schutzregeln, Angebotsregeln, Themenverbote, alles aus CLAUDE.md. Ändere nichts, wenn die Daten kein klares Muster zeigen (kleine Stichprobe, Streuung). Behaupte nichts ohne Zahl.
 
 Antworte NUR mit einem JSON-Objekt:
@@ -45,10 +44,14 @@ Antworte NUR mit einem JSON-Objekt:
 const antwort = extrahiereJson(await frageClaude(prompt))
 if (!antwort || !antwort.beobachtung || !/\d/.test(antwort.beleg || '')) throw new Error('Denk-Lauf: Antwort unbrauchbar (ohne Beleg mit Zahlen).')
 
+// feed.uhrzeit: nicht vor 19:00, weil der Cron in veroeffentlichen.yml erst ab 20:05 (Sommerzeit) bzw. 19:05 (Winterzeit) läuft;
+// eine frühere Zeit ließe das Fenster (uhrzeit + fenster_min) an allen Cron-Läufen vorbeigehen und nichts würde veröffentlicht.
+// stories.uhrzeit: nur 11:00 bis 14:00, weil die Story-Crons (10:35/11:05 bis 12:35/13:05 UTC) nur diesen Bereich abdecken.
+// feed.tage: nur mit aktiven Reels, sonst würde die Vorgabe „mindestens 2 Reels“ die pausierten Reels wieder einschalten.
 const ERLAUBT = {
-  'feed.uhrzeit': (v) => /^(1[7-9]|2[0-1]):[0-5]\d$/.test(v) && v <= '21:30',
-  'stories.uhrzeit': (v) => /^(09|1\d):[0-5]\d$/.test(v) && v <= '20:00',
-  'feed.tage': (v) => v && typeof v === 'object' && ['1', '2', '3', '4', '5'].every((t) => ['reel', 'karussell'].includes(v[t])) && Object.values(v).filter((x) => x === 'karussell').length >= 2 && Object.values(v).filter((x) => x === 'reel').length >= 2,
+  'feed.uhrzeit': (v) => /^(19|20|21):[0-5]\d$/.test(v) && v <= '21:30',
+  'stories.uhrzeit': (v) => /^1[1-4]:[0-5]\d$/.test(v) && v <= '14:00',
+  'feed.tage': (v) => params.reels_aktiv && v && typeof v === 'object' && ['1', '2', '3', '4', '5'].every((t) => ['reel', 'karussell'].includes(v[t])) && Object.values(v).filter((x) => x === 'karussell').length >= 2 && Object.values(v).filter((x) => x === 'reel').length >= 2,
 }
 let angewendet = 'keine Änderung'
 if (antwort.aenderung) {
