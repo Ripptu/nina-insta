@@ -433,9 +433,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:39:10.852Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -509,9 +513,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:39:14.616Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -528,9 +536,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:39:13.766Z"
+    },
     "ig": null,
     "fehler": null
   },
