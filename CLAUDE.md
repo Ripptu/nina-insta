@@ -19,6 +19,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 - Schrift aus Ninas bestehenden Beiträgen ermitteln (Beispiele in `NINA/Referenz`), nur frei lizenzierte Schriften, lokal eingebunden.
 - Bilder nie verzerren, immer proportional skalieren und zuschneiden.
 - Cover mit großer, fetter Schrift, lesbar in Daumennagelgröße.
+- Jedes Foto darf nur ein einziges Mal als Cover (erste Karussell-Seite, Reel-Titelbild) vorkommen, niemals zweimal (Christian, 29.09.2026). Das Verzeichnis `data/cover-nutzung.json` führt Buch (`render/covers.mjs`). Sind alle Fotos verbraucht, kommt ein reines Textcover, und der Bericht meldet, dass neue Fotos gebraucht werden.
 
 **Inhalt**
 - Jeder Beitrag enthält etwas, das die Leserin sofort für sich mitnehmen kann.

@@ -2,6 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { ranked } from './engine.mjs'
+import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 
 export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 1350 } = {}) {
   fs.mkdirSync(outDir, { recursive: true })
@@ -12,7 +13,8 @@ export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 13
     const file = path.join(outDir, `${String(pg.n).padStart(2, '0')}.jpg`)
     const kind = pg.role === 'buch' ? 'buch' : 'portrait'
     let done = false
-    for (const p of ranked(kind, used, seed + pg.n)) {
+    const gesperrt = pg.role === 'cover' ? benutzteCoverFotos(`k${post.nr}`) : new Set()
+    for (const p of ranked(kind, used, seed + pg.n).filter((x) => !gesperrt.has(x.id))) {
       let r = null
       if (pg.role === 'cover') r = await eng.cover(pg, p, { PH })
       else if (pg.role === 'quote') r = await eng.text(pg, p, { PH, quote: true })
@@ -22,10 +24,19 @@ export async function buildCarousel(eng, post, outDir, { seed = post.nr, PH = 13
       const problems = await eng.renderHtml(r.html, file, PH)
       if (problems.length) { log.push(`  Seite ${pg.n}: Foto ${p.id} verworfen (${problems[0]})`); continue }
       used.add(p.id)
+      if (pg.role === 'cover') registriereCover(`k${post.nr}`, p.id)
       files.push(file)
       log.push(`  Seite ${pg.n}: ${pg.role}, Foto ${p.id}`)
       done = true
       break
+    }
+    if (!done && pg.role === 'cover') {
+      // Alle Fotos waren schon Cover: reines Textcover statt Wiederholung
+      const r = await eng.coverText(pg, { PH, variant: post.nr })
+      if (r) {
+        const problems = await eng.renderHtml(r.html, file, PH)
+        if (!problems.length) { registriereCover(`k${post.nr}`, 'text'); files.push(file); log.push(`  Seite ${pg.n}: Textcover (keine freien Cover-Fotos)`); done = true }
+      }
     }
     if (!done) throw new Error(`Karussell ${post.nr} Seite ${pg.n}: kein Foto passt (${pg.role})`)
   }

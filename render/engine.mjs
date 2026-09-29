@@ -214,7 +214,35 @@ export async function createEngine() {
     return null
   }
 
-  return { renderHtml, cover, text, split, close: () => browser.close() }
+
+  /** Reines Textcover ohne Foto (wenn alle Fotos schon Cover waren). variant 0..2. */
+  async function coverText(spec, { PH = 1350, variant = 0 } = {}) {
+    const V = [
+      { bg: Y.BROWN, c: '#fff', acc: Y.PINK, logo: 'logo-creme.png' },
+      { bg: Y.PINK, c: '#2a1710', acc: '#fff', logo: 'logo-ink.png' },
+      { bg: Y.BROWN, c: Y.BUTTER, acc: Y.PINK, logo: 'logo-creme.png' },
+    ][variant % 3]
+    const head = spec.head.replace(/\s+/g, ' ').trim()
+    let a = head, b = ''
+    const m = head.match(/^(.*[,:;])\s*(.+)$/)
+    if (m) { a = m[1]; b = m[2] } else { const w = head.split(' '); if (w.length >= 5) { a = w.slice(0, -2).join(' '); b = w.slice(-2).join(' ') } }
+    const hh = `${esc(a)}${b ? `${m ? '<br>' : ' '}<span style="color:${V.acc}">${esc(b)}</span>` : ''}`
+    const lo = 110, hi = PH - 230
+    for (const size of [190, 168, 148, 130, 114, 100, 88]) {
+      const hHead = await meas(hh, 960, 'hd', size, `color:${V.c}`)
+      const sub = spec.sub ? await meas(esc(spec.sub), 760, 'hand', 70, 'position:static;line-height:1.02') : 0
+      const need = hHead + (sub ? sub + 40 : 0)
+      if (need > hi - lo) continue
+      const y = lo + (hi - lo - need) / 2
+      let body = `<div class="abs hd" style="left:60px;top:${y}px;width:960px;font-size:${size}px;color:${V.c};text-shadow:none">${hh}</div>`
+      if (sub) body += `<div class="hand" style="left:64px;top:${y + hHead + 34}px;width:760px;font-size:70px;line-height:1.02;transform:rotate(-2deg);color:${V.c};text-shadow:none">${esc(spec.sub)}</div>`
+      const lg = `<img class="logo" src="file://${HERE}../assets/${V.logo}" style="width:150px;left:44px;top:${PH - 190}px">`
+      return { html: pageHtml(body + lg, PH, `<div class="shade" style="background:${V.bg}"></div>`), crop: { text: true } }
+    }
+    return null
+  }
+
+  return { renderHtml, cover, coverText, text, split, close: () => browser.close() }
 }
 
 // ---------- Fotoauswahl ----------
