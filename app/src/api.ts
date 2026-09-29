@@ -28,6 +28,17 @@ export const api = {
   instagramSave: (token: string) => invoke<string>('instagram_save', { token }),
   gmailSave: (password: string) => invoke('gmail_save', { password }),
   finalCheck: () => invoke<Check[]>('final_check'),
+  repoDatei: (pfad: string) => invoke<string>('repo_datei', { pfad }),
+  repoBild: (pfad: string) => invoke<string>('repo_bild', { pfad }),
+  laeufe: () => invoke<string>('actions_laeufe'),
+  pauseStatus: () => invoke<boolean>('pause_status'),
+  pauseSetzen: (an: boolean) => invoke('pause_setzen', { an }),
+  workflowStarten: (datei: string, trocken?: boolean) => invoke('workflow_starten', { datei, trocken }),
+  secretsListe: () => invoke<string[]>('secrets_liste'),
+  secretSetzen: (name: string, wert: string) => invoke('secret_setzen', { name, wert }),
+  fotosHochladen: (quelle?: string) => invoke<string>('fotos_hochladen', { quelle }),
+  fotosZaehlen: () => invoke<number>('fotos_zaehlen'),
+  logLesen: (zeilen: number) => invoke<string>('log_lesen', { zeilen }),
 }
 
 /** Hört auf ein Ereignis aus dem Rust-Teil und gibt die Abmeldung zurück. */

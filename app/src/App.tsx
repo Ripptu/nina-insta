@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { api, type SetupState } from './api'
 import Setup from './views/Setup'
+import { Auswertung, Beitraege, Berichte, Einstellungen, Kalender, Lernen, Material, Protokoll, Uebersicht } from './views/Bereiche'
 
 const AREAS = ['Übersicht', 'Kalender', 'Beiträge', 'Auswertung', 'Lernen', 'Material', 'Berichte', 'Protokoll', 'Einstellungen']
 
@@ -13,6 +14,14 @@ export default function App() {
     api.state().then(setState)
   }, [])
   useEffect(refresh, [refresh])
+  // Tastenkürzel ⌘1 bis ⌘9 wechseln die Ansicht
+  useEffect(() => {
+    const f = (e: KeyboardEvent) => {
+      if (e.metaKey && /^[1-9]$/.test(e.key)) { setArea(AREAS[+e.key - 1]); e.preventDefault() }
+    }
+    window.addEventListener('keydown', f)
+    return () => window.removeEventListener('keydown', f)
+  }, [])
 
   if (!state) return null
   if (!state.finished || reopenSetup) {
@@ -40,18 +49,15 @@ export default function App() {
       </aside>
       <main className="flex-1 overflow-y-auto px-12 pb-12 pt-14" data-tauri-drag-region>
         <h1 className="mb-2 text-[26px] font-semibold tracking-tight">{area}</h1>
-        {area === 'Einstellungen' ? (
-          <div className="flex flex-col gap-4">
-            <p style={{ color: 'var(--muted)' }}>Verbindungen ansehen oder neu einrichten.</p>
-            <div>
-              <button className="rounded-lg px-4 py-2" style={{ background: 'var(--accent)', color: 'var(--accent-text)' }} onClick={() => setReopenSetup(true)}>
-                Einrichtung öffnen
-              </button>
-            </div>
-          </div>
-        ) : (
-          <p style={{ color: 'var(--muted)' }}>Diese Ansicht folgt in Phase 8, sobald die Automatik Daten liefert.</p>
-        )}
+        {area === 'Übersicht' && <Uebersicht />}
+        {area === 'Kalender' && <Kalender />}
+        {area === 'Beiträge' && <Beitraege />}
+        {area === 'Auswertung' && <Auswertung />}
+        {area === 'Lernen' && <Lernen />}
+        {area === 'Material' && <Material state={state} />}
+        {area === 'Berichte' && <Berichte />}
+        {area === 'Protokoll' && <Protokoll />}
+        {area === 'Einstellungen' && <Einstellungen state={state} onSetup={() => setReopenSetup(true)} />}
       </main>
     </div>
   )

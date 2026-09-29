@@ -47,6 +47,16 @@ const zeilen = [
 ]
 const text = zeilen.join('\n')
 console.log(text)
+if (!trocken) {
+  // Kopie für die App (Ansicht „Berichte“)
+  const dir = path.join(ROOT, 'data/berichte')
+  fs.mkdirSync(dir, { recursive: true })
+  fs.writeFileSync(path.join(dir, `${berlin().datum}.txt`), text)
+  const idxF = path.join(dir, 'index.json')
+  const idx = fs.existsSync(idxF) ? JSON.parse(fs.readFileSync(idxF, 'utf8')) : []
+  if (!idx.includes(berlin().datum)) idx.push(berlin().datum)
+  fs.writeFileSync(idxF, JSON.stringify(idx))
+}
 if (trocken) process.exit(0)
 const { GMAIL_USER, GMAIL_APP_PASSWORD, REPORT_TO } = process.env
 if (!GMAIL_USER || !GMAIL_APP_PASSWORD || !REPORT_TO) { console.log('Mail-Zugang fehlt, kein Versand.'); process.exit(1) }
