@@ -252,7 +252,16 @@ pub fn rclone(args: &[&str]) -> tools::Output {
     // Kurze Fristen, damit ein hängender Aufruf als Fehler im Fenster landet statt endlos zu warten.
     let mut full: Vec<&str> = args.to_vec();
     full.extend(["--timeout", "20s", "--contimeout", "15s", "--low-level-retries", "2", "--retries", "1", "--log-level", "ERROR"]);
-    let o = run(&tools::rclone(), &full, None, &env);
+    // rclones gemeinsames Google-Projekt ist oft ausgelastet (403 rateLimitExceeded). Das geht nach Sekunden vorbei: warten und neu versuchen.
+    let mut o = run(&tools::rclone(), &full, None, &env);
+    for wait in [5u64, 10, 20] {
+        if o.ok || !(o.stderr.contains("rateLimitExceeded") || o.stderr.contains("RATE_LIMIT_EXCEEDED")) {
+            break;
+        }
+        log(&format!("rclone {}: Google-Limit erreicht, neuer Versuch in {wait} s", args.first().unwrap_or(&"")));
+        std::thread::sleep(std::time::Duration::from_secs(wait));
+        o = run(&tools::rclone(), &full, None, &env);
+    }
     if !o.ok {
         log(&format!("rclone {} fehlgeschlagen: {}", args.first().unwrap_or(&""), o.stderr.lines().last().unwrap_or("")));
     }
@@ -282,9 +291,16 @@ pub fn drive_connect(app: AppHandle) {
 #[tauri::command]
 pub async fn drive_folders() -> Result<Vec<String>, String> {
     tauri::async_runtime::spawn_blocking(|| {
+        if keychain::get("drive_token").unwrap_or_default().is_empty() {
+            return Err("Noch nicht angemeldet.".to_string());
+        }
         let o = rclone(&["lsf", "nina:", "--dirs-only", "--max-depth", "1"]);
         if !o.ok {
-            return Err(format!("Drive antwortet nicht: {}", o.stderr.lines().last().unwrap_or("keine Antwort")));
+            let last = o.stderr.lines().last().unwrap_or("keine Antwort");
+            if last.contains("rateLimitExceeded") || last.contains("RATE_LIMIT") {
+                return Err("Google ist gerade überlastet (gemeinsames Limit). Bitte in einer Minute noch einmal versuchen.".to_string());
+            }
+            return Err(format!("Drive antwortet nicht: {last}"));
         }
         log(&format!("Drive: {} Ordner gefunden", o.stdout.lines().count()));
         Ok(o.stdout.lines().map(|l| l.trim_end_matches('/').to_string()).filter(|l| !l.is_empty()).collect())
