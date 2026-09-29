@@ -33,10 +33,14 @@ runs:
       shell: bash
     - if: inputs.rendern == 'true'
       run: |
-        curl -fsSL https://rclone.org/install.sh | sudo bash
-        rclone copy "nina:${DRIVE_FOLDER}/Fotos" "$GITHUB_WORKSPACE/fotos" --include "*.{jpg,jpeg,png,JPG,JPEG,PNG}" --log-level ERROR
+        # Grundbestand liegt im Repository (fotos/). Neue Fotos aus Drive kommen dazu, wenn Drive erreichbar ist.
+        mkdir -p "$GITHUB_WORKSPACE/fotos"
         echo "FOTO_DIR=$GITHUB_WORKSPACE/fotos" >> "$GITHUB_ENV"
+        if curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null 2>&1; then
+          rclone copy "nina:${DRIVE_FOLDER}/Fotos" "$GITHUB_WORKSPACE/fotos" --include "*.{jpg,jpeg,png,JPG,JPEG,PNG}" --ignore-existing --log-level ERROR || echo "Drive nicht erreichbar, es gelten die Fotos aus dem Repository."
+        fi
         ls "$GITHUB_WORKSPACE/fotos" | wc -l
+        node render/katalog-erweitern.mjs
       shell: bash
       env:
         RCLONE_CONFIG: /dev/null
