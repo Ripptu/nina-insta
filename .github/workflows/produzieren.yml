@@ -33,7 +33,7 @@ jobs:
       # render/.measure.html liegt im Repository, wird aber bei jedem Rendern mit den Pfaden des Rechners neu geschrieben.
       # Ohne diesen Schritt bricht "git pull --rebase" mit "You have unstaged changes" ab und die Produktion würde nie hochgeladen.
       - name: Laufzeitdatei des Renderers aus der Änderungsverfolgung nehmen
-        run: git update-index --skip-worktree render/.measure.html
+        run: git update-index --skip-worktree render/.measure.html || true
       - uses: ./.github/actions/werkzeuge
         with: { rendern: "true", claude: "true" }
       - name: Vorrat prüfen und ggf. neue Inhalte schreiben
@@ -47,8 +47,8 @@ jobs:
           git config user.name "nina-insta-bot"
           git config user.email "bot@users.noreply.github.com"
           # Die Renderer-Datei zurücksetzen, sonst verweigert "git pull --rebase" wegen ungespeicherter Änderungen
-          git update-index --no-skip-worktree render/.measure.html
-          git checkout -- render/.measure.html
+          git update-index --no-skip-worktree render/.measure.html || true
+          git checkout -- render/.measure.html || true
           git add -A plan out data docs
           git diff --cached --quiet || git commit -q -m "Produktion: Puffer aufgefüllt"
           # Auch dann hochladen, wenn fill.mjs schon Zwischenstände lokal committet hat (dann ist hier nichts mehr zu committen).
