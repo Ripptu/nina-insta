@@ -1,4 +1,5 @@
 // Stories (1080 x 1920) im Stil Foto-Typo. Texte kommen aus docs/content-posts.md, Abschnitt "# Stories",
+// und aus docs/content-stories-auto.md (von neu-schreiben.mjs --typ story angehängt, gleiches Format),
 // Fassung "Automatik-Fassung (ohne Sticker)"; bei Quiz-Stories zusätzlich die Auflösung (zweite Story).
 // Foto und Ausschnitt wählt die Layout-Engine; verletzt ein Foto den Gesichtsschutz, kommt das nächste dran.
 import fs from 'node:fs'
@@ -22,10 +23,18 @@ const quoted = (s) => {
   return a >= 0 && b > a ? s.slice(a + 1, b).replace(/\s+/g, ' ').trim() : null
 }
 
-/** Liest "# Stories" aus docs/content-posts.md. */
-export function readStories(file = new URL('../docs/content-posts.md', import.meta.url)) {
+/** Die von Hand gepflegten Stories und die von neu-schreiben.mjs --typ story angehängten (gleiches Format). */
+export const STORIES_BASIS = new URL('../docs/content-posts.md', import.meta.url)
+export const STORIES_AUTO = new URL('../docs/content-stories-auto.md', import.meta.url)
+
+/**
+ * Liest den Abschnitt "# Stories" aus einer Story-Datei (Standard: docs/content-posts.md; die Auto-Datei
+ * docs/content-stories-auto.md hat denselben Aufbau). Fehlt der Abschnitt, kommt eine leere Liste zurück.
+ */
+export function readStories(file = STORIES_BASIS) {
   const md = fs.readFileSync(file, 'utf8')
   const start = md.search(/^# Stories/m)
+  if (start < 0) return []
   const end = md.search(/^# Übersicht/m)
   const body = md.slice(start, end > start ? end : undefined)
   const out = []
@@ -41,9 +50,31 @@ export function readStories(file = new URL('../docs/content-posts.md', import.me
       nr: +head[1], id: `s${head[1]}`, titel: head[2].trim(),
       interaktion: val('Interaktion'), kernthema: +val('Kernthema') || null, ziel: val('Ziel'),
       hintergrund: val('Hintergrund'),
+      textHg: val('Text auf dem Hintergrund'), sticker: val('Sticker'),
       text: quoted(auto),
       aufloesung: aufl ? quoted(aufl) : null,
     })
+  }
+  return out
+}
+
+/**
+ * Alle Stories: zuerst die von Hand gepflegten, dann die automatisch geschriebenen. `datei` nennt die Quelle.
+ * Ist die Auto-Datei nicht lesbar oder wiederholt sie eine Nummer, wird das gemeldet und nur der Rest benutzt;
+ * die von Hand gepflegten Stories bleiben davon unberührt.
+ */
+export function alleStories({ basis = STORIES_BASIS, auto = STORIES_AUTO } = {}) {
+  const out = readStories(basis).map((s) => ({ ...s, datei: 'docs/content-posts.md' }))
+  if (!fs.existsSync(auto)) return out
+  try {
+    const nummern = new Set(out.map((s) => s.nr))
+    for (const s of readStories(auto)) {
+      if (nummern.has(s.nr)) { console.warn(`Story ${s.nr} in docs/content-stories-auto.md gibt es schon, übersprungen.`); continue }
+      nummern.add(s.nr)
+      out.push({ ...s, datei: 'docs/content-stories-auto.md' })
+    }
+  } catch (e) {
+    console.warn(`docs/content-stories-auto.md nicht lesbar (${e.message}), die Auto-Stories werden übersprungen.`)
   }
   return out
 }

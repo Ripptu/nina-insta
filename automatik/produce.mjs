@@ -41,15 +41,22 @@ try {
       console.log(`Produziert ${id} ${post.titel} (${r.files.length} Seiten)`)
     }
   } else if (typ === 'story') {
-    const { readStories, renderStory } = await import('../render/story.mjs')
-    for (const st of readStories()) {
+    // Stories aus docs/content-posts.md und aus docs/content-stories-auto.md (von neu-schreiben.mjs --typ story)
+    const { alleStories, renderStory } = await import('../render/story.mjs')
+    for (const st of alleStories()) {
       const id = `s${String(st.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id))) continue
       if (neu >= anzahl) break
       const out = path.join(ROOT, 'out', id)
       fs.rmSync(out, { recursive: true, force: true })
-      const r = await renderStory(eng, st, out)
-      q.push({ id, typ: 'story', quelle: `docs/content-posts.md#Story ${st.nr}`, titel: st.titel, angebot: 'keins', kernthema: st.kernthema ?? null, fruehestens: null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      let r
+      try { r = await renderStory(eng, st, out) } catch (e) {
+        // Eine Story, für die kein Foto passt, darf die übrigen nicht blockieren: melden, weiter, am Ende Exit-Code 1.
+        console.log(`Story ${id} ${st.titel} nicht produziert: ${e.message}`)
+        process.exitCode = 1
+        continue
+      }
+      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: 'keins', kernthema: st.kernthema ?? null, fruehestens: null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${id} ${st.titel}`)
