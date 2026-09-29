@@ -136,9 +136,13 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-29T09:36:03.159Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -464,9 +468,15 @@
       "#beziehungsmuster",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 4: „Oder Deine Beziehungslandkarte, ebenfalls unter Journale & Karten.“ – das Possessivpronomen „Deine“ ist großgeschrieben, während im restlichen Beitrag durchgängig klein geschrieben wird (z. B. Seite 2 „an dem du ganz bei dir sein darfst“, Seite 3 „findest du unter“). Das ist eine uneinheitliche/falsche Groß-Kleinschreibung."
+      ],
+      "am": "2026-09-29T09:36:04.503Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -538,9 +548,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "CAPTION: Caption fehlt"
+      ],
+      "am": "2026-09-29T09:35:54.234Z"
+    },
     "ig": null,
     "fehler": null
   },
