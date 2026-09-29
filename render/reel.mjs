@@ -10,6 +10,7 @@ import { ranked, CAT } from './engine.mjs'
 import { renderSlide, SAFE, PH, fixLogo } from './story.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 import { createViral, viralCover } from './viral.mjs'
+import { reelBild } from './designer.mjs'
 import { paletteFor } from './seiten.mjs'
 
 const FFMPEG = process.env.FFMPEG_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffmpeg')
@@ -216,8 +217,17 @@ export async function renderReel(eng, reel, outDir, opts = {}) {
       // Erstes Bild = Cover: eine der Viral-Vorlagen, Foto darf noch nie Cover gewesen sein
       const gesperrt = benutzteCoverFotos(reel.id)
       const V = (eng._viral ||= createViral(eng))
-      const vc = await viralCover(V, { head: text }, cands.filter((p) => !gesperrt.has(p.id)), file, { PH, nr: reel.nr + 3, lo: SAFE.lo, hi: SAFE.hi + 120, nachher: fixLogo })
-      if (vc) { r = { foto: vc.foto }; log.push(`Cover-Vorlage ${vc.vorlage}`) }
+      const gz = cands.filter((p) => !gesperrt.has(p.id))
+      const dv = await reelBild(eng, { kind: 'cover', spec: { head: text, sub: '' }, cands: [...(gz.length ? ranked('portrait', new Set(), reel.nr).filter((p) => !gesperrt.has(p.id)) : [])], file, nr: reel.nr, index: 0, log })
+      if (dv) r = { foto: dv.foto }
+      else {
+        const vc = await viralCover(V, { head: text }, gz, file, { PH, nr: reel.nr + 3, lo: SAFE.lo, hi: SAFE.hi + 120, nachher: fixLogo })
+        if (vc) { r = { foto: vc.foto }; log.push(`Cover-Vorlage ${vc.vorlage}`) }
+      }
+    }
+    if (!r && i > 0) {
+      const dv = await reelBild(eng, { kind, spec, cands: [], file, nr: reel.nr, index: i, log })
+      if (dv) r = { foto: null }
     }
     if (!r) r = await renderSlide(eng, { kind, spec, cands, file, log, palette: paletteFor(reel.nr, i + 1), index: i + 1, nr: reel.nr })
     if (!r) throw new Error(`${reel.id} Abschnitt ${i + 1}: kein Foto passt (${log.slice(-3).join('; ')})`)

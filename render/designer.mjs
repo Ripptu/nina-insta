@@ -136,6 +136,9 @@ const COLLECT_D = () => {
 
 export function createDesigner(eng) {
   const { ctx, meas, CSS } = eng._i
+  const ZDEF = { lo: 130, hiPad: 150, top: 96, botPad: 92, kopfY: 34, logoPad: 128, logoPadCover: 150, scale: 1, anchor: 0.16 }
+  const Z = { ...ZDEF }
+  const zone = (z) => Object.assign(Z, ZDEF, z || {})
 
   const doc = (i, N, PH, body) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}${CSS_EXTRA}html,body{height:${PH}px;width:${W}px;overflow:hidden}.page{height:${PH}px;background:none}.cv{left:${-i * W}px;width:${N * W}px}</style></head><body><div class="page"><div class="cv">${body}</div></div></body></html>`
 
@@ -167,22 +170,22 @@ export function createDesigner(eng) {
   // ----- Grundbausteine je Seite -----
   const hintergrund = (i, th) => `<div class="bgd" style="position:absolute;left:${i * W}px;top:0;width:${W + 1}px;height:100%;background:${th.bg}"></div>`
   const kopf = (i, th, PH) => {
-    const c = `position:absolute;top:34px;font:500 22px/1 ${SANS};color:${th.fg};opacity:.8;white-space:nowrap`
+    const c = `position:absolute;top:${Z.kopfY}px;font:500 22px/1 ${SANS};color:${th.fg};opacity:.8;white-space:nowrap`
     return `<div style="${c};left:${i * W + 60}px">Nina Hömmen</div><div style="${c};left:${i * W + W / 2 - 90}px">traumasensibles Coaching</div><div style="${c};left:${i * W + W - 60 - 260}px;width:260px;text-align:right">@ninahoemmencoaching</div>`
   }
-  const logoEl = (i, th, PH, cover) => `<img class="box" src="file://${HERE}../assets/${th.logo}" style="position:absolute;width:${cover ? 130 : 120}px;left:${i * W + (cover ? W - 130 - 34 : W / 2 - 60)}px;top:${PH - (cover ? 150 : 128)}px;opacity:.95">`
+  const logoEl = (i, th, PH, cover) => `<img class="box" src="file://${HERE}../assets/${th.logo}" style="position:absolute;width:${cover ? 130 : 120}px;left:${i * W + (cover ? W - 130 - 34 : W / 2 - 60)}px;top:${PH - (cover ? Z.logoPadCover : Z.logoPad)}px;opacity:.95">`
   const marke = (th, t) => `<span style="background:${th.bg === C.dunkel ? `linear-gradient(transparent 80%,${C.butter} 80%,${C.butter} 93%,transparent 93%)` : `linear-gradient(transparent 56%,${th.mark} 56%)`};padding:0 .06em">${esc(t)}</span>`
 const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((w) => !w.includes('-')).sort((a, b) => b.length - a.length)[0] || ''
-  async function fit(sizes, fn) { for (const s of sizes) { const r = await fn(s); if (r) return r } return null }
+  async function fit(sizes, fn) { for (const s of sizes) { const r = await fn(Math.round(s * Z.scale)); if (r) return r } return null }
 
   // ----- Textseiten -----
   async function textSeite(i, raw, th, PH, variant, k) {
     const o = i * W
     const ss = sentences(raw)
     const head = ss[0], rest = ss.slice(1).join(' ')
-    const lo = 130, hi = PH - 150
+    const lo = Z.lo, hi = PH - Z.hiPad
     return fit(variant === 'label' ? [92, 84, 76, 68, 62, 56, 52] : [140, 124, 110, 100, 92, 84, 76, 68, 62, 56, 52], async (hs) => {
-      const bs = variant === 'papier' ? Math.max(32, Math.min(50, Math.round(hs * 0.48))) : Math.max(34, Math.min(54, Math.round(hs * 0.5)))
+      const bs = variant === 'papier' ? Math.max(32, Math.min(Math.round(50 * Z.scale), Math.round(hs * 0.48))) : Math.max(34, Math.min(Math.round(54 * Z.scale), Math.round(hs * 0.5)))
       const headHtml = variant === 'label'
         ? `<span style="background:${th.lab};color:${th.labT};padding:.03em .3em;border-radius:.3em;-webkit-box-decoration-break:clone;box-decoration-break:clone;line-height:1.5">${esc(head)}</span>`
         : variant === 'statement' ? esc(head).replace(esc(laengstesWort(head)), (m) => marke(th, m)) : esc(head)
@@ -192,7 +195,7 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
       const card = variant === 'papier' && rest ? bH + 104 : 0
       const need = hH + (rest ? 50 + (card || bH) : 0)
       if (need > (hi - lo) * 0.74) return null
-      const y = lo + (hi - lo - need) * 0.16
+      const y = lo + (hi - lo - need) * Z.anchor
       let html = `<div style="position:absolute;left:${o + 90}px;top:${y}px;width:900px;${serifCss(th.fg)};font-size:${hs}px;${variant === 'label' ? 'line-height:1.5;transform:rotate(-1.4deg);transform-origin:left top' : ''}">${headHtml}</div>`
       let yy = y + hH + 50
       if (rest && variant === 'papier') {
@@ -207,12 +210,12 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
   async function zitatSeite(i, raw, th, PH, k) {
     const o = i * W
     const q = raw.replace(/^[„“"]|[“”"]$/g, '')
-    const lo = 130, hi = PH - 150
+    const lo = Z.lo, hi = PH - Z.hiPad
     return fit([92, 84, 76, 68, 60, 54], async (hs) => {
       const h = await meas(esc(q), 860, '', hs, `${serifCss(th.fg, 700)};font-style:italic;line-height:1.14`)
       const need = h + 250
       if (need > hi - lo) return null
-      const y = lo + Math.min(80, (hi - lo - need) * 0.4)
+      const y = lo + (hi - lo - need) * Math.max(0.4, Z.anchor)
       const html = `<div style="position:absolute;left:${o + 74}px;top:${y - 40}px;font:900 380px/1 ${SERIF};color:${th.it === '#fff' ? C.rose : th.it}">“</div>` +
         `<div style="position:absolute;left:${o + 90}px;top:${y + 230}px;width:860px;${serifCss(th.fg, 700)};font-style:italic;line-height:1.14;font-size:${hs}px">${esc(q)}</div>`
       return { html, zone: [y, y + need] }
@@ -221,14 +224,14 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
 
   async function chatSeite(i, a, b, th, PH) {
     const o = i * W
-    const lo = 150, hi = PH - 170
+    const lo = Z.lo + 20, hi = PH - Z.hiPad - 20
     return fit([72, 66, 60, 54, 48, 44, 40], async (size) => {
       const st = `font-family:${SANS};font-weight:500;font-size:${size}px;line-height:1.16;letter-spacing:-.02em`
       const ha = await meas(esc(a), 780, '', size, st) + 70
       const hb = await meas(esc(b), 780, '', size, st) + 70
       const need = ha + hb + 60
       if (need > hi - lo) return null
-      const y = lo + Math.min(90, (hi - lo - need) * 0.28)
+      const y = lo + (Z.scale > 1 ? (hi - lo - need) * 0.3 : Math.min(90, (hi - lo - need) * 0.28))
       const bub = (t, x, yy, h, bg, fg, left) => `<div class="box" style="position:absolute;left:${o + x}px;top:${yy}px;width:860px;height:${h}px;background:${bg};color:${fg};${st};padding:35px 50px;border-radius:64px;${left ? 'border-bottom-left-radius:16px' : 'border-bottom-right-radius:16px'};box-shadow:0 8px 24px rgba(0,0,0,.18)">${esc(t)}</div>`
       const html = bub(a, 60, y, ha, '#fff', C.ink, true) + bub(b, 160, y + ha + 60, hb, th.bg === C.rosa ? C.dunkel : C.rosa, th.bg === C.rosa ? C.rosa : C.dunkel, false)
       return { html, zone: [y, y + need] }
@@ -244,7 +247,7 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
     const ss = sentences(t)
     const head = ss[0]
     const rest = ss.slice(1).join(' ')
-    const lo = 130, hi = PH - 150
+    const lo = Z.lo, hi = PH - Z.hiPad
     return fit(foto ? [76, 68, 62, 56, 50, 46] : [110, 100, 90, 80, 72, 64, 58, 52], async (hs) => {
       const bs = Math.max(34, Math.min(46, Math.round(hs * 0.48)))
       const hH = await meas(esc(head), 900, '', hs, serifCss(th.fg))
@@ -282,11 +285,11 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
     const fb = pad(f, 10)
     const ftop = fb[1] / cut.h
     for (const modus of ['strip', 'unter']) {
-      for (const size of [136, 124, 112, 102, 94, 86]) {
+      for (const size of [136, 124, 112, 102, 94, 86].map((x) => Math.round(x * Z.scale))) {
         const hHead = await meas(headHtml(size), 940, '', size, `${serifCss(th.fg)};line-height:1.0`)
         const subH = spec.sub ? await meas(esc(spec.sub), 800, '', 40, sansCss(th.papierT, 600)) : 0
         const subUnter = modus === 'unter' && spec.sub ? subH + 24 : 0
-        const top = 96
+        const top = Z.top
         const cutY = top + hHead + subUnter + 26
         const k = Math.min(((PH - cutY) * 1.14) / cut.h, (W * 1.2) / cut.w)
         const cutH = cut.h * k, cutW = cut.w * k
@@ -298,7 +301,7 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
           if (fx0 < 40 || fx1 > W - 40) continue
           const faceBottom = cutY + (fb[1] + fb[3]) * k
           const stripH = spec.sub ? subH + 64 : 0
-          const stripY = PH - stripH - 92
+          const stripY = PH - stripH - Z.botPad
           if (modus === 'strip' && spec.sub && faceBottom + 34 > stripY) continue
           let html = ''
           // Papier hinter der Person, Kopf ragt darüber hinaus
@@ -321,33 +324,33 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
   async function coverText(spec, th, PH, nr) {
     const { a, b } = teile(spec.head)
     const headHtml = `${esc(a)}${b ? `<br><span style="font-style:italic;font-weight:700;color:${th.it}">${esc(b)}</span>` : ''}`
-    const top = 130
-    for (const size of [176, 160, 146, 132, 120, 108, 98]) {
+    const top = Z.lo
+    for (const size of [176, 160, 146, 132, 120, 108, 98].map((x) => Math.round(x * Z.scale))) {
       const hHead = await meas(headHtml, 940, '', size, `${serifCss(th.fg)};line-height:1.0`)
       const subH = spec.sub ? await meas(esc(spec.sub), 780, '', 46, sansCss(C.dunkel, 600)) : 0
       const card = spec.sub ? subH + 110 : 0
       const ende = top + hHead + (card ? 70 + card : 0)
-      if (ende > PH - 170) continue
+      if (ende > PH - Z.hiPad - 20) continue
       let html = `<div style="position:absolute;left:60px;top:${top}px;width:960px;${serifCss(th.fg)};font-size:${size}px;line-height:1.0">${headHtml}</div>`
       if (card) html += papier(70, top + hHead + 70, 860, card, `<div style="position:absolute;left:50px;top:50px;width:780px;${sansCss(C.dunkel, 600)};font-size:46px">${esc(spec.sub)}</div>`, { rot: -1.6, seed: 90 + nr })
-      const frei = PH - 150 - ende
-      if (frei >= 260) html += sticker(stickerFuer(spec.head + ' ' + (spec.sub || ''), nr), W - 260, PH - 150 - (frei - 30) / 2 - 10, Math.min(300, frei - 30), 8)
+      const frei = PH - Z.hiPad - ende
+      if (frei >= 260) html += sticker(stickerFuer(spec.head + ' ' + (spec.sub || ''), nr), W - 260, PH - Z.hiPad - (frei - 30) / 2 - 10, Math.min(300, frei - 30), 8)
       return { html, zone: [top, ende + 20], rechtsFrei: true, person: null, textcover: true }
     }
     return null
   }
 
   // ----- Verbinder über die Seitenkanten -----
-  function verbinder(N, zonen, post, th, cov) {
+  function verbinder(N, zonen, post, th, cov, PH = 1350) {
     const angebot = (post.angebot || '').toLowerCase()
     let html = ''
     for (let s = 0; s < N - 1; s++) {
       const za = zonen[s], zb = zonen[s + 1]
       let size = s === 0 ? 190 : 170
-      let lo = 120, hi = 1350 - 150
+      let lo = Z.lo - 10, hi = PH - Z.hiPad
       const belegt = [za, zb].filter(Boolean)
-      if (s === 0 && cov && !cov.rechtsFrei) belegt.push([120, 1350])
-      if (s === 0 && cov && cov.rechtsFrei) belegt.push([120, cov.zone[1]])
+      if (s === 0 && cov && !cov.rechtsFrei) belegt.push([lo, PH])
+      if (s === 0 && cov && cov.rechtsFrei) belegt.push([lo, cov.zone[1]])
       const oben = Math.min(...belegt.map((z) => z[0])) - lo
       const unten = hi - Math.max(...belegt.map((z) => z[1]))
       let cy
@@ -362,12 +365,13 @@ const laengstesWort = (t) => t.replace(/[.,!?„“"]/g, '').split(' ').filter((
     return html
   }
 
-  return { renderSlide, cover, coverText, textSeite, zitatSeite, chatSeite, schluss, hintergrund, kopf, logoEl, verbinder, doc }
+  return { zone, renderSlide, cover, coverText, textSeite, zitatSeite, chatSeite, schluss, hintergrund, kopf, logoEl, verbinder, doc }
 }
 
 // ---------- Beitrag ----------
 export async function buildDesigner(eng, post, outDir, { PH = 1350 } = {}) {
   const D = (eng._designer ||= createDesigner(eng))
+  D.zone()
   fs.mkdirSync(outDir, { recursive: true })
   const N = post.pages.length
   const th = themen(post.nr, N)
@@ -413,7 +417,7 @@ export async function buildDesigner(eng, post, outDir, { PH = 1350 } = {}) {
     teile.push(r)
   }
   const zonen = teile.map((t) => t.zone)
-  const conn = D.verbinder(N, zonen, post, th, cov)
+  const conn = D.verbinder(N, zonen, post, th, cov, PH)
   const files = []
   for (let i = 0; i < N; i++) {
     const file = path.join(outDir, `${String(post.pages[i].n).padStart(2, '0')}.jpg`)
@@ -432,4 +436,42 @@ export async function buildDesigner(eng, post, outDir, { PH = 1350 } = {}) {
   }
   if (!process.env.DEMO) registriereCover(`k${post.nr}`, foto ? foto.id : 'text')
   return { files, log }
+}
+
+// ---------- Reel-Bilder (1080 × 1920, sichere Zone für die Instagram-Oberfläche) ----------
+const REEL_ZONE = { lo: 270, hiPad: 520, top: 280, botPad: 470, kopfY: 200, logoPad: 470, logoPadCover: 470, scale: 1.3, anchor: 0.42 }
+/** Ein Reel-Bild im Designer-Stil. kind: cover | quote | text. Rückgabe { foto } (nur beim Cover ein Foto) oder null. */
+export async function reelBild(eng, { kind, spec, cands, file, nr, index, log = [] }) {
+  const D = (eng._designer ||= createDesigner(eng))
+  const PH = 1920
+  D.zone(REEL_ZONE)
+  try {
+    const th = THEMEN[FOLGE[nr % 2][index % 10]]
+    const body = (html, t, cover) => D.hintergrund(0, t) + D.kopf(0, t, PH) + html + D.logoEl(0, t, PH, !!cover)
+    const post = { nr, angebot: '', pages: [] }
+    if (kind === 'cover') {
+      for (const p of cands) {
+        const cov = await D.cover(spec, p, th, 1, PH, post, nr)
+        if (!cov) continue
+        const probs = await D.renderSlide(body(cov.html, th, true), file, 0, 1, PH, true)
+        if (!probs.length) { log.push(`Cover (Designer, Freisteller, Foto ${p.id})`); return { foto: p.id } }
+        log.push(`Cover: Foto ${p.id} verworfen (${probs[0]})`)
+      }
+      const t = await D.coverText(spec, th, PH, nr)
+      if (!t) return null
+      const probs = await D.renderSlide(body(t.html, th, true), file, 0, 1, PH, false)
+      if (probs.length) return null
+      log.push('Cover (Designer, Text)')
+      return { foto: null }
+    }
+    const raw = spec.text.replace(/\s+/g, ' ').trim()
+    const m = raw.match(/^((?:Du sagst|Vorher)[^]*?)\s+((?:Manchmal meinst du|Nachher)[^]*)$/)
+    const r = (m ? await D.chatSeite(0, m[1], m[2], th, PH) : null) ||
+      (kind === 'quote' ? await D.textSeite(0, raw, th, PH, 'statement', nr + index) : null) ||
+      (await D.textSeite(0, raw, th, PH, ['papier', 'label'][(nr + index) % 2], nr + index)) ||
+      (await D.textSeite(0, raw, th, PH, 'statement', nr + index))
+    if (!r) return null
+    const probs = await D.renderSlide(body(r.html, th, false), file, 0, 1, PH, false)
+    return probs.length ? null : { foto: null }
+  } finally { D.zone() }
 }

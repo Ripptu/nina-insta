@@ -5,6 +5,7 @@ import fs from 'node:fs'
 import { createSeiten, paletteFor, PALETTEN } from './seiten.mjs'
 import path from 'node:path'
 import { ranked, CAT } from './engine.mjs'
+import { reelBild } from './designer.mjs'
 
 export const PH = 1920
 /** Sicherer Bereich: Instagram verdeckt oben ca. 250 px (Profilzeile) und unten ca. 340 px (Antwortleiste, Reel-Caption).
@@ -57,6 +58,8 @@ const usable = (p) => p && (p.kind === 'portrait' || p.kind === 'ruecken')
 export async function renderSlide(eng, { kind = 'text', spec, cands, file, log = [], palette, index = 1, nr = 1 }) {
   // Fotos von Nina nur auf dem Cover; alle anderen Bilder sind Farbflächen mit Schrift und Zeichnungen
   if (kind === 'text' || kind === 'quote') {
+    const dv = await reelBild(eng, { kind, spec, cands: [], file, nr, index, log })
+    if (dv) return { foto: null, crop: null }
     const S = (eng._seiten ||= createSeiten(eng))
     const r = await S.seite({ ...spec, role: 'text' }, { PH, palette: palette || PALETTEN.braun, index, nr, lo: SAFE.lo, hi: SAFE.hi })
     if (!r) { log.push('Seite: Text passt nicht in die Fläche'); return null }
