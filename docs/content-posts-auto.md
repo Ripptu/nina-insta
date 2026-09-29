@@ -156,3 +156,156 @@ Was macht dein Körper, wenn die Antwort ausbleibt?
 
 ---
 
+## Karussell 19: Deine Bedürfnisse sind kein Zuviel
+- Format: Liste
+- Kernthema: 3
+- Angebot: Coaching
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Du hast gelernt, das wegzulassen, was du brauchst.** / Das lässt sich wieder lernen, anders. |
+| 2 | Textseite | Irgendwann fängt es klein an. Ein Wunsch, den du für dich behältst, weil er stört. Eine Frage, die du nicht stellst, weil sie nach zu viel klingt. Mit der Zeit wird daraus eine Gewohnheit. |
+| 3 | Liste | Du fragst dich vor jedem Wunsch, ob er in Ordnung ist, bevor du ihn aussprichst. |
+| 4 | Liste | Du sagst „ist nicht so wichtig", wenn dir etwas wichtig war. |
+| 5 | Liste | Du merkst erst im Nachhinein, dass du wieder nachgegeben hast. |
+| 6 | Textseite | Anpassung ist etwas anderes als Rücksicht. Rücksicht bleibt gegenseitig. Wenn du dauerhaft zurücksteckst, damit es der anderen Person gut geht, gehört das benannt, nicht hingenommen. |
+| 7 | Textseite | Für heute reicht ein Satz: Frag dich bei der nächsten Kleinigkeit, die du für dich behalten willst, warum eigentlich. |
+| 8 | Schlussseite (Foto: Nina im Gespräch) | Im kostenfreien Erstgespräch schauen wir gemeinsam, wo du wieder mehr Raum für dich findest. Link in der Bio. |
+
+**Caption:**
+Du hast gelernt, das wegzulassen, was du brauchst.
+
+Irgendwann fängt es klein an. Ein Wunsch, den du für dich behältst, weil er stört. Eine Frage, die du nicht stellst, weil sie nach zu viel klingt. Mit der Zeit wird daraus eine Gewohnheit.
+
+Woran du das erkennst:
+Du fragst dich vor jedem Wunsch, ob er in Ordnung ist, bevor du ihn aussprichst.
+Du sagst „ist nicht so wichtig", wenn dir etwas wichtig war.
+Du merkst erst im Nachhinein, dass du wieder nachgegeben hast.
+
+Anpassung ist etwas anderes als Rücksicht. Rücksicht bleibt gegenseitig. Wenn du dauerhaft zurücksteckst, damit es der anderen Person gut geht, gehört das benannt, nicht hingenommen.
+
+Für heute reicht ein Satz: Frag dich bei der nächsten Kleinigkeit, die du für dich behalten willst, warum eigentlich.
+
+Im kostenfreien Erstgespräch von etwa 30 Minuten schauen wir gemeinsam, wo du wieder mehr Raum für dich findest. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du lernen willst, deine Bedürfnisse wieder auszusprechen.
+
+Bei welcher Kleinigkeit merkst du es zuerst, dass du zurücksteckst?
+
+**Hashtags:** #beziehungsmuster #traumasensibel #selbstwert #coaching #beziehung
+
+---
+
+## Karussell 20: Zwischen Single-Sein & falscher Nähe
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Buch
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Was, wenn es kein Zufall ist, sondern ein Muster?** / Mein Buch zeigt dir, wie du es erkennst. |
+| 2 | Textseite | „Zwischen Single-Sein & falscher Nähe" heißt mein Buch. Der Titel beschreibt einen Ort, den viele kennen: zu lange allein, um es gut zu finden, und zu oft in Nähe, die sich nicht richtig anfühlt. |
+| 3 | Textseite | Der Untertitel sagt, worum es geht: Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Nicht als schnelle Lösung, sondern als Weg, den du in deinem Tempo gehst. |
+| 4 | Textseite | Für dich, wenn sich Beziehungen bei dir oft ähnlich anfühlen. Egal, ob du gerade Single bist oder mittendrin in einer Beziehung. |
+| 5 | Textseite | Es geht um die Muster, die du dir nicht ausgesucht hast, aber immer wieder wiederholst. Und darum, wie du sie erkennst, bevor sie wieder für dich entscheiden. |
+| 6 | Textseite | Ich habe selbst lange gebraucht, um meine eigenen Muster zu sehen. Deshalb ist das Buch kein Rat von außen, sondern eine Einladung, genauer hinzuschauen. |
+| 7 | Schlussseite (Foto: Nina mit Buch) | „Zwischen Single-Sein & falscher Nähe". Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Link in der Bio. |
+
+**Caption:**
+Was, wenn es kein Zufall ist, sondern ein Muster?
+
+„Zwischen Single-Sein & falscher Nähe" heißt mein Buch. Der Titel beschreibt einen Ort, den viele kennen: zu lange allein, um es gut zu finden, und zu oft in Nähe, die sich nicht richtig anfühlt.
+
+Der Untertitel sagt, worum es geht: Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Nicht als schnelle Lösung, sondern als Weg, den du in deinem eigenen Tempo gehst.
+
+Für dich, wenn sich Beziehungen bei dir oft ähnlich anfühlen, egal ob du gerade Single bist oder mittendrin in einer Beziehung. Es geht um die Muster, die du dir nicht ausgesucht hast, aber immer wieder wiederholst.
+
+Ich habe selbst lange gebraucht, um meine eigenen Muster zu sehen. Deshalb ist das Buch kein Rat von außen, sondern eine Einladung, genauer hinzuschauen.
+
+Der erste Schritt ist oft nur, das Muster überhaupt zu sehen. Der Rest kommt danach.
+
+Mein Buch „Zwischen Single-Sein & falscher Nähe" findest du über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du deine eigenen Muster besser verstehen willst.
+
+Welcher Teil des Titels trifft dich mehr, das Single-Sein oder die falsche Nähe?
+
+**Hashtags:** #buch #beziehungsmuster #singlesein #traumasensibel #liebe
+
+---
+
+## Karussell 21: Kein Wartezimmer
+- Format: Liste
+- Kernthema: 4
+- Angebot: keins
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Dein Leben ist kein Wartezimmer für später.** / Es läuft schon, auch allein. |
+| 2 | Textseite | Viele schieben Dinge auf, „bis jemand da ist": das gute Geschirr, die Reise, das schöne Bett. Als wäre Alleinsein eine Vorstufe zum eigentlichen Leben. |
+| 3 | Liste | Du kochst nur richtig, wenn jemand mitisst. |
+| 4 | Liste | Du kaufst die guten Sachen erst „für später". |
+| 5 | Liste | Du schiebst Pläne auf, weil du sie „eigentlich zu zweit machen wolltest". |
+| 6 | Textseite | Nichts davon ist falsch. Nur lohnt es sich zu fragen, worauf du eigentlich wartest. Dein jetziges Leben zählt genauso. |
+| 7 | Textseite | Für heute: Mach eine einzige Sache, die du dir „für später" aufgehoben hast. Heute, nicht irgendwann. |
+| 8 | Schlussseite | Du musst nicht warten, um es dir gut gehen zu lassen. |
+
+**Caption:**
+Dein Leben ist kein Wartezimmer für später.
+
+Viele schieben Dinge auf, „bis jemand da ist": das gute Geschirr, die Reise, das schöne Bett. Als wäre Alleinsein eine Vorstufe zum eigentlichen Leben.
+
+Woran du das merkst:
+Du kochst nur richtig, wenn jemand mitisst.
+Du kaufst die guten Sachen erst „für später".
+Du schiebst Pläne auf, weil du sie „eigentlich zu zweit machen wolltest".
+
+Nichts davon ist falsch. Nur lohnt es sich zu fragen, worauf du eigentlich wartest. Dein jetziges Leben zählt genauso, ob du gerade allein bist oder nicht.
+
+Für heute: Mach eine einzige Sache, die du dir „für später" aufgehoben hast. Heute, nicht irgendwann.
+
+Du musst nicht warten, um es dir gut gehen zu lassen.
+
+Folge @ninahoemmencoaching, wenn du aufhören willst, dein Leben aufzuschieben.
+
+Was hebst du dir gerade „für später" auf?
+
+**Hashtags:** #singlesein #alleinsein #selbstfürsorge #beziehungsmuster #traumasensibel
+
+---
+
+## Karussell 22: Zurück zu dir, gemeinsam
+- Format: Angebot
+- Kernthema: 3
+- Angebot: Veranstaltungen
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Manche Schritte gehen sich leichter zu mehreren.** / Zwei Angebote für Frauen, die zurück zu sich finden wollen. |
+| 2 | Textseite | Manche Themen lassen sich gut allein bearbeiten. Andere brauchen Menschen, die zuhören und verstehen, ohne dass du alles erklären musst. |
+| 3 | Textseite | Der Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für genau das: ein fester Kreis, in dem Frauen sich regelmäßig begegnen. |
+| 4 | Textseite | Die Abendreihe „Zurück zu dir – 8 Abende für Frauen" begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst. |
+| 5 | Textseite | Beide Angebote sind ausdrücklich für Frauen gedacht und leben von der Gruppe, in der sich niemand allein fühlt mit ihrem Thema. |
+| 6 | Schlussseite | Frauenkreis HERZ.ZEIT und „Zurück zu dir – 8 Abende für Frauen". Link in der Bio. |
+
+**Caption:**
+Manche Schritte gehen sich leichter zu mehreren.
+
+Manche Themen lassen sich gut allein bearbeiten. Andere brauchen Menschen, die zuhören und verstehen, ohne dass du alles erklären musst.
+
+Der Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für genau das: ein fester Kreis, in dem Frauen sich regelmäßig begegnen.
+
+Die Abendreihe „Zurück zu dir – 8 Abende für Frauen" begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.
+
+Beide Angebote sind ausdrücklich für Frauen gedacht und leben von der Gruppe, in der sich niemand allein fühlt mit ihrem Thema.
+
+Mehr zu HERZ.ZEIT und „Zurück zu dir – 8 Abende für Frauen" findest du über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du gern in Gemeinschaft wächst statt allein.
+
+Ziehst du lieber allein durch ein Thema oder in einer Gruppe?
+
+**Hashtags:** #frauenkreis #gemeinschaft #zurückzudir #traumasensibel #oldenburg
+
+---
+
