@@ -683,3 +683,11 @@ export async function mediaListe(limit = 25, opts = {}) {
   }
   return ergebnis.slice(0, limit);
 }
+
+/** Kontodaten: Follower, Gefolgte, Beitragszahl. */
+export async function kontoInfo(opts = {}) {
+  const ctx = kontext(opts);
+  if (!ctx.env.IG_USER_ID) throw new InstagramFehler('IG_USER_ID ist nicht gesetzt.');
+  const api = apiEcht(ctx);
+  return api.get(api.uid, { fields: 'username,followers_count,follows_count,media_count' }, 'Kontodaten abrufen');
+}
