@@ -19,8 +19,8 @@ html,body{width:1080px}
 .shade{position:absolute;inset:0}
 .abs{position:absolute}
 .big{position:absolute;font-weight:700;letter-spacing:-.045em;line-height:.86;text-shadow:0 2px 24px rgba(0,0,0,.28)}
-.hand{position:absolute;font-family:'Reenie Beanie';line-height:1;color:${WHITE};text-shadow:0 1px 10px rgba(0,0,0,.4)}
-.script{position:absolute;font-family:'Mrs Saint Delafield';line-height:.9;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.45)}
+.hand{position:absolute;font-family:'Caveat',cursive;font-weight:700;line-height:1;color:${WHITE};text-shadow:0 2px 14px rgba(0,0,0,.55),0 0 3px rgba(0,0,0,.35)}
+.script{position:absolute;font-family:'Caveat',cursive;font-weight:700;line-height:.95;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.55),0 0 3px rgba(0,0,0,.35)}
 .pill{position:absolute;background:#fff;color:#1c1c1c;font-weight:500;font-size:34px;letter-spacing:-.01em;padding:10px 24px;border-radius:40px;box-shadow:0 3px 10px rgba(0,0,0,.16);white-space:nowrap}
 .bubble{position:absolute;padding:26px 34px;border-radius:44px;font-weight:500;font-size:42px;line-height:1.14;letter-spacing:-.02em;box-shadow:0 4px 16px rgba(0,0,0,.18)}
 .sel{position:absolute;font-weight:500;letter-spacing:-.03em;line-height:1.14;color:#fff}
@@ -83,7 +83,7 @@ export function textDark({ photo, pos, dark = 0.55, html, size = 66, y = 360, to
   return photoPage(body, { photo, pos, dark })
 }
 
-/** Dünne Schreibschrift-Notiz wie in der zweiten Referenz. */
+/** Lesbare Handschrift-Notiz (Caveat, fett). Die dünne Schreibschrift der Referenz war auf dem Handy nicht lesbar. */
 export function script(text, { x = 60, y = 100, size = 96, rot = -4, width = 600, color = '#fff' } = {}) {
   return `<div class="script" style="left:${x}px;top:${y}px;font-size:${size}px;transform:rotate(${rot}deg);width:${width}px;color:${color}">${esc(text)}</div>`
 }

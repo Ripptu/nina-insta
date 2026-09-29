@@ -21,6 +21,7 @@ Der Strategie-Auftrag vom 28.09. sagte „Nina muss vor die Kamera" und „wenig
 | Später der Shop mit digitalen Produkten | ab November, nur mit Angaben aus dem Shop |
 | Rund 5.500 Follower bis Jahresende | siehe unten |
 | Vertraulichkeit | feste Regel |
+| Ab 01.01.2027 auch Männer und Paare, Fokus nicht nur auf Frauen (Nachtrag von Nina an Christian) | Alle Beiträge ab dem Livegang laufen bis in das neue Jahr und sprechen deshalb niemanden als „Frauen" an, sondern mit „du", „Menschen", „Paare" oder einer konkreten Situation. Bis 01.01.2027 steht in keinem Beitrag ausdrücklich, dass Nina Männer begleitet; ab dem Stichtag darf es ausdrücklich werden, solche Stellen bekommen `Frühestens: 2027-01-01`. Echte Frauenangebote (Frauenkreis HERZ.ZEIT, „Zurück zu dir – 8 Abende für Frauen", „Wo sind eigentlich meine Frauen?") behalten ihren Namen und werden als Angebot für Frauen gekennzeichnet, nie als Beleg für die Gesamtzielgruppe. Paarcoaching ist ein echtes Angebot und darf vorkommen. Ninas eigene Geschichte bleibt ihre Perspektive. Umgesetzt in `content-reels.md` und `content-posts.md`. |
 
 **Zum Ziel 5.500 Follower bis Jahresende:** Von 139 aus wären das in drei Monaten knapp 60 neue Follower pro Tag. Inga hat im Schnitt rund 25 pro Tag gewonnen (22.600 in 29 Monaten), mit fünf Reels über einer Million Aufrufe. Ihr erstes Millionen-Reel kam im vierten Monat. Aus diesen Daten ist 5.500 bis Ende Dezember nicht zu erwarten. Das ist eine Einschätzung auf Basis der Referenz, keine Gewissheit, denn ein einzelnes Reel kann ausreißen. Die Zielwerte in dieser Strategie sind deshalb bewusst kleiner. Christian sollte das mit Nina offen besprechen, bevor die Automatik startet.
 
@@ -57,11 +58,13 @@ Was strukturell nicht funktionieren kann, unabhängig davon, wie gut die Texte s
 
 Drei Alternativen, die ein Fremder in zwei Sekunden versteht:
 
-1. **„Für Frauen, die in der Liebe immer wieder dasselbe erleben."**
-2. „Für Frauen zwischen Sehnsucht nach Nähe und Angst davor."
-3. „Für Frauen, die sich in Beziehungen immer wieder selbst verlieren."
+1. **„Für Menschen, die in der Liebe immer wieder dasselbe erleben."**
+2. „Für Menschen zwischen Sehnsucht nach Nähe und Angst davor."
+3. „Für alle, die sich in Beziehungen immer wieder selbst verlieren."
 
-**Empfehlung: Nummer 1.** Sie deckt Singles und Frauen in Beziehungen ab, und beide Gruppen braucht Nina (Ingas Millionen-Reels handeln von Paaren im Alltag). Sie passt wörtlich zum Buch („Wenn Liebe sich wiederholt"). Und das Wort „dasselbe" trägt gleich das wöchentliche Serienformat.
+**Empfehlung: Nummer 1.** Sie deckt Singles und Menschen in Beziehungen ab, und beide Gruppen braucht Nina (Ingas Millionen-Reels handeln von Paaren im Alltag). Sie passt wörtlich zum Buch („Wenn Liebe sich wiederholt"). Und das Wort „dasselbe" trägt gleich das wöchentliche Serienformat.
+
+**Warum ohne „Frauen":** Nina arbeitet ab 01.01.2027 auch mit Männern und Paaren und will den Fokus nicht nur auf Frauen legen. Die Beiträge ab dem Livegang (Mitte Oktober 2026) laufen bis in das neue Jahr, deshalb soll die Positionierung schon jetzt niemanden ausschließen. „Menschen" und „alle" sagen das, ohne vor dem Stichtag ausdrücklich zu behaupten, dass Nina Männer begleitet. Ab 01.01.2027 darf die Positionierung ausdrücklicher werden.
 
 Traumasensibel, Spiritualität, Hypnose und Körperarbeit bleiben Ninas Methode. Sie tauchen in Captions und im Coaching-Angebot auf, aber nicht als Aushängeschild.
 
@@ -167,7 +170,7 @@ Instagram erlaubt 150 Zeichen. Alle drei Varianten passen hinein.
 **Variante 2:**
 ```
 💔 Du sehnst dich nach Nähe und ziehst dich doch zurück?
-🤍 Traumasensibles Coaching für Frauen
+🤍 Traumasensibles Coaching für Beziehungen
 📍 Oldenburg & online
 📘 Buch & Erstgespräch ⬇️
 ```
