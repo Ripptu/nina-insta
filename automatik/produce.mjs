@@ -5,6 +5,8 @@ import path from 'node:path'
 import { ladeQueue, speichereQueue } from './queue.mjs'
 import { createEngine } from '../render/engine.mjs'
 import { readPosts } from '../render/inhalt.mjs'
+const AUTO = new URL('../docs/content-posts-auto.md', import.meta.url)
+const alleBeitraege = () => [...readPosts(), ...(fs.existsSync(AUTO) ? readPosts(AUTO) : [])]
 import { buildCarousel } from '../render/karussell.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
@@ -22,7 +24,7 @@ const eng = await createEngine()
 let neu = 0
 try {
   if (typ === 'karussell') {
-    for (const post of readPosts()) {
+    for (const post of alleBeitraege()) {
       const id = `k${String(post.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id) && !nur.includes(String(post.nr)))) continue
       if (neu >= anzahl) break
