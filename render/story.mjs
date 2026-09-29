@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import { createSeiten, paletteFor, PALETTEN } from './seiten.mjs'
 import path from 'node:path'
 import { ranked, CAT } from './engine.mjs'
-import { reelBild } from './designer.mjs'
+import { createInnen, varianteFuer } from './fotoinnen.mjs'
 
 export const PH = 1920
 /** Sicherer Bereich: Instagram verdeckt oben ca. 250 px (Profilzeile) und unten ca. 340 px (Antwortleiste, Reel-Caption).
@@ -56,26 +56,23 @@ const usable = (p) => p && (p.kind === 'portrait' || p.kind === 'ruecken')
  * kind: 'text' | 'quote' | 'cover' | 'split'. Rückgabe {foto, crop} oder null, wenn kein Foto passt.
  */
 export async function renderSlide(eng, { kind = 'text', spec, cands, file, log = [], palette, index = 1, nr = 1 }) {
-  // Fotos von Nina nur auf dem Cover; alle anderen Bilder sind Farbflächen mit Schrift und Zeichnungen
-  if (kind === 'text' || kind === 'quote') {
-    const dv = await reelBild(eng, { kind, spec, cands: [], file, nr, index, log })
-    if (dv) return { foto: null, crop: null }
-    const S = (eng._seiten ||= createSeiten(eng))
-    const r = await S.seite({ ...spec, role: 'text' }, { PH, palette: palette || PALETTEN.braun, index, nr, lo: SAFE.lo, hi: SAFE.hi })
-    if (!r) { log.push('Seite: Text passt nicht in die Fläche'); return null }
-    const problems = await eng.renderHtml(fixLogo(r.html), file, PH)
-    if (problems.length) { log.push(`Seite verworfen (${problems[0]})`); return null }
-    return { foto: null, crop: null }
-  }
+  const I = (eng._innen ||= createInnen(eng))
   for (const p of cands) {
     let r
     if (kind === 'cover') r = await eng.cover(spec, p, SAFE)
     else if (kind === 'split') r = await eng.split(spec, p, { PH, cta: false })
-    else r = await eng.text(spec, p, { ...SAFE, quote: kind === 'quote' })
+    else if (kind === 'quote') r = await eng.text(spec, p, { ...SAFE, quote: true })
+    else r = await I.seite({ text: spec.text }, p, { PH, lo: SAFE.lo, hi: SAFE.hi, variante: varianteFuer(nr, index) })
     if (!r) { log.push(`Foto ${p.id}: kein freier Platz für den Text`); continue }
     const problems = await eng.renderHtml(fixLogo(r.html), file, PH)
     if (problems.length) { log.push(`Foto ${p.id} verworfen (${problems[0]})`); continue }
     return { foto: p.id, crop: r.crop }
+  }
+  if (kind === 'text' || kind === 'quote') {
+    // Notlösung: Farbfläche mit Schrift
+    const S = (eng._seiten ||= createSeiten(eng))
+    const r = await S.seite({ ...spec, role: 'text' }, { PH, palette: palette || PALETTEN.rosa, index, nr, lo: SAFE.lo, hi: SAFE.hi })
+    if (r && !(await eng.renderHtml(fixLogo(r.html), file, PH)).length) return { foto: null, crop: null }
   }
   return null
 }

@@ -6,13 +6,13 @@ import { DEKO, dekoFuer } from './deko.mjs'
 const HERE = new URL('.', import.meta.url).pathname
 const INK = '#2a1710'
 export const PALETTEN = {
-  braun: { bg: Y.BROWN, h: Y.BUTTER, t: '#fff', acc: Y.PINK, mark: Y.BUTTER, markT: '#1c1c1c', dek: Y.PINK, logo: 'logo-creme.png', b1: '#fff', b1t: '#1c1c1c', b2: Y.PINK, b2t: '#1c1c1c' },
+  braun: { bg: '#33402f', h: Y.BUTTER, t: '#fff', acc: Y.PINK, mark: Y.BUTTER, markT: '#1c1c1c', dek: Y.PINK, logo: 'logo-creme.png', b1: '#fff', b1t: '#1c1c1c', b2: Y.PINK, b2t: '#1c1c1c' },
   rosa: { bg: Y.PINK, h: INK, t: INK, acc: '#fff', mark: '#fff', markT: INK, dek: INK, logo: 'logo-ink.png', b1: '#fff', b1t: '#1c1c1c', b2: INK, b2t: '#fff' },
   butter: { bg: Y.BUTTER, h: INK, t: INK, acc: Y.PINK, mark: Y.PINK, markT: INK, dek: INK, logo: 'logo-ink.png', b1: '#fff', b1t: '#1c1c1c', b2: Y.PINK, b2t: '#1c1c1c' },
   creme: { bg: '#f6efe6', h: INK, t: INK, acc: Y.PINK, mark: Y.BUTTER, markT: INK, dek: '#c2559a', logo: 'logo-ink.png', b1: '#fff', b1t: '#1c1c1c', b2: Y.BUTTER, b2t: '#1c1c1c' },
 }
 // Paare je Beitrag, damit die Seiten wechseln und Beiträge sich unterscheiden.
-const PAARE = [['braun', 'rosa'], ['braun', 'butter'], ['rosa', 'braun'], ['butter', 'braun'], ['braun', 'creme'], ['creme', 'braun']]
+const PAARE = [['creme', 'rosa'], ['butter', 'rosa'], ['rosa', 'creme'], ['rosa', 'butter'], ['creme', 'butter'], ['butter', 'creme']]
 export const paletteFor = (nr, seite) => PALETTEN[PAARE[(nr - 1) % PAARE.length][(seite - 1) % 2]]
 
 const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]

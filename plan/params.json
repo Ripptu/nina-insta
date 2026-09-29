@@ -1,6 +1,27 @@
 {
-  "feed": { "uhrzeit": "20:00", "fenster_min": 30, "tage": { "1": "reel", "2": "karussell", "3": "reel", "4": "karussell", "5": "reel" }, "max_pro_monat": 24 },
-  "stories": { "uhrzeit": "12:30", "fenster_min": 30, "tage": [2, 4, 0] },
+  "feed": {
+    "uhrzeit": "20:00",
+    "fenster_min": 30,
+    "tage": {
+      "1": "karussell",
+      "2": "karussell",
+      "3": "karussell",
+      "4": "karussell",
+      "5": "karussell"
+    },
+    "max_pro_monat": 24
+  },
+  "stories": {
+    "uhrzeit": "12:30",
+    "fenster_min": 30,
+    "tage": [
+      2,
+      4,
+      0
+    ]
+  },
   "puffer_min": 10,
-  "reel_serie_tag": 3
+  "reel_serie_tag": null,
+  "reels_aktiv": false,
+  "hinweis_reels": "Reels pausiert: im ersten Monat nur Karussells und Stories, bis Nina Videos per Gmail schickt (Christian, 29.09.2026). Zum Einschalten reels_aktiv auf true, feed.tage und reel_serie_tag wieder setzen (Mo/Mi/Fr Reel, Mi Serien-Reel)."
 }

@@ -56,7 +56,7 @@ export function createViral(eng) {
   const { ctx, meas, rects, pageHtml, bandShade, logo, W } = eng._i
 
   const photoLayer = (p, pl, dark = 0.16) =>
-    `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${pl.dw}px ${pl.dh}px;background-position:${pl.x}px ${pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(20,10,5,${dark})"></div>`
+    `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${pl.dw}px ${pl.dh}px;background-position:${pl.x}px ${pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,${dark})"></div>`
   const personLayer = (p, pl, outline = false) => {
     const m = `url('file://${HERE}../data/masken/${p.id}.png')`
     const sz = `${pl.dw}px ${pl.dh}px`, ps = `${pl.x}px ${pl.y}px`
@@ -171,7 +171,7 @@ export function createViral(eng) {
       })
       body += `<div class="abs bubble" style="left:${texts.length > 1 ? 60 : 60}px;top:${y}px;width:auto;height:${typing}px;padding:0 44px;border-radius:64px;border-bottom-left-radius:18px;background:#fff;display:flex;align-items:center;gap:14px">${'<i style="display:block;width:22px;height:22px;border-radius:50%;background:#b9b9bf"></i>'.repeat(3)}</div>`
       body += `<div class="abs" style="left:${texts.length > 1 ? 690 : 690}px;top:${y - 8}px;font-size:32px;color:rgba(255,255,255,.8);font-weight:500">Zugestellt</div>`
-      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(20,10,5,.2)"></div>`), crop }
+      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.2)"></div>`), crop }
     }
     return null
   }
@@ -191,7 +191,7 @@ export function createViral(eng) {
       body += `<div class="abs" style="left:60px;top:${y}px;background:#fff;color:#1c1c1c;font-size:28px;font-weight:500;border-radius:16px;padding:14px 26px;box-shadow:0 3px 14px rgba(0,0,0,.3);white-space:nowrap">Kopieren&nbsp;&nbsp;&nbsp;Alles auswählen&nbsp;&nbsp;&nbsp;Nachschlagen &rsaquo;</div>`
       body += `<div class="abs tx" style="left:60px;top:${y + 84}px;width:960px;font-size:${size}px;font-weight:600;letter-spacing:-.035em;line-height:1.12;color:#fff">${inner}</div>`
       if (sub) body += `<div class="hand" style="left:64px;top:${y + 84 + h + 26}px;width:700px;font-size:66px;line-height:1.02;transform:rotate(-2deg)">${esc(spec.sub)}</div>`
-      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(20,10,5,.22)"></div>`), crop }
+      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.22)"></div>`), crop }
     }
     return null
   }
@@ -219,7 +219,7 @@ export function createViral(eng) {
       body += `<div class="abs hd" style="left:60px;top:${y}px;width:960px;font-size:${size}px;color:#fff;line-height:.88">${html}</div>${ell}`
       if (sub) body += `<div class="hand" style="left:64px;top:${y + r.h + 40}px;width:640px;font-size:66px;line-height:1.02;transform:rotate(-2deg)">${esc(spec.sub)}</div>`
       body += Y.arrow(560, y + r.h + 20, { w: 170, rot: 8 })
-      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(20,10,5,.2)"></div>`), crop }
+      return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.2)"></div>`), crop }
     }
     return null
   }
@@ -248,7 +248,7 @@ export function createViral(eng) {
           body += `<div class="abs hd" style="left:56px;top:${y + i * es * 0.8}px;width:1000px;font-size:${es}px;line-height:.9;white-space:nowrap;${st};text-shadow:none">${esc(wort)}</div>`
         })
         body += `<div class="abs hd" style="left:60px;top:${y + echoH + 30}px;width:960px;font-size:${hs}px;line-height:.95;letter-spacing:-.03em;color:#fff">${full}</div>`
-        return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(20,10,5,.22)"></div>`), crop }
+        return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.22)"></div>`), crop }
       }
     }
     return null

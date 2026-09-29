@@ -6,22 +6,18 @@ import { createViral, viralCover } from './viral.mjs'
 import { createSeiten, paletteFor } from './seiten.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 import { buildDesigner } from './designer.mjs'
+import { createInnen, varianteFuer } from './fotoinnen.mjs'
 
-/** Standard ist der Designer-Stil (Panorama, Freisteller-Cover). Nur wenn der nicht geht, der frühere Foto-Typo-Stil. */
+/** Standard ist Foto-Typo (Referenz: Instagram-Grid mit Vollbild-Fotos, Christian 29.09.2026). STIL=designer schaltet den Papier-Stil ein. */
 export async function buildCarousel(eng, post, outDir, opts = {}) {
-  try {
-    return await buildDesigner(eng, post, outDir, opts)
-  } catch (e) {
-    console.error(`Designer-Stil fehlgeschlagen (${e.message}), Ersatz: Foto-Typo`)
-    const r = await buildCarouselFotoTypo(eng, post, outDir, opts)
-    r.log.unshift(`  Ersatzstil Foto-Typo (${e.message})`)
-    return r
-  }
+  if (process.env.STIL === 'designer') return buildDesigner(eng, post, outDir, opts)
+  return buildCarouselFotoTypo(eng, post, outDir, opts)
 }
 
 export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr, PH = 1350 } = {}) {
   const V = (eng._viral ||= createViral(eng))
   const S = (eng._seiten ||= createSeiten(eng))
+  const I = (eng._innen ||= createInnen(eng))
   fs.mkdirSync(outDir, { recursive: true })
   const used = new Set()
   const files = []
@@ -31,7 +27,7 @@ export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr,
     let done = false
     const gesperrt = pg.role === 'cover' ? benutzteCoverFotos(`k${post.nr}`) : new Set()
     // Fotos von Nina nur auf dem Cover; Buch-Angebotsseite darf ein Buchfoto (Gegenstand) zeigen, sonst Farbfläche
-    const cands = pg.role === 'cover' ? ranked('portrait', used, seed + pg.n).filter((x) => !gesperrt.has(x.id)) : pg.role === 'buch' ? [...ranked('buch', used, seed + pg.n), null] : [null]
+    const cands = pg.role === 'cover' ? ranked('portrait', used, seed + pg.n).filter((x) => !gesperrt.has(x.id)) : pg.role === 'buch' ? [...ranked('buch', used, seed + pg.n), null] : [...ranked('innen', used, seed + pg.n).slice(0, 14), null]
     for (const p of cands) {
       let r = null
       if (pg.role === 'cover') {
@@ -41,6 +37,12 @@ export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr,
         r = await eng.cover(pg, p, { PH })
       }
       else if (pg.role === 'buch' && p) r = await eng.split(pg, p, { PH })
+      else if (p) {
+        const spec = { text: pg.text }
+        if (pg.role === 'quote') r = await eng.text(spec, p, { PH, quote: true })
+        else if (pg.role === 'close') r = await eng.text(spec, p, { PH, cta: true })
+        else { const ri = await I.seite(spec, p, { PH, lo: 70, hi: PH - 210, variante: varianteFuer(post.nr, pg.n) }); r = ri; if (ri) log.push(`  Seite ${pg.n}: Variante ${ri.variante}`) }
+      }
       else r = await S.seite(pg, { PH, palette: paletteFor(post.nr, pg.n), index: pg.n, nr: post.nr })
       if (!r) continue
       const problems = await eng.renderHtml(r.html, file, PH)

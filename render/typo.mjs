@@ -14,7 +14,7 @@ export const CSS = `
 ${fontCss}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:1080px}
-.page{position:relative;width:1080px;height:1350px;overflow:hidden;background:${BROWN};font-family:'Inter Tight',sans-serif;color:${WHITE}}
+.page{position:relative;width:1080px;height:1350px;overflow:hidden;background:#ffc4e4;font-family:'Inter Tight',sans-serif;color:${WHITE}}
 .photo{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
 .shade{position:absolute;inset:0}
 .abs{position:absolute}
@@ -34,7 +34,7 @@ export const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
 export function photoPage(body, { photo, pos = 'center', size = 'cover', dark = 0.32, grade = 'saturate(.86) contrast(1.06) brightness(.9)', top = 0, bottom = 0.45, logo = true } = {}) {
   const bg = photo
     ? `<div class="photo" style="background-image:url('file://${photo}');background-size:${size};background-position:${pos};filter:${grade}"></div>
-       <div class="shade" style="background:linear-gradient(rgba(20,10,5,${dark + top}) 0%,rgba(20,10,5,${dark}) 45%,rgba(20,10,5,${dark + bottom}) 100%)"></div>`
+       <div class="shade" style="background:linear-gradient(rgba(12,14,12,${dark + top}) 0%,rgba(12,14,12,${dark}) 45%,rgba(12,14,12,${dark + bottom}) 100%)"></div>`
     : ''
   const lg = logo ? `<img class="logo" src="file://${ASSETS}logo-creme.png" style="width:150px;left:44px;bottom:38px">` : ''
   return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body><div class="page">${bg}${body}${lg}</div></body></html>`

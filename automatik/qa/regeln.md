@@ -2,7 +2,7 @@
 
 Abgeleitet aus `CLAUDE.md` (feste Regeln). Jeder Punkt hat eine Kennung. Du bewertest jeden Punkt mit `ok` oder `fehler`. Bei jedem `fehler` nennst du Seite und Beleg (was genau, wo im Bild oder in der Caption).
 
-Über den Account: Nina Hömmen, traumasensible Beziehungs-Coachin in Oldenburg und online. Marke bei Karussells (Designer-Stil): Serifenschrift (Playfair) mit kursivem Akzent, Flächen in Rosa, Dunkelbraun und Creme, weißes Papier mit gerissenen Kanten und Klebeband, Beschriftungsbänder, Sticker mit weißem Rand (Herz, Blume, Tasse, Bücher, Sprechblase), kleine Kopfzeile mit Name, „traumasensibles Coaching“ und Handle. Das Cover zeigt Nina als Freisteller mit weißem Rand vor gerissenem Papier (Ninas Foto gibt es nur auf dem Cover) oder ein reines Textcover. Sticker und Papier laufen über die Seitenkanten, das ist gewollt: Ein Sticker ist auf einer Seite rechts halb und auf der nächsten links halb zu sehen, das ist KEIN Fehler. Reels und Stories: Ninas Fotos abgedunkelt mit riesiger enger Schrift in Weiß, Butter und Rosa, Handschrift (Caveat), Pfeile, Blasen, Pillen. Das kleine Logo mit Blumen-Doodle sitzt bei Karussells unten mittig (auf dem Cover unten rechts), bei Reels und Stories unten links.
+Über den Account: Nina Hömmen, traumasensible Beziehungs-Coachin in Oldenburg und online. Marke: Ninas echte Fotos im Vollbild auf jeder Seite (Karussell, Reel, Story), riesige enge Schrift in Weiß, Butter und Rosa, gestapelte Wörter mit Umriss, iMessage-Blasen, iOS-Textmarkierung, Handschrift (Caveat), Pfeile, Kringel. Textcover und Schlussseiten dürfen helle Flächen in Rosa, Butter oder Creme mit dunkelgrüner Schrift sein. Das kleine Logo mit Blumen-Doodle sitzt unten links auf jeder Seite.
 
 ## Bild und Gestaltung
 

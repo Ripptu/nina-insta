@@ -1,16 +1,13 @@
 # Gestaltung
 
-## Karussells: Designer-Stil (gilt seit 29.09.2026, löst Foto-Typo bei Karussells ab)
+## Stand 29.09.2026: Foto-Typo für alles
 
-Referenz: Panorama-Karussell einer Designerin (Christian, 29.09.2026): „wie von einem Designer gemacht, aber dennoch viral“. Umsetzung in `render/designer.mjs`, Demo `node render/demo-designer.mjs [Nr …]` (Ergebnis in `material/designer/`, ändert das Cover-Verzeichnis nicht, wenn `DEMO=1`).
+Christian hat den Papier-Stil („Designer“, `render/designer.mjs`, nur noch mit STIL=designer) und alle anderen Referenzen verworfen und wieder das Instagram-Grid mit Vollbild-Fotos als einzige Referenz festgelegt („sei sehr kreativ“). Alle Seiten aller Formate sind Fotos von Nina mit Schrift.
 
-- **Eine Leinwand, viele Seiten.** Jede Seite ist ein Ausschnitt einer Leinwand von N × 1080 Pixeln. Sticker (`verbinder`) liegen auf den Seitenkanten und sind auf beiden Seiten halb zu sehen, sie werden nur dort gesetzt, wo beide Seiten frei sind.
-- **Schrift:** Playfair Display 900 für Überschriften, kursiv 700 für den Akzent (zweiter Teil des Hooks), Inter Tight für Fließtext, Caveat für Handschrift. Kopfzeile auf jeder Seite: Name, „traumasensibles Coaching“, Handle.
-- **Farbwelt:** Rosa #ffc4e4, Braun #2a1710, Creme #f6efe6, Akzente Beere #b5347a und Butter. Seitenfolge wechselt je Beitrag (`themen`), Schlussseite immer Rosa.
-- **Seitentypen:** Papier (Überschrift plus weiße Karte mit gerissenem Rand und Klebeband), Label (Überschrift in rosa Bändern), Statement (Überschrift mit Marker), Zitat, Chat (Du sagst / Manchmal meinst du), Schlussseite (Hinweis mit Button „Link in der Bio“, bei Buch ein Polaroid mit dem Buchfoto).
-- **Cover:** Freisteller (Maske aus `data/masken/`) mit weißem Rand vor gerissenem Papier, Überschrift oben, Untertitel auf einem Papierstreifen. Die Person beginnt unter der Überschrift, nie darunter drüber; der Gesichtsschutz prüft zusätzlich alles, was nach der Person gezeichnet wird. Jedes Foto nur einmal als Cover (`render/covers.mjs`), danach Textcover im selben Stil.
-- **Sticker:** eigene Zeichnungen (Herz, Funke, Blume, Tasse, Bücher, Sprechblase, Brief, Handy) mit weißem Rand, passend zum Text gewählt, bei Werbebeiträgen der Sticker des Angebots.
-- Ersatz: Scheitert der Designer-Stil, rendert `render/karussell.mjs` den früheren Foto-Typo-Stil.
+- **Cover:** Viral-Vorlagen (`render/viral.mjs`): Text hinter Nina, Chat, markierter Text, eingekreistes Kernwort, gestapeltes Wort. Jedes Foto nur einmal als Cover, danach Textcover auf Rosa, Butter oder Creme.
+- **Innenseiten** (`render/fotoinnen.mjs`), Variante wechselt je Beitrag und Seite: `gross` (riesige Überschrift, Rest darunter, Kringel), `stapel` (Kernwort dreifach, zwei Umrisse), `markiert` (iOS-Textmarkierung), `hand` (Überschrift plus Randnotiz in Caveat mit Pfeil), `blase` (iMessage-Blasen). Zitat und Schlussseite über `render/engine.mjs`. Der Text liegt immer im freien Band ohne Gesicht (`pickCrop`), Foto und Ausschnitt wechseln je Seite.
+- **Fotos gehen nicht aus:** Innenseiten nehmen jedes Foto in vielen Ausschnitten (Zoom 1 bis 1,5, oben/unten/links/rechts) und alle 34 Fotos ohne Ausschlussgrund (Porträts, Rückenansichten, Buchfotos); im selben Beitrag wird kein Foto doppelt benutzt.
+- **Farben:** keine dunklen Flächen. Die Abdunklung der Fotos ist neutral und nur hinter dem Text; Flächen nur Rosa, Butter, Creme mit Tannengrün (#33402f).
 
 ## Reels, Stories und der frühere Foto-Typo-Stil (bis 29.09.2026)
 

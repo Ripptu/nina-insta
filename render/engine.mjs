@@ -13,7 +13,7 @@ const FOTO_DIR = process.env.FOTO_DIR || path.join(os.homedir(), 'NINA')
 const MAC_CHROME = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
 const CHROME = process.env.CHROME_PATH || (fs.existsSync(MAC_CHROME) ? MAC_CHROME : undefined)
 const W = 1080
-const INK = 'rgba(24,12,6,'
+const INK = 'rgba(12,14,12,'
 
 const EXTRA = `
 .hd{font-weight:700;letter-spacing:-.045em;line-height:.88;text-shadow:0 2px 24px rgba(0,0,0,.3)}
@@ -135,8 +135,8 @@ export async function createEngine() {
   const pageHtml = (body, PH, bg) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}html,body{height:${PH}px}.page{height:${PH}px}</style></head><body><div class="page">${bg}${body}</div></body></html>`
   const bgFull = (p, crop, PH, dark = 0.14) =>
     `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:saturate(.86) contrast(1.06) brightness(.92)"></div>` +
-    `<div class="shade" style="background:rgba(20,10,5,${dark})"></div>`
-  const bandShade = (y0, y1, a) => `<div class="shade" style="background:linear-gradient(rgba(20,10,5,0) ${Math.max(0, y0 - 140)}px,${INK}${a}) ${y0}px,${INK}${a}) ${y1}px,rgba(20,10,5,0) ${y1 + 140}px)"></div>`
+    `<div class="shade" style="background:rgba(12,14,12,${dark})"></div>`
+  const bandShade = (y0, y1, a) => `<div class="shade" style="background:linear-gradient(rgba(12,14,12,0) ${Math.max(0, y0 - 140)}px,${INK}${a}) ${y0}px,${INK}${a}) ${y1}px,rgba(12,14,12,0) ${y1 + 140}px)"></div>`
   const logo = (PH, x = 44) => `<img class="logo" src="file://${HERE}../assets/logo-creme.png" style="width:150px;left:${x}px;top:${PH - 190}px">`
 
   const esc = Y.esc
@@ -206,10 +206,10 @@ export async function createEngine() {
       if (top + need > bottom) continue
       const s = Math.max(W / p.w, photoH / p.h)
       const dw = p.w * s, dh = p.h * s
-      const bg = `<div class="photo" style="bottom:auto;height:${photoH}px;background-image:url('${fotoUrl(p)}');background-size:${dw}px ${dh}px;background-position:${(W - dw) / 2}px ${(photoH - dh) * 0.55}px;filter:saturate(.9) contrast(1.05)"></div>` +
-        `<div class="shade" style="top:${photoH - 220}px;bottom:auto;height:220px;background:linear-gradient(rgba(42,23,16,0),#2a1710)"></div>`
-      let body = `<div class="abs tx" style="left:60px;top:${top}px;width:960px;font-size:${size}px;color:#fff;text-shadow:none">${esc(t)}</div>`
-      if (pillText) body += `<div class="abs cta" style="left:60px;top:${top + h + 34}px;font-size:46px;padding:16px 40px">${pillText}</div>`
+      const bg = `<div class="shade" style="background:#ffc4e4"></div><div class="photo" style="bottom:auto;height:${photoH}px;background-image:url('${fotoUrl(p)}');background-size:${dw}px ${dh}px;background-position:${(W - dw) / 2}px ${(photoH - dh) * 0.55}px;filter:saturate(.9) contrast(1.05)"></div>` +
+        `<div class="shade" style="top:${photoH - 220}px;bottom:auto;height:220px;background:linear-gradient(rgba(255,196,228,0),#ffc4e4)"></div>`
+      let body = `<div class="abs tx" style="left:60px;top:${top}px;width:960px;font-size:${size}px;color:#33402f;text-shadow:none">${esc(t)}</div>`
+      if (pillText) body += `<div class="abs cta" style="left:60px;top:${top + h + 34}px;font-size:46px;padding:16px 40px;background:#33402f;color:#fff">${pillText}</div>`
       return { html: pageHtml(body + logo(PH), PH, bg), crop: { zoom: 1 } }
     }
     return null
@@ -219,9 +219,9 @@ export async function createEngine() {
   /** Reines Textcover ohne Foto (wenn alle Fotos schon Cover waren). variant 0..2. */
   async function coverText(spec, { PH = 1350, variant = 0 } = {}) {
     const V = [
-      { bg: Y.BROWN, c: '#fff', acc: Y.PINK, logo: 'logo-creme.png' },
-      { bg: Y.PINK, c: '#2a1710', acc: '#fff', logo: 'logo-ink.png' },
-      { bg: Y.BROWN, c: Y.BUTTER, acc: Y.PINK, logo: 'logo-creme.png' },
+      { bg: Y.PINK, c: '#33402f', acc: '#d4147a', logo: 'logo-ink.png' },
+      { bg: Y.BUTTER, c: '#33402f', acc: '#d4147a', logo: 'logo-ink.png' },
+      { bg: '#f6efe6', c: '#33402f', acc: '#d4147a', logo: 'logo-ink.png' },
     ][variant % 3]
     const head = spec.head.replace(/\s+/g, ' ').trim()
     let a = head, b = ''
@@ -273,7 +273,7 @@ export function ranked(kind, used, seed = 0) {
     const o = BUCH_ORDER.map((i) => CAT[i])
     return [...o.filter((p) => !used.has(p.id)), ...o.filter((p) => used.has(p.id))]
   }
-  const pool = CAT.filter((p) => p.kind === 'portrait' || p.kind === 'ruecken')
+  const pool = CAT.filter((p) => p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch'))
   const n = pool.length
   const order = pool.map((p, i) => ({ p, k: p.tier * 1000 + ((i * 7 + seed * 5) % n) })).sort((a, b) => a.k - b.k).map((x) => x.p)
   return [...order.filter((p) => !used.has(p.id)), ...order.filter((p) => used.has(p.id))]

@@ -12,5 +12,6 @@ const posts = [...readPosts(), ...(fs.existsSync(AUTO_P) ? readPosts(AUTO_P) : [
 const reels = [...readReels(), ...(fs.existsSync(AUTO_R) ? readReels(AUTO_R) : [])].filter((r) => !ids.has(`r${String(r.nr).padStart(2, '0')}`) && !r.braucht_ton)
 console.log(`Vorrat: ${posts.length} Karussells, ${reels.length} Reels (ohne Ton) unproduziert`)
 const schreibe = (typ, n) => { try { execFileSync('node', ['automatik/neu-schreiben.mjs', '--typ', typ, '--anzahl', String(n)], { stdio: 'inherit' }) } catch { console.log(`Neuschreiben ${typ} fehlgeschlagen`) } }
-if (posts.length < 3) schreibe('karussell', 3)
-if (reels.length < 4) schreibe('reel', 4)
+if (posts.length < 6) schreibe('karussell', 4)
+const reelsAn = JSON.parse(fs.readFileSync(new URL('../plan/params.json', import.meta.url), 'utf8')).reels_aktiv
+if (reelsAn && reels.length < 4) schreibe('reel', 4)
