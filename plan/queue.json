@@ -1089,5 +1089,101 @@
     },
     "ig": null,
     "fehler": null
+  },
+  {
+    "id": "k21",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 21",
+    "titel": "Kein Wartezimmer",
+    "format": "Liste",
+    "angebot": "keins",
+    "kernthema": 4,
+    "fruehestens": null,
+    "dateien": [
+      "out/k21/01.jpg",
+      "out/k21/02.jpg",
+      "out/k21/03.jpg",
+      "out/k21/04.jpg",
+      "out/k21/05.jpg",
+      "out/k21/06.jpg",
+      "out/k21/07.jpg",
+      "out/k21/08.jpg"
+    ],
+    "caption": "Dein Leben ist kein Wartezimmer für später.\n\nViele schieben Dinge auf, „bis jemand da ist\": das gute Geschirr, die Reise, das schöne Bett. Als wäre Alleinsein eine Vorstufe zum eigentlichen Leben.\n\nWoran du das merkst:\nDu kochst nur richtig, wenn jemand mitisst.\nDu kaufst die guten Sachen erst „für später\".\nDu schiebst Pläne auf, weil du sie „eigentlich zu zweit machen wolltest\".\n\nNichts davon ist falsch. Nur lohnt es sich zu fragen, worauf du eigentlich wartest. Dein jetziges Leben zählt genauso, ob du gerade allein bist oder nicht.\n\nFür heute: Mach eine einzige Sache, die du dir „für später\" aufgehoben hast. Heute, nicht irgendwann.\n\nDu musst nicht warten, um es dir gut gehen zu lassen.\n\nFolge @ninahoemmencoaching, wenn du aufhören willst, dein Leben aufzuschieben.\n\nWas hebst du dir gerade „für später\" auf?",
+    "hashtags": [
+      "#singlesein",
+      "#alleinsein",
+      "#selbstfürsorge",
+      "#beziehungsmuster",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k22",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 22",
+    "titel": "Zurück zu dir, gemeinsam",
+    "format": "Angebot",
+    "angebot": "Veranstaltungen",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/k22/01.jpg",
+      "out/k22/02.jpg",
+      "out/k22/03.jpg",
+      "out/k22/04.jpg",
+      "out/k22/05.jpg",
+      "out/k22/06.jpg"
+    ],
+    "caption": "Manche Schritte gehen sich leichter zu mehreren.\n\nManche Themen lassen sich gut allein bearbeiten. Andere brauchen Menschen, die zuhören und verstehen, ohne dass du alles erklären musst.\n\nDer Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für genau das: ein fester Kreis, in dem Frauen sich regelmäßig begegnen.\n\nDie Abendreihe „Zurück zu dir – 8 Abende für Frauen\" begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.\n\nBeide Angebote sind ausdrücklich für Frauen gedacht und leben von der Gruppe, in der sich niemand allein fühlt mit ihrem Thema.\n\nMehr zu HERZ.ZEIT und „Zurück zu dir – 8 Abende für Frauen\" findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du gern in Gemeinschaft wächst statt allein.\n\nZiehst du lieber allein durch ein Thema oder in einer Gruppe?",
+    "hashtags": [
+      "#frauenkreis",
+      "#gemeinschaft",
+      "#zurückzudir",
+      "#traumasensibel",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k23",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 23",
+    "titel": "Deine eigene Handschrift",
+    "format": "Liste",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k23/01.jpg",
+      "out/k23/02.jpg",
+      "out/k23/03.jpg",
+      "out/k23/04.jpg",
+      "out/k23/05.jpg",
+      "out/k23/06.jpg",
+      "out/k23/07.jpg"
+    ],
+    "caption": "Du weißt genau, was du fühlst. Nur aufgeschrieben hast du es noch nie.\n\nVieles bleibt im Kopf hängen, weil es nie irgendwo hin darf. Ein Blatt Papier hört nicht auf, wieder zu fragen. Es hält nur fest, was du ihm gibst.\n\nDrei Fragen für den Anfang: Was war heute leicht, was war schwer? Wo hast du Ja gesagt und Nein gemeint? Wonach sehnst du dich gerade wirklich?\n\nEin Satz reicht manchmal aus. Er muss nicht lang oder klug sein, nur ehrlich, und er muss dir gehören.\n\nFür heute: Leg dir einen Zettel neben das Bett und schreib einen einzigen Satz auf, bevor du schläfst.\n\nIn meinem Shop findest du Journale und Karten, die genau dafür gemacht sind, zum Beispiel „90 Tage näher zu dir\" und „Deine Beziehungslandkarte\". Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst öfter zuhören willst.\n\nWelchen Satz würdest du heute Abend aufschreiben?",
+    "hashtags": [
+      "#journaling",
+      "#selbstreflexion",
+      "#beziehungsmuster",
+      "#innereklarheit",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
   }
 ]

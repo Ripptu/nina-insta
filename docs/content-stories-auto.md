@@ -49,3 +49,48 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 
 ---
 
+## Story 20: Wenn es eng wird
+- Interaktion: Umfrage
+- Kernthema: 2
+- Ziel: Den Rückzug nach schönen Momenten als bekanntes Muster erkennbar machen, ohne ihn zu bewerten.
+- Text auf dem Hintergrund: „Wird es dir manchmal zu eng, kurz nachdem es schön war? Das ist kein Fehler an dir. Achte heute nur darauf, wann der Impuls kommt.“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Wird es dir manchmal zu eng, kurz nachdem es schön war?“ Antworten: „Eher selten“ / „Eher oft“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Wird es dir manchmal zu eng, kurz nachdem es schön war? Fühlst du das eher selten oder eher oft? Das ist kein Fehler an dir, achte heute nur darauf, wann der Impuls kommt. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 21: Nicht du selbst
+- Interaktion: Fragebox
+- Kernthema: 3
+- Ziel: Eine konkrete Situation sichtbar machen, in der Anpassung passiert, als erster Schritt zur Selbstwahrnehmung.
+- Text auf dem Hintergrund: „In welcher Situation wirst du gerade kleiner, als du bist? Schau sie dir einen Moment an. Du darfst da auch mit Platz sein.“
+- Sticker (von Hand in der App, freiwillig für Nina): Fragebox. Frage: „In welcher Situation wirst du gerade kleiner, als du bist?“ Antwort: frei
+- Hintergrund: Foto von Nina (Natur/Alltag)
+- Automatik-Fassung (ohne Sticker): „In welcher Situation wirst du gerade kleiner, als du bist? Schau sie dir einen Moment an. Du darfst da auch mit Platz sein. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 22: Die Stille am Abend
+- Interaktion: Quiz
+- Kernthema: 4
+- Ziel: Alleinsein als eigenen Wert zeigen statt als Übergangszustand vor der nächsten Beziehung.
+- Text auf dem Hintergrund: „Was glaubst du? Ein stiller Abend allein ist …“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Was glaubst du?“ Antworten: „Verlorene Zeit“ / „Ein Warteraum“ / „Auch schon dein Leben“. Als richtig markieren: „Auch schon dein Leben“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Ein Abend allein ist nicht die Pause vor dem eigentlichen Leben. Er zählt genauso. Frag dich, was dir an so einem Abend guttut, ganz ohne dass danach noch etwas anderes kommen muss.“
+- Hintergrund: Foto von Nina am See (von hinten)
+- Automatik-Fassung (ohne Sticker): „Was glaubst du: Ist ein stiller Abend allein verlorene Zeit, ein Warteraum oder auch schon dein Leben? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 23: Zwischen Nähe und Abstand
+- Interaktion: Schieberegler
+- Kernthema: 2
+- Ziel: Erlaubnis geben, den eigenen Abstandsbedarf von Tag zu Tag verschieden zu spüren.
+- Text auf dem Hintergrund: „Wie viel Abstand brauchst du heute, um dich sicher zu fühlen? Es ist in Ordnung, wenn die Antwort heute anders ist als gestern.“ Unter dem Reglerbereich links „wenig“, rechts „viel“.
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie viel Abstand brauchst du heute?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Wie viel Abstand brauchst du heute, um dich sicher zu fühlen: wenig, etwas oder viel? Es ist in Ordnung, wenn die Antwort heute anders ist als gestern. Schreib mir ein Wort als Nachricht.“
+
+---
+

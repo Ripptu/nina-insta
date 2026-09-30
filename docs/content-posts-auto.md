@@ -309,3 +309,153 @@ Ziehst du lieber allein durch ein Thema oder in einer Gruppe?
 
 ---
 
+## Karussell 23: Deine eigene Handschrift
+- Format: Liste
+- Kernthema: 3
+- Angebot: Shop
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover hell | **Du weißt genau, was du fühlst.** / Nur aufgeschrieben hast du es noch nie. |
+| 2 | Textseite | Vieles bleibt im Kopf hängen, weil es nie irgendwo hin darf. Ein Blatt Papier hört nicht auf, wieder zu fragen. Es hält nur fest, was du ihm gibst. |
+| 3 | Liste | Was war heute leicht, was war schwer? Wo hast du Ja gesagt und Nein gemeint? Wonach sehnst du dich gerade wirklich? Drei Fragen, mehr braucht ein Anfang nicht. |
+| 4 | Liste | Ein Satz reicht manchmal aus. Kein Text muss lang oder klug sein. Er muss nur ehrlich sein, und er muss dir gehören. |
+| 5 | Liste | Manche schreiben abends drei Zeilen, andere morgens eine Seite. Es gibt keine richtige Reihenfolge, nur deine eigene. |
+| 6 | Textseite | Leg dir heute einen Zettel neben das Bett und schreib einen einzigen Satz auf, bevor du schläfst. Das reicht als Anfang. |
+| 7 | Schlussseite (Foto) | In meinem Shop findest du Journale und Karten, die genau dafür gemacht sind, zum Beispiel „90 Tage näher zu dir" und „Deine Beziehungslandkarte". Link in der Bio. |
+
+**Caption:**
+Du weißt genau, was du fühlst. Nur aufgeschrieben hast du es noch nie.
+
+Vieles bleibt im Kopf hängen, weil es nie irgendwo hin darf. Ein Blatt Papier hört nicht auf, wieder zu fragen. Es hält nur fest, was du ihm gibst.
+
+Drei Fragen für den Anfang: Was war heute leicht, was war schwer? Wo hast du Ja gesagt und Nein gemeint? Wonach sehnst du dich gerade wirklich?
+
+Ein Satz reicht manchmal aus. Er muss nicht lang oder klug sein, nur ehrlich, und er muss dir gehören.
+
+Für heute: Leg dir einen Zettel neben das Bett und schreib einen einzigen Satz auf, bevor du schläfst.
+
+In meinem Shop findest du Journale und Karten, die genau dafür gemacht sind, zum Beispiel „90 Tage näher zu dir" und „Deine Beziehungslandkarte". Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du dir selbst öfter zuhören willst.
+
+Welchen Satz würdest du heute Abend aufschreiben?
+
+**Hashtags:** #journaling #selbstreflexion #beziehungsmuster #innereklarheit #traumasensibel
+
+---
+
+## Karussell 24: Der erste Schritt kostet nichts
+- Format: Werbung
+- Kernthema: 3
+- Angebot: Coaching
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Der erste Schritt kostet dich nichts.** / Nur ein Gespräch, mehr nicht. |
+| 2 | Textseite | Ein Erstgespräch von etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. Kostenfrei und unverbindlich, nur damit du merkst, ob es passt. |
+| 3 | Textseite | Im Coaching schauen wir gemeinsam auf die Muster, die sich in deinen Beziehungen wiederholen, traumasensibel und in deinem Tempo. |
+| 4 | Textseite | Coaching arbeitet auch mit dem Körper. Manches sitzt nicht nur im Kopf, sondern auch in einer Anspannung, die du kaum noch bemerkst. |
+| 5 | Textseite | Du kannst in Oldenburg vorbeikommen oder online arbeiten, von wo du gerade bist. Beides ist möglich, beides ist vollwertig. |
+| 6 | Textseite | Du musst nicht wissen, was genau das Problem ist, um anzufangen. Ein erstes Gespräch reicht, um zu merken, ob es stimmt. |
+| 7 | Schlussseite | Das Erstgespräch ist kostenfrei und unverbindlich. Link in der Bio. |
+
+**Caption:**
+Der erste Schritt kostet dich nichts. Nur ein Gespräch, mehr nicht.
+
+Ein Erstgespräch von etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. Kostenfrei und unverbindlich, nur damit du merkst, ob es passt.
+
+Im Coaching schauen wir gemeinsam auf die Muster, die sich in deinen Beziehungen wiederholen, traumasensibel und in deinem Tempo.
+
+Coaching arbeitet auch mit dem Körper. Manches sitzt nicht nur im Kopf, sondern auch in einer Anspannung, die du kaum noch bemerkst.
+
+Du kannst in Oldenburg vorbeikommen oder online arbeiten, von wo du gerade bist. Beides ist möglich, beides ist vollwertig.
+
+Du musst nicht wissen, was genau das Problem ist, um anzufangen. Ein erstes Gespräch reicht, um zu merken, ob es stimmt.
+
+Das Erstgespräch ist kostenfrei und unverbindlich. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du wissen willst, wie traumasensibles Coaching aussehen kann.
+
+Was würdest du in einem ersten Gespräch am liebsten loswerden?
+
+**Hashtags:** #coaching #erstgespräch #beziehungscoaching #traumasensibel #oldenburg
+
+---
+
+## Karussell 25: Die Unverbindlichen
+- Format: Liste
+- Kernthema: 1
+- Angebot: Coaching
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover hell | **Wieder einer, der sich nicht entscheidet.** / Das Muster kennst du vielleicht besser, als dir lieb ist. |
+| 2 | Textseite | Er ist nett, aufmerksam, fast greifbar. Nur festlegen will er sich nie. Und du wartest, weil es sich fast wie genug anfühlt. |
+| 3 | Liste | Was zieht dich an ihm an? Oft ist es genau das Vielleicht, das offene Ende. Vertrautheit fühlt sich manchmal nach Spannung an, nicht nach Ruhe. |
+| 4 | Liste | Frag dich, wie es sich anfühlt, wenn du nicht auf eine Antwort wartest. Ruhig oder leer? Der Unterschied zeigt dir, was du wirklich suchst. |
+| 5 | Liste | Unverbindlichkeit ist kein Makel an dir, sie ist ein Muster. Muster lassen sich verstehen und verändern, nur nicht von heute auf morgen. |
+| 6 | Textseite | Du musst niemanden von dir überzeugen, der sich nicht entscheiden will. Deine Zeit gehört dir, auch wenn das Warten sich vertraut anfühlt. |
+| 7 | Schlussseite | Wenn du das Muster durchbrechen willst, ist ein kostenfreies Erstgespräch ein guter Anfang, telefonisch oder in meinen Räumen in Oldenburg. Link in der Bio. |
+
+**Caption:**
+Wieder einer, der sich nicht entscheidet. Das Muster kennst du vielleicht besser, als dir lieb ist.
+
+Er ist nett, aufmerksam, fast greifbar. Nur festlegen will er sich nie. Und du wartest, weil es sich fast wie genug anfühlt.
+
+Was zieht dich an ihm an? Oft ist es genau das Vielleicht, das offene Ende. Vertrautheit fühlt sich manchmal nach Spannung an, nicht nach Ruhe.
+
+Frag dich, wie es sich anfühlt, wenn du nicht auf eine Antwort wartest. Ruhig oder leer? Der Unterschied zeigt dir, was du wirklich suchst.
+
+Unverbindlichkeit ist kein Makel an dir, sie ist ein Muster. Muster lassen sich verstehen und verändern, nur nicht von heute auf morgen.
+
+Du musst niemanden von dir überzeugen, der sich nicht entscheiden will. Deine Zeit gehört dir, auch wenn das Warten sich vertraut anfühlt.
+
+Wenn du das Muster durchbrechen willst, ist ein kostenfreies Erstgespräch ein guter Anfang, telefonisch oder in meinen Räumen in Oldenburg. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du aufhören willst, auf Entscheidungen anderer zu warten.
+
+Auf wessen Antwort wartest du gerade?
+
+**Hashtags:** #beziehungsmuster #unverbindlich #datingtipps #beziehungscoaching #traumasensibel
+
+---
+
+## Karussell 26: Woher das Muster kommt
+- Format: Liste
+- Kernthema: 1
+- Angebot: Buch
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover dunkel | **Muster fallen nicht vom Himmel.** / Sie haben einen Anfang, den du finden kannst. |
+| 2 | Textseite | Was sich in der Liebe wiederholt, hat meist eine Geschichte davor. Nicht um Schuld zu verteilen, sondern um zu verstehen, warum du reagierst, wie du reagierst. |
+| 3 | Liste | Manchmal beginnt es früh, mit dem Gefühl, dass Nähe erst verdient werden muss oder dass Zuneigung unsicher ist. |
+| 4 | Liste | Das Muster ist dann kein Fehler an dir. Es war einmal ein Schutz, nur passt er jetzt nicht mehr zu deinem Leben. |
+| 5 | Liste | Verstehen ist nicht dasselbe wie verzeihen müssen. Du darfst eine Grenze ziehen, wenn dir jemand nicht mit Respekt begegnet, egal woher das Muster stammt. |
+| 6 | Textseite | Frag dich heute einmal: Wann habe ich das erste Mal gelernt, dass Nähe unsicher ist? Die Antwort muss niemand hören außer dir. |
+| 7 | Schlussseite (Foto: Nina mit Buch) | In meinem Buch „Zwischen Single-Sein & falscher Nähe" gehe ich diesen Anfängen nach, Kapitel für Kapitel. Link in der Bio. |
+
+**Caption:**
+Muster fallen nicht vom Himmel. Sie haben einen Anfang, den du finden kannst.
+
+Was sich in der Liebe wiederholt, hat meist eine Geschichte davor. Nicht um Schuld zu verteilen, sondern um zu verstehen, warum du reagierst, wie du reagierst.
+
+Manchmal beginnt es früh, mit dem Gefühl, dass Nähe erst verdient werden muss oder dass Zuneigung unsicher ist.
+
+Das Muster ist dann kein Fehler an dir. Es war einmal ein Schutz, nur passt er jetzt nicht mehr zu deinem Leben.
+
+Verstehen ist nicht dasselbe wie verzeihen müssen. Du darfst eine Grenze ziehen, wenn dir jemand nicht mit Respekt begegnet, egal woher das Muster stammt.
+
+Für heute: Frag dich, wann du das erste Mal gelernt hast, dass Nähe unsicher ist. Die Antwort muss niemand hören außer dir.
+
+In meinem Buch „Zwischen Single-Sein & falscher Nähe" gehe ich diesen Anfängen nach, Kapitel für Kapitel. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, woher deine Muster kommen.
+
+Welcher frühe Moment fällt dir dazu als Erstes ein?
+
+**Hashtags:** #beziehungsmuster #innerekind #selbstverstehen #buchtipp #traumasensibel
+
+---
+
