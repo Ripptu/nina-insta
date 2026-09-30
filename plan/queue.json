@@ -1117,9 +1117,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-30T08:48:10.902Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1148,9 +1152,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-30T08:47:15.180Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1180,9 +1188,13 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-09-30T08:47:09.647Z"
+    },
     "ig": null,
     "fehler": null
   }
