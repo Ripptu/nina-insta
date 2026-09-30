@@ -27,7 +27,7 @@ export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr,
     let done = false
     const gesperrt = pg.role === 'cover' ? benutzteCoverFotos(`k${post.nr}`) : new Set()
     // Fotos von Nina nur auf dem Cover; Buch-Angebotsseite darf ein Buchfoto (Gegenstand) zeigen, sonst Farbfläche
-    const cands = pg.role === 'cover' ? ranked('portrait', used, seed + pg.n).filter((x) => !gesperrt.has(x.id)) : pg.role === 'buch' ? [...ranked('buch', used, seed + pg.n), null] : [...ranked('innen', used, seed + pg.n).slice(0, 14), null]
+    const cands = pg.role === 'cover' ? ranked('portrait', used, seed + pg.n, post.angebot !== 'Buch').filter((x) => !gesperrt.has(x.id)) : pg.role === 'buch' ? [...ranked('buch', used, seed + pg.n), null] : [...ranked('innen', used, seed + pg.n, post.angebot !== 'Buch').slice(0, 14), null]
     for (const p of cands) {
       let r = null
       if (pg.role === 'cover') {

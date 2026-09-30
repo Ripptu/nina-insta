@@ -1,12 +1,14 @@
 name: Veröffentlichen
 on:
   schedule:
-    # Feed ab 20:00 Berlin, mehrere Versuche, weil GitHub-Cron oft verspätet startet; das Skript prüft die Ortszeit
-    # (Fenster 20:00–22:30) und veröffentlicht höchstens einen Feed-Beitrag pro Tag.
-    - cron: "5,35 18,19,20 * * 1-5"
-    # Stories ab 12:30 Berlin, ebenfalls mehrfach
-    - cron: "35 10,11,12 * * 2,4,0"
-    - cron: "5 11,12,13 * * 2,4,0"
+    # GitHub lässt geplante Läufe manchmal aus oder startet sie Stunden später (am 29.09. fielen alle Abendläufe weg).
+    # Deshalb viele dichte Läufe; das Skript veröffentlicht höchstens einen Feed-Beitrag pro Tag (Berliner Zeit).
+    # Feed: Fenster ab 20:00 Berlin (bis 24:00), Läufe alle 15 Minuten von 19 bis 24 Uhr Sommerzeit
+    - cron: "*/15 17-21 * * 1-5"
+    # Nachholen am Morgen, falls der Abend ausgefallen ist (07:00 bis 12:00 Berlin, Di bis Sa früh)
+    - cron: "10 5-9 * * 2-6"
+    # Stories: Fenster ab 12:30 Berlin, Läufe alle halbe Stunde
+    - cron: "*/30 10-14 * * 2,4,0"
   workflow_dispatch:
     inputs:
       trocken: { description: "Trockenlauf (nichts veröffentlichen)", type: boolean, default: true }
@@ -24,7 +26,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
-      - uses: ./.github/actions/werkzeuge
       - name: Veröffentlichen
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

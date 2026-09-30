@@ -22,17 +22,23 @@ const params = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), '
 const jetztZeit = new Date()
 const b = berlin(jetztZeit)
 const q = await ladeQueue()
-const heuteVeroeffentlicht = (typen) => q.some((x) => x.status === 'veroeffentlicht' && typen.includes(x.typ) && x.ig?.am && berlin(new Date(x.ig.am)).datum === b.datum)
+const amTag = (datum, typen) => q.some((x) => typen.includes(x.typ) && ((x.status === 'veroeffentlicht' && x.ig?.am && berlin(new Date(x.ig.am)).datum === datum) || (x.status === 'unklar' && x.unklarAm && berlin(new Date(x.unklarAm)).datum === datum)))
+const heuteVeroeffentlicht = (typen) => amTag(b.datum, typen)
+// Nachholen am Morgen: GitHub lässt geplante Läufe manchmal aus. War der gestrige Feed-Termin (Mo bis Fr) ohne Beitrag,
+// wird zwischen 07:00 und 12:00 Berliner Zeit einer nachgeholt.
+const gestern = berlin(new Date(jetztZeit.getTime() - 864e5))
+const feedNachholen = !!params.feed.tage[String(gestern.wochentag)] && b.minutenSeitMitternacht >= 420 && b.minutenSeitMitternacht < 720 && !amTag(gestern.datum, ['karussell', 'reel']) && !amTag(b.datum, ['karussell', 'reel'])
 
 const jobs = []
 // Feed
 const feedArt = params.feed.tage[String(b.wochentag)]
-if ((!typArg || typArg !== 'story') && feedArt && (jetzt || inFenster(jetztZeit, params.feed.uhrzeit, params.feed.fenster_min))) {
+if ((!typArg || typArg !== 'story') && ((feedArt && (jetzt || inFenster(jetztZeit, params.feed.uhrzeit, params.feed.fenster_min))) || feedNachholen)) {
+  if (feedNachholen && !jetzt) log('Gestern kein Feed-Beitrag: hole ihn jetzt nach.')
   const monat = b.datum.slice(0, 7)
   const imMonat = veroeffentlichteFeed(q).filter((x) => berlin(new Date(x.ig.am)).datum.startsWith(monat)).length
   if (heuteVeroeffentlicht(['karussell', 'reel']) && !jetzt) log('Heute schon ein Feed-Beitrag veröffentlicht.')
   else if (imMonat >= params.feed.max_pro_monat) log(`Monatsgrenze ${params.feed.max_pro_monat} erreicht.`)
-  else jobs.push({ typ: typArg && typArg !== 'story' ? typArg : feedArt, serie: b.wochentag === params.reel_serie_tag })
+  else jobs.push({ typ: typArg && typArg !== 'story' ? typArg : feedArt || params.feed.tage[String(gestern.wochentag)], serie: b.wochentag === params.reel_serie_tag })
 }
 // Stories
 if ((!typArg || typArg === 'story') && params.stories.tage.includes(b.wochentag) && (jetzt || inFenster(jetztZeit, params.stories.uhrzeit, params.stories.fenster_min))) {
@@ -83,21 +89,25 @@ for (const job of jobs) {
       await speichereQueue(q)
       log(`Veröffentlicht: ${r.permalink}`)
       // Quiz-Stories haben eine zweite Datei (Auflösung): gleich danach als eigene Story veröffentlichen
+      let aufloesungOffen = false
       if (item.typ === 'story') for (const d of dateien.slice(1)) {
-        try { const r2 = await ig.veroeffentlicheStory({ datei: d }, opts); log(`Auflösung veröffentlicht: ${r2.permalink}`) } catch (e2) { log(`Auflösung nicht veröffentlicht: ${String(e2.message).slice(0, 200)}`) }
+        try { const r2 = await ig.veroeffentlicheStory({ datei: d }, opts); log(`Auflösung veröffentlicht: ${r2.permalink}`) } catch (e2) { log(`Auflösung nicht veröffentlicht: ${String(e2.message).slice(0, 200)}`); aufloesungOffen = true; item.fehler = 'Auflösung nicht veröffentlicht: ' + String(e2.message).slice(0, 200) }
       }
       // Bilder werden nicht mehr gebraucht; sie bleiben nur in der Git-Historie
-      try { fs.rmSync(path.dirname(dateien[0]), { recursive: true, force: true }) } catch {}
+      if (!aufloesungOffen) { try { fs.rmSync(path.dirname(dateien[0]), { recursive: true, force: true }) } catch {} } else { await speichereQueue(q); fehler++ }
     } else log('Trockenlauf ok', JSON.stringify(r).slice(0, 300))
   } catch (e) {
     const meldung = String(e.message || e).slice(0, 500)
     item.fehler = meldung
     // Nur Fehler am Beitrag selbst zählen als Versuch (Datei, Caption, Container). Globale Fehler (Token, Rechte, Ratenlimit,
     // Netzwerk, Ausfall) verbrennen keinen Beitrag: er bleibt „geprüft“ und der nächste Versuch kommt vom nächsten Takt.
-    const beitragsFehler = /Datei nicht gefunden|Keine gültige Datei|JPEG|zu groß|Caption|Hashtags|braucht 2 bis 10|status_code ERROR|abgelaufen \(24 h\)|ungültiger Parameter|Zeitüberschreitung: /i.test(meldung)
+    // Nur erkannte globale Ursachen zählen nicht als Versuch; alles andere ist ein Fehler am Beitrag (Bild, Format, Container)
+    const global = e.status === 429 || e.status >= 500 || [4, 10, 17, 32, 190, 200, 613].includes(e.code) || (e.code === 100 && e.subcode === 33) || /Netzwerkfehler|Medien-Repo|nicht erreichbar|Publishing-Limit|Umgebungsvariable|TOKEN|Token|MEDIA_|PAUSE/.test(meldung)
+    const beitragsFehler = !global
     if (e.unklar) {
       // Instagram hat evtl. schon veröffentlicht: nie automatisch wiederholen, sonst Doppelpost. Christian prüft das Profil.
       item.status = 'unklar'
+      item.unklarAm = new Date().toISOString()
       log(`UNKLAR bei ${item.id}: möglicherweise schon veröffentlicht, wird nicht wiederholt. ${meldung}`)
     } else if (beitragsFehler) {
       item.versuche = (item.versuche || 0) + 1

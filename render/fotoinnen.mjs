@@ -9,7 +9,7 @@ const esc = Y.esc
 // Anführungszeichen nur bei „Vorher: „…“ / „Du sagst: „…“ weglassen (in Riesenschrift wirken sie wie Fehler); Produktnamen behalten sie
 const ohneAnf = (t) => (/^(Vorher|Nachher|Du sagst|Manchmal meinst du)\b[^„“"]{0,6}[„"“]/.test(t) ? t.replace(/[„“”"]/g, '') : t).replace(/\s+/g, ' ').trim()
 const W = 1080
-const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
+const sentences = (t) => t.match(/(?:[^.!?]|[.!?](?=[^\s"“”.!?]))+[.!?]+["“”]*\s*|.+$/g)?.map((s) => s.trim()) ?? [t]
 const STOP = new Set('wenn dass damit weil aber oder dann doch wie was wer wo ich du mich dich mir dir nachher vorher manchmal sagst sag nimm nur auch noch schon immer wieder eigentlich vielleicht'.split(' '))
 const langesWort = (t) => t.replace(/[.,!?„“"”:;]/g, '').split(/\s+/).slice(1).filter((w) => /^[A-ZÄÖÜ]/.test(w) && w.length >= 4 && !w.includes('-') && !STOP.has(w.toLowerCase())).sort((a, b) => b.length - a.length)[0] || ''
 export const VARIANTEN = ['gross', 'stapel', 'markiert', 'hand', 'blase']

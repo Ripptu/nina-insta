@@ -15,7 +15,7 @@ export const PALETTEN = {
 const PAARE = [['creme', 'rosa'], ['butter', 'rosa'], ['rosa', 'creme'], ['rosa', 'butter'], ['creme', 'butter'], ['butter', 'creme']]
 export const paletteFor = (nr, seite) => PALETTEN[PAARE[(nr - 1) % PAARE.length][(seite - 1) % 2]]
 
-const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
+const sentences = (t) => t.match(/(?:[^.!?]|[.!?](?=[^\s"“”.!?]))+[.!?]+["“”]*\s*|.+$/g)?.map((s) => s.trim()) ?? [t]
 const esc = Y.esc
 const W = 1080
 

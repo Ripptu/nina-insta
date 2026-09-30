@@ -5,6 +5,8 @@ import path from 'node:path'
 import { ladeQueue, speichereQueue } from './queue.mjs'
 import { createEngine } from '../render/engine.mjs'
 import { readPosts } from '../render/inhalt.mjs'
+const ANGEBOTE = JSON.parse(fs.readFileSync(new URL('../data/angebote.json', import.meta.url), 'utf8'))
+const sperre = (post) => { const min = ANGEBOTE[String(post.angebot || '').toLowerCase().replace(/^veranstaltung.*/, 'veranstaltungen')]?.fruehestens; const fr = post.fruehestens && /^\d{4}-\d{2}-\d{2}$/.test(post.fruehestens) ? post.fruehestens : null; return [fr, min].filter(Boolean).sort().pop() || null }
 const AUTO = new URL('../docs/content-posts-auto.md', import.meta.url)
 const alleBeitraege = () => [...readPosts(), ...(fs.existsSync(AUTO) ? readPosts(AUTO) : [])]
 import { buildCarousel } from '../render/karussell.mjs'
@@ -30,10 +32,11 @@ try {
       if (neu >= anzahl) break
       const out = path.join(ROOT, 'out', id)
       fs.rmSync(out, { recursive: true, force: true })
-      const r = await buildCarousel(eng, post, out)
+      let r
+      try { r = await buildCarousel(eng, post, out) } catch (e) { console.log(`Karussell ${id} ${post.titel} nicht produziert: ${e.message}`); process.exitCode = 1; continue }
       q.push({
         id, typ: 'karussell', quelle: `docs/content-posts.md#Karussell ${post.nr}`, titel: post.titel, format: post.format || null, angebot: /^veranstaltung/i.test(post.angebot || '') ? 'Veranstaltungen' : post.angebot || 'keins',
-        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: post.fruehestens && post.fruehestens !== 'null' && /^\d{4}-\d{2}-\d{2}$/.test(post.fruehestens) ? post.fruehestens : null,
+        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: sperre(post),
         dateien: r.files.map(rel), caption: post.caption, hashtags: tags(post.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null,
       })
       await speichereQueue(q)

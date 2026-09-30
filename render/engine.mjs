@@ -16,7 +16,7 @@ const W = 1080
 const INK = 'rgba(12,14,12,'
 
 const EXTRA = `
-.hd{font-weight:700;letter-spacing:-.04em;line-height:.96;text-shadow:0 2px 24px rgba(0,0,0,.3)}
+.hd{font-weight:700;letter-spacing:-.04em;line-height:1.04;text-shadow:0 2px 24px rgba(0,0,0,.3)}
 .tx{font-weight:500;letter-spacing:-.02em;line-height:1.16;text-shadow:0 1px 14px rgba(0,0,0,.35)}
 .cta{display:inline-block;background:#fff;color:#1c1c1c;font-weight:600;letter-spacing:-.02em;border-radius:60px;box-shadow:0 3px 14px rgba(0,0,0,.25)}
 `
@@ -143,7 +143,7 @@ export async function createEngine() {
   const logo = (PH, x = 44) => `<img class="logo" src="file://${HERE}../assets/logo-creme.png" style="width:150px;left:${x}px;top:${PH - 190}px">`
 
   const esc = Y.esc
-  const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
+  const sentences = (t) => t.match(/(?:[^.!?]|[.!?](?=[^\s"“”.!?]))+[.!?]+["“”]*\s*|.+$/g)?.map((s) => s.trim()) ?? [t]
 
   /** Cover: große Überschrift (letzter Teil rosa) und Handschrift-Zeile. */
   async function cover(spec, p, { PH = 1350, lo = 70, hi } = {}) {
@@ -286,12 +286,12 @@ export async function createEngine() {
 // ---------- Fotoauswahl ----------
 const BUCH_ORDER = [38, 39, 42, 35]
 /** Kandidaten für eine Seite, unbenutzte zuerst, ruhige Fotos (tier 1) vor unruhigen. */
-export function ranked(kind, used, seed = 0) {
+export function ranked(kind, used, seed = 0, ohneBuch = false) {
   if (kind === 'buch') {
     const o = BUCH_ORDER.map((i) => CAT[i])
     return [...o.filter((p) => !used.has(p.id)), ...o.filter((p) => used.has(p.id))]
   }
-  const pool = CAT.filter((p) => p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch'))
+  const pool = CAT.filter((p) => (p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch')) && !(ohneBuch && (p.kind === 'buch' || [31, 32].includes(p.id))))
   const n = pool.length
   const order = pool.map((p, i) => ({ p, k: p.tier * 1000 + ((i * 7 + seed * 5) % n) })).sort((a, b) => a.k - b.k).map((x) => x.p)
   return [...order.filter((p) => !used.has(p.id)), ...order.filter((p) => used.has(p.id))]

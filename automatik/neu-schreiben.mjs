@@ -98,6 +98,7 @@ function pruefe(text) {
   } catch (e) { return `Parser: ${e.message}` } finally { fs.rmSync(tmp, { force: true }) }
   if (story) return pruefeStories(gelesen, plan, { titel: vorhanden.map((s) => s.titel), texte: vorhanden.flatMap((s) => [s.text, s.aufloesung]).filter(Boolean) })
   if (gelesen.length !== anzahl) return `${gelesen.length} statt ${anzahl} lesbare Blöcke`
+  { const nrs = gelesen.map((g) => g.nr); if (new Set(nrs).size !== nrs.length) return 'Nummern doppelt vergeben' }
   for (const g of gelesen) {
     const tags = (g.hashtags || '').split(/\s+/).filter((x) => x.startsWith('#'))
     if (tags.length > 5 || !tags.length) return `${cfg.wort} ${g.nr}: Hashtags ${tags.length}`

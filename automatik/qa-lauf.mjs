@@ -42,7 +42,9 @@ const worker = async () => {
       ausfaelle++
       const versuche = (item.qa_versuche || 0) + 1
       console.log(`${item.id}: ${v.gruende[0].slice(0, 200)} (Versuch ${versuche})`)
-      await eintragen(item.id, versuche >= 3 ? { qa: { verdikt: 'abgelehnt', gruende: v.gruende, am: new Date().toISOString() }, status: 'abgelehnt', qa_versuche: versuche } : { qa_versuche: versuche })
+      // Fiel in diesem Lauf die gesamte Prüfung aus, wird nichts hochgezählt (der Vorrat darf nicht verbrennen)
+      const alleFallenAus = () => todo.length && ausfaelle >= Math.min(todo.length, next)
+      await eintragen(item.id, alleFallenAus() ? {} : versuche >= 3 ? { qa: { verdikt: 'abgelehnt', gruende: v.gruende, am: new Date().toISOString() }, status: 'abgelehnt', qa_versuche: versuche } : { qa_versuche: versuche })
       continue
     }
     await eintragen(item.id, { qa: { verdikt: v.verdikt, gruende: v.gruende, am: new Date().toISOString() }, status: v.verdikt === 'ok' ? 'geprueft' : 'abgelehnt' })

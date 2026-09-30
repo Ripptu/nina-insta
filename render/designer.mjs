@@ -32,7 +32,7 @@ export function themen(nr, n) { return Array.from({ length: n }, () => TH) }
 
 // ---------- kleine Helfer ----------
 const rng = (seed) => { let s = seed >>> 0; return () => { s = (s + 0x6d2b79f5) >>> 0; let t = s; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296 } }
-const sentences = (t) => t.match(/[^.!?]+[.!?]+["“”]*\s*|[^.!?]+$/g)?.map((s) => s.trim()) ?? [t]
+const sentences = (t) => t.match(/(?:[^.!?]|[.!?](?=[^\s"“”.!?]))+[.!?]+["“”]*\s*|.+$/g)?.map((s) => s.trim()) ?? [t]
 const serifCss = (color, w = 900) => `font-family:${SERIF};font-weight:${w};line-height:1.04;letter-spacing:-.02em;text-wrap:balance;color:${color}`
 const sansCss = (color, w = 500) => `font-family:${SANS};font-weight:${w};line-height:1.28;letter-spacing:-.01em;color:${color}`
 

@@ -1,7 +1,7 @@
 {
   "feed": {
     "uhrzeit": "20:00",
-    "fenster_min": 150,
+    "fenster_min": 240,
     "tage": {
       "1": "karussell",
       "2": "karussell",
@@ -13,7 +13,7 @@
   },
   "stories": {
     "uhrzeit": "12:30",
-    "fenster_min": 150,
+    "fenster_min": 240,
     "tage": [
       2,
       4,

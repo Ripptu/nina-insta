@@ -424,6 +424,7 @@ async function pruefeLimit(ctx, api) {
   try {
     d = await api.get(`${api.uid}/content_publishing_limit`, { fields: 'quota_usage,config' }, 'Publishing-Limit prüfen');
   } catch (e) {
+    if ([190, 10, 200].includes(e.code)) throw e; // Token oder Rechte defekt: nicht erst Bilder hochladen
     ctx.log(`Publishing-Limit konnte nicht geprüft werden: ${e.message}`);
     return; // Instagram erzwingt das Limit ohnehin serverseitig
   }
