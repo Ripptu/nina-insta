@@ -1,14 +1,15 @@
 name: Veröffentlichen
 on:
   schedule:
-    # GitHub lässt geplante Läufe manchmal aus oder startet sie Stunden später (am 29.09. fielen alle Abendläufe weg).
-    # Deshalb viele dichte Läufe; das Skript veröffentlicht höchstens einen Feed-Beitrag pro Tag (Berliner Zeit).
-    # Feed: Fenster ab 20:00 Berlin (bis 24:00), Läufe alle 15 Minuten von 19 bis 24 Uhr Sommerzeit
-    - cron: "*/15 17-21 * * 1-5"
-    # Nachholen am Morgen, falls der Abend ausgefallen ist (07:00 bis 12:00 Berlin, Di bis Sa früh)
-    - cron: "10 5-9 * * 2-6"
-    # Stories: Fenster ab 12:30 Berlin, Läufe alle halbe Stunde
-    - cron: "*/30 10-14 * * 2,4,0"
+    # GitHub startet geplante Läufe unzuverlässig (am 29./30.09. fielen die meisten aus oder kamen Stunden zu spät,
+    # volle und halbe Stunden besonders oft). Deshalb krumme Minuten, viele Läufe und ein langes Nachholfenster.
+    # Das Skript veröffentlicht höchstens einen Feed-Beitrag pro Tag (Berliner Zeit).
+    # Feed ab 20:00 Berlin (Fenster bis 24:00)
+    - cron: "7,22,37,52 17-21 * * 1-5"
+    # Nachholen, falls gestern kein Feed-Beitrag kam: stündlich von 07:00 bis 19:00 Berlin (Di bis Sa)
+    - cron: "13 5-17 * * 2-6"
+    # Stories ab 12:30 Berlin (Fenster bis 16:30)
+    - cron: "9,41 10-14 * * 2,4,0"
   workflow_dispatch:
     inputs:
       trocken: { description: "Trockenlauf (nichts veröffentlichen)", type: boolean, default: true }

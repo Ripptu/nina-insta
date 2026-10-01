@@ -25,9 +25,9 @@ const q = await ladeQueue()
 const amTag = (datum, typen) => q.some((x) => typen.includes(x.typ) && ((x.status === 'veroeffentlicht' && x.ig?.am && berlin(new Date(x.ig.am)).datum === datum) || (x.status === 'unklar' && x.unklarAm && berlin(new Date(x.unklarAm)).datum === datum)))
 const heuteVeroeffentlicht = (typen) => amTag(b.datum, typen)
 // Nachholen am Morgen: GitHub lässt geplante Läufe manchmal aus. War der gestrige Feed-Termin (Mo bis Fr) ohne Beitrag,
-// wird zwischen 07:00 und 12:00 Berliner Zeit einer nachgeholt.
+// wird zwischen 07:00 und 20:00 Berliner Zeit einer nachgeholt.
 const gestern = berlin(new Date(jetztZeit.getTime() - 864e5))
-const feedNachholen = !!params.feed.tage[String(gestern.wochentag)] && b.minutenSeitMitternacht >= 420 && b.minutenSeitMitternacht < 720 && !amTag(gestern.datum, ['karussell', 'reel']) && !amTag(b.datum, ['karussell', 'reel'])
+const feedNachholen = !!params.feed.tage[String(gestern.wochentag)] && b.minutenSeitMitternacht >= 420 && b.minutenSeitMitternacht < 1200 && !amTag(gestern.datum, ['karussell', 'reel']) && !amTag(b.datum, ['karussell', 'reel'])
 
 const jobs = []
 // Feed
