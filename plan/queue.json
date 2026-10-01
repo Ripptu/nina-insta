@@ -67,14 +67,18 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-09-29T09:26:22.425Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18132638107741567",
+      "permalink": "https://www.instagram.com/p/Dd8t6oYFue4/",
+      "am": "2026-10-01T10:41:04.556Z"
+    },
     "fehler": null
   },
   {
