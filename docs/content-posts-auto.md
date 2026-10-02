@@ -27,7 +27,7 @@ Du erinnerst dich an den einen guten Abend, nicht an die drei stillen Wochen dan
 
 Was du siehst, ist echt. Nur zeigt es, wozu die Person fähig wäre, nicht, wozu sie sich entscheidet.
 
-Für heute: Schreibe auf, was du an der Person magst. Schreibe daneben, was sie in den letzten vier Wochen tatsächlich getan hat. Vergleiche beide Listen.
+Für heute: Mach zwei Listen. Links steht, was du an der Person magst. Rechts steht, was sie in den letzten vier Wochen tatsächlich getan hat. Lies beide nebeneinander.
 
 Potenzial ist keine Zusage. Du darfst auf das schauen, was wirklich da ist.
 
