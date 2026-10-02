@@ -90,23 +90,19 @@ Welche dieser Fragen stellst du dir am seltensten?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel, Fineline: Person im Pullover, abgewandt auf einem Sofa | **Du sagst „alles gut“. Nichts ist gut.** / Sätze über Nähe und was manchmal dahintersteckt. |
-| 2 | Textseite | Angst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Ein paar Sätze, die du vielleicht kennst, von dir oder von jemandem, der dir nahesteht. |
-| 3 | Vorher/Nachher (Beschriftung „Du sagst“ / „Manchmal meinst du“) | Du sagst: „Alles gut.“ / Manchmal meinst du: Das hat mich verletzt, und ich traue mich nicht, es zu sagen. |
-| 4 | Vorher/Nachher (wie Seite 3) | Du sagst: „Ich bin nicht so der Beziehungsmensch.“ / Manchmal meinst du: Beziehung hat sich für mich noch nie sicher angefühlt. |
-| 5 | Vorher/Nachher (wie Seite 3) | Du sagst: „Lass es uns locker angehen.“ / Manchmal meinst du: Ich mag dich. Genau das macht mir Angst. |
-| 6 | Vorher/Nachher (wie Seite 3) | Du sagst: „Ich brauche halt viel Freiraum.“ / Manchmal meinst du: Wenn du mir nah kommst, will mein Körper weglaufen. |
-| 7 | Textseite | Nimm einen Satz, den du oft sagst. Frag dich: Was würde ich sagen, wenn ich keine Angst hätte, zu viel zu sein? Du musst ihn nicht aussprechen. Ihn zu kennen, reicht für heute. |
-| 8 | Schlussseite | Wichtig: Nicht jeder Rückzug ist Angst. Wenn jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand gesunder Schutz. Hilfetelefone: „Gewalt gegen Frauen“ 116 016, „Gewalt an Männern“ 0800 123 99 00. |
-
-Vorlage: Auf den Seiten 3 bis 6 kann das Doodle unten links den unteren Block berühren; auf Seite 8 darf es die Nummer nicht verdecken.
+| 1 | Cover mit Foto (Nina, Porträt) | **Du sagst „alles gut“. Nichts ist gut.** |
+| 2 | Textseite | Angst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. |
+| 3 | Textseite | Du sagst: „Lass es uns locker angehen.“ Manchmal meinst du: Ich mag dich. Genau das macht mir Angst. |
+| 4 | Textseite | Nicht jeder Rückzug ist Angst. Bei Respektlosigkeit, Kontrolle oder Gewalt ist Abstand Schutz: Hilfetelefon „Gewalt gegen Frauen“ 116 016. |
+| 5 | Textseite | Nimm einen Satz, den du oft sagst. Was würdest du sagen, ohne Angst, zu viel zu sein? |
+| 6 | Schlussseite | Speichere dir das für den Moment, in dem du wieder „alles gut“ sagst. |
 
 **Caption:**
 Du sagst „alles gut“. Nichts ist gut.
 
 Angst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.
 
-Hinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Hinter „Lass es uns locker angehen“ steckt manchmal: Ich mag dich, und genau das macht mir Angst.
+„Alles gut“ heißt manchmal: Das hat mich verletzt, und ich traue mich nicht, es zu sagen. Hinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Und hinter „Ich brauche halt viel Freiraum“: Wenn du mir nah kommst, will mein Körper weglaufen.
 
 Dafür musst du dich nicht schämen. Solche Sätze haben dich einmal geschützt. Sie dürfen in deinem Tempo leiser werden.
 
@@ -118,7 +114,7 @@ Die Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie st
 
 Folge @ninahoemmencoaching, wenn du deine eigenen Schutzsätze besser verstehen willst.
 
-Welcher dieser Sätze ist deiner?
+Welcher dieser Sätze ist deiner? 🤍
 
 **Hashtags:** #angstvornähe #bindungsangst #beziehungsmuster #traumasensibel #coachingoldenburg
 
@@ -130,27 +126,23 @@ Welcher dieser Sätze ist deiner?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina am See, von hinten) | **Du bist nett zu allen. Außer zu dir.** / Sätze, die du innen anders sagen kannst. |
-| 2 | Textseite | Wer sich in Beziehungen immer wieder verliert, redet innen oft streng mit sich. Die Sätze klingen vernünftig. Sie sorgen dafür, dass alle zufrieden sind. Außer dir. |
-| 3 | Vorher/Nachher | Vorher: „Ich will keine Last sein.“ / Nachher: „Ich darf etwas brauchen.“ |
-| 4 | Vorher/Nachher | Vorher: „Ich bin zu empfindlich.“ / Nachher: „Das hat mich berührt. Das darf es.“ |
-| 5 | Vorher/Nachher | Vorher: „Hauptsache, alle sind zufrieden.“ / Nachher: „Und wie geht es mir dabei?“ |
-| 6 | Vorher/Nachher | Vorher: „Wenn ich mich mehr anstrenge, wird es besser.“ / Nachher: „Ich muss mir Liebe nicht verdienen.“ |
-| 7 | Textseite | Such dir einen Nachher-Satz aus. Sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen. Neue Sätze werden mit der Zeit vertrauter. |
-| 8 | Produktvorstellung | Wenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journale und Karten, zum Beispiel „90 Tage näher zu dir“. Link in der Bio. |
-
-Vorlage: Auf den Seiten 3 bis 6 kann das Doodle unten links den Nachher-Block berühren.
+| 1 | Cover mit Foto (Nina am See, von hinten) | **Du bist nett zu allen. Außer zu dir.** |
+| 2 | Textseite | Wer sich in Beziehungen verliert, redet innen oft streng mit sich. Die Sätze klingen vernünftig. |
+| 3 | Textseite | Diese Sätze kamen nicht aus dem Nichts. Vielleicht halfen sie dir einmal, Streit oder Ablehnung zu vermeiden. |
+| 4 | Textseite | Vorher: „Ich will keine Last sein.“ Nachher: „Ich darf etwas brauchen.“ |
+| 5 | Textseite | Sag dir heute Abend einmal leise einen Nachher-Satz. Er muss sich noch nicht wahr anfühlen. |
+| 6 | Schlussseite | Journale und Karten aus meinem Shop begleiten dich dabei, zum Beispiel „90 Tage näher zu dir“. Link in der Bio. |
 
 **Caption:**
 Du bist nett zu allen. Außer zu dir.
 
-Wer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“
+Wer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“ „Hauptsache, alle sind zufrieden.“
 
 Diese Sätze kommen nicht aus dem Nichts. Vielleicht haben sie dir einmal geholfen, Streit oder Ablehnung zu vermeiden. Heute halten sie dich klein, auch dann, wenn niemand etwas von dir verlangt.
 
-Nachher-Sätze klingen anders: „Ich darf etwas brauchen.“ Oder: „Ich muss mir Liebe nicht verdienen.“
+Nachher-Sätze klingen anders: „Ich darf etwas brauchen.“ „Das hat mich berührt. Das darf es.“ „Und wie geht es mir dabei?“ Oder: „Ich muss mir Liebe nicht verdienen.“
 
-Für heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen.
+Für heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen. Neue Sätze werden mit der Zeit vertrauter.
 
 Und falls jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut: Das liegt nicht an deiner Empfindlichkeit. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.
 
@@ -158,7 +150,7 @@ Wenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journa
 
 Folge @ninahoemmencoaching, wenn du freundlicher mit dir reden lernen willst.
 
-Welcher Vorher-Satz läuft bei dir am häufigsten?
+Welcher Vorher-Satz läuft bei dir am häufigsten? 🤍
 
 **Hashtags:** #selbstmitgefühl #selbstwert #beziehungsmuster #coachingoldenburg #traumasensibel
 
@@ -170,13 +162,12 @@ Welcher Vorher-Satz läuft bei dir am häufigsten?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel, Fineline: Person im Mantel am Steuer eines Autos, von der Seite | **Du brauchst niemanden. Warum weinst du dann?** / Eine Geschichte über Alleinsein als Schutz. |
-| 2 | Mini-Geschichte | Aus vielen Erfahrungen zusammengesetzt. / Stell dir vor: Auf einem Geburtstag fragt jemand, ob es gerade eine Liebe gibt. Du lachst und sagst, du kommst allein super klar. Du meinst es ernst. |
-| 3 | Mini-Geschichte | Auf dem Heimweg sitzt du im Auto und weinst. Du verstehst es nicht. Dein Leben ist voll, du bist gern allein. Was fehlt denn? |
-| 4 | Mini-Geschichte | Mit der Zeit merkst du: „Ich brauche niemanden“ stammt aus einer Zeit, in der Brauchen oft Enttäuschung hieß. Der Satz hat dich geschützt. Er hat dich auch einsam gemacht. |
-| 5 | Mini-Geschichte | Du meldest dich nicht bei einer Dating-App an. Du rufst jemanden an und sagst ehrlich, dass du gerade ein offenes Ohr brauchst. Ungewohnt. Und gut. |
-| 6 | Textseite | Unabhängig sein und etwas brauchen schließen sich nicht aus. Du musst dafür keine Beziehung finden. Fang bei den Menschen an, die schon da sind. |
-| 7 | Veranstaltung | Über solche Momente spreche ich in meinen Wohnzimmer-Lesungen. Ein Abend für dich und deinen Freundeskreis, mit ehrlichen Gesprächen und Texten aus meinem Buch. Link in der Bio. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Du brauchst niemanden. Warum weinst du dann?** |
+| 2 | Textseite | Auf einem Geburtstag fragt jemand nach einer Liebe. Du lachst und sagst, du kommst allein super klar. |
+| 3 | Textseite | Auf dem Heimweg weinst du im Auto, ohne zu wissen, warum. Dein Leben ist doch voll. |
+| 4 | Textseite | „Ich brauche niemanden“ stammt aus einer Zeit, in der Brauchen oft Enttäuschung hieß. Der Satz hat dich geschützt. |
+| 5 | Textseite | Du rufst jemanden an und sagst ehrlich, dass du ein offenes Ohr brauchst. Ungewohnt, und gut. |
+| 6 | Schlussseite | Über solche Momente spreche ich in meinen Wohnzimmer-Lesungen: ein Abend für dich und deinen Freundeskreis. Link in der Bio. |
 
 **Caption:**
 Du brauchst niemanden. Warum weinst du dann?
@@ -208,19 +199,15 @@ Wem würdest du heute gern sagen, dass du etwas brauchst? 🤍
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel | **„Ich hab halt Pech in der Liebe.“** / Vier Annahmen, die dich im Kreis laufen lassen. |
-| 2 | Textseite | Wenn sich Liebesgeschichten wiederholen, sucht der Kopf eine Erklärung. Manche Erklärungen entlasten kurz. Und halten dich trotzdem da, wo du nicht mehr sein willst. |
-| 3 | Vorher/Nachher (Beschriftung „Annahme“ / „Meine Sicht“) | Annahme: „Ich habe einfach Pech.“ / Meine Sicht: Was sich immer wieder zeigt, ist selten nur Zufall. Das ist kein Urteil über dich. Es zeigt dir, wo du hinschauen kannst. |
-| 4 | Vorher/Nachher (wie Seite 3) | Annahme: „Der Datingmarkt ist kaputt.“ / Meine Sicht: Den Markt kannst du nicht ändern und andere Menschen nicht passend machen. Deinen Blick auf dich und deine Muster schon. |
-| 5 | Vorher/Nachher (wie Seite 3) | Annahme: „Mit mir stimmt etwas nicht.“ / Meine Sicht: Mit dir ist nichts falsch. Du hast gelernt, Nähe bei bestimmten Menschen zu suchen. Was gelernt ist, kann sich verändern. |
-| 6 | Vorher/Nachher (wie Seite 3) | Annahme: „Ich muss erst an mir arbeiten, dann kommt der Richtige.“ / Meine Sicht: Du musst nicht fertig sein, um geliebt zu werden. Vieles verändert sich gerade in echten Begegnungen. |
-| 7 | Textseite | Wieder dasselbe Gefühl? Frag dich: Was hat mich am Anfang angezogen, obwohl ich schon etwas gespürt habe? Kein Vorwurf. Nur ein Hinweis, worauf du früher achten kannst. |
-| 8 | Schlussseite | Folge @ninahoemmencoaching für mehr Klarheit über deine Muster. Welche Annahme kennst du von dir? |
-
-Vorlage: Auf den Seiten 3 bis 6 sind die Blöcke mit rund 30 Wörtern die längsten der Datei; das Doodle unten links darf den Text nicht berühren.
+| 1 | Cover mit Foto (Nina, Porträt) | **„Ich hab halt Pech in der Liebe.“ Wirklich?** |
+| 2 | Textseite | Wenn sich Liebesgeschichten wiederholen, sucht der Kopf eine Erklärung. Manche entlasten kurz und halten dich im Kreis. |
+| 3 | Textseite | Annahme: „Ich habe einfach Pech.“ Meine Sicht: Was sich immer wieder zeigt, ist selten nur Zufall. |
+| 4 | Textseite | Annahme: „Mit mir stimmt etwas nicht.“ Meine Sicht: Mit dir ist nichts falsch, und Gelerntes kann sich verändern. |
+| 5 | Textseite | Wieder dasselbe Gefühl? Frag dich: Was hat mich am Anfang angezogen, obwohl ich schon etwas gespürt habe? |
+| 6 | Schlussseite | Speichere dir die Frage für den Moment, in dem du wieder „dasselbe“ denkst. |
 
 **Caption:**
-„Ich hab halt Pech in der Liebe.“
+„Ich hab halt Pech in der Liebe.“ Wirklich?
 
 Vielleicht kennst du diesen Satz von dir. Wenn sich Liebesgeschichten wiederholen, sucht der Kopf nach einer Erklärung. Manche Erklärungen entlasten kurz und halten dich trotzdem genau da, wo du nicht mehr sein willst.
 
@@ -234,7 +221,7 @@ Zum Mitnehmen: Wenn du das nächste Mal „wieder dasselbe“ denkst, frag dich,
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du dich in die Menschen verliebst, in die du dich verliebst.
 
-Welche dieser Annahmen hast du selbst schon gedacht?
+Welche dieser Annahmen hast du selbst schon gedacht? 🤍
 
 **Hashtags:** #immerdiefalschen #beziehungsmuster #singlesein #datingtipps #traumasensibel
 
@@ -246,20 +233,19 @@ Welche dieser Annahmen hast du selbst schon gedacht?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel, Fineline: Handy mit dunklem Display auf einem Tisch | **Es fühlt sich an wie Zuhause. Leider.** / Warum Vertrautes nicht dasselbe ist wie Sicheres. |
-| 2 | Mini-Geschichte | Aus vielen Erfahrungen zusammengesetzt. / Stell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du. |
-| 3 | Mini-Geschichte | Die Person meldet sich mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher. |
-| 4 | Mini-Geschichte | Irgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. |
-| 5 | Mini-Geschichte | Da verstehst du: Vertraut hieß nie sicher. Es hieß nur, dass du dieses Hin und Her schon kennst. |
-| 6 | Textseite | Wenn dich jemand sofort stark anzieht, frag dich: Woher kenne ich dieses Gefühl? Sicherheit erkennst du eher daran, dass du nicht rätseln musst. |
-| 7 | Schlussseite | Im Singlecoaching schauen wir auf deine Beziehungsgeschichte: Welche Muster wiederholen sich? In Oldenburg oder online. Kostenfreies Erstgespräch: Link in der Bio. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Es fühlt sich an wie Zuhause. Leider.** |
+| 2 | Textseite | Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als kenntest du ihn oder sie ewig. |
+| 3 | Textseite | Die Person meldet sich mal nach Stunden, mal nach Tagen. Du behältst dein Handy im Blick, genau wie früher. |
+| 4 | Textseite | Irgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Vertraut hieß nie sicher. |
+| 5 | Textseite | Frag dich bei starkem Ziehen: Woher kenne ich das? Sicherheit heißt, nicht rätseln zu müssen. |
+| 6 | Schlussseite | Im Singlecoaching schauen wir auf deine Beziehungsgeschichte: Welche Muster wiederholen sich? In Oldenburg oder online. Kostenfreies Erstgespräch: Link in der Bio. |
 
 **Caption:**
 Es fühlt sich an wie Zuhause. Leider.
 
 Diese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.
 
-Stell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.
+Stell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als kenntest du ihn oder sie ewig. Diesmal ist es anders, denkst du.
 
 Dann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.
 
@@ -271,7 +257,7 @@ Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darau
 
 Folge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.
 
-Kennst du dieses Ziehen, das sich wie Zuhause anfühlt?
+Kennst du dieses Ziehen, das sich wie Zuhause anfühlt? 🤍
 
 **Hashtags:** #singlecoaching #immerdiefalschen #beziehungsmuster #dating #oldenburg
 
@@ -282,21 +268,19 @@ Kennst du dieses Ziehen, das sich wie Zuhause anfühlt?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel | **„Klar, mach ich.“ Du bist todmüde.** / Kleine Sätze, mit denen du dich übergehst. |
-| 2 | Textseite | Sich selbst zu verlieren passiert selten auf einmal. Es passiert in kleinen Sätzen, jeden Tag. Vielleicht kennst du ein paar davon. |
-| 3 | Vorher/Nachher (Beschriftung „Du sagst“ / „Manchmal meinst du“) | Du sagst: „Klar, mach ich.“ / Manchmal meinst du: Ich bin erschöpft und traue mich nicht, Nein zu sagen. |
-| 4 | Vorher/Nachher (wie Seite 3) | Du sagst: „Mir ist egal, wo wir essen.“ / Manchmal meinst du: Ich weiß gar nicht mehr, worauf ich Lust habe. |
-| 5 | Vorher/Nachher (wie Seite 3) | Du sagst: „Ist nicht so schlimm.“ / Manchmal meinst du: Es hat mich getroffen, aber ich will keinen Streit. |
-| 6 | Vorher/Nachher (wie Seite 3) | Du sagst: „Ich bin da ganz flexibel.“ / Manchmal meinst du: Ich habe Angst, dass meine Wünsche zu viel sind. |
-| 7 | Textseite | Ein Satz, der dir Zeit verschafft: „Lass mich kurz überlegen.“ Er ist kein Nein. Er gibt dir den Moment, zu spüren, was du willst. |
-| 8 | Schlussseite (Foto: Nina mit Buch) | Wie du dich öffnen kannst, ohne dich dabei selbst zu verlieren: Darum geht es in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio. |
+| 1 | Cover mit Foto (Nina, Porträt) | **„Klar, mach ich.“ Du bist todmüde.** |
+| 2 | Textseite | Sich selbst zu verlieren passiert selten auf einmal. Es passiert in kleinen Sätzen, jeden Tag. |
+| 3 | Textseite | Du sagst: „Klar, mach ich.“ Manchmal meinst du: Ich bin erschöpft und traue mich nicht, Nein zu sagen. |
+| 4 | Textseite | Diese Sätze sind kein Fehler. Oft waren sie früher der sicherste Weg, dazuzugehören. |
+| 5 | Textseite | Ein Satz, der dir Zeit verschafft: „Lass mich kurz überlegen.“ Kein Nein, nur Zeit, zu spüren, was du willst. |
+| 6 | Schlussseite Buch | Wie du dich öffnen kannst, ohne dich selbst zu verlieren: Darum geht es in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio. |
 
 **Caption:**
 „Klar, mach ich.“ Du bist todmüde.
 
 Sich selbst zu verlieren passiert selten auf einmal. Es passiert in kleinen Sätzen, die so selbstverständlich geworden sind, dass du sie gar nicht mehr hörst.
 
-„Mir ist egal, wo wir essen“ heißt manchmal: Ich weiß gar nicht mehr, worauf ich Lust habe. „Ist nicht so schlimm“ heißt manchmal: Es hat mich getroffen, aber ich will keinen Streit.
+„Mir ist egal, wo wir essen“ heißt manchmal: Ich weiß gar nicht mehr, worauf ich Lust habe. „Ist nicht so schlimm“ heißt manchmal: Es hat mich getroffen, aber ich will keinen Streit. „Ich bin da ganz flexibel“ heißt manchmal: Ich habe Angst, dass meine Wünsche zu viel sind.
 
 Diese Sätze sind kein Fehler. Oft waren sie früher der sicherste Weg, dazuzugehören. Nur kosten sie dich heute mehr, als sie dich schützen.
 
@@ -308,7 +292,7 @@ Wie du dich öffnen kannst, ohne dich dabei selbst zu verlieren: Darum geht es i
 
 Folge @ninahoemmencoaching, wenn du bei dir bleiben willst, auch wenn andere etwas von dir wollen.
 
-Welchen dieser Sätze hast du diese Woche schon gesagt?
+Welchen dieser Sätze hast du diese Woche schon gesagt? 🤍
 
 **Hashtags:** #neinsagen #grenzensetzen #selbstfürsorge #beziehungsmuster #coachingoldenburg
 
@@ -320,16 +304,12 @@ Welchen dieser Sätze hast du diese Woche schon gesagt?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Natur/Alltag, ohne Gesicht) | **Der Abend war schön. Jetzt willst du weg.** / Sätze für den Moment, bevor du abtauchst. |
-| 2 | Textseite | Nach Nähe kommt manchmal der Drang, abzutauchen. Nicht mehr antworten oder plötzlich kühl werden. Oft ist das ein alter Schutz. Du musst ihn nicht bekämpfen. Du kannst ihn aussprechen. |
-| 3 | Liste | Für die andere Person: „Ich brauche heute ein bisschen Ruhe. Das hat nichts mit dir zu tun. Ich melde mich morgen.“ |
-| 4 | Liste | Für die andere Person, wenn du mutig bist: „Mir ist das gerade viel, weil es mir wichtig ist. Ich gehe langsam, nicht weg.“ |
-| 5 | Liste | Für dich: „Ich darf langsam sein. Ich muss nicht fliehen, um sicher zu sein.“ |
-| 6 | Liste | Für den Moment davor: Beide Füße auf den Boden. Ein paar Mal langsam ausatmen. Dann erst schreiben. |
-| 7 | Textseite | Rückzug ist erlaubt. Mit einem Satz dazu wird er für euch beide leichter. |
-| 8 | Schlussseite | Wenn du Abstand brauchst, weil jemand respektlos ist, dich kontrolliert oder dir Gewalt antut: Das ist kein Muster. Das ist Schutz. Hilfetelefone: „Gewalt gegen Frauen“ 116 016, „Gewalt an Männern“ 0800 123 99 00. |
-
-Vorlage: Auf Seite 8 darf das Doodle die Nummer nicht verdecken.
+| 1 | Cover mit Foto (Nina, Porträt) | **Der Abend war schön. Jetzt willst du weg.** |
+| 2 | Textseite | Nach einem schönen Abend kommt der Drang, nicht mehr zu antworten. Du wirst kühl, obwohl du die Person magst. |
+| 3 | Textseite | Oft ist das ein alter Schutz, der anspringt, wenn dir etwas wichtig wird. Du musst ihn nicht bekämpfen. |
+| 4 | Textseite | Bei Respektlosigkeit, Kontrolle oder Gewalt ist Abstand kein Muster, sondern Schutz. Hilfetelefon „Gewalt gegen Frauen“: 116 016. |
+| 5 | Textseite | Sag stattdessen: „Ich brauche heute Ruhe, das hat nichts mit dir zu tun. Ich melde mich morgen.“ |
+| 6 | Schlussseite | Speichere dir das für den nächsten Abend, an dem du abtauchen willst. |
 
 **Caption:**
 Der Abend war schön. Jetzt willst du weg.
@@ -340,7 +320,7 @@ Du musst ihn nicht bekämpfen. Du kannst ihn aussprechen. Zum Beispiel so: „Ic
 
 Oder, wenn du mutig bist: „Mir ist das gerade viel, weil es mir wichtig ist. Ich gehe langsam, nicht weg.“
 
-Und für dich selbst, bevor du irgendetwas schreibst: beide Füße auf den Boden, ein paar Mal langsam ausatmen. Dann: „Ich darf langsam sein.“
+Und für dich selbst, bevor du irgendetwas schreibst: beide Füße auf den Boden, ein paar Mal langsam ausatmen. Dann: „Ich darf langsam sein. Ich muss nicht fliehen, um sicher zu sein.“
 
 Zum Mitnehmen: Rückzug ist erlaubt. Mit einem Satz dazu wird er für euch beide leichter.
 
@@ -348,7 +328,7 @@ Wichtig: Wenn du Abstand brauchst, weil jemand respektlos ist, dich kontrolliert
 
 Folge @ninahoemmencoaching, wenn du Nähe in deinem Tempo lernen willst.
 
-Welcher Satz würde dir am leichtesten über die Lippen gehen?
+Welcher Satz würde dir am leichtesten über die Lippen gehen? 🤍
 
 **Hashtags:** #angstvornähe #bindungsangst #rückzug #beziehungsmuster #traumasensibel
 
@@ -360,25 +340,21 @@ Welcher Satz würde dir am leichtesten über die Lippen gehen?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover dunkel | **Ihr seid nichts Festes. Seit Monaten.** / Was du dir sagst und was du sagen könntest. |
-| 2 | Textseite | Die Person will sich nicht festlegen. Du willst nicht drängen. Also wartest du und erklärst dir das Warten mit Sätzen, die geduldig klingen. |
-| 3 | Vorher/Nachher | Vorher: „Die Person braucht halt noch Zeit.“ / Nachher: „Ich darf wissen wollen, woran ich bin.“ |
-| 4 | Vorher/Nachher | Vorher: „Ich will keinen Druck machen.“ / Nachher: „Eine klare Frage ist kein Druck.“ |
-| 5 | Vorher/Nachher | Vorher: „Wir müssen dem ja keinen Namen geben.“ / Nachher: „Mir ist ein Name wichtig. Das darf die Person wissen.“ |
-| 6 | Vorher/Nachher | Vorher: „Wenigstens kommt ab und zu eine Nachricht.“ / Nachher: „Ab und zu reicht mir nicht.“ |
-| 7 | Textseite | Schreib dir heute auf, was du dir wünschst, ohne es kleiner zu machen. Wer das weiß, wartet anders. Bei Respektlosigkeit, Kontrolle oder Gewalt geht es nicht mehr um Geduld. |
-| 8 | Produktvorstellung | Zum Weiterdenken: In meinem Shop findest du unter Journale & Karten „Deine Beziehungslandkarte“. Link in der Bio. |
-
-Vorlage: Auf den Seiten 3 bis 6 kann das Doodle unten links den Nachher-Block berühren.
+| 1 | Cover mit Foto (Nina, Porträt) | **Ihr seid nichts Festes. Seit Monaten, und du wartest.** |
+| 2 | Textseite | Die Person will sich nicht festlegen. Du willst nicht drängen, also wartest du. |
+| 3 | Vorher/Nachher | Vorher: „Die Person braucht halt noch Zeit.“ Nachher: „Ich darf wissen wollen, woran ich bin.“ |
+| 4 | Textseite | Bei Respektlosigkeit, Kontrolle oder Gewalt geht es nicht um Geduld. Hilfetelefon „Gewalt gegen Frauen“: 116 016. |
+| 5 | Textseite | Schreib dir heute auf, was du dir wünschst, ohne es kleiner zu machen. Wer das weiß, wartet anders. |
+| 6 | Schlussseite | Zum Weiterdenken: In meinem Shop findest du „Deine Beziehungslandkarte“. Link in der Bio. |
 
 **Caption:**
-Ihr seid nichts Festes. Seit Monaten.
+Ihr seid nichts Festes. Seit Monaten, und du wartest.
 
 Die Person will sich nicht festlegen, und du willst nicht drängen. Also wartest du und erklärst dir das Warten mit Sätzen, die geduldig klingen: „Die Person braucht halt noch Zeit.“ „Wenigstens kommt ab und zu eine Nachricht.“
 
 Solche Sätze halten die Verbindung. Sie halten aber auch dich klein, weil dein eigener Wunsch darin nicht mehr vorkommt.
 
-Nachher-Sätze klingen anders: „Ich darf wissen wollen, woran ich bin.“ „Eine klare Frage ist kein Druck.“
+Nachher-Sätze klingen anders: „Ich darf wissen wollen, woran ich bin.“ „Eine klare Frage ist kein Druck.“ „Mir ist ein Name wichtig. Das darf die Person wissen.“ „Ab und zu reicht mir nicht.“
 
 Für heute: Du musst nichts entscheiden. Schreib dir nur auf, was du dir wünschst, ohne es kleiner zu machen. Wer das weiß, wartet anders.
 
@@ -388,7 +364,7 @@ Zum Weiterdenken: In meinem Shop findest du unter Journale & Karten „Deine Bez
 
 Folge @ninahoemmencoaching, wenn du in der Liebe öfter aussprechen willst, was du brauchst.
 
-Welcher Nachher-Satz fällt dir am schwersten?
+Welcher Nachher-Satz fällt dir am schwersten? 🤍
 
 **Hashtags:** #situationship #beziehungsmuster #dating #singlesein #traumasensibel
 
@@ -399,16 +375,17 @@ Welcher Nachher-Satz fällt dir am schwersten?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Porträt) | **Mir hat ein Buch gefehlt. Also habe ich es geschrieben.** / Über Beziehungsmuster und Nähe. |
-| 2 | Textseite | Eins, das Beziehungsmuster verständlich erklärt. Das zeigt, warum wir uns selbst im Weg stehen, und uns trotzdem einlädt, uns selbst nah zu kommen. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Mir hat ein Buch gefehlt. Also habe ich es geschrieben.** |
+| 2 | Textseite | Ich wollte eins, das Beziehungsmuster verständlich erklärt. Und das mich einlädt, mir selbst nah zu kommen. |
 | 3 | Zitat | „Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten.“ |
-| 4 | Textseite | Es ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. |
-| 5 | Textseite | Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Du liest in deinem Tempo und nimmst mit, was heute passt. |
-| 6 | Textseite | Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches. |
-| 7 | Schlussseite Buch | „Zwischen Single-Sein & falscher Nähe“. Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Link in der Bio. |
+| 4 | Textseite | Es ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen. |
+| 5 | Textseite | Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Du liest in deinem Tempo. |
+| 6 | Schlussseite Buch | „Zwischen Single-Sein & falscher Nähe“. Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Link in der Bio. |
 
 **Caption:**
-Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen. Also habe ich es geschrieben.
+Mir hat ein Buch gefehlt. Also habe ich es geschrieben.
+
+Damals wollte ich eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen.
 
 „Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.
 
@@ -429,13 +406,12 @@ Welcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Porträt) | **Du musst nicht schon wissen, was du brauchst.** / Das Erstgespräch ist kostenfrei. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Du musst nicht schon wissen, was du brauchst.** |
 | 2 | Textseite | Vielleicht wiederholt sich in deiner Liebe etwas, und du weißt nicht, warum. Das musst du nicht allein herausfinden. |
 | 3 | Textseite | Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. |
-| 4 | Textseite | Traumasensibel und körperorientiert. Du entscheidest, worüber du sprichst und wie viel. |
-| 5 | Zitat | „Du musst dich nicht reparieren.“ |
-| 6 | Textseite | Im Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. |
-| 7 | Schlussseite | In Oldenburg und online. Kostenfreies Erstgespräch: Link in der Bio. |
+| 4 | Textseite | Traumasensibel und körperorientiert, du entscheidest, worüber du sprichst. Und du musst dich nicht reparieren. |
+| 5 | Textseite | Im Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten. |
+| 6 | Schlussseite | Dein kostenfreies Erstgespräch, telefonisch oder in meinen Räumen in Oldenburg: Link in der Bio. |
 
 **Caption:**
 Du musst nicht schon wissen, was du brauchst.
@@ -460,15 +436,17 @@ Was würdest du gern einmal in Ruhe ansehen? 🤍
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Porträt) | **Nicht alles klärt sich an einem Abend.** / Journale, Karten und Audios aus meinem Shop. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Nicht alles klärt sich an einem Abend.** |
 | 2 | Textseite | Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst. |
-| 3 | Textseite | In meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“. |
-| 4 | Textseite | Oder „Deine Beziehungslandkarte“, ebenfalls unter Journale & Karten. |
-| 5 | Textseite | Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo. |
+| 3 | Textseite | In meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. |
+| 4 | Textseite | Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen. |
+| 5 | Textseite | Du musst nicht alles auf einmal verstehen. Nimm dir, was heute passt, in deinem Tempo. |
 | 6 | Schlussseite | Schau in Ruhe durch, was zu dir passt. Link in der Bio. |
 
 **Caption:**
-Nicht alles klärt sich an einem Abend oder in einem Gespräch. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.
+Nicht alles klärt sich an einem Abend.
+
+Auch in einem Gespräch klärt sich nicht alles. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.
 
 In meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.
 
@@ -487,11 +465,12 @@ Was würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Porträt) | **Ein Ort, an dem du einfach sein darfst.** / Für Frauen: HERZ.ZEIT in Oldenburg. |
-| 2 | Textseite | Wenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg. Ohne Maske, ohne Rolle. |
+| 1 | Cover mit Foto (Nina, Porträt) | **Ein Ort, an dem du einfach sein darfst.** |
+| 2 | Textseite | Wenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg, ohne Maske und ohne Rolle. |
 | 3 | Textseite | Du musst nichts leisten und nichts erklären. Du darfst einfach da sein. |
-| 4 | Textseite | Wenn du aufhören möchtest, nur zu funktionieren: Für dich gibt es meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“. |
-| 5 | Schlussseite | Beides sind Angebote für Frauen. Alle Infos über den Link in der Bio. |
+| 4 | Textseite | Wenn du aufhören möchtest, nur zu funktionieren: Meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“. |
+| 5 | Textseite | Frag dich heute: Wann durfte ich zuletzt einfach nur da sein? Gönn dir davon einen Moment. |
+| 6 | Schlussseite | Beides sind Angebote für Frauen. Alle Infos über den Link in der Bio. |
 
 **Caption:**
 Ein Ort, an dem du einfach sein darfst.
@@ -504,7 +483,7 @@ Beides sind Angebote für Frauen. Alle Infos über den Link in der Bio.
 
 Folge @ninahoemmencoaching, wenn du mehr über diese Abende erfahren möchtest.
 
-Wann durftest du zuletzt einfach nur da sein? 🤍
+Wo könntest du heute einmal nichts erklären müssen? 🤍
 
 **Hashtags:** #frauenkreis #oldenburg #traumasensibel #zurueckzudir #herzzeit
 

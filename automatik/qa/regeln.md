@@ -17,6 +17,7 @@ Diese Gestaltungselemente gehören zum festen Stil und sind KEIN Fehler: Freiste
 
 ## Inhalt auf den Seiten
 
+- **STRUKTUR**: Gilt nur für Karussells (bei Reels und Stories immer ok). Genau 6 Seiten: Seite 1 ist ein Hook mit höchstens 10 Wörtern, Seiten 2 bis 5 haben je einen Kerngedanken in kurzen Sätzen (keine Textwüste), Seite 6 ist ein CTA mit klarer Handlungsaufforderung (Speichern, Teilen, Kommentieren oder Link in der Bio bei Angebot). Eine andere Seitenzahl, ein längerer Hook, eine Textwüste oder ein fehlender CTA ist ein fehler.
 - **MITNAHME**: Der Beitrag enthält etwas, das die Leserin oder der Leser sofort für sich mitnehmen kann (ein Satz, eine Erkenntnis, eine kleine Frage an sich selbst, eine Übung). Ein reines Ankündigen oder reine Werbung ohne so einen Satz ist ein fehler. Werbe-Beiträge (Format Werbung) dürfen ein Angebot ausführlich vorstellen, brauchen aber trotzdem mindestens einen solchen Satz.
 - **SCHEMA**: Keine „Aufgabe 1 / Aufgabe 2 / Aufgabe 3"-Schemata und keine Aufgaben-Listen in diesem Muster.
 - **SPRACHE**: Deutsch, Du-Form, warm, klar, kein Marktschreier-Ton (keine Ausrufe-Reklame, kein „Jetzt buchen!", keine Panikmache). Rechtschreibung, Grammatik und Zeichensetzung auf den Seiten und in der Caption sind korrekt. Ein Tippfehler oder ein grammatischer Fehler ist ein fehler.

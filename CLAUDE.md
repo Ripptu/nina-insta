@@ -25,6 +25,7 @@ Diese Regeln darf keine Selbstoptimierung ändern.
 **Inhalt**
 - Jeder Beitrag enthält etwas, das die Leserin sofort für sich mitnehmen kann.
 - Keine „Aufgabe 1 / Aufgabe 2"-Schemata.
+- **Karussell-Struktur (Christian, 02.10.2026, gilt für alle Karussells):** genau 6 Seiten. Seite 1 Hook, höchstens 10 Wörter, der Neugier weckt oder ein Problem aufmacht. Seiten 2 bis 5 Inhalt: ein Kerngedanke pro Seite, kurze Sätze (höchstens zwei, höchstens etwa 20 Wörter), keine Textwüsten. Seite 6 CTA: eine klare Handlungsaufforderung (Speichern, Teilen oder Kommentieren; bei Angebot „Link in der Bio“, ohne Angebot kein Link). Geprüft von `automatik/karussell-regeln.mjs` (beim Schreiben, Produzieren und im Prüf-Agenten).
 - Angebote im Wechsel: Coaching, Buch, Shop, Veranstaltungen, jeder dritte Beitrag ohne Angebot. Hinweis immer auf „Link in der Bio".
 - Deutsch, Du-Form, warm, klar, kein Marktschreier-Ton.
 - Zielgruppe nicht auf Frauen verengen (Nina, 29.09.2026: „ab dem 1.1.27 arbeite ich auch mit Männern und Paaren“). Neutral ansprechen („du“, „Menschen“, „Paare“). Bezeichnungen echter Frauen-Angebote (Frauenkreis HERZ.ZEIT, FREUNDINNEN.ZEIT, „Zurück zu dir – 8 Abende für Frauen“) bleiben wörtlich und werden als solche gekennzeichnet. Vor dem 01.01.2027 keine Aussage, dass Männer begleitet werden; ab dann ausdrücklich erlaubt.

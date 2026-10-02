@@ -82,334 +82,6 @@
     "fehler": null
   },
   {
-    "id": "k05",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 5",
-    "titel": "Du brauchst niemanden",
-    "format": "Mini-Geschichte",
-    "angebot": "Veranstaltung",
-    "kernthema": 4,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k05/01.jpg",
-      "out/k05/02.jpg",
-      "out/k05/03.jpg",
-      "out/k05/04.jpg",
-      "out/k05/05.jpg",
-      "out/k05/06.jpg",
-      "out/k05/07.jpg"
-    ],
-    "caption": "Du brauchst niemanden. Warum weinst du dann?\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person, und vielleicht trotzdem dich.\n\nStell dir vor: Auf einem Geburtstag fragt jemand, ob es gerade eine Liebe gibt. Du lachst und sagst, du kommst allein super klar. Du meinst es ernst. Auf dem Heimweg sitzt du im Auto und weinst, ohne zu wissen, warum.\n\nMit der Zeit verstehst du: „Ich brauche niemanden“ stammt aus einer Zeit, in der Brauchen oft Enttäuschung hieß. Der Satz hat dich geschützt. Er hat dich auch einsam gemacht.\n\nDu meldest dich nicht bei einer Dating-App an. Du rufst jemanden an und sagst ehrlich, dass du gerade ein offenes Ohr brauchst. Ungewohnt. Und gut.\n\nWas du mitnehmen kannst: Unabhängig sein und etwas brauchen schließen sich nicht aus. Du musst dafür keine Beziehung finden. Fang bei den Menschen an, die schon da sind.\n\nBrauchen heißt nicht, alles mitzumachen. Wo jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand richtig.\n\nÜber solche Momente spreche ich in meinen Wohnzimmer-Lesungen: ein Abend für dich und deinen Freundeskreis, mit ehrlichen Gesprächen und Texten aus meinem Buch. Privat ab 5 Personen buchbar. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du Geschichten magst, in denen du dich wiedererkennst.\n\nWem würdest du heute gern sagen, dass du etwas brauchst? 🤍",
-    "hashtags": [
-      "#alleinsein",
-      "#singlesein",
-      "#freundschaft",
-      "#traumasensibel",
-      "#oldenburg"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:27:10.113Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k03",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 3",
-    "titel": "Alles gut",
-    "format": "Das sagst du / das meinst du",
-    "angebot": "keins",
-    "kernthema": 2,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k03/01.jpg",
-      "out/k03/02.jpg",
-      "out/k03/03.jpg",
-      "out/k03/04.jpg",
-      "out/k03/05.jpg",
-      "out/k03/06.jpg",
-      "out/k03/07.jpg",
-      "out/k03/08.jpg"
-    ],
-    "caption": "Du sagst „alles gut“. Nichts ist gut.\n\nAngst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.\n\nHinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Hinter „Lass es uns locker angehen“ steckt manchmal: Ich mag dich, und genau das macht mir Angst.\n\nDafür musst du dich nicht schämen. Solche Sätze haben dich einmal geschützt. Sie dürfen in deinem Tempo leiser werden.\n\nFür heute: Nimm einen Satz, den du oft sagst, und frag dich, was du sagen würdest, wenn du keine Angst hättest, zu viel zu sein. Du musst es niemandem sagen. Es zu wissen, reicht.\n\nWichtig: Nicht jeder Rückzug ist Angst. Wenn jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand gesunder Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Schutzsätze besser verstehen willst.\n\nWelcher dieser Sätze ist deiner?",
-    "hashtags": [
-      "#angstvornähe",
-      "#bindungsangst",
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#coachingoldenburg"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:36:03.159Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k04",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 4",
-    "titel": "Nett zu allen außer zu dir",
-    "format": "Vorher/Nachher",
-    "angebot": "Shop",
-    "kernthema": 3,
-    "fruehestens": "2026-11-01",
-    "dateien": [
-      "out/k04/01.jpg",
-      "out/k04/02.jpg",
-      "out/k04/03.jpg",
-      "out/k04/04.jpg",
-      "out/k04/05.jpg",
-      "out/k04/06.jpg",
-      "out/k04/07.jpg",
-      "out/k04/08.jpg"
-    ],
-    "caption": "Du bist nett zu allen. Außer zu dir.\n\nWer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“\n\nDiese Sätze kommen nicht aus dem Nichts. Vielleicht haben sie dir einmal geholfen, Streit oder Ablehnung zu vermeiden. Heute halten sie dich klein, auch dann, wenn niemand etwas von dir verlangt.\n\nNachher-Sätze klingen anders: „Ich darf etwas brauchen.“ Oder: „Ich muss mir Liebe nicht verdienen.“\n\nFür heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen.\n\nUnd falls jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut: Das liegt nicht an deiner Empfindlichkeit. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nWenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journale und Karten, zum Beispiel „90 Tage näher zu dir“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du freundlicher mit dir reden lernen willst.\n\nWelcher Vorher-Satz läuft bei dir am häufigsten?",
-    "hashtags": [
-      "#selbstmitgefühl",
-      "#selbstwert",
-      "#beziehungsmuster",
-      "#coachingoldenburg",
-      "#traumasensibel"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:35:12.018Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k06",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 6",
-    "titel": "Pech in der Liebe",
-    "format": "Fehlannahmen",
-    "angebot": "keins",
-    "kernthema": 1,
-    "fruehestens": null,
-    "dateien": [
-      "out/k06/01.jpg",
-      "out/k06/02.jpg",
-      "out/k06/03.jpg",
-      "out/k06/04.jpg",
-      "out/k06/05.jpg",
-      "out/k06/06.jpg",
-      "out/k06/07.jpg",
-      "out/k06/08.jpg"
-    ],
-    "caption": "„Ich hab halt Pech in der Liebe.“\n\nVielleicht kennst du diesen Satz von dir. Wenn sich Liebesgeschichten wiederholen, sucht der Kopf nach einer Erklärung. Manche Erklärungen entlasten kurz und halten dich trotzdem genau da, wo du nicht mehr sein willst.\n\nPech zum Beispiel. Was sich immer wieder zeigt, ist selten nur Zufall. Das ist kein Urteil über dich. Es zeigt dir, wo du hinschauen kannst.\n\nOder der Gedanke, dass der Datingmarkt kaputt ist. Den Markt kannst du nicht ändern und andere Menschen nicht passend machen. Deinen Blick auf dich und deine Muster schon.\n\nUnd der härteste: „Mit mir stimmt etwas nicht.“ Mit dir ist nichts falsch. Du hast irgendwann gelernt, Nähe bei bestimmten Menschen zu suchen. Was gelernt ist, kann sich verändern.\n\nZum Mitnehmen: Wenn du das nächste Mal „wieder dasselbe“ denkst, frag dich, was dich am Anfang angezogen hat, obwohl du schon etwas gespürt hast. Kein Vorwurf. Nur ein Hinweis, worauf du früher achten kannst.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum du dich in die Menschen verliebst, in die du dich verliebst.\n\nWelche dieser Annahmen hast du selbst schon gedacht?",
-    "hashtags": [
-      "#immerdiefalschen",
-      "#beziehungsmuster",
-      "#singlesein",
-      "#datingtipps",
-      "#traumasensibel"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:34:56.329Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k08",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 8",
-    "titel": "Klar, mach ich",
-    "format": "Das sagst du / das meinst du",
-    "angebot": "Buch",
-    "kernthema": 3,
-    "fruehestens": null,
-    "dateien": [
-      "out/k08/01.jpg",
-      "out/k08/02.jpg",
-      "out/k08/03.jpg",
-      "out/k08/04.jpg",
-      "out/k08/05.jpg",
-      "out/k08/06.jpg",
-      "out/k08/07.jpg",
-      "out/k08/08.jpg"
-    ],
-    "caption": "„Klar, mach ich.“ Du bist todmüde.\n\nSich selbst zu verlieren passiert selten auf einmal. Es passiert in kleinen Sätzen, die so selbstverständlich geworden sind, dass du sie gar nicht mehr hörst.\n\n„Mir ist egal, wo wir essen“ heißt manchmal: Ich weiß gar nicht mehr, worauf ich Lust habe. „Ist nicht so schlimm“ heißt manchmal: Es hat mich getroffen, aber ich will keinen Streit.\n\nDiese Sätze sind kein Fehler. Oft waren sie früher der sicherste Weg, dazuzugehören. Nur kosten sie dich heute mehr, als sie dich schützen.\n\nEin Satz, der dir Zeit verschafft: „Lass mich kurz überlegen.“ Er ist kein Nein. Er gibt dir nur den Moment, zu spüren, was du willst.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nWie du dich öffnen kannst, ohne dich dabei selbst zu verlieren: Darum geht es in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du bei dir bleiben willst, auch wenn andere etwas von dir wollen.\n\nWelchen dieser Sätze hast du diese Woche schon gesagt?",
-    "hashtags": [
-      "#neinsagen",
-      "#grenzensetzen",
-      "#selbstfürsorge",
-      "#beziehungsmuster",
-      "#coachingoldenburg"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:34:58.409Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k09",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 9",
-    "titel": "Der Abend war schön",
-    "format": "Liste",
-    "angebot": "keins",
-    "kernthema": 2,
-    "fruehestens": "2026-11-08",
-    "dateien": [
-      "out/k09/01.jpg",
-      "out/k09/02.jpg",
-      "out/k09/03.jpg",
-      "out/k09/04.jpg",
-      "out/k09/05.jpg",
-      "out/k09/06.jpg",
-      "out/k09/07.jpg",
-      "out/k09/08.jpg"
-    ],
-    "caption": "Der Abend war schön. Jetzt willst du weg.\n\nNach Nähe kommt manchmal der Drang abzutauchen. Du antwortest nicht mehr oder wirst plötzlich kühl, obwohl du die Person magst. Oft ist das ein alter Schutz, der anspringt, wenn etwas wichtig wird.\n\nDu musst ihn nicht bekämpfen. Du kannst ihn aussprechen. Zum Beispiel so: „Ich brauche heute ein bisschen Ruhe. Das hat nichts mit dir zu tun. Ich melde mich morgen.“\n\nOder, wenn du mutig bist: „Mir ist das gerade viel, weil es mir wichtig ist. Ich gehe langsam, nicht weg.“\n\nUnd für dich selbst, bevor du irgendetwas schreibst: beide Füße auf den Boden, ein paar Mal langsam ausatmen. Dann: „Ich darf langsam sein.“\n\nZum Mitnehmen: Rückzug ist erlaubt. Mit einem Satz dazu wird er für euch beide leichter.\n\nWichtig: Wenn du Abstand brauchst, weil jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist das kein Muster. Das ist Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nFolge @ninahoemmencoaching, wenn du Nähe in deinem Tempo lernen willst.\n\nWelcher Satz würde dir am leichtesten über die Lippen gehen?",
-    "hashtags": [
-      "#angstvornähe",
-      "#bindungsangst",
-      "#rückzug",
-      "#beziehungsmuster",
-      "#traumasensibel"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:35:41.875Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k10",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 10",
-    "titel": "Nichts Festes",
-    "format": "Vorher/Nachher",
-    "angebot": "Shop",
-    "kernthema": 1,
-    "fruehestens": "2026-11-01",
-    "dateien": [
-      "out/k10/01.jpg",
-      "out/k10/02.jpg",
-      "out/k10/03.jpg",
-      "out/k10/04.jpg",
-      "out/k10/05.jpg",
-      "out/k10/06.jpg",
-      "out/k10/07.jpg",
-      "out/k10/08.jpg"
-    ],
-    "caption": "Ihr seid nichts Festes. Seit Monaten.\n\nDie Person will sich nicht festlegen, und du willst nicht drängen. Also wartest du und erklärst dir das Warten mit Sätzen, die geduldig klingen: „Die Person braucht halt noch Zeit.“ „Wenigstens kommt ab und zu eine Nachricht.“\n\nSolche Sätze halten die Verbindung. Sie halten aber auch dich klein, weil dein eigener Wunsch darin nicht mehr vorkommt.\n\nNachher-Sätze klingen anders: „Ich darf wissen wollen, woran ich bin.“ „Eine klare Frage ist kein Druck.“\n\nFür heute: Du musst nichts entscheiden. Schreib dir nur auf, was du dir wünschst, ohne es kleiner zu machen. Wer das weiß, wartet anders.\n\nWarten ist keine Pflicht. Wenn jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut, geht es nicht mehr um Geduld.\n\nZum Weiterdenken: In meinem Shop findest du unter Journale & Karten „Deine Beziehungslandkarte“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du in der Liebe öfter aussprechen willst, was du brauchst.\n\nWelcher Nachher-Satz fällt dir am schwersten?",
-    "hashtags": [
-      "#situationship",
-      "#beziehungsmuster",
-      "#dating",
-      "#singlesein",
-      "#traumasensibel"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:35:38.208Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k12",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 12",
-    "titel": "Das Erstgespräch",
-    "format": "Werbung",
-    "angebot": "Coaching",
-    "kernthema": 3,
-    "fruehestens": null,
-    "dateien": [
-      "out/k12/01.jpg",
-      "out/k12/02.jpg",
-      "out/k12/03.jpg",
-      "out/k12/04.jpg",
-      "out/k12/05.jpg",
-      "out/k12/06.jpg",
-      "out/k12/07.jpg"
-    ],
-    "caption": "Du musst nicht schon wissen, was du brauchst.\n\nVielleicht wiederholt sich in deiner Liebe etwas, und du weißt nicht, warum. Das musst du nicht allein herausfinden. Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel und körperorientiert, in Oldenburg oder online.\n\nDu entscheidest, worüber du sprichst und wie viel. Und du musst dich nicht reparieren.\n\nIm Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten, ist kostenfrei und findet telefonisch oder in meinen Räumen in Oldenburg statt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWas würdest du gern einmal in Ruhe ansehen? 🤍",
-    "hashtags": [
-      "#beziehungscoach",
-      "#traumasensibel",
-      "#coachingoldenburg",
-      "#singlecoaching",
-      "#oldenburg"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:35:51.346Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k14",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 14",
-    "titel": "Ein Ort zum Sein",
-    "format": "Werbung",
-    "angebot": "Veranstaltungen",
-    "kernthema": 3,
-    "fruehestens": null,
-    "dateien": [
-      "out/k14/01.jpg",
-      "out/k14/02.jpg",
-      "out/k14/03.jpg",
-      "out/k14/04.jpg",
-      "out/k14/05.jpg"
-    ],
-    "caption": "Ein Ort, an dem du einfach sein darfst.\n\nWenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg. Ohne Maske, ohne Rolle. Du musst nichts leisten und nichts erklären.\n\nUnd wenn du aufhören möchtest, nur zu funktionieren: Für dich gibt es meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“.\n\nBeides sind Angebote für Frauen. Alle Infos über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr über diese Abende erfahren möchtest.\n\nWann durftest du zuletzt einfach nur da sein? 🤍",
-    "hashtags": [
-      "#frauenkreis",
-      "#oldenburg",
-      "#traumasensibel",
-      "#zurueckzudir",
-      "#herzzeit"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:37:14.722Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "s01",
     "typ": "story",
     "quelle": "docs/content-posts.md#Story 1",
@@ -743,41 +415,6 @@
     "fehler": null
   },
   {
-    "id": "k13",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 13",
-    "titel": "Für zwischendurch",
-    "format": "Werbung",
-    "angebot": "Shop",
-    "kernthema": 4,
-    "fruehestens": "2026-11-01",
-    "dateien": [
-      "out/k13/01.jpg",
-      "out/k13/02.jpg",
-      "out/k13/03.jpg",
-      "out/k13/04.jpg",
-      "out/k13/05.jpg",
-      "out/k13/06.jpg"
-    ],
-    "caption": "Nicht alles klärt sich an einem Abend oder in einem Gespräch. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.\n\nIn meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.\n\nSchau in Ruhe durch, was zu dir passt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen möchtest.\n\nWas würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio? 🤍",
-    "hashtags": [
-      "#journaling",
-      "#selbstreflexion",
-      "#traumasensibel",
-      "#beziehungsmuster",
-      "#oldenburg"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:41:47.659Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "s09",
     "typ": "story",
     "quelle": "docs/content-posts.md#Story 9",
@@ -802,38 +439,126 @@
     "fehler": null
   },
   {
-    "id": "k11",
+    "id": "k03",
     "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 11",
-    "titel": "Mir hat ein Buch gefehlt",
-    "format": "Werbung",
-    "angebot": "Buch",
+    "quelle": "docs/content-posts.md#Karussell 3",
+    "titel": "Alles gut",
+    "format": "Das sagst du / das meinst du",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k03/01.jpg",
+      "out/k03/02.jpg",
+      "out/k03/03.jpg",
+      "out/k03/04.jpg",
+      "out/k03/05.jpg",
+      "out/k03/06.jpg"
+    ],
+    "caption": "Du sagst „alles gut“. Nichts ist gut.\n\nAngst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.\n\n„Alles gut“ heißt manchmal: Das hat mich verletzt, und ich traue mich nicht, es zu sagen. Hinter „Ich bin nicht so der Beziehungsmensch“ steckt manchmal die Erfahrung, dass Beziehung sich noch nie sicher angefühlt hat. Und hinter „Ich brauche halt viel Freiraum“: Wenn du mir nah kommst, will mein Körper weglaufen.\n\nDafür musst du dich nicht schämen. Solche Sätze haben dich einmal geschützt. Sie dürfen in deinem Tempo leiser werden.\n\nFür heute: Nimm einen Satz, den du oft sagst, und frag dich, was du sagen würdest, wenn du keine Angst hättest, zu viel zu sein. Du musst es niemandem sagen. Es zu wissen, reicht.\n\nWichtig: Nicht jeder Rückzug ist Angst. Wenn jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand gesunder Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Schutzsätze besser verstehen willst.\n\nWelcher dieser Sätze ist deiner? 🤍",
+    "hashtags": [
+      "#angstvornähe",
+      "#bindungsangst",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#coachingoldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k04",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 4",
+    "titel": "Nett zu allen außer zu dir",
+    "format": "Vorher/Nachher",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k04/01.jpg",
+      "out/k04/02.jpg",
+      "out/k04/03.jpg",
+      "out/k04/04.jpg",
+      "out/k04/05.jpg",
+      "out/k04/06.jpg"
+    ],
+    "caption": "Du bist nett zu allen. Außer zu dir.\n\nWer sich in Beziehungen immer wieder selbst verliert, ist nach außen oft die Verständnisvolle. Innen klingt es strenger. „Ich will keine Last sein.“ „Ich bin zu empfindlich.“ „Hauptsache, alle sind zufrieden.“\n\nDiese Sätze kommen nicht aus dem Nichts. Vielleicht haben sie dir einmal geholfen, Streit oder Ablehnung zu vermeiden. Heute halten sie dich klein, auch dann, wenn niemand etwas von dir verlangt.\n\nNachher-Sätze klingen anders: „Ich darf etwas brauchen.“ „Das hat mich berührt. Das darf es.“ „Und wie geht es mir dabei?“ Oder: „Ich muss mir Liebe nicht verdienen.“\n\nFür heute: Such dir einen Nachher-Satz aus und sag ihn heute Abend einmal leise zu dir. Er muss sich noch nicht wahr anfühlen. Neue Sätze werden mit der Zeit vertrauter.\n\nUnd falls jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut: Das liegt nicht an deiner Empfindlichkeit. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nWenn du solche Sätze eine Weile begleiten willst: In meinem Shop gibt es Journale und Karten, zum Beispiel „90 Tage näher zu dir“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du freundlicher mit dir reden lernen willst.\n\nWelcher Vorher-Satz läuft bei dir am häufigsten? 🤍",
+    "hashtags": [
+      "#selbstmitgefühl",
+      "#selbstwert",
+      "#beziehungsmuster",
+      "#coachingoldenburg",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k05",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 5",
+    "titel": "Du brauchst niemanden",
+    "format": "Mini-Geschichte",
+    "angebot": "Veranstaltungen",
+    "kernthema": 4,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k05/01.jpg",
+      "out/k05/02.jpg",
+      "out/k05/03.jpg",
+      "out/k05/04.jpg",
+      "out/k05/05.jpg",
+      "out/k05/06.jpg"
+    ],
+    "caption": "Du brauchst niemanden. Warum weinst du dann?\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person, und vielleicht trotzdem dich.\n\nStell dir vor: Auf einem Geburtstag fragt jemand, ob es gerade eine Liebe gibt. Du lachst und sagst, du kommst allein super klar. Du meinst es ernst. Auf dem Heimweg sitzt du im Auto und weinst, ohne zu wissen, warum.\n\nMit der Zeit verstehst du: „Ich brauche niemanden“ stammt aus einer Zeit, in der Brauchen oft Enttäuschung hieß. Der Satz hat dich geschützt. Er hat dich auch einsam gemacht.\n\nDu meldest dich nicht bei einer Dating-App an. Du rufst jemanden an und sagst ehrlich, dass du gerade ein offenes Ohr brauchst. Ungewohnt. Und gut.\n\nWas du mitnehmen kannst: Unabhängig sein und etwas brauchen schließen sich nicht aus. Du musst dafür keine Beziehung finden. Fang bei den Menschen an, die schon da sind.\n\nBrauchen heißt nicht, alles mitzumachen. Wo jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist Abstand richtig.\n\nÜber solche Momente spreche ich in meinen Wohnzimmer-Lesungen: ein Abend für dich und deinen Freundeskreis, mit ehrlichen Gesprächen und Texten aus meinem Buch. Privat ab 5 Personen buchbar. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du Geschichten magst, in denen du dich wiedererkennst.\n\nWem würdest du heute gern sagen, dass du etwas brauchst? 🤍",
+    "hashtags": [
+      "#alleinsein",
+      "#singlesein",
+      "#freundschaft",
+      "#traumasensibel",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k06",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 6",
+    "titel": "Pech in der Liebe",
+    "format": "Fehlannahmen",
+    "angebot": "keins",
     "kernthema": 1,
     "fruehestens": null,
     "dateien": [
-      "out/k11/01.jpg",
-      "out/k11/02.jpg",
-      "out/k11/03.jpg",
-      "out/k11/04.jpg",
-      "out/k11/05.jpg",
-      "out/k11/06.jpg",
-      "out/k11/07.jpg"
+      "out/k06/01.jpg",
+      "out/k06/02.jpg",
+      "out/k06/03.jpg",
+      "out/k06/04.jpg",
+      "out/k06/05.jpg",
+      "out/k06/06.jpg"
     ],
-    "caption": "Mir hat damals ein Buch gefehlt. Eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen. Also habe ich es geschrieben.\n\n„Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.\n\nWenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.\n\nDas Buch findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍",
+    "caption": "„Ich hab halt Pech in der Liebe.“ Wirklich?\n\nVielleicht kennst du diesen Satz von dir. Wenn sich Liebesgeschichten wiederholen, sucht der Kopf nach einer Erklärung. Manche Erklärungen entlasten kurz und halten dich trotzdem genau da, wo du nicht mehr sein willst.\n\nPech zum Beispiel. Was sich immer wieder zeigt, ist selten nur Zufall. Das ist kein Urteil über dich. Es zeigt dir, wo du hinschauen kannst.\n\nOder der Gedanke, dass der Datingmarkt kaputt ist. Den Markt kannst du nicht ändern und andere Menschen nicht passend machen. Deinen Blick auf dich und deine Muster schon.\n\nUnd der härteste: „Mit mir stimmt etwas nicht.“ Mit dir ist nichts falsch. Du hast irgendwann gelernt, Nähe bei bestimmten Menschen zu suchen. Was gelernt ist, kann sich verändern.\n\nZum Mitnehmen: Wenn du das nächste Mal „wieder dasselbe“ denkst, frag dich, was dich am Anfang angezogen hat, obwohl du schon etwas gespürt hast. Kein Vorwurf. Nur ein Hinweis, worauf du früher achten kannst.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum du dich in die Menschen verliebst, in die du dich verliebst.\n\nWelche dieser Annahmen hast du selbst schon gedacht? 🤍",
     "hashtags": [
+      "#immerdiefalschen",
       "#beziehungsmuster",
-      "#traumasensibel",
-      "#buchtipp",
-      "#singleleben",
-      "#oldenburg"
+      "#singlesein",
+      "#datingtipps",
+      "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:45:01.865Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -852,10 +577,9 @@
       "out/k07/03.jpg",
       "out/k07/04.jpg",
       "out/k07/05.jpg",
-      "out/k07/06.jpg",
-      "out/k07/07.jpg"
+      "out/k07/06.jpg"
     ],
-    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als würdest du die Person schon ewig kennen. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt?",
+    "caption": "Es fühlt sich an wie Zuhause. Leider.\n\nDiese Geschichte ist aus vielen Erfahrungen zusammengesetzt. Sie beschreibt keine einzelne Person.\n\nStell dir vor: Du lernst jemanden kennen, und vom ersten Abend an ist da dieses Ziehen. Als kenntest du ihn oder sie ewig. Diesmal ist es anders, denkst du.\n\nDann meldet sich die Person mal nach Stunden, mal nach Tagen. Sie plant etwas und sagt wieder ab. Du behältst dein Handy im Blick, genau wie früher.\n\nIrgendwann fällt dir auf: Das Ziehen ist am stärksten, wenn die Person unklar ist. Meldet sie sich verlässlich, lässt es nach. Da verstehst du, dass vertraut nie sicher hieß. Es hieß nur, dass du dieses Hin und Her schon kennst.\n\nWas du mitnehmen kannst: Wenn dich jemand sofort stark anzieht, frag dich, woher du dieses Gefühl kennst. Sicherheit erkennst du eher daran, dass du nicht rätseln musst.\n\nIm Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel, in Oldenburg oder online. Das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du beim nächsten Kennenlernen früher spüren willst, was dir guttut.\n\nKennst du dieses Ziehen, das sich wie Zuhause anfühlt? 🤍",
     "hashtags": [
       "#singlecoaching",
       "#immerdiefalschen",
@@ -863,13 +587,226 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T09:49:24.147Z"
-    },
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k08",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 8",
+    "titel": "Klar, mach ich",
+    "format": "Das sagst du / das meinst du",
+    "angebot": "Buch",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/k08/01.jpg",
+      "out/k08/02.jpg",
+      "out/k08/03.jpg",
+      "out/k08/04.jpg",
+      "out/k08/05.jpg",
+      "out/k08/06.jpg"
+    ],
+    "caption": "„Klar, mach ich.“ Du bist todmüde.\n\nSich selbst zu verlieren passiert selten auf einmal. Es passiert in kleinen Sätzen, die so selbstverständlich geworden sind, dass du sie gar nicht mehr hörst.\n\n„Mir ist egal, wo wir essen“ heißt manchmal: Ich weiß gar nicht mehr, worauf ich Lust habe. „Ist nicht so schlimm“ heißt manchmal: Es hat mich getroffen, aber ich will keinen Streit. „Ich bin da ganz flexibel“ heißt manchmal: Ich habe Angst, dass meine Wünsche zu viel sind.\n\nDiese Sätze sind kein Fehler. Oft waren sie früher der sicherste Weg, dazuzugehören. Nur kosten sie dich heute mehr, als sie dich schützen.\n\nEin Satz, der dir Zeit verschafft: „Lass mich kurz überlegen.“ Er ist kein Nein. Er gibt dir nur den Moment, zu spüren, was du willst.\n\nDie Sätze in diesem Beitrag sind aus vielen Erfahrungen zusammengesetzt, sie stammen nicht von einer einzelnen Person.\n\nWie du dich öffnen kannst, ohne dich dabei selbst zu verlieren: Darum geht es in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du bei dir bleiben willst, auch wenn andere etwas von dir wollen.\n\nWelchen dieser Sätze hast du diese Woche schon gesagt? 🤍",
+    "hashtags": [
+      "#neinsagen",
+      "#grenzensetzen",
+      "#selbstfürsorge",
+      "#beziehungsmuster",
+      "#coachingoldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k09",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 9",
+    "titel": "Der Abend war schön",
+    "format": "Liste",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": "2026-11-08",
+    "dateien": [
+      "out/k09/01.jpg",
+      "out/k09/02.jpg",
+      "out/k09/03.jpg",
+      "out/k09/04.jpg",
+      "out/k09/05.jpg",
+      "out/k09/06.jpg"
+    ],
+    "caption": "Der Abend war schön. Jetzt willst du weg.\n\nNach Nähe kommt manchmal der Drang abzutauchen. Du antwortest nicht mehr oder wirst plötzlich kühl, obwohl du die Person magst. Oft ist das ein alter Schutz, der anspringt, wenn etwas wichtig wird.\n\nDu musst ihn nicht bekämpfen. Du kannst ihn aussprechen. Zum Beispiel so: „Ich brauche heute ein bisschen Ruhe. Das hat nichts mit dir zu tun. Ich melde mich morgen.“\n\nOder, wenn du mutig bist: „Mir ist das gerade viel, weil es mir wichtig ist. Ich gehe langsam, nicht weg.“\n\nUnd für dich selbst, bevor du irgendetwas schreibst: beide Füße auf den Boden, ein paar Mal langsam ausatmen. Dann: „Ich darf langsam sein. Ich muss nicht fliehen, um sicher zu sein.“\n\nZum Mitnehmen: Rückzug ist erlaubt. Mit einem Satz dazu wird er für euch beide leichter.\n\nWichtig: Wenn du Abstand brauchst, weil jemand respektlos ist, dich kontrolliert oder dir Gewalt antut, ist das kein Muster. Das ist Schutz. Das Hilfetelefon „Gewalt gegen Frauen“ erreichst du unter 116 016, das Hilfetelefon „Gewalt an Männern“ unter 0800 123 99 00.\n\nFolge @ninahoemmencoaching, wenn du Nähe in deinem Tempo lernen willst.\n\nWelcher Satz würde dir am leichtesten über die Lippen gehen? 🤍",
+    "hashtags": [
+      "#angstvornähe",
+      "#bindungsangst",
+      "#rückzug",
+      "#beziehungsmuster",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k10",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 10",
+    "titel": "Nichts Festes",
+    "format": "Vorher/Nachher",
+    "angebot": "Shop",
+    "kernthema": 1,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k10/01.jpg",
+      "out/k10/02.jpg",
+      "out/k10/03.jpg",
+      "out/k10/04.jpg",
+      "out/k10/05.jpg",
+      "out/k10/06.jpg"
+    ],
+    "caption": "Ihr seid nichts Festes. Seit Monaten, und du wartest.\n\nDie Person will sich nicht festlegen, und du willst nicht drängen. Also wartest du und erklärst dir das Warten mit Sätzen, die geduldig klingen: „Die Person braucht halt noch Zeit.“ „Wenigstens kommt ab und zu eine Nachricht.“\n\nSolche Sätze halten die Verbindung. Sie halten aber auch dich klein, weil dein eigener Wunsch darin nicht mehr vorkommt.\n\nNachher-Sätze klingen anders: „Ich darf wissen wollen, woran ich bin.“ „Eine klare Frage ist kein Druck.“ „Mir ist ein Name wichtig. Das darf die Person wissen.“ „Ab und zu reicht mir nicht.“\n\nFür heute: Du musst nichts entscheiden. Schreib dir nur auf, was du dir wünschst, ohne es kleiner zu machen. Wer das weiß, wartet anders.\n\nWarten ist keine Pflicht. Wenn jemand dich respektlos behandelt, kontrolliert oder dir Gewalt antut, geht es nicht mehr um Geduld.\n\nZum Weiterdenken: In meinem Shop findest du unter Journale & Karten „Deine Beziehungslandkarte“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du in der Liebe öfter aussprechen willst, was du brauchst.\n\nWelcher Nachher-Satz fällt dir am schwersten? 🤍",
+    "hashtags": [
+      "#situationship",
+      "#beziehungsmuster",
+      "#dating",
+      "#singlesein",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k11",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 11",
+    "titel": "Mir hat ein Buch gefehlt",
+    "format": "Werbung",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/k11/01.jpg",
+      "out/k11/02.jpg",
+      "out/k11/03.jpg",
+      "out/k11/04.jpg",
+      "out/k11/05.jpg",
+      "out/k11/06.jpg"
+    ],
+    "caption": "Mir hat ein Buch gefehlt. Also habe ich es geschrieben.\n\nDamals wollte ich eins, das Beziehungsmuster verständlich erklärt und zeigt, warum wir uns selbst im Weg stehen, und mich trotzdem einlädt, mir selbst nah zu kommen.\n\n„Zwischen Single-Sein & falscher Nähe“ ist kein Ratgeber mit schnellen Tipps. Es geht darum, zu verstehen, warum sich Liebesgeschichten wiederholen und warum Nähe sich manchmal bedrohlich anfühlt. Dazu gibt es Übungen und Reflexionsfragen für zu Hause. Es richtet sich an Singles, Menschen in Beziehungen, Eltern und Coaches.\n\nWenn du nur einen Satz daraus mitnimmst, dann diesen: Du bist nicht kaputt. Du bist geprägt von Erfahrungen, die dich damals schützen sollten. Und das darf sich in deinem Tempo verändern.\n\nDas Buch findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesem Beitrag ist gerade bei dir hängen geblieben? 🤍",
+    "hashtags": [
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#buchtipp",
+      "#singleleben",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k12",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 12",
+    "titel": "Das Erstgespräch",
+    "format": "Werbung",
+    "angebot": "Coaching",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/k12/01.jpg",
+      "out/k12/02.jpg",
+      "out/k12/03.jpg",
+      "out/k12/04.jpg",
+      "out/k12/05.jpg",
+      "out/k12/06.jpg"
+    ],
+    "caption": "Du musst nicht schon wissen, was du brauchst.\n\nVielleicht wiederholt sich in deiner Liebe etwas, und du weißt nicht, warum. Das musst du nicht allein herausfinden. Im Singlecoaching schauen wir gemeinsam auf deine Beziehungsgeschichte und darauf, welche Muster sich wiederholen. Traumasensibel und körperorientiert, in Oldenburg oder online.\n\nDu entscheidest, worüber du sprichst und wie viel. Und du musst dich nicht reparieren.\n\nIm Erstgespräch schauen wir, wo du gerade stehst und ob wir zusammenpassen. Es dauert etwa 30 Minuten, ist kostenfrei und findet telefonisch oder in meinen Räumen in Oldenburg statt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWas würdest du gern einmal in Ruhe ansehen? 🤍",
+    "hashtags": [
+      "#beziehungscoach",
+      "#traumasensibel",
+      "#coachingoldenburg",
+      "#singlecoaching",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k13",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 13",
+    "titel": "Für zwischendurch",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 4,
+    "fruehestens": "2026-11-01",
+    "dateien": [
+      "out/k13/01.jpg",
+      "out/k13/02.jpg",
+      "out/k13/03.jpg",
+      "out/k13/04.jpg",
+      "out/k13/05.jpg",
+      "out/k13/06.jpg"
+    ],
+    "caption": "Nicht alles klärt sich an einem Abend.\n\nAuch in einem Gespräch klärt sich nicht alles. Manches braucht Zeit und einen Ort zu Hause, an dem du ganz bei dir sein darfst.\n\nIn meinem Shop findest du unter Journale & Karten „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Dazu gibt es Meditationen und Audios. Sie laden dich ein, dich selbst besser kennenzulernen, in deinem Tempo.\n\nSchau in Ruhe durch, was zu dir passt. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen möchtest.\n\nWas würde dir gerade am ehesten guttun: ein Journal, eine Karte oder ein Audio? 🤍",
+    "hashtags": [
+      "#journaling",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#beziehungsmuster",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k14",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 14",
+    "titel": "Ein Ort zum Sein",
+    "format": "Werbung",
+    "angebot": "Veranstaltungen",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/k14/01.jpg",
+      "out/k14/02.jpg",
+      "out/k14/03.jpg",
+      "out/k14/04.jpg",
+      "out/k14/05.jpg",
+      "out/k14/06.jpg"
+    ],
+    "caption": "Ein Ort, an dem du einfach sein darfst.\n\nWenn du eine Frau bist: HERZ.ZEIT ist mein Frauenkreis in Oldenburg. Ohne Maske, ohne Rolle. Du musst nichts leisten und nichts erklären.\n\nUnd wenn du aufhören möchtest, nur zu funktionieren: Für dich gibt es meine Abendreihe „Zurück zu dir – 8 Abende für Frauen“.\n\nBeides sind Angebote für Frauen. Alle Infos über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr über diese Abende erfahren möchtest.\n\nWo könntest du heute einmal nichts erklären müssen? 🤍",
+    "hashtags": [
+      "#frauenkreis",
+      "#oldenburg",
+      "#traumasensibel",
+      "#zurueckzudir",
+      "#herzzeit"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -888,11 +825,9 @@
       "out/k15/03.jpg",
       "out/k15/04.jpg",
       "out/k15/05.jpg",
-      "out/k15/06.jpg",
-      "out/k15/07.jpg",
-      "out/k15/08.jpg"
+      "out/k15/06.jpg"
     ],
-    "caption": "Du bist nicht verliebt in ihn. Du bist verliebt in das, was er sein könnte.\n\nEs fühlt sich wie ein großes Gefühl an. Manchmal ist es nur die Hoffnung auf eine Version von ihm, die noch nicht da ist.\n\nDu erinnerst dich an den einen guten Abend, nicht an die drei stillen Wochen danach. Du erklärst sein Schweigen mit Stress, seine Kürze mit Zurückhaltung, seine Unverbindlichkeit mit Vorsicht. Und du wartest auf den Moment, in dem er endlich zeigt, was du schon in ihm siehst.\n\nWas du siehst, ist echt. Nur zeigt es, wozu er fähig wäre, nicht, wozu er sich entscheidet.\n\nFür heute: Schreib auf, was du an ihm magst. Schreib daneben, was er in den letzten vier Wochen tatsächlich getan hat. Vergleich beide Listen.\n\nPotenzial ist keine Zusage. Du darfst auf das schauen, was wirklich da ist.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, Nähe von Hoffnung zu unterscheiden.\n\nWoran erkennst du bei dir den Unterschied zwischen dem, was ist, und dem, was sein könnte?",
+    "caption": "Du liebst nicht den Menschen. Du liebst sein Potenzial.\n\nEs fühlt sich wie ein großes Gefühl an. Manchmal ist es nur die Hoffnung auf eine Version der Person, die noch nicht da ist.\n\nDu erinnerst dich an den einen guten Abend, nicht an die drei stillen Wochen danach. Du erklärst das Schweigen mit Stress, die Kürze mit Zurückhaltung, die Unverbindlichkeit mit Vorsicht. Und du wartest auf den Moment, in dem die Person endlich zeigt, was du schon in ihr siehst.\n\nWas du siehst, ist echt. Nur zeigt es, wozu die Person fähig wäre, nicht, wozu sie sich entscheidet.\n\nFür heute: Schreib auf, was du an der Person magst. Schreib daneben, was sie in den letzten vier Wochen tatsächlich getan hat. Vergleich beide Listen.\n\nPotenzial ist keine Zusage. Du darfst auf das schauen, was wirklich da ist.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, Nähe von Hoffnung zu unterscheiden.\n\nWoran erkennst du bei dir den Unterschied zwischen dem, was ist, und dem, was sein könnte? 🤍",
     "hashtags": [
       "#beziehungsmuster",
       "#partnerwahl",
@@ -900,15 +835,9 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ist als 'keins' angegeben, doch auf Seite 1 wird Ninas Buch 'Zwischen Single-Sein & falscher Nähe' mit vollständig lesbarem Titel und Untertitel prominent ins Bild gehalten – das bewirbt ein Angebot, das nicht angegeben ist."
-      ],
-      "am": "2026-09-29T10:28:59.669Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -927,11 +856,9 @@
       "out/k16/03.jpg",
       "out/k16/04.jpg",
       "out/k16/05.jpg",
-      "out/k16/06.jpg",
-      "out/k16/07.jpg",
-      "out/k16/08.jpg"
+      "out/k16/06.jpg"
     ],
-    "caption": "Manchmal reicht ein Kreis von Frauen, um wieder bei dir anzukommen.\n\nEs gibt Themen, die sich in einer Gruppe von Frauen anders anfühlen als allein. Nicht, weil du es allein nicht schaffst. Weil manches leichter wird, wenn es geteilt wird.\n\nDer Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für Frauen, die sich in Gesellschaft anderer Frauen wieder spüren wollen.\n\nDie Abendreihe „Zurück zu dir – 8 Abende für Frauen“ begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.\n\nDu musst nichts mitbringen außer dir selbst. Und du musst dich nicht allein durch alles arbeiten.\n\nMehr zum Frauenkreis HERZ.ZEIT und zu „Zurück zu dir – 8 Abende für Frauen“ findest du in der Bio. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Räume mit anderen Frauen wünschst.\n\nWas würde sich für dich verändern, wenn du das nicht allein tragen müsstest?",
+    "caption": "Manchmal reicht ein Kreis, um wieder bei dir anzukommen.\n\nEs gibt Themen, die sich in einer Gruppe von Frauen anders anfühlen als allein. Nicht, weil du es allein nicht schaffst. Weil manches leichter wird, wenn es geteilt wird.\n\nDer Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für Frauen, die sich in Gesellschaft anderer Frauen wieder spüren wollen.\n\nDie Abendreihe „Zurück zu dir – 8 Abende für Frauen“ begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.\n\nBeide Angebote richten sich bewusst an Frauen und an das, was in einer Runde von Frauen möglich wird.\n\nDu musst nichts mitbringen außer dir selbst. Und du musst dich nicht allein durch alles arbeiten.\n\nMehr zum Frauenkreis HERZ.ZEIT und zu „Zurück zu dir – 8 Abende für Frauen“ findest du in der Bio. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Räume mit anderen Frauen wünschst.\n\nWas würde sich für dich verändern, wenn du das nicht allein tragen müsstest? 🤍",
     "hashtags": [
       "#frauenkreis",
       "#herzzeit",
@@ -939,15 +866,9 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Seite 4: Tippfehler 'Äbende für Frauen' statt 'Abende für Frauen' (fälschliches Ä statt A). Zusätzlich wirkt die Anführungszeichen-Setzung fehlerhaft: vor 'Äbende' steht ein weiteres öffnendes Anführungszeichen statt eines durchgehenden Zitats."
-      ],
-      "am": "2026-09-29T10:29:12.974Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -966,11 +887,9 @@
       "out/k17/03.jpg",
       "out/k17/04.jpg",
       "out/k17/05.jpg",
-      "out/k17/06.jpg",
-      "out/k17/07.jpg",
-      "out/k17/08.jpg"
+      "out/k17/06.jpg"
     ],
-    "caption": "Du musst dich nicht erst wiederfinden, um anzufangen.\n\nWer sich in Beziehungen oft anpasst, verliert irgendwann den Kontakt zu den eigenen Antworten. Nicht dramatisch, eher leise, Frage für Frage.\n\nDiese Fragen sagen dir oft mehr:\nWas wolltest du heute wirklich sagen, hast es aber nicht?\nWann hast du zuletzt „Ja“ gesagt, obwohl in dir „Nein“ stand?\nWoran erkennst du, dass du gerade du selbst bist und nicht die angepasste Version?\n\nDiese Fragen brauchen keine große Antwort. Sie brauchen nur, dass du sie dir stellst, regelmäßig, in deinem Tempo.\n\nDu brauchst keinen perfekten Moment, um anzufangen. Eine Seite reicht.\n\nGenau solche Fragen begleiten das Journal „90 Tage näher zu dir“ und die Karten „Deine Beziehungslandkarte“ aus meinem Shop. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst wieder näherkommen willst.\n\nWelche dieser Fragen hast du dir lange nicht gestellt?",
+    "caption": "Wann hast du zuletzt „Ja“ gesagt und „Nein“ gemeint?\n\nDu musst dich nicht erst wiederfinden, um anzufangen. Wer sich in Beziehungen oft anpasst, verliert irgendwann den Kontakt zu den eigenen Antworten. Nicht dramatisch, eher leise, Frage für Frage.\n\nDiese Fragen sagen dir oft mehr:\nWas wolltest du heute wirklich sagen, hast es aber nicht?\nWann hast du zuletzt „Ja“ gesagt, obwohl in dir „Nein“ stand?\nWoran erkennst du, dass du gerade du selbst bist und nicht die angepasste Version?\n\nDiese Fragen brauchen keine große Antwort. Sie brauchen nur, dass du sie dir stellst, regelmäßig, in deinem Tempo.\n\nDu brauchst keinen perfekten Moment, um anzufangen. Eine Seite reicht.\n\nGenau solche Fragen begleiten das Journal „90 Tage näher zu dir“ und die Karten „Deine Beziehungslandkarte“ aus meinem Shop. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst wieder näherkommen willst.\n\nWelche dieser Fragen hast du dir lange nicht gestellt? 🤍",
     "hashtags": [
       "#journaling",
       "#selbstreflexion",
@@ -978,13 +897,9 @@
       "#traumasensibel",
       "#näherzudir"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T10:28:57.092Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1003,11 +918,9 @@
       "out/k18/03.jpg",
       "out/k18/04.jpg",
       "out/k18/05.jpg",
-      "out/k18/06.jpg",
-      "out/k18/07.jpg",
-      "out/k18/08.jpg"
+      "out/k18/06.jpg"
     ],
-    "caption": "Du siehst die drei Punkte. Dann verschwinden sie.\n\nUnd du fängst an zu rechnen. Was habe ich geschrieben, das falsch war? Was denkt er gerade?\n\nDas ist kein Anspruchsdenken. Das ist ein Nervensystem, das gelernt hat: Stille kann gefährlich sein. Früher, in einer anderen Beziehung oder Familie, konnte Schweigen bedeuten: Jetzt kommt etwas. Dein Körper reagiert manchmal noch immer so, auch wenn hier gar nichts folgt.\n\nDu musst dem Gedankenkarussell nicht glauben, nur weil es laut ist. Eine Pause in der Nachricht ist noch keine Aussage über dich.\n\nFür heute: Wenn die Punkte verschwinden, leg das Handy hin und atme dreimal tief aus, bevor du weiterdenkst.\n\nNicht jede Stille bedeutet etwas über dich. Manchmal bedeutet sie nur: gerade keine Zeit.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, Stille auszuhalten, ohne dich selbst zu verlieren.\n\nWas macht dein Körper, wenn die Antwort ausbleibt?",
+    "caption": "Du siehst die drei Punkte. Dann verschwinden sie.\n\nUnd du fängst an zu rechnen. Was habe ich geschrieben, das falsch war? Was denkt die andere Person gerade?\n\nDas ist kein Anspruchsdenken. Das ist ein Nervensystem, das gelernt hat: Stille kann gefährlich sein. Früher, in einer anderen Beziehung oder Familie, konnte Schweigen bedeuten: Jetzt kommt etwas. Dein Körper reagiert manchmal noch immer so, auch wenn hier gar nichts folgt.\n\nDu musst dem Gedankenkarussell nicht glauben, nur weil es laut ist. Eine Pause in der Nachricht ist noch keine Aussage über dich.\n\nFür heute: Wenn die Punkte verschwinden, leg das Handy hin und atme dreimal tief aus, bevor du weiterdenkst.\n\nNicht jede Stille bedeutet etwas über dich. Manchmal bedeutet sie nur: gerade keine Zeit.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, Stille auszuhalten, ohne dich selbst zu verlieren.\n\nWas macht dein Körper, wenn die Antwort ausbleibt? 🤍",
     "hashtags": [
       "#bindungsangst",
       "#beziehungsmuster",
@@ -1015,13 +928,9 @@
       "#nähe",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T10:30:40.673Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1040,11 +949,9 @@
       "out/k19/03.jpg",
       "out/k19/04.jpg",
       "out/k19/05.jpg",
-      "out/k19/06.jpg",
-      "out/k19/07.jpg",
-      "out/k19/08.jpg"
+      "out/k19/06.jpg"
     ],
-    "caption": "Du hast gelernt, das wegzulassen, was du brauchst.\n\nIrgendwann fängt es klein an. Ein Wunsch, den du für dich behältst, weil er stört. Eine Frage, die du nicht stellst, weil sie nach zu viel klingt. Mit der Zeit wird daraus eine Gewohnheit.\n\nWoran du das erkennst:\nDu fragst dich vor jedem Wunsch, ob er in Ordnung ist, bevor du ihn aussprichst.\nDu sagst „ist nicht so wichtig\", wenn dir etwas wichtig war.\nDu merkst erst im Nachhinein, dass du wieder nachgegeben hast.\n\nAnpassung ist etwas anderes als Rücksicht. Rücksicht bleibt gegenseitig. Wenn du dauerhaft zurücksteckst, damit es der anderen Person gut geht, gehört das benannt, nicht hingenommen.\n\nFür heute reicht ein Satz: Frag dich bei der nächsten Kleinigkeit, die du für dich behalten willst, warum eigentlich.\n\nIm kostenfreien Erstgespräch von etwa 30 Minuten schauen wir gemeinsam, wo du wieder mehr Raum für dich findest. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, deine Bedürfnisse wieder auszusprechen.\n\nBei welcher Kleinigkeit merkst du es zuerst, dass du zurücksteckst?",
+    "caption": "„Ist nicht so wichtig.“ Dabei war es dir wichtig.\n\nDu hast gelernt, das wegzulassen, was du brauchst. Irgendwann fängt es klein an. Ein Wunsch, den du für dich behältst, weil er stört. Eine Frage, die du nicht stellst, weil sie nach zu viel klingt. Mit der Zeit wird daraus eine Gewohnheit.\n\nWoran du das erkennst:\nDu fragst dich vor jedem Wunsch, ob er in Ordnung ist, bevor du ihn aussprichst.\nDu sagst „ist nicht so wichtig\", wenn dir etwas wichtig war.\nDu merkst erst im Nachhinein, dass du wieder nachgegeben hast.\n\nAnpassung ist etwas anderes als Rücksicht. Rücksicht bleibt gegenseitig. Wenn du dauerhaft zurücksteckst, damit es der anderen Person gut geht, gehört das benannt, nicht hingenommen.\n\nFür heute reicht ein Satz: Frag dich bei der nächsten Kleinigkeit, die du für dich behalten willst, warum eigentlich.\n\nIm kostenfreien Erstgespräch von etwa 30 Minuten schauen wir gemeinsam, wo du wieder mehr Raum für dich findest. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, deine Bedürfnisse wieder auszusprechen.\n\nBei welcher Kleinigkeit merkst du es zuerst, dass du zurücksteckst? 🤍",
     "hashtags": [
       "#beziehungsmuster",
       "#traumasensibel",
@@ -1052,13 +959,9 @@
       "#coaching",
       "#beziehung"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T10:31:10.030Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1077,10 +980,9 @@
       "out/k20/03.jpg",
       "out/k20/04.jpg",
       "out/k20/05.jpg",
-      "out/k20/06.jpg",
-      "out/k20/07.jpg"
+      "out/k20/06.jpg"
     ],
-    "caption": "Was, wenn es kein Zufall ist, sondern ein Muster?\n\n„Zwischen Single-Sein & falscher Nähe\" heißt mein Buch. Der Titel beschreibt einen Ort, den viele kennen: zu lange allein, um es gut zu finden, und zu oft in Nähe, die sich nicht richtig anfühlt.\n\nDer Untertitel sagt, worum es geht: Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Nicht als schnelle Lösung, sondern als Weg, den du in deinem eigenen Tempo gehst.\n\nFür dich, wenn sich Beziehungen bei dir oft ähnlich anfühlen, egal ob du gerade Single bist oder mittendrin in einer Beziehung. Es geht um die Muster, die du dir nicht ausgesucht hast, aber immer wieder wiederholst.\n\nIch habe selbst lange gebraucht, um meine eigenen Muster zu sehen. Deshalb ist das Buch kein Rat von außen, sondern eine Einladung, genauer hinzuschauen.\n\nDer erste Schritt ist oft nur, das Muster überhaupt zu sehen. Der Rest kommt danach.\n\nMein Buch „Zwischen Single-Sein & falscher Nähe\" findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Muster besser verstehen willst.\n\nWelcher Teil des Titels trifft dich mehr, das Single-Sein oder die falsche Nähe?",
+    "caption": "Was, wenn es kein Zufall ist, sondern ein Muster?\n\n„Zwischen Single-Sein & falscher Nähe\" heißt mein Buch. Der Titel beschreibt einen Ort, den viele kennen: zu lange allein, um es gut zu finden, und zu oft in Nähe, die sich nicht richtig anfühlt.\n\nDer Untertitel sagt, worum es geht: Wie du dich aus alten Mustern befreist und Liebe neu erlebst. Nicht als schnelle Lösung, sondern als Weg, den du in deinem eigenen Tempo gehst.\n\nFür dich, wenn sich Beziehungen bei dir oft ähnlich anfühlen, egal ob du gerade Single bist oder mittendrin in einer Beziehung. Es geht um die Muster, die du dir nicht ausgesucht hast, aber immer wieder wiederholst.\n\nIch habe selbst lange gebraucht, um meine eigenen Muster zu sehen. Deshalb ist das Buch kein Rat von außen, sondern eine Einladung, genauer hinzuschauen.\n\nDer erste Schritt ist oft nur, das Muster überhaupt zu sehen. Der Rest kommt danach.\n\nMein Buch „Zwischen Single-Sein & falscher Nähe\" findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du deine eigenen Muster besser verstehen willst.\n\nWelcher Teil des Titels trifft dich mehr, das Single-Sein oder die falsche Nähe? 🤍",
     "hashtags": [
       "#buch",
       "#beziehungsmuster",
@@ -1088,13 +990,9 @@
       "#traumasensibel",
       "#liebe"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-29T10:30:58.866Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1113,11 +1011,9 @@
       "out/k21/03.jpg",
       "out/k21/04.jpg",
       "out/k21/05.jpg",
-      "out/k21/06.jpg",
-      "out/k21/07.jpg",
-      "out/k21/08.jpg"
+      "out/k21/06.jpg"
     ],
-    "caption": "Dein Leben ist kein Wartezimmer für später.\n\nViele schieben Dinge auf, „bis jemand da ist\": das gute Geschirr, die Reise, das schöne Bett. Als wäre Alleinsein eine Vorstufe zum eigentlichen Leben.\n\nWoran du das merkst:\nDu kochst nur richtig, wenn jemand mitisst.\nDu kaufst die guten Sachen erst „für später\".\nDu schiebst Pläne auf, weil du sie „eigentlich zu zweit machen wolltest\".\n\nNichts davon ist falsch. Nur lohnt es sich zu fragen, worauf du eigentlich wartest. Dein jetziges Leben zählt genauso, ob du gerade allein bist oder nicht.\n\nFür heute: Mach eine einzige Sache, die du dir „für später\" aufgehoben hast. Heute, nicht irgendwann.\n\nDu musst nicht warten, um es dir gut gehen zu lassen.\n\nFolge @ninahoemmencoaching, wenn du aufhören willst, dein Leben aufzuschieben.\n\nWas hebst du dir gerade „für später\" auf?",
+    "caption": "Dein Leben ist kein Wartezimmer für später.\n\nViele schieben Dinge auf, „bis jemand da ist“: das gute Geschirr, die Reise, das schöne Bett. Als wäre Alleinsein eine Vorstufe zum eigentlichen Leben.\n\nWoran du das merkst: Du kochst nur richtig, wenn jemand mitisst. Du kaufst die guten Sachen erst „für später“. Du schiebst Pläne auf, weil du sie „eigentlich zu zweit machen wolltest“.\n\nNichts davon ist falsch. Nur lohnt es sich zu fragen, worauf du eigentlich wartest. Dein jetziges Leben zählt genauso, ob du gerade allein bist oder nicht.\n\nFür heute: Mach eine einzige Sache, die du dir „für später“ aufgehoben hast. Heute, nicht irgendwann.\n\nDu musst nicht warten, um es dir gut gehen zu lassen.\n\nFolge @ninahoemmencoaching, wenn du aufhören willst, dein Leben aufzuschieben.\n\nWas hebst du dir gerade „für später“ auf? 🤍",
     "hashtags": [
       "#singlesein",
       "#alleinsein",
@@ -1125,13 +1021,9 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-30T08:48:10.902Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1152,7 +1044,7 @@
       "out/k22/05.jpg",
       "out/k22/06.jpg"
     ],
-    "caption": "Manche Schritte gehen sich leichter zu mehreren.\n\nManche Themen lassen sich gut allein bearbeiten. Andere brauchen Menschen, die zuhören und verstehen, ohne dass du alles erklären musst.\n\nDer Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für genau das: ein fester Kreis, in dem Frauen sich regelmäßig begegnen.\n\nDie Abendreihe „Zurück zu dir – 8 Abende für Frauen\" begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.\n\nBeide Angebote sind ausdrücklich für Frauen gedacht und leben von der Gruppe, in der sich niemand allein fühlt mit ihrem Thema.\n\nMehr zu HERZ.ZEIT und „Zurück zu dir – 8 Abende für Frauen\" findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du gern in Gemeinschaft wächst statt allein.\n\nZiehst du lieber allein durch ein Thema oder in einer Gruppe?",
+    "caption": "Manche Schritte gehen sich leichter zu mehreren.\n\nManche Themen lassen sich gut allein bearbeiten. Andere brauchen Menschen, die zuhören und verstehen, ohne dass du alles erklären musst.\n\nDer Frauenkreis HERZ.ZEIT in Oldenburg ist ein Angebot für genau das: ein fester Kreis, in dem Frauen sich regelmäßig begegnen.\n\nDie Abendreihe „Zurück zu dir – 8 Abende für Frauen“ begleitet dich über mehrere Abende, Schritt für Schritt zurück zu dir selbst.\n\nBeide Angebote sind ausdrücklich für Frauen gedacht und leben von der Gruppe, in der sich niemand allein fühlt mit ihrem Thema.\n\nMehr zu HERZ.ZEIT und „Zurück zu dir – 8 Abende für Frauen“ findest du über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du gern in Gemeinschaft wächst statt allein.\n\nZiehst du lieber allein durch ein Thema oder in einer Gruppe? 🤍",
     "hashtags": [
       "#frauenkreis",
       "#gemeinschaft",
@@ -1160,13 +1052,9 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-30T08:47:15.180Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -1185,10 +1073,9 @@
       "out/k23/03.jpg",
       "out/k23/04.jpg",
       "out/k23/05.jpg",
-      "out/k23/06.jpg",
-      "out/k23/07.jpg"
+      "out/k23/06.jpg"
     ],
-    "caption": "Du weißt genau, was du fühlst. Nur aufgeschrieben hast du es noch nie.\n\nVieles bleibt im Kopf hängen, weil es nie irgendwo hin darf. Ein Blatt Papier hört nicht auf, wieder zu fragen. Es hält nur fest, was du ihm gibst.\n\nDrei Fragen für den Anfang: Was war heute leicht, was war schwer? Wo hast du Ja gesagt und Nein gemeint? Wonach sehnst du dich gerade wirklich?\n\nEin Satz reicht manchmal aus. Er muss nicht lang oder klug sein, nur ehrlich, und er muss dir gehören.\n\nFür heute: Leg dir einen Zettel neben das Bett und schreib einen einzigen Satz auf, bevor du schläfst.\n\nIn meinem Shop findest du Journale und Karten, die genau dafür gemacht sind, zum Beispiel „90 Tage näher zu dir\" und „Deine Beziehungslandkarte\". Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst öfter zuhören willst.\n\nWelchen Satz würdest du heute Abend aufschreiben?",
+    "caption": "Du weißt, was du fühlst. Aufgeschrieben hast du es nie.\n\nVieles bleibt im Kopf hängen, weil es nie irgendwo hin darf. Ein Blatt Papier hält nur fest, was du ihm gibst.\n\nDrei Fragen für den Anfang: Was war heute leicht, was war schwer? Wo hast du Ja gesagt und Nein gemeint? Wonach sehnst du dich gerade wirklich?\n\nEin Satz reicht manchmal aus. Er muss nicht lang oder klug sein, nur ehrlich, und er muss dir gehören. Manche schreiben abends drei Zeilen, andere morgens eine Seite. Es gibt keine richtige Reihenfolge, nur deine eigene.\n\nFür heute: Leg dir einen Zettel neben das Bett und schreib einen einzigen Satz auf, bevor du schläfst.\n\nIn meinem Shop findest du Journale und Karten, die genau dafür gemacht sind, zum Beispiel „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst öfter zuhören willst.\n\nWelchen Satz würdest du heute Abend aufschreiben? 🤍",
     "hashtags": [
       "#journaling",
       "#selbstreflexion",
@@ -1196,13 +1083,102 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-09-30T08:47:09.647Z"
-    },
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k24",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 24",
+    "titel": "Der erste Schritt kostet nichts",
+    "format": "Werbung",
+    "angebot": "Coaching",
+    "kernthema": 3,
+    "fruehestens": null,
+    "dateien": [
+      "out/k24/01.jpg",
+      "out/k24/02.jpg",
+      "out/k24/03.jpg",
+      "out/k24/04.jpg",
+      "out/k24/05.jpg",
+      "out/k24/06.jpg"
+    ],
+    "caption": "Der erste Schritt kostet dich nichts. Nur ein Gespräch.\n\nEin Erstgespräch von etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. Kostenfrei und unverbindlich, nur damit du merkst, ob es passt.\n\nIm Coaching schauen wir gemeinsam auf die Muster, die sich in deinen Beziehungen wiederholen, traumasensibel und in deinem Tempo.\n\nCoaching arbeitet auch mit dem Körper. Manches sitzt nicht nur im Kopf, sondern auch in einer Anspannung, die du kaum noch bemerkst.\n\nDu kannst in Oldenburg vorbeikommen oder online arbeiten, von wo du gerade bist. Beides ist möglich, beides ist vollwertig.\n\nDu musst nicht wissen, was genau das Problem ist, um anzufangen. Ein erstes Gespräch reicht, um zu merken, ob es stimmt.\n\nDas Erstgespräch ist kostenfrei und unverbindlich. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du wissen willst, wie traumasensibles Coaching aussehen kann.\n\nWas würdest du in einem ersten Gespräch am liebsten loswerden? 🤍",
+    "hashtags": [
+      "#coaching",
+      "#erstgespräch",
+      "#beziehungscoaching",
+      "#traumasensibel",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k25",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 25",
+    "titel": "Die Unverbindlichen",
+    "format": "Liste",
+    "angebot": "Coaching",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/k25/01.jpg",
+      "out/k25/02.jpg",
+      "out/k25/03.jpg",
+      "out/k25/04.jpg",
+      "out/k25/05.jpg",
+      "out/k25/06.jpg"
+    ],
+    "caption": "Wieder jemand, der sich nicht entscheidet. Und du wartest.\n\nDie Person ist nett, aufmerksam, fast greifbar. Nur festlegen will sie sich nie. Und du wartest, weil es sich fast wie genug anfühlt.\n\nWas zieht dich an dieser Person an? Oft ist es genau das Vielleicht, das offene Ende. Vertrautheit fühlt sich manchmal nach Spannung an, nicht nach Ruhe.\n\nUnverbindlichkeit ist kein Makel an dir, sie ist ein Muster. Muster lassen sich verstehen und verändern, nur nicht von heute auf morgen.\n\nFrag dich, wie es sich anfühlt, wenn du nicht auf eine Antwort wartest. Ruhig oder leer? Der Unterschied zeigt dir, was du wirklich suchst.\n\nDu musst niemanden von dir überzeugen, der sich nicht entscheiden will. Deine Zeit gehört dir, auch wenn das Warten sich vertraut anfühlt. Respektlosigkeit, Kontrolle oder Gewalt musst du nicht aushalten. Hilfetelefon „Gewalt gegen Frauen“: 116 016.\n\nWenn du das Muster durchbrechen willst, ist ein kostenfreies Erstgespräch ein guter Anfang, telefonisch oder in meinen Räumen in Oldenburg. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du aufhören willst, auf Entscheidungen anderer zu warten.\n\nAuf wessen Antwort wartest du gerade? 🤍",
+    "hashtags": [
+      "#beziehungsmuster",
+      "#unverbindlich",
+      "#datingtipps",
+      "#beziehungscoaching",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k26",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 26",
+    "titel": "Woher das Muster kommt",
+    "format": "Liste",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": null,
+    "dateien": [
+      "out/k26/01.jpg",
+      "out/k26/02.jpg",
+      "out/k26/03.jpg",
+      "out/k26/04.jpg",
+      "out/k26/05.jpg",
+      "out/k26/06.jpg"
+    ],
+    "caption": "Muster fallen nicht vom Himmel. Sie haben einen Anfang.\n\nWas sich in der Liebe wiederholt, hat meist eine Geschichte davor. Nicht um Schuld zu verteilen, sondern um zu verstehen, warum du reagierst, wie du reagierst.\n\nManchmal beginnt es früh, mit dem Gefühl, dass Nähe erst verdient werden muss oder dass Zuneigung unsicher ist. Das Muster ist dann kein Fehler an dir. Es war einmal ein Schutz, nur passt er jetzt nicht mehr zu deinem Leben.\n\nVerstehen ist nicht dasselbe wie verzeihen müssen. Du darfst eine Grenze ziehen, wenn dir jemand nicht mit Respekt begegnet, egal woher das Muster stammt. Respektlosigkeit, Kontrolle oder Gewalt musst du nicht hinnehmen. Hilfetelefon „Gewalt gegen Frauen“: 116 016.\n\nFür heute: Frag dich, wann du das erste Mal gelernt hast, dass Nähe unsicher ist. Die Antwort muss niemand hören außer dir.\n\nIn meinem Buch „Zwischen Single-Sein & falscher Nähe“ gehe ich diesen Anfängen nach, Kapitel für Kapitel. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, woher deine Muster kommen.\n\nWelcher frühe Moment fällt dir dazu als Erstes ein? 🤍",
+    "hashtags": [
+      "#beziehungsmuster",
+      "#innerekind",
+      "#selbstverstehen",
+      "#buchtipp",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }

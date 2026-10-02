@@ -41,6 +41,14 @@ Muster, Nähe, Schutz, geprägt, Nervensystem, Körper, in deinem Tempo, vertrau
 - „Frauen“ als Ansprache (außer bei echten Frauenangeboten, gekennzeichnet).
 - **Empfehlung (nicht von Nina bestätigt):** keine Anglizismen-Marketingwörter („Mindset“, „Game Changer“, „Red Flag“ als Schlagwort), kein Drama-Vokabular („toxisch“ als Pauschalurteil). Nina soll das bei Gelegenheit bestätigen oder streichen.
 
+## Aufbau eines Karussells (fest, seit 02.10.2026)
+
+Genau 6 Seiten, wie Christian es für virale Karussells festgelegt hat:
+1. **Hook:** höchstens 10 Wörter, weckt Neugier oder macht ein Problem auf (Ich-Geständnis, wörtliches Zitat, Widerspruch, Alltagsszene).
+2. **Seiten 2 bis 5:** ein Kerngedanke pro Seite, kurze Sätze (höchstens zwei, etwa 20 Wörter), keine Textwüsten. Zusammen ergeben sie den Mitnahme-Satz; bei riskanten Themen steht die Grenze (Respektlosigkeit, Kontrolle, Gewalt, Hilfetelefon) auf einer dieser Seiten.
+3. **Seite 6 CTA:** eine klare Handlungsaufforderung: Speichern, Teilen oder Kommentieren. Bei Angebot stattdessen oder zusätzlich „Link in der Bio“, ohne Angebot nie.
+Alles Weitere (längere Erklärung, Details zum Angebot) gehört in die Caption.
+
 ## Aufbau einer Caption (fest)
 
 1. **Hook**, derselbe Satz wie auf dem Cover.

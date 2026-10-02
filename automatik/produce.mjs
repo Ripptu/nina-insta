@@ -10,6 +10,7 @@ const sperre = (post) => { const min = ANGEBOTE[String(post.angebot || '').toLow
 const AUTO = new URL('../docs/content-posts-auto.md', import.meta.url)
 const alleBeitraege = () => [...readPosts(), ...(fs.existsSync(AUTO) ? readPosts(AUTO) : [])]
 import { buildCarousel } from '../render/karussell.mjs'
+import { pruefeStruktur } from './karussell-regeln.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
 const args = process.argv.slice(2)
@@ -30,6 +31,8 @@ try {
       const id = `k${String(post.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id) && !nur.includes(String(post.nr)))) continue
       if (neu >= anzahl) break
+      const sf = pruefeStruktur(post)
+      if (sf.length) { console.log(`Karussell ${id} ${post.titel} nicht produziert (Strukturregel): ${sf[0]}`); process.exitCode = 1; continue }
       const out = path.join(ROOT, 'out', id)
       fs.rmSync(out, { recursive: true, force: true })
       let r

@@ -9,6 +9,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import os from 'node:os'
 import { frageClaude } from './claude.mjs'
+import { pruefeStruktur } from './karussell-regeln.mjs'
 import { ladeQueue } from './queue.mjs'
 import { readPosts } from '../render/inhalt.mjs'
 import { readReels } from '../render/reel.mjs'
@@ -25,7 +26,7 @@ const cfg = typ === 'reel'
   ? { basis: 'docs/content-reels.md', auto: opt('--auto', 'docs/content-reels-auto.md'), parse: readReels, wort: 'Reel', beispiel: (md) => md.match(/## Reel 3:[\s\S]*?(?=\n---\n)/)?.[0] }
   : typ === 'story'
     ? { basis: 'docs/content-posts.md', auto: opt('--auto', 'docs/content-stories-auto.md'), parse: readStories, wort: 'Story' }
-    : { basis: 'docs/content-posts.md', auto: opt('--auto', 'docs/content-posts-auto.md'), parse: readPosts, wort: 'Karussell', beispiel: (md) => md.match(/## Karussell 2:[\s\S]*?(?=\n## )/)?.[0] }
+    : { basis: 'docs/content-posts.md', auto: opt('--auto', 'docs/content-posts-auto.md'), parse: readPosts, wort: 'Karussell', beispiel: (md) => md.match(/## Karussell 6:[\s\S]*?(?=\n## )/)?.[0] }
 const story = typ === 'story'
 if (!['karussell', 'reel', 'story'].includes(typ)) { console.log(`Unbekannter Typ „${typ}“ (karussell, reel oder story).`); process.exit(1) }
 
@@ -79,6 +80,7 @@ ${lies('learnings.md').slice(-2500)}
 BEREITS VERWENDETE THEMEN/TITEL (nicht wiederholen, auch nicht sinngemäß): ${themen.join(' | ')}
 
 AUFGABE: Schreibe ${anzahl} neue ${cfg.wort}-Blöcke mit diesen Nummern und Angeboten: ${plan.map((p) => `${cfg.wort} ${p.nr} (Angebot: ${p.angebot}${p.werbung ? ', Format: Werbung' : ''})`).join('; ')}.\nBei "Format: Werbung" stellt der ganze Beitrag das Angebot vor (Cover-Hook zum Nutzen, 4 bis 6 Seiten mit dem, was auf der Homepage oder in data/angebote.json steht, Schlussseite mit "Link in der Bio"), ohne Preise, Termine und erfundene Details; Vorbild sind Karussell 11 bis 14 in docs/content-posts.md. Metazeile "- Format: Werbung".
+KARUSSELL-STRUKTUR (feste Regel, Christian 02.10.2026): genau 6 Seiten. Seite 1 = Hook mit höchstens 10 Wörtern, der Neugier weckt oder ein Problem aufmacht (Ich-Geständnis, wörtliches Zitat, Widerspruch oder Alltagsszene, kein Fachbegriff), ohne Untertitel oder mit höchstens ein, zwei Wörtern dazu, so dass die ganze Seite höchstens 10 Wörter hat. Seiten 2 bis 5 = Inhalt, ein Kerngedanke pro Seite, höchstens zwei kurze Sätze und höchstens 20 Wörter, keine Aufzählung, keine Textwüste; zusammen ergeben sie den Mitnahme-Satz, bei riskanten Themen steht die Grenze (Respektlosigkeit, Kontrolle, Gewalt) und das Hilfetelefon auf einer dieser Seiten. Seite 6 = CTA mit einer klaren Handlungsaufforderung: Speichern, Teilen oder Kommentieren (z. B. „Speichere dir das für dein nächstes Date.“, „Schick das jemandem, der es gerade braucht.“, „Schreib mir in die Kommentare: …“); bei Angebot stattdessen oder zusätzlich der Angebotssatz mit „Link in der Bio“ (höchstens 26 Wörter), ohne Angebot nie „Link in der Bio“. Alles Längere (Erklärung, Details) gehört in die Caption. Die Vorlage der Seite 6 heißt „Schlussseite“ (bei Buch-Angebot „Schlussseite Buch“).
 Halte dich EXAKT an das Format des Beispielblocks (Überschrift "## ${cfg.wort} N: Titel", Metazeilen mit "- Schlüssel: Wert", Tabelle, Caption mit "**Caption:**", "**Hashtags:**"). Jeder Beitrag hat einen Mitnahme-Satz, eine Frage am Ende der Caption, höchstens 5 Hashtags, "Link in der Bio" nur bei Angebot, keine erfundenen Zahlen, Studien, Kundenstimmen, Preise oder Termine, keine Diagnosen oder Heilversprechen, niemanden als "Frauen" ansprechen (Angebote für Frauen ausgenommen), Du-Form, kein Emoji auf Slides. Bei Themen, die riskant gelesen werden können (bleiben, verzeihen, Nähe zulassen), gehört die Grenze (Respektlosigkeit, Kontrolle, Gewalt) und das Hilfetelefon hinein. Neue Themen aus den vier Kernthemen, mit einem frischen Hook.
 ${fehler ? `\nDEIN LETZTER VERSUCH WURDE ABGELEHNT WEGEN: ${fehler}\nKorrigiere genau das.\n` : ''}
 BEISPIELBLOCK (Format!):
@@ -104,9 +106,8 @@ function pruefe(text) {
     if (tags.length > 5 || !tags.length) return `${cfg.wort} ${g.nr}: Hashtags ${tags.length}`
     if (!g.caption || g.caption.length > 2100) return `${cfg.wort} ${g.nr}: Caption fehlt oder zu lang`
     if (typ === 'karussell') {
-      if (g.pages.length < 6 || g.pages.length > 10) return `Karussell ${g.nr}: ${g.pages.length} Seiten`
-      if (g.pages[0].role !== 'cover') return `Karussell ${g.nr}: Seite 1 ist kein Cover`
-      if (g.pages.some((p) => (p.text || p.head || '').split(/\s+/).length > 48)) return `Karussell ${g.nr}: eine Seite hat mehr als 48 Wörter`
+      const sf = pruefeStruktur(g)
+      if (sf.length) return `Karussell ${g.nr}: ${sf[0]}`
     } else if (!g.ablauf?.length) return `Reel ${g.nr}: kein Ablauf`
     const alles = JSON.stringify(g) + g.caption
     if (/Aufgabe\s*[12]/i.test(alles)) return `${cfg.wort} ${g.nr}: Aufgabe-Schema`
