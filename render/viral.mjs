@@ -87,10 +87,37 @@ export function createViral(eng) {
     for (const f of faces) for (const { label, r } of rs) if (overlap(f, r) > 0) problems.push(`„${label}“ über Gesicht`)
     if (html.includes('class="hd abs behind"') || html.includes('behind')) {
       // Text hinter der Person: Gesicht muss mit und ohne Text gleich aussehen
+      const letters = await page.evaluate(() => {
+        const out = []
+        for (const el of document.querySelectorAll('.behind')) {
+          const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT)
+          for (let n = tw.nextNode(); n; n = tw.nextNode())
+            for (let i = 0; i < n.data.length; i++) {
+              if (!/\p{L}/u.test(n.data[i])) continue
+              const rg = document.createRange(); rg.setStart(n, i); rg.setEnd(n, i + 1)
+              const r = rg.getBoundingClientRect()
+              if (r.width > 2) out.push([r.left, r.top, r.width, r.height, n.data[i]])
+            }
+        }
+        return out
+      })
       const off = await page.addStyleTag({ content: '.behind{visibility:hidden!important}' })
       const a = await page.screenshot({ type: 'png' })
       await off.evaluate((el) => el.remove())
       const b = await page.screenshot({ type: 'png' })
+      // Jeder Buchstabe muss im fertigen Bild sichtbar sein (Bild mit und ohne Schrift vergleichen)
+      const fa = await sharp(a).raw().toBuffer({ resolveWithObject: true }), fb = await sharp(b).raw().toBuffer()
+      const { width: iw, height: ih, channels: ch } = fa.info
+      for (const [lx, ly, lw, lh, c] of letters) {
+        const x0 = Math.max(0, Math.floor(lx)), x1 = Math.min(iw, Math.ceil(lx + lw)), y0 = Math.max(0, Math.floor(ly)), y1 = Math.min(ih, Math.ceil(ly + lh))
+        let diff = 0, tot = 0
+        for (let y = y0; y < y1; y++) for (let x = x0; x < x1; x++) {
+          const o = (y * iw + x) * ch
+          tot++
+          if (Math.abs(fa.data[o] - fb[o]) + Math.abs(fa.data[o + 1] - fb[o + 1]) + Math.abs(fa.data[o + 2] - fb[o + 2]) > 40) diff++
+        }
+        if (tot && diff / tot < 0.1) { problems.push(`Buchstabe „${c}“ verdeckt`); break }
+      }
       for (const f of faces) {
         const box = { left: Math.max(0, Math.round(f[0] + f[2] * 0.2)), top: Math.max(0, Math.round(f[1] + f[3] * 0.3)), width: Math.round(f[2] * 0.6), height: Math.round(f[3] * 0.5) }
         const ra = await sharp(a).extract(box).raw().toBuffer(), rb = await sharp(b).extract(box).raw().toBuffer()
