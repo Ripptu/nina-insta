@@ -603,9 +603,16 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 1: Die Wörter 'Zuhause' und besonders 'Leider' werden vom weiß umrandeten Foto-Ausschnitt (Kopf/Haare der Person) verdeckt. Der Buchstabe 'r' von 'Leider' ist komplett unsichtbar, das Wort ist nicht vollständig lesbar, auch nicht bei genauem Hinsehen.",
+        "COVER: Seite 1 (Cover): Der Hook 'Es fühlt sich an wie Zuhause. Leider.' ist wegen der Verdeckung durch den Foto-Ausschnitt nicht vollständig lesbar, insbesondere in Daumennagelgröße (siehe Übersichtsbild, dort ist nur 'Zuhaus' und 'Leide' zu erkennen)."
+      ],
+      "am": "2026-10-02T06:25:37.139Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -739,9 +746,13 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:25:56.649Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -770,9 +781,13 @@
       "#singlecoaching",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:25:25.894Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -836,9 +851,13 @@
       "#zurueckzudir",
       "#herzzeit"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:25:59.127Z"
+    },
     "ig": null,
     "fehler": null
   },
