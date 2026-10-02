@@ -494,9 +494,13 @@
       "#coachingoldenburg",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:24:26.671Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -525,9 +529,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:24:36.228Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -556,9 +564,13 @@
       "#datingtipps",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:24:29.637Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -618,9 +630,13 @@
       "#beziehungsmuster",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:24:14.848Z"
+    },
     "ig": null,
     "fehler": null
   },
