@@ -4,6 +4,7 @@ Christian (VAMELA) betreut den Account von Nina Hömmen, traumasensibler Coach f
 
 ## Bei jedem Lauf zuerst lesen
 
+0. `kontext/claude.md` und die drei Dateien dort (`who_i_am.md`, `how_i_talk.md`, `how_you_work.md`): Person, Stimme, Zusammenarbeit, Workflows auf Abruf
 1. `learnings.md` (was getestet wurde und was gilt)
 2. `docs/strategie.md` (Positionierung, Kernthemen, Wochenmodell, Caption-Aufbau)
 3. bei Produktion zusätzlich `docs/content-reels.md`, `docs/content-posts.md`, `data/angebote.json`, `plan/queue.json`
