@@ -11,7 +11,9 @@ const HERE = new URL('.', import.meta.url).pathname
 export const CAT = JSON.parse(fs.readFileSync(HERE + '../data/fotos.json', 'utf8'))
 const FOTO_DIR = process.env.FOTO_DIR || path.join(os.homedir(), 'NINA')
 const MAC_CHROME = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium-1134/chrome-mac/Chromium.app/Contents/MacOS/Chromium')
-const CHROME = process.env.CHROME_PATH || (fs.existsSync(MAC_CHROME) ? MAC_CHROME : undefined)
+const PUP = path.join(os.homedir(), '.cache/puppeteer/chrome-headless-shell')
+const pupChrome = () => { try { const v = fs.readdirSync(PUP).sort().pop(); const f = path.join(PUP, v, 'chrome-headless-shell-mac-arm64/chrome-headless-shell'); return fs.existsSync(f) ? f : undefined } catch { return undefined } }
+const CHROME = process.env.CHROME_PATH || (fs.existsSync(MAC_CHROME) ? MAC_CHROME : pupChrome())
 const W = 1080
 const INK = 'rgba(12,14,12,'
 
