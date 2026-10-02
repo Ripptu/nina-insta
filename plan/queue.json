@@ -1233,9 +1233,13 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:31:25.985Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1264,9 +1268,15 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption enthält zwei Grammatikfehler: 'Schreib auf, was an der Person magst.' (fehlendes Subjekt 'du', korrekt wäre 'was du an der Person magst') und 'Vergleich beide Listen.' (falsche Verbform, korrekt wäre der Imperativ 'Vergleiche beide Listen.')."
+      ],
+      "am": "2026-10-02T06:31:48.639Z"
+    },
     "ig": null,
     "fehler": null
   }
