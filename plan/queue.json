@@ -1028,9 +1028,13 @@
       "#coaching",
       "#beziehung"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:26:36.167Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1059,9 +1063,13 @@
       "#traumasensibel",
       "#liebe"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:27:15.707Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1090,9 +1098,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:27:07.807Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1152,9 +1164,13 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:27:18.917Z"
+    },
     "ig": null,
     "fehler": null
   },
