@@ -886,9 +886,15 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Grammatikfehler in der Caption, Absatz 'Für heute': 'Schreib auf, was an der Person magst.' – hier fehlt das Personalpronomen 'du' (korrekt wäre 'was du an der Person magst')."
+      ],
+      "am": "2026-10-02T06:26:08.949Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -917,9 +923,13 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:26:20.054Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -948,9 +958,13 @@
       "#traumasensibel",
       "#näherzudir"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:26:32.263Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -979,9 +993,13 @@
       "#nähe",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-02T06:26:21.295Z"
+    },
     "ig": null,
     "fehler": null
   },
