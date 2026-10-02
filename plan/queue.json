@@ -568,14 +568,18 @@
       "#datingtipps",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-02T06:24:29.637Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18137350420627453",
+      "permalink": "https://www.instagram.com/p/DeAbf0QiVpz/",
+      "am": "2026-10-02T21:17:05.669Z"
+    },
     "fehler": null
   },
   {
