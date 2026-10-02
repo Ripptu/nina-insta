@@ -1268,9 +1268,15 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, Absatz 'Für heute': 'Schreibe auf, was an der Person magst.' – grammatikalisch fehlerhaft, es fehlt das Subjekt 'du' (richtig wäre 'was du an der Person magst')."
+      ],
+      "am": "2026-10-02T06:34:30.793Z"
+    },
     "ig": null,
     "fehler": null
   }
