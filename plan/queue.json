@@ -1320,9 +1320,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:18.745Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1351,9 +1355,13 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:29.800Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1513,9 +1521,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:21.356Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1532,9 +1544,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:31.104Z"
+    },
     "ig": null,
     "fehler": null
   },
