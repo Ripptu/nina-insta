@@ -1768,9 +1768,13 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:58:48.838Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1919,9 +1923,13 @@
       "#nähezulassen",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:58:45.950Z"
+    },
     "ig": null,
     "fehler": null
   }
