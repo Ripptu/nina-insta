@@ -519,9 +519,17 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: frame-04.jpg (Videoframe bei 15.2 s): Durch die Seitenüberblendung liegt der durchscheinende Text „keine“ / „Belästigung.“ der nachfolgenden Seite direkt über dem Gesicht der Frau im grauen Blazer. Laut Vorgabe ist das ein Fehler, auch wenn der Text nur durchscheint.",
+        "LESBAR: frame-01.jpg und frame-04.jpg zeigen Übergangsframes, in denen zwei Textebenen übereinanderliegen und kollidieren (z. B. „Also fragst du nicht, ob noch …prüft.“ überlagert „Ich will ja nicht nerven.“ auf frame-01; „Ein Bedürfnis ist keine Belästigung.“ überlagert „Das Bedürfnis verschwindet nicht. Es wird nur leiser.“ auf frame-04). Das verstößt gegen die Vorgabe, dass sich Textzeilen nicht überlappen oder mit anderem Text kollidieren dürfen.",
+        "BILD: frame-01.jpg und frame-04.jpg sind sichtbar halb gerenderte Doppelbelichtungs-/Überblendungs-Frames (zwei Fotos und zwei Textebenen gleichzeitig sichtbar), kein sauber gerendertes Einzelbild."
+      ],
+      "am": "2026-10-03T06:35:05.384Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -745,9 +753,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:34:17.456Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -776,9 +788,13 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:34:19.070Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -842,9 +858,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:34:46.787Z"
+    },
     "ig": null,
     "fehler": null
   },
