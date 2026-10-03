@@ -195,9 +195,16 @@
       "#singlecoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: frame-01.jpg (erster verfügbarer Frame, 2.3 s): Zwei Textblöcke ('Fragst du dich nach einem Date zuerst, ob du gefallen hast?' und 'Hab ich zu viel erzählt? Meldet sich mein Date noch?') überlagern sich durch eine Doppelbelichtung/Überblendung an derselben Bildstelle. Der Text ist dadurch nicht sauber lesbar, auch nicht in der Übersicht als Daumennagel – die Zeilen kollidieren direkt miteinander.",
+        "COVER: frame-01.jpg als erster verfügbarer Frame zeigt den Hook nicht klar lesbar, sondern überlagert mit dem Text der Folgeseite (siehe LESBAR). Damit ist die Grundanforderung 'großer, fetter, in Daumennagelgröße lesbarer Hook' auf dem ersten Frame nicht erfüllt."
+      ],
+      "am": "2026-10-03T06:31:33.448Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -284,9 +291,17 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: frame-01.jpg: Das Bild zeigt eine Doppelbelichtung; das gelbe Wort „wieder.“ des Hooks liegt direkt über dem durchscheinenden Gesichtsbereich (Stirn/Augen/Nase) der Person. Laut Regel ist überlagernde Schrift auch im Durchschein-Fall ein Fehler.",
+        "BILD: frame-01.jpg zeigt eine sichtbare Geisterbild-/Doppelbelichtungs-Optik (Wände, Nachttisch und Gesicht erscheinen doppelt und leicht verwischt) – wirkt wie ein unfertig gerenderter Übergangsframe statt eines sauberen Bildes.",
+        "SPRACHE: Caption-Satz „Anschauen lohnt sich nur eins:“ ist grammatisch fehlerhaft/unvollständig (fehlendes „zu“, korrekt wäre z. B. „Anzuschauen lohnt sich nur eins:“)."
+      ],
+      "am": "2026-10-03T06:32:06.484Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -311,9 +326,15 @@
       "#frauenkreis",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: frame-01.jpg (2.2s) und frame-04.jpg (15.2s) sind Übergangs-Doppelbelichtungen, in denen zwei Textzeilen direkt übereinanderliegen (z. B. in frame-01: 'Mir ist das egal. Entscheid du.' überlagert mit 'Erst beim Restaurant. Irgendwann bei fast allem.'; in frame-04: 'Ist es mir egal, oder traue ich mich nur nicht?' überlagert mit 'Manchmal ist es wirklich egal. Manchmal willst du nur keinen Ärger.'). Die Texte kollidieren und sind auch in der Übersichtsdatei (Daumennagelgröße, Kachel 1 und 4) nicht lesbar."
+      ],
+      "am": "2026-10-03T06:31:56.110Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -427,9 +448,13 @@
       "#dating",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:32:10.635Z"
+    },
     "ig": null,
     "fehler": null
   },
