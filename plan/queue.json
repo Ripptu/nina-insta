@@ -1460,9 +1460,13 @@
       "#buchtipp",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:08.407Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1644,9 +1648,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:28.747Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1795,9 +1803,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:30.011Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1834,9 +1846,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:27.137Z"
+    },
     "ig": null,
     "fehler": null
   },
