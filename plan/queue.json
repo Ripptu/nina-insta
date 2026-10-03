@@ -1141,9 +1141,13 @@
       "#traumasensibel",
       "#näherzudir"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:33.823Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1207,9 +1211,13 @@
       "#coaching",
       "#beziehung"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:34.492Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1238,9 +1246,13 @@
       "#traumasensibel",
       "#liebe"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:43.784Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1269,9 +1281,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:29.245Z"
+    },
     "ig": null,
     "fehler": null
   },
