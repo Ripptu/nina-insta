@@ -421,9 +421,16 @@
       "#liebe",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: frame-01.jpg: Zwei Textblöcke („Mir hat damals ein Buch gefehlt, das mir meine Muster erklärt.“ und „Warum wir uns in der Liebe selbst im Weg stehen.“) liegen überlagert und durchscheinend übereinander. Die Zeilen kollidieren und sind dadurch auch in Normalgröße kaum, in Daumennagelgröße gar nicht lesbar.",
+        "COVER: Der erste verfügbare Frame (frame-01.jpg, 2.3 s) zeigt den Hook-Text durch Überlagerung mit einem zweiten Textblock nicht lesbar, verstößt gegen die Anforderung eines in Daumennagelgröße lesbaren Hooks auf dem ersten Frame."
+      ],
+      "am": "2026-10-03T06:32:14.783Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -479,9 +486,15 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: frame-01.jpg und seite-07.jpg zeigen eine Doppelbelichtung: Ein transparentes 'Geister'-Abbild von Ninas Gesicht liegt im Bereich der Zeilen 'toll. Warum bist / du eigentlich' direkt unter der fetten Hook-Schrift. Laut Regel zählt auch durchscheinende Schrift über dem Gesicht als Fehler."
+      ],
+      "am": "2026-10-03T06:32:44.582Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -533,9 +546,13 @@
       "#beziehung",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:32:44.637Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -560,9 +577,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:32:38.169Z"
+    },
     "ig": null,
     "fehler": null
   },
