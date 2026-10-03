@@ -23,6 +23,12 @@
    "follower": 139,
    "gefolgt": 95,
    "beitraege": 45
+  },
+  {
+   "datum": "2026-10-03",
+   "follower": 137,
+   "gefolgt": 95,
+   "beitraege": 43
   }
  ],
  "beitraege": {
@@ -828,6 +834,19 @@
      "total_interactions": 6,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 45,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 96,
+     "total_interactions": 6,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -1076,6 +1095,19 @@
      "total_interactions": 14,
      "follows": 0,
      "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 7,
+     "kommentare": 7,
+     "reach": 41,
+     "comments": 7,
+     "saved": 0,
+     "shares": 0,
+     "views": 102,
+     "total_interactions": 14,
+     "follows": 0,
+     "profile_visits": 1
     }
    ]
   },
@@ -1139,6 +1171,19 @@
      "total_interactions": 18,
      "follows": 0,
      "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 10,
+     "kommentare": 8,
+     "reach": 50,
+     "comments": 8,
+     "saved": 0,
+     "shares": 0,
+     "views": 128,
+     "total_interactions": 18,
+     "follows": 0,
+     "profile_visits": 1
     }
    ]
   },
@@ -1192,6 +1237,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 5,
+     "kommentare": 4,
+     "reach": 36,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 91,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 5,
      "kommentare": 4,
      "reach": 36,
@@ -1315,6 +1373,19 @@
      "total_interactions": 10,
      "follows": 0,
      "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 6,
+     "kommentare": 4,
+     "reach": 37,
+     "comments": 4,
+     "saved": 0,
+     "shares": 0,
+     "views": 101,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 1
     }
    ]
   },
@@ -1365,6 +1436,19 @@
      "total_interactions": 14,
      "follows": 0,
      "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 14,
+     "kommentare": 1,
+     "reach": 55,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 113,
+     "total_interactions": 15,
+     "follows": 0,
+     "profile_visits": 3
     }
    ]
   },
@@ -1402,6 +1486,19 @@
      "total_interactions": 10,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 48,
+     "comments": 0,
+     "saved": 0,
+     "shares": 2,
+     "views": 112,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -1429,6 +1526,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 6,
+     "kommentare": 3,
+     "reach": 42,
+     "comments": 3,
+     "saved": 0,
+     "shares": 0,
+     "views": 99,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 6,
      "kommentare": 3,
      "reach": 42,
@@ -1476,6 +1586,19 @@
      "total_interactions": 11,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 7,
+     "kommentare": 2,
+     "reach": 48,
+     "comments": 2,
+     "saved": 2,
+     "shares": 0,
+     "views": 136,
+     "total_interactions": 11,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -1503,6 +1626,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 9,
+     "kommentare": 4,
+     "reach": 44,
+     "comments": 4,
+     "saved": 1,
+     "shares": 0,
+     "views": 102,
+     "total_interactions": 14,
+     "follows": 0,
+     "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 9,
      "kommentare": 4,
      "reach": 44,
@@ -1550,6 +1686,19 @@
      "total_interactions": 12,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 8,
+     "kommentare": 3,
+     "reach": 50,
+     "comments": 3,
+     "saved": 1,
+     "shares": 0,
+     "views": 108,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -1577,6 +1726,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 7,
+     "kommentare": 2,
+     "reach": 45,
+     "comments": 2,
+     "saved": 0,
+     "shares": 0,
+     "views": 132,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 7,
      "kommentare": 2,
      "reach": 45,
@@ -1648,6 +1810,19 @@
      "total_interactions": 16,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 11,
+     "kommentare": 5,
+     "reach": 48,
+     "comments": 5,
+     "saved": 0,
+     "shares": 0,
+     "views": 121,
+     "total_interactions": 16,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -1675,6 +1850,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 13,
+     "kommentare": 6,
+     "reach": 51,
+     "comments": 6,
+     "saved": 0,
+     "shares": 0,
+     "views": 115,
+     "total_interactions": 19,
+     "follows": 0,
+     "profile_visits": 4
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 13,
      "kommentare": 6,
      "reach": 51,
@@ -1722,6 +1910,19 @@
      "total_interactions": 11,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 8,
+     "kommentare": 2,
+     "reach": 56,
+     "comments": 2,
+     "saved": 1,
+     "shares": 0,
+     "views": 125,
+     "total_interactions": 11,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -1749,6 +1950,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 10,
+     "kommentare": 5,
+     "reach": 72,
+     "comments": 5,
+     "saved": 0,
+     "shares": 0,
+     "views": 140,
+     "total_interactions": 15,
+     "follows": 0,
+     "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 10,
      "kommentare": 5,
      "reach": 72,
@@ -1796,6 +2010,19 @@
      "total_interactions": 12,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 9,
+     "kommentare": 3,
+     "reach": 67,
+     "comments": 3,
+     "saved": 0,
+     "shares": 0,
+     "views": 128,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -1823,6 +2050,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 13,
+     "kommentare": 5,
+     "reach": 80,
+     "comments": 5,
+     "saved": 0,
+     "shares": 0,
+     "views": 161,
+     "total_interactions": 18,
+     "follows": 0,
+     "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 13,
      "kommentare": 5,
      "reach": 80,
@@ -1870,6 +2110,19 @@
      "total_interactions": 17,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 12,
+     "kommentare": 5,
+     "reach": 75,
+     "comments": 5,
+     "saved": 0,
+     "shares": 0,
+     "views": 168,
+     "total_interactions": 17,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -1907,6 +2160,19 @@
      "total_interactions": 14,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 11,
+     "kommentare": 3,
+     "reach": 70,
+     "comments": 3,
+     "saved": 0,
+     "shares": 0,
+     "views": 163,
+     "total_interactions": 14,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -1934,6 +2200,19 @@
     },
     {
      "datum": "2026-10-02",
+     "likes": 9,
+     "kommentare": 2,
+     "reach": 60,
+     "comments": 2,
+     "saved": 1,
+     "shares": 0,
+     "views": 143,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 9,
      "kommentare": 2,
      "reach": 60,
@@ -2055,6 +2334,19 @@
      "total_interactions": 11,
      "follows": 1,
      "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 83,
+     "comments": 0,
+     "saved": 1,
+     "shares": 0,
+     "views": 190,
+     "total_interactions": 11,
+     "follows": 1,
+     "profile_visits": 3
     }
    ]
   },
@@ -2103,6 +2395,19 @@
      "total_interactions": 9,
      "follows": 0,
      "profile_visits": 5
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 9,
+     "kommentare": 0,
+     "reach": 59,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 131,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 5
     }
    ]
   },
@@ -2117,6 +2422,19 @@
    "verlauf": [
     {
      "datum": "2026-10-02",
+     "likes": 9,
+     "kommentare": 0,
+     "reach": 81,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 200,
+     "total_interactions": 9,
+     "follows": 0,
+     "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 9,
      "kommentare": 0,
      "reach": 81,
@@ -2151,6 +2469,19 @@
      "total_interactions": 16,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 9,
+     "kommentare": 5,
+     "reach": 62,
+     "comments": 5,
+     "saved": 2,
+     "shares": 0,
+     "views": 138,
+     "total_interactions": 16,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -2165,6 +2496,19 @@
    "verlauf": [
     {
      "datum": "2026-10-02",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 44,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 104,
+     "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-03",
      "likes": 5,
      "kommentare": 0,
      "reach": 44,
@@ -2199,6 +2543,91 @@
      "total_interactions": 12,
      "ig_reels_avg_watch_time": 11754,
      "ig_reels_video_view_total_time": 2350910
+    },
+    {
+     "datum": "2026-10-03",
+     "likes": 12,
+     "kommentare": 0,
+     "reach": 174,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 222,
+     "total_interactions": 12,
+     "ig_reels_avg_watch_time": 11720,
+     "ig_reels_video_view_total_time": 2355857
+    }
+   ]
+  },
+  "18137350420627453": {
+   "id": "k06",
+   "titel": "Pech in der Liebe",
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DeAbf0QiVpz/",
+   "zeit": "2026-10-02T21:16:56+0000",
+   "kernthema": 1,
+   "angebot": "keins",
+   "verlauf": [
+    {
+     "datum": "2026-10-03",
+     "likes": 4,
+     "kommentare": 0,
+     "reach": 28,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 70,
+     "total_interactions": 4,
+     "follows": 0,
+     "profile_visits": 4
+    }
+   ]
+  },
+  "18086669105238982": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DZA5TZDDJda/",
+   "zeit": "2026-05-31T19:00:16+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-10-03",
+     "likes": 10,
+     "kommentare": 0,
+     "reach": 57,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 128,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 1
+    }
+   ]
+  },
+  "17883504150414428": {
+   "id": null,
+   "titel": null,
+   "typ": "feed",
+   "permalink": "https://www.instagram.com/p/DYm7rXTDYmI/",
+   "zeit": "2026-05-21T17:00:46+0000",
+   "kernthema": null,
+   "angebot": null,
+   "verlauf": [
+    {
+     "datum": "2026-10-03",
+     "likes": 11,
+     "kommentare": 5,
+     "reach": 72,
+     "comments": 5,
+     "saved": 1,
+     "shares": 0,
+     "views": 164,
+     "total_interactions": 18,
+     "follows": 0,
+     "profile_visits": 3
     }
    ]
   }
