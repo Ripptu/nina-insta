@@ -650,9 +650,16 @@
       "#nähezulassen",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: frame-01.jpg und frame-04.jpg zeigen durch eine Crossfade-Überblendung zwei sich gegenseitig überlagernde Textblöcke (z. B. 'Ich brauche niemanden' überlagert mit 'Du kommst gut allein klar. Das stimmt ja auch.' in frame-01; 'Manchmal heißt der Satz...' überlagert mit Text einer anderen Seite in frame-04). Der Text ist dadurch nicht lesbar, auch nicht in Daumennagelgröße – bestätigt durch uebersicht.jpg, Kacheln 1 und 4, wo die Schrift sichtbar verwaschen/doppelt erscheint.",
+        "BILD: frame-01.jpg und frame-04.jpg sind sichtbar halb gerenderte Übergangs-/Doppelbelichtungs-Standbilder: Zwei unterschiedliche Fotos (inkl. unterschiedlicher Hintergründe, z. B. Wald plus Innenraum mit Kommode) liegen transparent übereinander statt eines fertigen Einzelbilds."
+      ],
+      "am": "2026-10-03T06:36:18.118Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -963,9 +970,13 @@
       "#singlecoaching",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:35:29.813Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1095,9 +1106,13 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:21.030Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1157,9 +1172,13 @@
       "#nähe",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:36:23.524Z"
+    },
     "ig": null,
     "fehler": null
   },
