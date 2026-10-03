@@ -1795,9 +1795,13 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:57:59.279Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1822,9 +1826,13 @@
       "#beziehung",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:58:10.387Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1849,9 +1857,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:57:48.298Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1876,9 +1888,13 @@
       "#meditation",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:58:40.395Z"
+    },
     "ig": null,
     "fehler": null
   },
