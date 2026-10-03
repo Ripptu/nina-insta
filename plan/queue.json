@@ -1412,9 +1412,13 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:55:29.512Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1431,9 +1435,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:54:51.797Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1450,9 +1458,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:54:49.048Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1504,9 +1516,13 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:55:34.842Z"
+    },
     "ig": null,
     "fehler": null
   },
