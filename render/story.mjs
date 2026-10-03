@@ -119,7 +119,8 @@ export async function renderStory(eng, story, outDir, opts = {}) {
   const log = []
   const hg = story.hintergrund || ''
   // Hinweis aus "Hintergrund": Foto mit Buch (31/32) oder Rückenansicht am See bevorzugen, sonst ruhige Porträts.
-  const pre = /Buch/.test(hg) ? [31, 32].map(byId) : /von hinten/.test(hg) ? CAT.filter((p) => p.kind === 'ruecken') : []
+  // Buchfotos in Stories nicht: Stories haben kein Angebot, die Prüfung wertet ein sichtbares Buch als unmarkierte Werbung (Qualitätsprüfung 03.10.2026).
+  const pre = /von hinten/.test(hg) ? CAT.filter((p) => p.kind === 'ruecken') : []
   const pages = [{ text: story.text, file: path.join(outDir, `${story.id}.jpg`) }]
   if (story.aufloesung) pages.push({ text: story.aufloesung, file: path.join(outDir, `${story.id}-aufloesung.jpg`) })
   const files = [], fotos = []

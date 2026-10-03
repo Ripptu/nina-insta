@@ -90,7 +90,7 @@ Welche dieser Fragen stellst du dir am seltensten?
 
 | Seite | Vorlage | Text |
 |---|---|---|
-| 1 | Cover mit Foto (Nina, Porträt) | **Du sagst „alles gut“. Nichts ist gut.** |
+| 1 | Cover mit Foto (Nina, Porträt) | **Alles gut, sagst du. Nichts ist gut.** |
 | 2 | Textseite | Angst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. |
 | 3 | Textseite | Du sagst: „Lass es uns locker angehen.“ Manchmal meinst du: Ich mag dich. Genau das macht mir Angst. |
 | 4 | Textseite | Nicht jeder Rückzug ist Angst. Bei Respektlosigkeit, Kontrolle oder Gewalt ist Abstand Schutz: Hilfetelefon „Gewalt gegen Frauen“ 116 016. |
@@ -98,7 +98,7 @@ Welche dieser Fragen stellst du dir am seltensten?
 | 6 | Schlussseite | Speichere dir das für den Moment, in dem du wieder „alles gut“ sagst. |
 
 **Caption:**
-Du sagst „alles gut“. Nichts ist gut.
+Alles gut, sagst du. Nichts ist gut.
 
 Angst vor Nähe klingt selten nach Angst. Oft klingt sie ganz vernünftig. Genau deshalb ist sie so schwer zu erkennen, auch bei dir selbst.
 

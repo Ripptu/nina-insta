@@ -20,7 +20,7 @@ const lokal = (n) => { const f = path.join(os.homedir(), '.local/ffmpeg/bin', n)
 const FFMPEG = process.env.FFMPEG_PATH || lokal('ffmpeg')
 const FFPROBE = process.env.FFPROBE_PATH || lokal('ffprobe')
 const FPS = 30
-const XFADE = 0.4
+const XFADE = 0 // harte Schnitte: Überblendungen zeigen zwei Textebenen übereinander (Qualitätsprüfung 03.10.2026)
 const W = 1080, PH = 1920
 const SAMPLE = 2 // Analysebilder pro Sekunde
 export const MAX_SEKUNDEN = 90
@@ -144,17 +144,11 @@ function baueVideo(segs, out, total) {
     const frames = Math.round((s.dauer + (i < n - 1 ? XFADE : 0)) * FPS)
     if (s.clip) ch.push(`[${a}:v]scale=${W}:${PH}:force_original_aspect_ratio=increase:flags=lanczos,crop=${W}:${PH},fps=${FPS},unsharp=5:5:0.45,setsar=1,format=yuv420p[bg${i}]`)
     else ch.push(`[${a}:v]scale=2160:3840:force_original_aspect_ratio=increase:flags=lanczos,crop=2160:3840,zoompan=z='1+0.07*on/${Math.max(frames - 1, 1)}':x='(iw-iw/zoom)/2':y='(ih-ih/zoom)/2':d=${frames}:s=${W}x${PH}:fps=${FPS},setsar=1,format=yuv420p[bg${i}]`)
-    ch.push(`[${b}:v]fps=${FPS},format=rgba,fade=t=in:st=0:d=0.3:alpha=1[ov${i}]`)
+    ch.push(`[${b}:v]fps=${FPS},format=rgba[ov${i}]`)
     ch.push(`[bg${i}][ov${i}]overlay=0:0:format=auto,format=yuv420p[v${i}]`)
   })
-  let prev = 'v0', acc = 0
-  for (let i = 1; i < n; i++) {
-    acc += segs[i - 1].dauer
-    const o = i === n - 1 ? 'vx' : `x${i}`
-    ch.push(`[${prev}][v${i}]xfade=transition=fade:duration=${XFADE}:offset=${acc.toFixed(3)}[${o}]`)
-    prev = o
-  }
   const vl = n === 1 ? 'v0' : 'vx'
+  if (n > 1) ch.push(`${segs.map((_, i) => `[v${i}]`).join('')}concat=n=${n}:v=1:a=0[vx]`)
   ch.push(`[${vl}]format=yuv420p[vout]`)
   ch.push(`[${n * 2}:a]aresample=44100,atrim=0:${total},asetpts=N/SR/TB[aout]`)
   args.push('-filter_complex', ch.join(';'), '-map', '[vout]', '-map', '[aout]',
