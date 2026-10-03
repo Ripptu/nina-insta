@@ -286,7 +286,7 @@ export async function createEngine() {
 }
 
 // ---------- Fotoauswahl ----------
-const BUCH_ORDER = [38, 39, 42, 35]
+const BUCH_ORDER = [60, 65, 38, 39, 42, 35]
 /** Kandidaten für eine Seite, unbenutzte zuerst, ruhige Fotos (tier 1) vor unruhigen. */
 export function ranked(kind, used, seed = 0, ohneBuch = false) {
   if (kind === 'buch') {

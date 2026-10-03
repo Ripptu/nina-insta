@@ -11,9 +11,11 @@ import { renderSlide, SAFE, PH, fixLogo } from './story.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
 import { createViral, viralCover } from './viral.mjs'
 import { paletteFor } from './seiten.mjs'
+import { renderVideoReel, clipsVorhanden } from './videoreel.mjs'
 
-const FFMPEG = process.env.FFMPEG_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffmpeg')
-const FFPROBE = process.env.FFPROBE_PATH || path.join(os.homedir(), '.local/ffmpeg/bin/ffprobe')
+const lokal = (n) => { const f = path.join(os.homedir(), '.local/ffmpeg/bin', n); return fs.existsSync(f) ? f : n }
+const FFMPEG = process.env.FFMPEG_PATH || lokal('ffmpeg')
+const FFPROBE = process.env.FFPROBE_PATH || lokal('ffprobe')
 const FPS = 30
 const XFADE = 0.4
 export const MAX_SEKUNDEN = 90
@@ -184,6 +186,8 @@ export async function renderReel(eng, reel, outDir, opts = {}) {
   const log = []
   if (reel.braucht_ton && !opts.audio) return { id: reel.id, status: 'braucht-ton', video: null, cover: null, log: ['Sprachnachricht von Nina fehlt (Drive NINA/Sprachnachrichten)'] }
   if (!reel.ablauf.length) throw new Error(`${reel.id}: kein Ablauf`)
+  // Ninas Clips (videos/) als bewegter Hintergrund, solange vorhanden; REEL_VIDEO=0 erzwingt die Foto-Fassung
+  if (!opts.audio && opts.video !== false && process.env.REEL_VIDEO !== '0' && clipsVorhanden()) return renderVideoReel(eng, reel, outDir, opts)
   let total = reel.dauer
   const durs = reel.ablauf.map((s) => s.dauer)
   if (opts.audio) {

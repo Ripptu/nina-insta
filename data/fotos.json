@@ -881,5 +881,475 @@
   "buch": false,
   "faces": [],
   "keepout": []
+ },
+ {
+  "id": 43,
+  "file": "okt_foto_01.jpg",
+  "w": 240,
+  "h": 320,
+  "luma": 117,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    106,
+    113,
+    18,
+    26
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 44,
+  "file": "okt_foto_02.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 125,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    616,
+    232,
+    180,
+    359
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 45,
+  "file": "okt_foto_03.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 118,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    640,
+    226,
+    141,
+    197
+   ],
+   [
+    382,
+    376,
+    36,
+    59
+   ],
+   [
+    430,
+    385,
+    35,
+    54
+   ],
+   [
+    160,
+    364,
+    43,
+    55
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 46,
+  "file": "okt_foto_04.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 128,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    613,
+    160,
+    127,
+    259
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 47,
+  "file": "okt_foto_05.jpg",
+  "w": 589,
+  "h": 1069,
+  "luma": 102,
+  "kind": "ereignis",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 48,
+  "file": "okt_foto_06.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 131,
+  "kind": "ruecken",
+  "tier": 1,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 49,
+  "file": "okt_foto_07.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 97,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    633,
+    629,
+    95,
+    116
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 50,
+  "file": "okt_foto_08.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 135,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    829,
+    380,
+    114,
+    159
+   ],
+   [
+    263,
+    -21,
+    370,
+    387
+   ],
+   [
+    720,
+    8,
+    394,
+    271
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 51,
+  "file": "okt_foto_09.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 120,
+  "kind": "ruecken",
+  "tier": 1,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 52,
+  "file": "okt_foto_10.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 145,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    557,
+    200,
+    211,
+    304
+   ],
+   [
+    934,
+    771,
+    248,
+    349
+   ],
+   [
+    375,
+    921,
+    135,
+    137
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 53,
+  "file": "okt_foto_11.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 133,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    497,
+    333,
+    121,
+    171
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 54,
+  "file": "okt_foto_12.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 116,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    539,
+    399,
+    103,
+    140
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 55,
+  "file": "okt_foto_13.jpg",
+  "w": 901,
+  "h": 1600,
+  "luma": 127,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 56,
+  "file": "okt_foto_14.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 164,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 57,
+  "file": "okt_foto_15.jpg",
+  "w": 747,
+  "h": 1600,
+  "luma": 109,
+  "kind": "ausgeschlossen",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 58,
+  "file": "okt_foto_16.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 121,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    553,
+    141,
+    185,
+    265
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 59,
+  "file": "okt_foto_17.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 119,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    584,
+    519,
+    138,
+    173
+   ],
+   [
+    183,
+    508,
+    78,
+    84
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 60,
+  "file": "okt_foto_18.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 128,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 61,
+  "file": "okt_foto_19.jpg",
+  "w": 901,
+  "h": 1600,
+  "luma": 124,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 62,
+  "file": "okt_foto_20.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 163,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 63,
+  "file": "okt_foto_21.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 123,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    452,
+    318,
+    148,
+    202
+   ],
+   [
+    983,
+    809,
+    88,
+    165
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 64,
+  "file": "okt_foto_22.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 91,
+  "kind": "ruecken",
+  "tier": 1,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 65,
+  "file": "okt_foto_23.jpg",
+  "w": 901,
+  "h": 1600,
+  "luma": 119,
+  "kind": "buch",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
+ },
+ {
+  "id": 66,
+  "file": "okt_foto_24.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 121,
+  "kind": "portrait",
+  "tier": 1,
+  "buch": false,
+  "faces": [
+   [
+    650,
+    146,
+    124,
+    178
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 67,
+  "file": "okt_foto_25.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 108,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    592,
+    510,
+    161,
+    215
+   ],
+   [
+    233,
+    1528,
+    23,
+    27
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 68,
+  "file": "okt_foto_26.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 133,
+  "kind": "ruecken",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": []
  }
 ]

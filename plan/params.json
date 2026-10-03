@@ -3,11 +3,11 @@
     "uhrzeit": "20:00",
     "fenster_min": 240,
     "tage": {
-      "1": "karussell",
+      "1": "reel",
       "2": "karussell",
-      "3": "karussell",
+      "3": "reel",
       "4": "karussell",
-      "5": "karussell"
+      "5": "reel"
     },
     "max_pro_monat": 24
   },
@@ -21,7 +21,7 @@
     ]
   },
   "puffer_min": 10,
-  "reel_serie_tag": null,
-  "reels_aktiv": false,
-  "hinweis_reels": "Reels pausiert: im ersten Monat nur Karussells und Stories, bis Nina Videos per Gmail schickt (Christian, 29.09.2026). Zum Einschalten reels_aktiv auf true, feed.tage und reel_serie_tag wieder setzen (Mo/Mi/Fr Reel, Mi Serien-Reel)."
+  "reel_serie_tag": 3,
+  "reels_aktiv": true,
+  "hinweis_reels": "Reels laufen seit 03.10.2026 (Ninas Clips kamen am 02.10. per Mail): Mo/Mi/Fr Reel, Di/Do Karussell, Mi Serien-Reel. Reels sind stumm (Ton der Clips ist Alltagsgespräch), Bild aus videos/clip_NN.mp4, Text im Stil Foto-Typo (render/videoreel.mjs). Sprachnachricht-Reels (r11, r13, r18, r19, r20) warten auf Ninas Stimme."
 }
