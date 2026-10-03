@@ -1425,9 +1425,13 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:40.112Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1567,9 +1571,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:36.641Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1586,9 +1594,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Seite 1: Angebot ist als „keins“ angegeben, dennoch wird Ninas Buch „Zwischen Single-Sein & falscher Nähe“ prominent und vollständig lesbar mit Titel und Nutzenversprechen ins Bild gehalten – das wirkt wie Produktplatzierung/Bewerbung eines Angebots, obwohl keines genannt werden soll."
+      ],
+      "am": "2026-10-03T06:37:51.818Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1606,9 +1620,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:37:49.120Z"
+    },
     "ig": null,
     "fehler": null
   },
