@@ -222,9 +222,13 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:30:35.270Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -249,9 +253,13 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:31:10.568Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -330,9 +338,13 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:30:39.959Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -357,9 +369,13 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:31:14.298Z"
+    },
     "ig": null,
     "fehler": null
   },
