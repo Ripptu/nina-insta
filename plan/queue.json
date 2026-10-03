@@ -608,9 +608,16 @@
       "#meditation",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: frame-01.jpg: Durch eine Doppelbelichtung/Überblendung (Transitionsframe) liegt die gelbe Textzeile „schon darauf, dass“ direkt über Stirn-, Augen- und Nasenbereich der Person. Schrift über dem Gesicht ist laut Prüfliste immer ein Fehler, auch wenn sie durchscheint.",
+        "BILD: frame-01.jpg zeigt ein geisterhaftes, überblendetes Doppelbild zweier unterschiedlicher Szenen/Personen (Transitions-Frame), das wie ein halb gerendertes bzw. unfertiges Bild wirkt, nicht wie ein sauberes Foto."
+      ],
+      "am": "2026-10-03T06:34:12.391Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -666,9 +673,15 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 1: Vor 'Nichts ist gut' erscheint ein öffnendes Anführungszeichen ohne passendes Schließzeichen bzw. ohne dass der Satz tatsächlich ein Zitat ist (Caption setzt nur 'alles gut' in Anführungszeichen) – inkonsistente Zeichensetzung."
+      ],
+      "am": "2026-10-03T06:33:43.027Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -697,9 +710,13 @@
       "#coachingoldenburg",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:33:20.648Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -790,9 +807,13 @@
       "#beziehungsmuster",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:34:06.369Z"
+    },
     "ig": null,
     "fehler": null
   },
