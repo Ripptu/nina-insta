@@ -1765,9 +1765,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Seite 1: Im Bild hält Nina deutlich sichtbar und scharf im Fokus ihr Buch 'Zwischen Single-Sein & falscher Nähe – Wie du dich aus alten Mustern befreist und Liebe neu erlebst' mit vollständig lesbarem Titel und Untertitel. Das wirkt als Produktplatzierung/Bewerbung eines Angebots, obwohl laut Beitragsdaten angebot='keins' gilt und somit kein Angebot beworben werden darf."
+      ],
+      "am": "2026-10-03T06:38:37.768Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1827,9 +1833,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:38.652Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1869,9 +1879,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:37.023Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -1888,9 +1902,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-03T06:38:43.292Z"
+    },
     "ig": null,
     "fehler": null
   },
