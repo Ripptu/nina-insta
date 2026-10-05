@@ -1,0 +1,23 @@
+Wochenbericht @ninahoemmencoaching, 2026-10-05
+
+Follower: 137 (-2 in 7 Tagen)
+Veröffentlicht in den letzten 7 Tagen: 5
+- Wer ich bin (karussell, https://www.instagram.com/p/Dd5zHAvGwq6/): views 121, reach 58, likes 16, saved 0, shares 0, kommentare 1
+- Nach dem Date (karussell, https://www.instagram.com/p/Dd8t6oYFue4/): views 118, reach 51, likes 9, saved 0, shares 2, kommentare 0
+- Das Unklare oder das Verlässliche (story, https://www.instagram.com/stories/ninahoemmencoaching/3996821231346157507)
+- Ja gesagt, Nein gemeint (story, https://www.instagram.com/stories/ninahoemmencoaching/3998271890104487483)
+- Pech in der Liebe (karussell, https://www.instagram.com/p/DeAbf0QiVpz/): views 110, reach 46, likes 7, saved 0, shares 0, kommentare 0
+
+Puffer: 23 geprüfte Beiträge bereit.
+
+Als Nächstes geplant:
+- Nett zu allen außer zu dir (karussell)
+- Du brauchst niemanden (karussell)
+- Wie Zuhause (karussell)
+- Klar, mach ich (karussell)
+- Der Abend war schön (karussell)
+
+Letzte Erkenntnis:
+2026-10-05: Das einzige bisher gemessene Reel (08.06.2026, vor der Pause) hat eine deutlich 
+- Beobachtung: Das einzige bisher gemessene Reel (08.06.2026, vor der Pause) hat eine deutlich höhere Reichweite als jedes Karussell im gesamten Datensatz, aber es gibt nur diesen einen Reel-Datenpunkt. Unter dem seit 03.10.2026 aktiven neuen Rhythmus (Mo/Mi/Fr Reel, Di/Do Karussell) liegen noch keine Reel-Messwerte vor; die drei neuen Beiträge im Datensatz (k01, k02, k06) sind alle typ 'feed' und liefen vor bzw. am Rand der Umstellung.
+- Beleg: Reel 08.06.2026: reach 174, views 222, total_interactions 12. Feed/Karussell-Reichweiten im gesamten Datensatz liegen durchgehend zwischen 29 und 83 (z. B. 29, 33, 34, 45, 56, 72, 80, 83), also maximal weniger als die Hälfte des Reel-Werts. Zugleich sind die drei neuesten Beiträge unter neuem System erst 3 Datenpunkte (k01 Mi reach 57/int 16, k02 Do reach
