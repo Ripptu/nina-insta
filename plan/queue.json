@@ -1489,14 +1489,18 @@
       "#singlecoaching",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:56:07.117Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18135289375653273",
+      "permalink": "https://www.instagram.com/reel/DeIALDEl1Q4/",
+      "am": "2026-10-05T19:52:31.619Z"
+    },
     "fehler": null
   },
   {
