@@ -6,10 +6,10 @@ on:
     # Das Skript veröffentlicht höchstens einen Feed-Beitrag pro Tag (Berliner Zeit).
     # Feed ab 20:00 Berlin (Fenster bis 24:00)
     - cron: "7,22,37,52 17-21 * * 1-5"
-    # Nachholen, falls gestern kein Feed-Beitrag kam: stündlich von 07:00 bis 19:00 Berlin (Di bis Sa)
-    - cron: "13 5-17 * * 2-6"
-    # Stories ab 12:30 Berlin (Fenster bis 16:30)
-    - cron: "9,41 10-14 * * 2,4,0"
+    # Nachholen, falls gestern kein Feed-Beitrag kam: stündlich von 07:00 bis 19:00 Berlin (täglich; gilt auch für Stories)
+    - cron: "13 5-17 * * *"
+    # Stories ab 12:30 Berlin (Fenster bis 20:00)
+    - cron: "9,41 10-17 * * 2,4,0"
   workflow_dispatch:
     inputs:
       trocken: { description: "Trockenlauf (nichts veröffentlichen)", type: boolean, default: true }

@@ -41,7 +41,10 @@ if ((!typArg || typArg !== 'story') && ((feedArt && (jetzt || inFenster(jetztZei
   else jobs.push({ typ: typArg && typArg !== 'story' ? typArg : feedArt || params.feed.tage[String(gestern.wochentag)], serie: b.wochentag === params.reel_serie_tag })
 }
 // Stories
-if ((!typArg || typArg === 'story') && params.stories.tage.includes(b.wochentag) && (jetzt || inFenster(jetztZeit, params.stories.uhrzeit, params.stories.fenster_min))) {
+// Auch Stories werden nachgeholt, wenn der gestrige Termin ohne Story blieb (GitHub lässt geplante Läufe aus, so am 04.10.2026).
+const storyNachholen = params.stories.tage.includes(gestern.wochentag) && b.minutenSeitMitternacht >= 420 && b.minutenSeitMitternacht < 1200 && !amTag(gestern.datum, ['story']) && !amTag(b.datum, ['story'])
+if ((!typArg || typArg === 'story') && ((params.stories.tage.includes(b.wochentag) && (jetzt || inFenster(jetztZeit, params.stories.uhrzeit, params.stories.fenster_min))) || storyNachholen)) {
+  if (storyNachholen && !jetzt && !params.stories.tage.includes(b.wochentag)) log('Gestern keine Story: hole sie jetzt nach.')
   if (heuteVeroeffentlicht(['story']) && !jetzt) log('Heute schon eine Story veröffentlicht.')
   else jobs.push({ typ: 'story' })
 }
