@@ -61,7 +61,8 @@ for (const job of jobs) {
   if (!item) { log(`Kein geprüfter Beitrag für ${job.typ}${job.serie ? ' (Serie)' : ''}: Puffer leer.`); fehler++; continue }
   const dateien = item.dateien.map((f) => path.join(ROOT, f))
   const fehlt = dateien.filter((f) => !fs.existsSync(f))
-  if (fehlt.length) { item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); if (!trocken) { item.status = 'fehler'; await speichereQueue(q) } log(item.fehler); fehler++; continue }
+  // NUR_PLAN=1: Trockenlauf des Mac-Auslösers (schlanker Klon ohne out/), er will nur wissen, ob etwas fällig ist.
+  if (fehlt.length && !(trocken && process.env.NUR_PLAN)) { item.fehler = 'Dateien fehlen: ' + fehlt.map((f) => path.basename(f)).join(', '); if (!trocken) { item.status = 'fehler'; await speichereQueue(q) } log(item.fehler); fehler++; continue }
   const caption = item.caption + (item.hashtags?.length ? '\n\n' + (Array.isArray(item.hashtags) ? item.hashtags.join(' ') : item.hashtags) : '')
   // Doppelpost-Sperre: steht dieselbe Caption schon in den letzten Beiträgen auf Instagram (z. B. weil der Status nicht
   // gespeichert werden konnte), wird nicht noch einmal gepostet, sondern der Beitrag als veröffentlicht vermerkt.
