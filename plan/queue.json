@@ -409,14 +409,18 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:35:21.326Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18190554847393921",
+      "permalink": "https://www.instagram.com/p/DeKYfbOlc4V/",
+      "am": "2026-10-06T18:03:15.606Z"
+    },
     "fehler": null
   },
   {
