@@ -553,14 +553,18 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:36:57.237Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "17907257715596694",
+      "permalink": "https://www.instagram.com/p/DePlq4hGQvd/",
+      "am": "2026-10-08T18:34:38.468Z"
+    },
     "fehler": null
   },
   {
