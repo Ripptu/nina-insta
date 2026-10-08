@@ -1966,7 +1966,7 @@
       "out/v01/v01.mp4",
       "out/v01/v01-cover.jpg"
     ],
-    "caption": "Wenn alte Gefühle plötzlich hochkommen, fühlt sich das oft überwältigend an.\n\nIch habe gelernt, in so einem Moment kurz innezuhalten, meinen Atem zu spüren und dem Moment zu erlauben, einfach da zu sein. Dabei wurde mir klar: Auch wenn die Vergangenheit auftaucht, kann ich mich im Hier und Jetzt sicher fühlen.\n\nProbier es beim nächsten Mal aus: ein Atemzug, ein Moment, ohne etwas ändern zu müssen.\n\nFolge @ninahoemmencoaching, wenn du alte Gefühle besser halten willst.\n\nWas hilft dir, wenn alte Gefühle hochkommen? 🤍",
+    "caption": "Wenn alte Gefühle plötzlich hochkommen, fühlt sich das oft überwältigend an.\n\nIch habe gelernt, in so einem Moment kurz innezuhalten, meinen Atem zu spüren und dem Moment zu erlauben, einfach da zu sein. Dabei wurde mir klar: Auch wenn die Vergangenheit auftaucht, kann ich mich im Hier und Jetzt sicher fühlen.\n\nProbier es beim nächsten Mal aus: ein Atemzug, ein Moment, ohne etwas ändern zu müssen.\n\nFolge @ninahoemmencoaching, wenn du dich bei alten Gefühlen sicherer fühlen willst.\n\nWas hilft dir, wenn alte Gefühle hochkommen? 🤍",
     "hashtags": [
       "#nervensystem",
       "#alteGefühle",
@@ -1974,15 +1974,9 @@
       "#selbstfürsorge",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Caption, letzter Absatz vor der Frage: „Folge @ninahoemmencoaching, wenn du alte Gefühle besser halten willst.“ – die Formulierung „Gefühle besser halten“ ist unidiomatisch/fehlerhaft (vermutlich fehlt „aus-“ zu „aushalten“ oder ein anderes Verb war gemeint)."
-      ],
-      "am": "2026-10-08T12:50:22.881Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2080,39 +2074,6 @@
     "fehler": null
   },
   {
-    "id": "v05",
-    "typ": "reel",
-    "quelle": "data/stimm-reels.json#v05",
-    "titel": "Ich will niemanden wirklich",
-    "angebot": "keins",
-    "kernthema": 2,
-    "serie": null,
-    "fruehestens": "2027-01-01",
-    "dateien": [
-      "out/v05/v05.mp4",
-      "out/v05/v05-cover.jpg"
-    ],
-    "caption": "„Ich will niemanden wirklich.“ Hinter diesem Satz steckt oft ein anderer Schutzmechanismus.\n\nNähe wurde irgendwann als bedrohlich erlebt. Menschen mit diesem Muster wirken oft unabhängig, kontrolliert oder emotional distanziert. Doch tief darunter lebt dieselbe Sehnsucht: nach sicherer Verbindung, ohne Überforderung oder Schmerz.\n\nWeder „Niemand will mich“ noch „Ich will niemanden“ ist eine Schwäche. Beides sind kluge, lebenswichtige Strategien, die dein Nervensystem entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nFolge @ninahoemmencoaching, wenn du deinen Schutz besser verstehen willst.\n\nWelcher der beiden Sätze klingt eher nach dir? 💬",
-    "hashtags": [
-      "#nähe",
-      "#schutzmuster",
-      "#singleleben",
-      "#nervensystem",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "GESICHT: Seite frame-05.jpg: Der Text 'Strategien,' liegt direkt über dem Gesicht (Nase-, Mund- und Kinnbereich sind vollständig von der weißen Schrift verdeckt), während in allen anderen Frames an gleicher Kopfposition das Gesicht frei ist."
-      ],
-      "am": "2026-10-08T12:52:23.252Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "v06",
     "typ": "reel",
     "quelle": "data/stimm-reels.json#v06",
@@ -2175,39 +2136,6 @@
     "fehler": null
   },
   {
-    "id": "v08",
-    "typ": "reel",
-    "quelle": "data/stimm-reels.json#v08",
-    "titel": "Warum Kindheitserinnerungen fehlen",
-    "angebot": "keins",
-    "kernthema": 3,
-    "serie": null,
-    "fruehestens": null,
-    "dateien": [
-      "out/v08/v08.mp4",
-      "out/v08/v08-cover.jpg"
-    ],
-    "caption": "Warum Erinnerungen an die Kindheit manchmal schwer zugänglich sind.\n\nEs ist nicht ungewöhnlich, dass Menschen sich kaum an ihre Kindheit erinnern. Das hat nichts mit einem Fehler im Gehirn zu tun. Es ist eine natürliche Reaktion des Körpers auf stressige oder unsichere Erfahrungen in der frühen Kindheit.\n\nWenn ein Kind ständig mit emotionalem Stress, Unsicherheit oder Bindungsverletzungen zu tun hat, ist das Nervensystem fortwährend in Alarmbereitschaft. Sein Hauptziel ist dann nicht, Erinnerungen zu bewahren, sondern sich vor weiteren Bedrohungen zu schützen.\n\nFolge @ninahoemmencoaching, wenn du mehr dazu erfahren willst.\n\nWie ist es bei dir: Erinnerst du dich an deine Kindheit eher in Bildern oder in Gefühlen? 💬",
-    "hashtags": [
-      "#kindheit",
-      "#nervensystem",
-      "#erinnerung",
-      "#innereskind",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Frame-04.jpg (und entsprechend in der Übersicht Seite 4) zeigt den Text 'ist der Nervensystem fortwährend in' – grammatisch falsch, da es 'das Nervensystem' (sächlich) heißen muss; die Caption selbst nutzt korrekt 'das Nervensystem'."
-      ],
-      "am": "2026-10-08T12:51:21.831Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "v09",
     "typ": "reel",
     "quelle": "data/stimm-reels.json#v09",
@@ -2251,7 +2179,7 @@
       "out/v10/v10.mp4",
       "out/v10/v10-cover.jpg"
     ],
-    "caption": "Das Fehlen klarer Erinnerungen ist eine natürliche Schutzreaktion des Körpers.\n\nEs zeigt, dass dein Nervensystem immer auf Sicherheit bedacht war und in vielen Momenten einfach nicht die Ruhe fand, Erfahrungen abzulegen. Dein Körper hat immer versucht, dich zu schützen. Das ist ein wichtiger Aspekt auf deinem Weg.\n\nDu musst nicht vollständig geheilt sein, um dich auf Beziehung einzulassen. Aber du darfst lernen, dich selbst besser zu halten, damit du in Verbindung bleiben kannst, ohne dich zu verlieren.\n\nIm Singlecoaching gehen wir das in deinem Tempo an. In Oldenburg oder online, das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser halten willst.\n\nWas wäre ein erster kleiner Schritt, dich selbst besser zu halten? 🤍",
+    "caption": "Das Fehlen klarer Erinnerungen ist eine natürliche Schutzreaktion des Körpers.\n\nEs zeigt, dass dein Nervensystem immer auf Sicherheit bedacht war und in vielen Momenten einfach nicht die Ruhe fand, Erfahrungen abzulegen. Dein Körper hat immer versucht, dich zu schützen. Das ist ein wichtiger Aspekt auf deinem Weg.\n\nDu musst nicht vollständig geheilt sein, um dich auf eine Beziehung einzulassen. Aber du darfst lernen, dich selbst besser zu halten, damit du in Verbindung bleiben kannst, ohne dich zu verlieren.\n\nIm Singlecoaching gehen wir das in deinem Tempo an. In Oldenburg oder online, das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser halten willst.\n\nWas wäre ein erster kleiner Schritt, dich selbst besser zu halten? 🤍",
     "hashtags": [
       "#schutzreaktion",
       "#beziehung",
@@ -2259,15 +2187,63 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Caption, Satz 3: 'Du musst nicht vollständig geheilt sein, um dich auf Beziehung einzulassen.' – es fehlt der unbestimmte Artikel ('auf eine Beziehung einzulassen'), grammatikalisch fehlerhaft."
-      ],
-      "am": "2026-10-08T12:52:59.729Z"
-    },
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v05",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v05",
+    "titel": "Ich will niemanden wirklich",
+    "angebot": "keins",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": "2027-01-01",
+    "dateien": [
+      "out/v05/v05.mp4",
+      "out/v05/v05-cover.jpg"
+    ],
+    "caption": "„Ich will niemanden wirklich.“ Hinter diesem Satz steckt oft ein anderer Schutzmechanismus.\n\nNähe wurde irgendwann als bedrohlich erlebt. Menschen mit diesem Muster wirken oft unabhängig, kontrolliert oder emotional distanziert. Doch tief darunter lebt dieselbe Sehnsucht: nach sicherer Verbindung, ohne Überforderung oder Schmerz.\n\nWeder „Niemand will mich“ noch „Ich will niemanden“ ist eine Schwäche. Beides sind kluge, lebenswichtige Strategien, die dein Nervensystem entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nFolge @ninahoemmencoaching, wenn du deinen Schutz besser verstehen willst.\n\nWelcher der beiden Sätze klingt eher nach dir? 💬",
+    "hashtags": [
+      "#nähe",
+      "#schutzmuster",
+      "#singleleben",
+      "#nervensystem",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v08",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v08",
+    "titel": "Warum Kindheitserinnerungen fehlen",
+    "angebot": "keins",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v08/v08.mp4",
+      "out/v08/v08-cover.jpg"
+    ],
+    "caption": "Warum Erinnerungen an die Kindheit manchmal schwer zugänglich sind.\n\nEs ist nicht ungewöhnlich, dass Menschen sich kaum an ihre Kindheit erinnern. Das hat nichts mit einem Fehler im Gehirn zu tun. Es ist eine natürliche Reaktion des Körpers auf stressige oder unsichere Erfahrungen in der frühen Kindheit.\n\nWenn ein Kind ständig mit emotionalem Stress, Unsicherheit oder Bindungsverletzungen zu tun hat, ist das Nervensystem fortwährend in Alarmbereitschaft. Sein Hauptziel ist dann nicht, Erinnerungen zu bewahren, sondern sich vor weiteren Bedrohungen zu schützen.\n\nFolge @ninahoemmencoaching, wenn du mehr dazu erfahren willst.\n\nWie ist es bei dir: Erinnerst du dich an deine Kindheit eher in Bildern oder in Gefühlen? 💬",
+    "hashtags": [
+      "#kindheit",
+      "#nervensystem",
+      "#erinnerung",
+      "#innereskind",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }

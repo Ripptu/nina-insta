@@ -63,8 +63,8 @@ const photoBox = (p) => {
   const Z = 1.07 // Zoom im Verlauf
   let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9
   for (const [x, y, w, h] of p.faces) {
-    x0 = Math.min(x0, x * sc - ox); x1 = Math.max(x1, (x + w) * sc - ox)
-    y0 = Math.min(y0, y * sc - oy - h * sc * 0.9); y1 = Math.max(y1, (y + h) * sc - oy + h * sc * 1.2)
+    x0 = Math.min(x0, x * sc - ox - w * sc * 0.35); x1 = Math.max(x1, (x + w) * sc - ox + w * sc * 0.35)
+    y0 = Math.min(y0, y * sc - oy - h * sc * 1.1); y1 = Math.max(y1, (y + h) * sc - oy + h * sc * 1.5)
   }
   const zx = (x) => (x - W / 2) * Z + W / 2, zy = (y) => (y - PH / 2) * Z + PH / 2
   return { x0: zx(x0), x1: zx(x1), y0: zy(y0), y1: zy(y1) }
