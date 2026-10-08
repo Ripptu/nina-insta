@@ -2007,9 +2007,13 @@
       "#selbstfindung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:52:27.859Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2096,9 +2100,15 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "GESICHT: Seite frame-05.jpg: Der Text 'Strategien,' liegt direkt über dem Gesicht (Nase-, Mund- und Kinnbereich sind vollständig von der weißen Schrift verdeckt), während in allen anderen Frames an gleicher Kopfposition das Gesicht frei ist."
+      ],
+      "am": "2026-10-08T12:52:23.252Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2123,9 +2133,13 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:51:24.933Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2181,9 +2195,15 @@
       "#innereskind",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Frame-04.jpg (und entsprechend in der Übersicht Seite 4) zeigt den Text 'ist der Nervensystem fortwährend in' – grammatisch falsch, da es 'das Nervensystem' (sächlich) heißen muss; die Caption selbst nutzt korrekt 'das Nervensystem'."
+      ],
+      "am": "2026-10-08T12:51:21.831Z"
+    },
     "ig": null,
     "fehler": null
   },
