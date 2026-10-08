@@ -1,5 +1,6 @@
 // Veröffentlicht den fälligen Beitrag. Aufruf: node automatik/publish.mjs [--trocken] [--jetzt] [--typ karussell|reel|story]
 // Läuft per Cron in GitHub Actions. Ohne --jetzt nur im Zeitfenster laut plan/params.json (Berliner Zeit).
+import * as fb from './facebook.mjs'
 import fs from 'node:fs'
 import path from 'node:path'
 import { ladeQueue, speichereQueue } from './queue.mjs'
@@ -92,6 +93,10 @@ for (const job of jobs) {
       item.fehler = null
       await speichereQueue(q)
       log(`Veröffentlicht: ${r.permalink}`)
+      // Zusätzlich auf Ninas Facebook-Seite spiegeln (nur mit FB_PAGE_ID und FB_PAGE_TOKEN; ein Fehler hier ändert nichts am Instagram-Beitrag)
+      const f = await fb.spiegeln(item, dateien, caption)
+      if (f?.id) { item.fb = f; log(`Facebook: ${f.id}`) } else if (f?.fehler) { item.fb = { fehler: f.fehler }; log(`Facebook nicht gepostet: ${f.fehler}`) }
+      if (f) await speichereQueue(q)
       // Quiz-Stories haben eine zweite Datei (Auflösung): gleich danach als eigene Story veröffentlichen
       let aufloesungOffen = false
       if (item.typ === 'story') for (const d of dateien.slice(1)) {

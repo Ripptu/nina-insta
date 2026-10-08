@@ -33,6 +33,8 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
           MEDIA_TOKEN: ${{ secrets.MEDIA_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           MEDIA_REPO: ${{ vars.MEDIA_REPO || 'Ripptu/nina-insta-media' }}
         run: |
           ARGS=""
