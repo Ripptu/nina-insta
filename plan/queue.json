@@ -2191,9 +2191,13 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T13:03:54.314Z"
+    },
     "ig": null,
     "fehler": null
   },
