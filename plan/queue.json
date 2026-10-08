@@ -1974,9 +1974,13 @@
       "#selbstfürsorge",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:58:28.664Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2187,9 +2191,15 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, Absatz 2: 'einfach nicht die Ruhe fand, Erfahrungen abzulegen' – hier fehlt das Wort 'um' für die korrekte Infinitivkonstruktion ('um ... zu'); im Video (frame-02) steht korrekt 'fand, um Erfahrungen abzulegen.' In der Caption ist dies ein grammatischer Fehler/Tippfehler."
+      ],
+      "am": "2026-10-08T12:59:41.541Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2214,9 +2224,13 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:58:46.245Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2241,9 +2255,13 @@
       "#innereskind",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:58:36.974Z"
+    },
     "ig": null,
     "fehler": null
   }
