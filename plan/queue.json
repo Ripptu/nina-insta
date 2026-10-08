@@ -1974,9 +1974,15 @@
       "#selbstfürsorge",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, letzter Absatz vor der Frage: „Folge @ninahoemmencoaching, wenn du alte Gefühle besser halten willst.“ – die Formulierung „Gefühle besser halten“ ist unidiomatisch/fehlerhaft (vermutlich fehlt „aus-“ zu „aushalten“ oder ein anderes Verb war gemeint)."
+      ],
+      "am": "2026-10-08T12:50:22.881Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2028,9 +2034,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:51:06.865Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2055,9 +2065,13 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:50:37.369Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2136,9 +2150,13 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-08T12:51:18.467Z"
+    },
     "ig": null,
     "fehler": null
   },
