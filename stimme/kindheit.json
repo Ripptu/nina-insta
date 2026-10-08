@@ -1,0 +1,1580 @@
+{
+  "text": " Warum Erinnerungen an die Kindheit manchmal schwer zugänglich sind. Es ist nicht ungewöhnlich, dass Menschen sich kaum an ihre Kindheit erinnern können. Das hat nichts mit einem Fehler im Gehirn zu tun, sondern ist eine natürliche Reaktion des Körpers auf stressige oder unsichere Erfahrungen in der frühen Kindheit. Wenn Kinder in einer Umgebung aufwachsen, in der sie ständig mit emotionalem Stress, Unsicherheit oder Bindungsverletzungen konfrontiert werden, ist der Nervensystem fortwährend in Alarmbereitschaft. Der Körper befindet sich fast immer im Überlebensmodus, bereit auf Gefahr zu reagieren, anstatt ruhig und sichere Erlebnisse zu speichern. In diesem Zustand ist das Hauptziel des Nervensystems nicht, Erinnerungen zu bewahren, sondern sich vor weiteren Bedrohungen zu schützen. Das Kurzzeitgedächtnis Durch die anhaltende Anspannung kann das Kurzzeitgedächtnis überlastet werden. Viele Eindrücke und Erlebnisse werden nur flüchtig wahrgenommen und nicht in einer Weise verarbeitet, die eine langfristige Speicherung möglich macht. Langzeitgedächtnis. Um Erinnerungen im Langzeitgedächtnis zu verankern, braucht das Gehirn Ruhe und Sicherheit. Fehlen diese Grundlagen, können Erfahrungen nicht vollständig übersetzt und dauerhaft abgespeichert werden. Deshalb wirken Kindheitserinnerungen oft unscharf, fragmentiert oder lückenhaft. Diese Lücken sind keine Zeichen von Schwäche oder Defekt, sondern eine nachvollziehbare Folge eines Nervensystems, das in seiner Kindheit durch ständigen Stress und Anspannung versucht, uns zu schützen. Kurz gesagt, das Fehlen klare Erinnerungen ist eine natürliche Schutzreaktion des Körpers. Es zeigt, dass das Nervensystem stets auf Sicherheit bedacht war und in vielen Momenten einfach nicht die Ruhe fand, um Erfahrungen abzulegen. Diese Reaktionen des Körpers sind Teil eines Überlebensmechanismus, der uns in unsicheren Zeiten hilft, den Schmerz oder die Gefahr abzuwehren. Und auch wenn diese Erinnerungen vielleicht nicht immer zugänglich sind, bleibt die Tatsache, dass dein Körper immer versucht hat, dich zu schützen, ein wichtiger Aspekt auf deinem Heilungsweg. Du musst nicht vollständig geheilt sein, um dich auf Beziehung einzulassen, aber du darfst lernen, dich selbst besser zu halten, damit du in Verbindung bleiben kannst, ohne dich zu verlieren.",
+  "woerter": [
+    {
+      "word": " Warum",
+      "start": 2.04,
+      "end": 2.32
+    },
+    {
+      "word": " Erinnerungen",
+      "start": 2.32,
+      "end": 3.02
+    },
+    {
+      "word": " an",
+      "start": 3.02,
+      "end": 3.16
+    },
+    {
+      "word": " die",
+      "start": 3.16,
+      "end": 3.4
+    },
+    {
+      "word": " Kindheit",
+      "start": 3.4,
+      "end": 4.06
+    },
+    {
+      "word": " manchmal",
+      "start": 4.06,
+      "end": 4.48
+    },
+    {
+      "word": " schwer",
+      "start": 4.48,
+      "end": 4.76
+    },
+    {
+      "word": " zugänglich",
+      "start": 4.76,
+      "end": 5.42
+    },
+    {
+      "word": " sind.",
+      "start": 5.42,
+      "end": 5.5
+    },
+    {
+      "word": " Es",
+      "start": 6.02,
+      "end": 6.16
+    },
+    {
+      "word": " ist",
+      "start": 6.16,
+      "end": 6.36
+    },
+    {
+      "word": " nicht",
+      "start": 6.36,
+      "end": 6.56
+    },
+    {
+      "word": " ungewöhnlich,",
+      "start": 6.56,
+      "end": 7.12
+    },
+    {
+      "word": " dass",
+      "start": 7.24,
+      "end": 7.62
+    },
+    {
+      "word": " Menschen",
+      "start": 7.62,
+      "end": 7.92
+    },
+    {
+      "word": " sich",
+      "start": 7.92,
+      "end": 8.16
+    },
+    {
+      "word": " kaum",
+      "start": 8.16,
+      "end": 8.36
+    },
+    {
+      "word": " an",
+      "start": 8.36,
+      "end": 8.58
+    },
+    {
+      "word": " ihre",
+      "start": 8.58,
+      "end": 8.8
+    },
+    {
+      "word": " Kindheit",
+      "start": 8.8,
+      "end": 9.22
+    },
+    {
+      "word": " erinnern",
+      "start": 9.22,
+      "end": 9.76
+    },
+    {
+      "word": " können.",
+      "start": 9.76,
+      "end": 9.78
+    },
+    {
+      "word": " Das",
+      "start": 10.38,
+      "end": 10.56
+    },
+    {
+      "word": " hat",
+      "start": 10.56,
+      "end": 10.84
+    },
+    {
+      "word": " nichts",
+      "start": 10.84,
+      "end": 11.04
+    },
+    {
+      "word": " mit",
+      "start": 11.04,
+      "end": 11.3
+    },
+    {
+      "word": " einem",
+      "start": 11.3,
+      "end": 11.64
+    },
+    {
+      "word": " Fehler",
+      "start": 11.64,
+      "end": 11.82
+    },
+    {
+      "word": " im",
+      "start": 11.82,
+      "end": 11.98
+    },
+    {
+      "word": " Gehirn",
+      "start": 11.98,
+      "end": 12.44
+    },
+    {
+      "word": " zu",
+      "start": 12.44,
+      "end": 12.78
+    },
+    {
+      "word": " tun,",
+      "start": 12.78,
+      "end": 12.96
+    },
+    {
+      "word": " sondern",
+      "start": 13.16,
+      "end": 13.42
+    },
+    {
+      "word": " ist",
+      "start": 13.42,
+      "end": 13.66
+    },
+    {
+      "word": " eine",
+      "start": 13.66,
+      "end": 14
+    },
+    {
+      "word": " natürliche",
+      "start": 14,
+      "end": 14.5
+    },
+    {
+      "word": " Reaktion",
+      "start": 14.5,
+      "end": 15.06
+    },
+    {
+      "word": " des",
+      "start": 15.06,
+      "end": 15.26
+    },
+    {
+      "word": " Körpers",
+      "start": 15.26,
+      "end": 15.68
+    },
+    {
+      "word": " auf",
+      "start": 16.26,
+      "end": 16.56
+    },
+    {
+      "word": " stressige",
+      "start": 16.56,
+      "end": 17.28
+    },
+    {
+      "word": " oder",
+      "start": 17.28,
+      "end": 17.62
+    },
+    {
+      "word": " unsichere",
+      "start": 17.62,
+      "end": 18.26
+    },
+    {
+      "word": " Erfahrungen",
+      "start": 18.26,
+      "end": 19.02
+    },
+    {
+      "word": " in",
+      "start": 19.02,
+      "end": 19.14
+    },
+    {
+      "word": " der",
+      "start": 19.14,
+      "end": 19.34
+    },
+    {
+      "word": " frühen",
+      "start": 19.34,
+      "end": 19.74
+    },
+    {
+      "word": " Kindheit.",
+      "start": 19.74,
+      "end": 20.06
+    },
+    {
+      "word": " Wenn",
+      "start": 20.78,
+      "end": 21.18
+    },
+    {
+      "word": " Kinder",
+      "start": 21.18,
+      "end": 21.44
+    },
+    {
+      "word": " in",
+      "start": 21.44,
+      "end": 21.66
+    },
+    {
+      "word": " einer",
+      "start": 21.66,
+      "end": 21.82
+    },
+    {
+      "word": " Umgebung",
+      "start": 21.82,
+      "end": 22.52
+    },
+    {
+      "word": " aufwachsen,",
+      "start": 22.52,
+      "end": 23.04
+    },
+    {
+      "word": " in",
+      "start": 23.12,
+      "end": 23.22
+    },
+    {
+      "word": " der",
+      "start": 23.22,
+      "end": 23.4
+    },
+    {
+      "word": " sie",
+      "start": 23.4,
+      "end": 23.6
+    },
+    {
+      "word": " ständig",
+      "start": 23.6,
+      "end": 24.32
+    },
+    {
+      "word": " mit",
+      "start": 24.32,
+      "end": 24.74
+    },
+    {
+      "word": " emotionalem",
+      "start": 24.74,
+      "end": 25.42
+    },
+    {
+      "word": " Stress,",
+      "start": 25.42,
+      "end": 25.68
+    },
+    {
+      "word": " Unsicherheit",
+      "start": 25.86,
+      "end": 27.14
+    },
+    {
+      "word": " oder",
+      "start": 27.14,
+      "end": 27.32
+    },
+    {
+      "word": " Bindungsverletzungen",
+      "start": 27.32,
+      "end": 28.48
+    },
+    {
+      "word": " konfrontiert",
+      "start": 28.48,
+      "end": 29.28
+    },
+    {
+      "word": " werden,",
+      "start": 29.28,
+      "end": 29.58
+    },
+    {
+      "word": " ist",
+      "start": 29.76,
+      "end": 29.88
+    },
+    {
+      "word": " der",
+      "start": 29.88,
+      "end": 30.06
+    },
+    {
+      "word": " Nervensystem",
+      "start": 30.06,
+      "end": 31.14
+    },
+    {
+      "word": " fortwährend",
+      "start": 31.14,
+      "end": 32.06
+    },
+    {
+      "word": " in",
+      "start": 32.06,
+      "end": 32.3
+    },
+    {
+      "word": " Alarmbereitschaft.",
+      "start": 32.3,
+      "end": 33.1
+    },
+    {
+      "word": " Der",
+      "start": 33.84,
+      "end": 34.16
+    },
+    {
+      "word": " Körper",
+      "start": 34.16,
+      "end": 34.44
+    },
+    {
+      "word": " befindet",
+      "start": 34.44,
+      "end": 34.86
+    },
+    {
+      "word": " sich",
+      "start": 34.86,
+      "end": 35.26
+    },
+    {
+      "word": " fast",
+      "start": 35.26,
+      "end": 35.66
+    },
+    {
+      "word": " immer",
+      "start": 35.66,
+      "end": 35.86
+    },
+    {
+      "word": " im",
+      "start": 35.86,
+      "end": 36.04
+    },
+    {
+      "word": " Überlebensmodus,",
+      "start": 36.04,
+      "end": 37.24
+    },
+    {
+      "word": " bereit",
+      "start": 37.62,
+      "end": 37.84
+    },
+    {
+      "word": " auf",
+      "start": 37.84,
+      "end": 38.08
+    },
+    {
+      "word": " Gefahr",
+      "start": 38.08,
+      "end": 38.42
+    },
+    {
+      "word": " zu",
+      "start": 38.42,
+      "end": 38.68
+    },
+    {
+      "word": " reagieren,",
+      "start": 38.68,
+      "end": 39.2
+    },
+    {
+      "word": " anstatt",
+      "start": 39.3,
+      "end": 39.82
+    },
+    {
+      "word": " ruhig",
+      "start": 39.82,
+      "end": 40.16
+    },
+    {
+      "word": " und",
+      "start": 40.16,
+      "end": 40.4
+    },
+    {
+      "word": " sichere",
+      "start": 40.4,
+      "end": 41
+    },
+    {
+      "word": " Erlebnisse",
+      "start": 41,
+      "end": 41.8
+    },
+    {
+      "word": " zu",
+      "start": 41.8,
+      "end": 42.1
+    },
+    {
+      "word": " speichern.",
+      "start": 42.1,
+      "end": 42.5
+    },
+    {
+      "word": " In",
+      "start": 43.22,
+      "end": 43.46
+    },
+    {
+      "word": " diesem",
+      "start": 43.46,
+      "end": 43.82
+    },
+    {
+      "word": " Zustand",
+      "start": 43.82,
+      "end": 44.5
+    },
+    {
+      "word": " ist",
+      "start": 44.5,
+      "end": 44.66
+    },
+    {
+      "word": " das",
+      "start": 44.66,
+      "end": 44.88
+    },
+    {
+      "word": " Hauptziel",
+      "start": 44.88,
+      "end": 45.68
+    },
+    {
+      "word": " des",
+      "start": 45.68,
+      "end": 45.86
+    },
+    {
+      "word": " Nervensystems",
+      "start": 45.86,
+      "end": 47.14
+    },
+    {
+      "word": " nicht,",
+      "start": 47.14,
+      "end": 47.18
+    },
+    {
+      "word": " Erinnerungen",
+      "start": 47.48,
+      "end": 48.06
+    },
+    {
+      "word": " zu",
+      "start": 48.06,
+      "end": 48.26
+    },
+    {
+      "word": " bewahren,",
+      "start": 48.26,
+      "end": 48.9
+    },
+    {
+      "word": " sondern",
+      "start": 49.26,
+      "end": 49.74
+    },
+    {
+      "word": " sich",
+      "start": 49.74,
+      "end": 49.96
+    },
+    {
+      "word": " vor",
+      "start": 49.96,
+      "end": 50.42
+    },
+    {
+      "word": " weiteren",
+      "start": 50.42,
+      "end": 50.72
+    },
+    {
+      "word": " Bedrohungen",
+      "start": 50.72,
+      "end": 51.18
+    },
+    {
+      "word": " zu",
+      "start": 51.18,
+      "end": 51.3
+    },
+    {
+      "word": " schützen.",
+      "start": 51.3,
+      "end": 51.9
+    },
+    {
+      "word": " Das",
+      "start": 52.48,
+      "end": 52.8
+    },
+    {
+      "word": " Kurzzeitgedächtnis",
+      "start": 52.8,
+      "end": 53.86
+    },
+    {
+      "word": " Durch",
+      "start": 54.38,
+      "end": 54.56
+    },
+    {
+      "word": " die",
+      "start": 54.56,
+      "end": 54.82
+    },
+    {
+      "word": " anhaltende",
+      "start": 54.82,
+      "end": 55.36
+    },
+    {
+      "word": " Anspannung",
+      "start": 55.36,
+      "end": 56.24
+    },
+    {
+      "word": " kann",
+      "start": 56.24,
+      "end": 56.42
+    },
+    {
+      "word": " das",
+      "start": 56.42,
+      "end": 56.64
+    },
+    {
+      "word": " Kurzzeitgedächtnis",
+      "start": 56.64,
+      "end": 57.78
+    },
+    {
+      "word": " überlastet",
+      "start": 57.78,
+      "end": 58.48
+    },
+    {
+      "word": " werden.",
+      "start": 58.48,
+      "end": 58.86
+    },
+    {
+      "word": " Viele",
+      "start": 59.18,
+      "end": 59.2
+    },
+    {
+      "word": " Eindrücke",
+      "start": 59.44,
+      "end": 60.24
+    },
+    {
+      "word": " und",
+      "start": 60.24,
+      "end": 60.42
+    },
+    {
+      "word": " Erlebnisse",
+      "start": 60.42,
+      "end": 61.14
+    },
+    {
+      "word": " werden",
+      "start": 61.14,
+      "end": 61.32
+    },
+    {
+      "word": " nur",
+      "start": 61.32,
+      "end": 61.5
+    },
+    {
+      "word": " flüchtig",
+      "start": 61.5,
+      "end": 62.02
+    },
+    {
+      "word": " wahrgenommen",
+      "start": 62.02,
+      "end": 63.04
+    },
+    {
+      "word": " und",
+      "start": 63.04,
+      "end": 63.36
+    },
+    {
+      "word": " nicht",
+      "start": 63.36,
+      "end": 63.58
+    },
+    {
+      "word": " in",
+      "start": 63.58,
+      "end": 63.82
+    },
+    {
+      "word": " einer",
+      "start": 63.82,
+      "end": 64.18
+    },
+    {
+      "word": " Weise",
+      "start": 64.18,
+      "end": 64.44
+    },
+    {
+      "word": " verarbeitet,",
+      "start": 64.44,
+      "end": 65.26
+    },
+    {
+      "word": " die",
+      "start": 65.48,
+      "end": 65.7
+    },
+    {
+      "word": " eine",
+      "start": 65.7,
+      "end": 65.92
+    },
+    {
+      "word": " langfristige",
+      "start": 65.92,
+      "end": 66.74
+    },
+    {
+      "word": " Speicherung",
+      "start": 66.74,
+      "end": 67.62
+    },
+    {
+      "word": " möglich",
+      "start": 67.62,
+      "end": 68.06
+    },
+    {
+      "word": " macht.",
+      "start": 68.06,
+      "end": 68.1
+    },
+    {
+      "word": " Langzeitgedächtnis.",
+      "start": 69.22,
+      "end": 70.42
+    },
+    {
+      "word": " Um",
+      "start": 71.26,
+      "end": 71.44
+    },
+    {
+      "word": " Erinnerungen",
+      "start": 71.44,
+      "end": 72.08
+    },
+    {
+      "word": " im",
+      "start": 72.08,
+      "end": 72.24
+    },
+    {
+      "word": " Langzeitgedächtnis",
+      "start": 72.24,
+      "end": 73.34
+    },
+    {
+      "word": " zu",
+      "start": 73.34,
+      "end": 73.58
+    },
+    {
+      "word": " verankern,",
+      "start": 73.58,
+      "end": 74
+    },
+    {
+      "word": " braucht",
+      "start": 74.3,
+      "end": 74.52
+    },
+    {
+      "word": " das",
+      "start": 74.52,
+      "end": 74.7
+    },
+    {
+      "word": " Gehirn",
+      "start": 74.7,
+      "end": 75.18
+    },
+    {
+      "word": " Ruhe",
+      "start": 75.18,
+      "end": 75.64
+    },
+    {
+      "word": " und",
+      "start": 75.64,
+      "end": 76.12
+    },
+    {
+      "word": " Sicherheit.",
+      "start": 76.12,
+      "end": 76.16
+    },
+    {
+      "word": " Fehlen",
+      "start": 76.88,
+      "end": 77.34
+    },
+    {
+      "word": " diese",
+      "start": 77.34,
+      "end": 77.64
+    },
+    {
+      "word": " Grundlagen,",
+      "start": 77.64,
+      "end": 78.12
+    },
+    {
+      "word": " können",
+      "start": 78.3,
+      "end": 78.58
+    },
+    {
+      "word": " Erfahrungen",
+      "start": 78.58,
+      "end": 79.1
+    },
+    {
+      "word": " nicht",
+      "start": 79.1,
+      "end": 79.28
+    },
+    {
+      "word": " vollständig",
+      "start": 79.28,
+      "end": 79.98
+    },
+    {
+      "word": " übersetzt",
+      "start": 79.98,
+      "end": 80.3
+    },
+    {
+      "word": " und",
+      "start": 80.74,
+      "end": 80.98
+    },
+    {
+      "word": " dauerhaft",
+      "start": 80.98,
+      "end": 81.66
+    },
+    {
+      "word": " abgespeichert",
+      "start": 81.66,
+      "end": 82.46
+    },
+    {
+      "word": " werden.",
+      "start": 82.46,
+      "end": 82.48
+    },
+    {
+      "word": " Deshalb",
+      "start": 83.54,
+      "end": 83.74
+    },
+    {
+      "word": " wirken",
+      "start": 83.74,
+      "end": 84.06
+    },
+    {
+      "word": " Kindheitserinnerungen",
+      "start": 84.06,
+      "end": 85.1
+    },
+    {
+      "word": " oft",
+      "start": 85.1,
+      "end": 85.4
+    },
+    {
+      "word": " unscharf,",
+      "start": 85.4,
+      "end": 85.82
+    },
+    {
+      "word": " fragmentiert",
+      "start": 86.42,
+      "end": 87.24
+    },
+    {
+      "word": " oder",
+      "start": 87.24,
+      "end": 87.4
+    },
+    {
+      "word": " lückenhaft.",
+      "start": 87.4,
+      "end": 88.12
+    },
+    {
+      "word": " Diese",
+      "start": 88.54,
+      "end": 88.7
+    },
+    {
+      "word": " Lücken",
+      "start": 88.7,
+      "end": 89.26
+    },
+    {
+      "word": " sind",
+      "start": 89.26,
+      "end": 89.54
+    },
+    {
+      "word": " keine",
+      "start": 89.54,
+      "end": 89.74
+    },
+    {
+      "word": " Zeichen",
+      "start": 89.74,
+      "end": 90.18
+    },
+    {
+      "word": " von",
+      "start": 90.18,
+      "end": 90.36
+    },
+    {
+      "word": " Schwäche",
+      "start": 90.36,
+      "end": 90.88
+    },
+    {
+      "word": " oder",
+      "start": 90.88,
+      "end": 91.18
+    },
+    {
+      "word": " Defekt,",
+      "start": 91.18,
+      "end": 91.44
+    },
+    {
+      "word": " sondern",
+      "start": 91.82,
+      "end": 92.14
+    },
+    {
+      "word": " eine",
+      "start": 92.14,
+      "end": 92.38
+    },
+    {
+      "word": " nachvollziehbare",
+      "start": 92.38,
+      "end": 93.52
+    },
+    {
+      "word": " Folge",
+      "start": 93.52,
+      "end": 93.92
+    },
+    {
+      "word": " eines",
+      "start": 93.92,
+      "end": 94.12
+    },
+    {
+      "word": " Nervensystems,",
+      "start": 94.12,
+      "end": 95.08
+    },
+    {
+      "word": " das",
+      "start": 95.92,
+      "end": 96.26
+    },
+    {
+      "word": " in",
+      "start": 96.26,
+      "end": 96.6
+    },
+    {
+      "word": " seiner",
+      "start": 96.6,
+      "end": 96.8
+    },
+    {
+      "word": " Kindheit",
+      "start": 96.8,
+      "end": 97.42
+    },
+    {
+      "word": " durch",
+      "start": 97.42,
+      "end": 97.46
+    },
+    {
+      "word": " ständigen",
+      "start": 97.68,
+      "end": 98.48
+    },
+    {
+      "word": " Stress",
+      "start": 98.48,
+      "end": 98.74
+    },
+    {
+      "word": " und",
+      "start": 98.74,
+      "end": 98.94
+    },
+    {
+      "word": " Anspannung",
+      "start": 98.94,
+      "end": 99.9
+    },
+    {
+      "word": " versucht,",
+      "start": 99.9,
+      "end": 100.1
+    },
+    {
+      "word": " uns",
+      "start": 100.18,
+      "end": 100.32
+    },
+    {
+      "word": " zu",
+      "start": 100.32,
+      "end": 100.46
+    },
+    {
+      "word": " schützen.",
+      "start": 100.46,
+      "end": 101.08
+    },
+    {
+      "word": " Kurz",
+      "start": 101.38,
+      "end": 101.9
+    },
+    {
+      "word": " gesagt,",
+      "start": 101.9,
+      "end": 102.22
+    },
+    {
+      "word": " das",
+      "start": 102.5,
+      "end": 102.76
+    },
+    {
+      "word": " Fehlen",
+      "start": 102.76,
+      "end": 103.08
+    },
+    {
+      "word": " klare",
+      "start": 103.08,
+      "end": 103.26
+    },
+    {
+      "word": " Erinnerungen",
+      "start": 103.46,
+      "end": 104.3
+    },
+    {
+      "word": " ist",
+      "start": 104.3,
+      "end": 104.56
+    },
+    {
+      "word": " eine",
+      "start": 104.56,
+      "end": 104.9
+    },
+    {
+      "word": " natürliche",
+      "start": 104.92,
+      "end": 105.42
+    },
+    {
+      "word": " Schutzreaktion",
+      "start": 105.42,
+      "end": 106.02
+    },
+    {
+      "word": " des",
+      "start": 106.18,
+      "end": 106.34
+    },
+    {
+      "word": " Körpers.",
+      "start": 106.34,
+      "end": 106.94
+    },
+    {
+      "word": " Es",
+      "start": 107.32,
+      "end": 107.74
+    },
+    {
+      "word": " zeigt,",
+      "start": 107.74,
+      "end": 107.88
+    },
+    {
+      "word": " dass",
+      "start": 107.98,
+      "end": 108.16
+    },
+    {
+      "word": " das",
+      "start": 108.16,
+      "end": 108.32
+    },
+    {
+      "word": " Nervensystem",
+      "start": 108.32,
+      "end": 109.2
+    },
+    {
+      "word": " stets",
+      "start": 109.2,
+      "end": 109.54
+    },
+    {
+      "word": " auf",
+      "start": 109.54,
+      "end": 109.98
+    },
+    {
+      "word": " Sicherheit",
+      "start": 109.98,
+      "end": 110.3
+    },
+    {
+      "word": " bedacht",
+      "start": 110.3,
+      "end": 110.84
+    },
+    {
+      "word": " war",
+      "start": 110.84,
+      "end": 111.34
+    },
+    {
+      "word": " und",
+      "start": 111.34,
+      "end": 111.5
+    },
+    {
+      "word": " in",
+      "start": 111.5,
+      "end": 111.78
+    },
+    {
+      "word": " vielen",
+      "start": 111.78,
+      "end": 111.82
+    },
+    {
+      "word": " Momenten",
+      "start": 112.1,
+      "end": 112.7
+    },
+    {
+      "word": " einfach",
+      "start": 112.7,
+      "end": 113.06
+    },
+    {
+      "word": " nicht",
+      "start": 113.06,
+      "end": 113.26
+    },
+    {
+      "word": " die",
+      "start": 113.26,
+      "end": 113.42
+    },
+    {
+      "word": " Ruhe",
+      "start": 113.42,
+      "end": 113.9
+    },
+    {
+      "word": " fand,",
+      "start": 113.9,
+      "end": 114.12
+    },
+    {
+      "word": " um",
+      "start": 114.16,
+      "end": 114.4
+    },
+    {
+      "word": " Erfahrungen",
+      "start": 114.4,
+      "end": 115.32
+    },
+    {
+      "word": " abzulegen.",
+      "start": 115.32,
+      "end": 116.18
+    },
+    {
+      "word": " Diese",
+      "start": 116.66,
+      "end": 116.86
+    },
+    {
+      "word": " Reaktionen",
+      "start": 116.86,
+      "end": 117.36
+    },
+    {
+      "word": " des",
+      "start": 117.36,
+      "end": 117.4
+    },
+    {
+      "word": " Körpers",
+      "start": 117.48,
+      "end": 117.94
+    },
+    {
+      "word": " sind",
+      "start": 117.94,
+      "end": 118.26
+    },
+    {
+      "word": " Teil",
+      "start": 118.26,
+      "end": 118.56
+    },
+    {
+      "word": " eines",
+      "start": 118.56,
+      "end": 118.76
+    },
+    {
+      "word": " Überlebensmechanismus,",
+      "start": 118.76,
+      "end": 120.04
+    },
+    {
+      "word": " der",
+      "start": 120.44,
+      "end": 120.72
+    },
+    {
+      "word": " uns",
+      "start": 120.72,
+      "end": 120.9
+    },
+    {
+      "word": " in",
+      "start": 120.9,
+      "end": 121.28
+    },
+    {
+      "word": " unsicheren",
+      "start": 121.28,
+      "end": 121.98
+    },
+    {
+      "word": " Zeiten",
+      "start": 121.98,
+      "end": 122.46
+    },
+    {
+      "word": " hilft,",
+      "start": 122.46,
+      "end": 122.62
+    },
+    {
+      "word": " den",
+      "start": 122.7,
+      "end": 122.9
+    },
+    {
+      "word": " Schmerz",
+      "start": 122.9,
+      "end": 123.36
+    },
+    {
+      "word": " oder",
+      "start": 123.54,
+      "end": 123.72
+    },
+    {
+      "word": " die",
+      "start": 123.72,
+      "end": 123.92
+    },
+    {
+      "word": " Gefahr",
+      "start": 123.92,
+      "end": 124.36
+    },
+    {
+      "word": " abzuwehren.",
+      "start": 124.36,
+      "end": 125.06
+    },
+    {
+      "word": " Und",
+      "start": 125.6,
+      "end": 125.88
+    },
+    {
+      "word": " auch",
+      "start": 125.88,
+      "end": 126.08
+    },
+    {
+      "word": " wenn",
+      "start": 126.08,
+      "end": 126.4
+    },
+    {
+      "word": " diese",
+      "start": 126.4,
+      "end": 126.6
+    },
+    {
+      "word": " Erinnerungen",
+      "start": 126.6,
+      "end": 127.52
+    },
+    {
+      "word": " vielleicht",
+      "start": 127.52,
+      "end": 127.82
+    },
+    {
+      "word": " nicht",
+      "start": 127.82,
+      "end": 128.12
+    },
+    {
+      "word": " immer",
+      "start": 128.12,
+      "end": 128.38
+    },
+    {
+      "word": " zugänglich",
+      "start": 128.38,
+      "end": 128.94
+    },
+    {
+      "word": " sind,",
+      "start": 128.94,
+      "end": 129.08
+    },
+    {
+      "word": " bleibt",
+      "start": 129.26,
+      "end": 129.52
+    },
+    {
+      "word": " die",
+      "start": 129.52,
+      "end": 129.74
+    },
+    {
+      "word": " Tatsache,",
+      "start": 129.74,
+      "end": 130.48
+    },
+    {
+      "word": " dass",
+      "start": 130.62,
+      "end": 130.8
+    },
+    {
+      "word": " dein",
+      "start": 130.8,
+      "end": 131.2
+    },
+    {
+      "word": " Körper",
+      "start": 131.2,
+      "end": 131.56
+    },
+    {
+      "word": " immer",
+      "start": 131.56,
+      "end": 131.94
+    },
+    {
+      "word": " versucht",
+      "start": 131.94,
+      "end": 132.14
+    },
+    {
+      "word": " hat,",
+      "start": 132.14,
+      "end": 132.24
+    },
+    {
+      "word": " dich",
+      "start": 132.34,
+      "end": 132.54
+    },
+    {
+      "word": " zu",
+      "start": 132.54,
+      "end": 132.68
+    },
+    {
+      "word": " schützen,",
+      "start": 132.68,
+      "end": 133.16
+    },
+    {
+      "word": " ein",
+      "start": 133.6,
+      "end": 134.1
+    },
+    {
+      "word": " wichtiger",
+      "start": 134.1,
+      "end": 134.46
+    },
+    {
+      "word": " Aspekt",
+      "start": 134.46,
+      "end": 134.96
+    },
+    {
+      "word": " auf",
+      "start": 134.96,
+      "end": 135.16
+    },
+    {
+      "word": " deinem",
+      "start": 135.16,
+      "end": 135.52
+    },
+    {
+      "word": " Heilungsweg.",
+      "start": 135.52,
+      "end": 136.26
+    },
+    {
+      "word": " Du",
+      "start": 138.68,
+      "end": 138.92
+    },
+    {
+      "word": " musst",
+      "start": 138.92,
+      "end": 139.14
+    },
+    {
+      "word": " nicht",
+      "start": 139.14,
+      "end": 139.4
+    },
+    {
+      "word": " vollständig",
+      "start": 139.4,
+      "end": 140.14
+    },
+    {
+      "word": " geheilt",
+      "start": 140.14,
+      "end": 140.82
+    },
+    {
+      "word": " sein,",
+      "start": 140.82,
+      "end": 140.92
+    },
+    {
+      "word": " um",
+      "start": 141.1,
+      "end": 141.24
+    },
+    {
+      "word": " dich",
+      "start": 141.24,
+      "end": 141.44
+    },
+    {
+      "word": " auf",
+      "start": 141.44,
+      "end": 141.72
+    },
+    {
+      "word": " Beziehung",
+      "start": 141.72,
+      "end": 142.3
+    },
+    {
+      "word": " einzulassen,",
+      "start": 142.3,
+      "end": 143.16
+    },
+    {
+      "word": " aber",
+      "start": 143.38,
+      "end": 143.52
+    },
+    {
+      "word": " du",
+      "start": 143.52,
+      "end": 143.72
+    },
+    {
+      "word": " darfst",
+      "start": 143.72,
+      "end": 144.34
+    },
+    {
+      "word": " lernen,",
+      "start": 144.34,
+      "end": 144.62
+    },
+    {
+      "word": " dich",
+      "start": 144.76,
+      "end": 145.16
+    },
+    {
+      "word": " selbst",
+      "start": 145.16,
+      "end": 145.48
+    },
+    {
+      "word": " besser",
+      "start": 145.48,
+      "end": 145.72
+    },
+    {
+      "word": " zu",
+      "start": 145.72,
+      "end": 146.14
+    },
+    {
+      "word": " halten,",
+      "start": 146.14,
+      "end": 146.22
+    },
+    {
+      "word": " damit",
+      "start": 146.96,
+      "end": 147.26
+    },
+    {
+      "word": " du",
+      "start": 147.26,
+      "end": 147.5
+    },
+    {
+      "word": " in",
+      "start": 147.5,
+      "end": 147.74
+    },
+    {
+      "word": " Verbindung",
+      "start": 147.74,
+      "end": 148.32
+    },
+    {
+      "word": " bleiben",
+      "start": 148.32,
+      "end": 148.84
+    },
+    {
+      "word": " kannst,",
+      "start": 148.84,
+      "end": 149.02
+    },
+    {
+      "word": " ohne",
+      "start": 149.26,
+      "end": 149.5
+    },
+    {
+      "word": " dich",
+      "start": 149.5,
+      "end": 149.74
+    },
+    {
+      "word": " zu",
+      "start": 149.74,
+      "end": 150.1
+    },
+    {
+      "word": " verlieren.",
+      "start": 150.1,
+      "end": 150.36
+    }
+  ]
+}

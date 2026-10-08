@@ -1952,5 +1952,275 @@
     },
     "ig": null,
     "fehler": null
+  },
+  {
+    "id": "v01",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v01",
+    "titel": "Alte Gefühle",
+    "angebot": "keins",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v01/v01.mp4",
+      "out/v01/v01-cover.jpg"
+    ],
+    "caption": "Wenn alte Gefühle plötzlich hochkommen, fühlt sich das oft überwältigend an.\n\nIch habe gelernt, in so einem Moment kurz innezuhalten, meinen Atem zu spüren und dem Moment zu erlauben, einfach da zu sein. Dabei wurde mir klar: Auch wenn die Vergangenheit auftaucht, kann ich mich im Hier und Jetzt sicher fühlen.\n\nProbier es beim nächsten Mal aus: ein Atemzug, ein Moment, ohne etwas ändern zu müssen.\n\nFolge @ninahoemmencoaching, wenn du alte Gefühle besser halten willst.\n\nWas hilft dir, wenn alte Gefühle hochkommen? 🤍",
+    "hashtags": [
+      "#nervensystem",
+      "#alteGefühle",
+      "#achtsamkeit",
+      "#selbstfürsorge",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v02",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v02",
+    "titel": "Meine Reise: Wie alles begann",
+    "angebot": "keins",
+    "kernthema": 1,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v02/v02.mp4",
+      "out/v02/v02-cover.jpg"
+    ],
+    "caption": "Früher glaubte ich, Liebe sei einfach.\n\nMeine erste Beziehung mit 16 war das Gegenteil: Drama, Eifersucht, Schmerz und am Ende das Gefühl, ersetzt zu werden. Danach folgten Beziehungen, die von außen gut wirkten. In mir blieb oft ein stilles Gefühl von Leere, Anpassung und Unsicherheit.\n\nAuch die Zeit als Single brachte mich manchmal an meine Grenzen. In der Stille wurden meine eigenen Themen sichtbarer: die Angst vor Nähe und die Sehnsucht nach Verbindung. Diese Phase war herausfordernd und wurde zu einem wichtigen Teil meines Weges.\n\nWenn du dich hier wiedererkennst: Du bist damit nicht allein.\n\nFolge @ninahoemmencoaching, wenn du mehr aus meiner Geschichte hören willst.\n\nWelcher Satz kommt dir bekannt vor? 🤍",
+    "hashtags": [
+      "#meinegeschichte",
+      "#beziehungsmuster",
+      "#singlesein",
+      "#selbstfindung",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v03",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v03",
+    "titel": "Meine Reise: Beziehung beginnt in dir",
+    "angebot": "Coaching",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v03/v03.mp4",
+      "out/v03/v03-cover.jpg"
+    ],
+    "caption": "Erst nach meiner letzten Beziehung habe ich wirklich hingesehen.\n\nIch habe nicht mehr im Außen gesucht, sondern in mir. Ich habe gelesen, gelernt, mich begleiten lassen und erkannt: Das, was ich erlebt habe, war kein Zufall. Es war ein Spiegel meiner früheren Erfahrungen.\n\nIch habe gelernt, mein Nervensystem zu beruhigen, meine inneren Kindanteile zu halten und meine Muster liebevoll wahrzunehmen. Beziehung gelingt nicht einfach selbstverständlich. Du darfst sie lernen, so wie du Sicherheit, Nähe und Vertrauen in dir neu entdecken kannst.\n\nIm Singlecoaching gehen wir das in deinem Tempo an. In Oldenburg oder online, das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.\n\nWas würde sich ändern, wenn du dir mit mehr Mitgefühl begegnest? 🤍",
+    "hashtags": [
+      "#beziehungskannstdulernen",
+      "#singlecoaching",
+      "#nervensystem",
+      "#beziehungsmuster",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v04",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v04",
+    "titel": "Warum du Single bist",
+    "angebot": "keins",
+    "kernthema": 4,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v04/v04.mp4",
+      "out/v04/v04-cover.jpg"
+    ],
+    "caption": "Warum du Single bist, und warum das kein Fehler ist.\n\nEs gibt nicht den einen Grund. Aber es gibt wiederkehrende Muster, die oft aus früheren Bindungserfahrungen entstanden sind und tief in uns wirken. Du erkennst sie an Sätzen wie: „Niemand will mich.“\n\nDahinter steckt oft eine tiefe Angst vor Ablehnung. Vielleicht war emotionale Nähe in deiner Kindheit kaum spürbar, vielleicht waren Bezugspersonen unberechenbar oder emotional abwesend. Daraus kann das Gefühl entstehen: Mit mir stimmt etwas nicht. Die Folge ist ein starker Wunsch nach Verbindung und zugleich die Angst, wieder verletzt zu werden.\n\nFolge @ninahoemmencoaching, wenn du deine Muster verstehen willst.\n\nWelcher Satz kommt dir bekannt vor? 🤍",
+    "hashtags": [
+      "#singleleben",
+      "#warumsingle",
+      "#bindung",
+      "#selbstwert",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v05",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v05",
+    "titel": "Ich will niemanden wirklich",
+    "angebot": "keins",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": "2027-01-01",
+    "dateien": [
+      "out/v05/v05.mp4",
+      "out/v05/v05-cover.jpg"
+    ],
+    "caption": "„Ich will niemanden wirklich.“ Hinter diesem Satz steckt oft ein anderer Schutzmechanismus.\n\nNähe wurde irgendwann als bedrohlich erlebt. Menschen mit diesem Muster wirken oft unabhängig, kontrolliert oder emotional distanziert. Doch tief darunter lebt dieselbe Sehnsucht: nach sicherer Verbindung, ohne Überforderung oder Schmerz.\n\nWeder „Niemand will mich“ noch „Ich will niemanden“ ist eine Schwäche. Beides sind kluge, lebenswichtige Strategien, die dein Nervensystem entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nFolge @ninahoemmencoaching, wenn du deinen Schutz besser verstehen willst.\n\nWelcher der beiden Sätze klingt eher nach dir? 💬",
+    "hashtags": [
+      "#nähe",
+      "#schutzmuster",
+      "#singleleben",
+      "#nervensystem",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v06",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v06",
+    "titel": "Vom Schutz zur Verbindung",
+    "angebot": "Coaching",
+    "kernthema": 4,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v06/v06.mp4",
+      "out/v06/v06-cover.jpg"
+    ],
+    "caption": "Du bist nicht Single, weil etwas mit dir nicht stimmt.\n\nDu bist Single, weil dein inneres System gelernt hat, vorsichtig zu sein. Und das ist okay.\n\nWenn du dich auf echte Verbindung einlässt, verlierst du dich nicht. Du findest dich. Du gewinnst Vertrauen in dich selbst: Nähe, die nährt und nicht verletzt. Freiheit, die dich verbindet, ohne dich einzuschränken. Und ein Leben, das du wirklich fühlst, mit all deinen Farben.\n\nIm Singlecoaching gehen wir das in deinem Tempo an. In Oldenburg oder online, das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du von Schutz zu Verbindung kommen willst.\n\nWelcher Satz davon tut dir heute gut? 🤍",
+    "hashtags": [
+      "#vomschutzzurverbindung",
+      "#singlecoaching",
+      "#selbstvertrauen",
+      "#beziehung",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v07",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v07",
+    "titel": "Dein Weg in die Echtheit",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v07/v07.mp4",
+      "out/v07/v07-cover.jpg"
+    ],
+    "caption": "Dein Weg in die Echtheit: Es ist ein liebevoller Prozess in deinem Tempo. Und er beginnt mit einem leisen, aber kraftvollen Schritt zurück zu dir.\n\nErkenne deinen Schutz an. Er war eine Form von Stärke. Fühle dich selbst: Was brauchst du wirklich? Was nährt dich? Werde sichtbar mit deiner Meinung, deinen Grenzen, deinem Ja und deinem Nein. Finde sichere Beziehungen, Menschen, bei denen du nichts spielen musst. Und habe Geduld mit dir. Jeder Moment, in dem du dir selbst zuhörst, verändert etwas.\n\nMehr dazu und Übungen für zu Hause findest du in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Du bekommst es im Buchhandel, online oder direkt bei mir. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr bei dir ankommen willst.\n\nWelcher Schritt fällt dir gerade am leichtesten? 📖",
+    "hashtags": [
+      "#buchtipp",
+      "#beziehungsmuster",
+      "#selbstverbindung",
+      "#singlesein",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v08",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v08",
+    "titel": "Warum Kindheitserinnerungen fehlen",
+    "angebot": "keins",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v08/v08.mp4",
+      "out/v08/v08-cover.jpg"
+    ],
+    "caption": "Warum Erinnerungen an die Kindheit manchmal schwer zugänglich sind.\n\nEs ist nicht ungewöhnlich, dass Menschen sich kaum an ihre Kindheit erinnern. Das hat nichts mit einem Fehler im Gehirn zu tun. Es ist eine natürliche Reaktion des Körpers auf stressige oder unsichere Erfahrungen in der frühen Kindheit.\n\nWenn ein Kind ständig mit emotionalem Stress, Unsicherheit oder Bindungsverletzungen zu tun hat, ist das Nervensystem fortwährend in Alarmbereitschaft. Sein Hauptziel ist dann nicht, Erinnerungen zu bewahren, sondern sich vor weiteren Bedrohungen zu schützen.\n\nFolge @ninahoemmencoaching, wenn du mehr dazu erfahren willst.\n\nWie ist es bei dir: Erinnerst du dich an deine Kindheit eher in Bildern oder in Gefühlen? 💬",
+    "hashtags": [
+      "#kindheit",
+      "#nervensystem",
+      "#erinnerung",
+      "#innereskind",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v09",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v09",
+    "titel": "Kurzzeit- und Langzeitgedächtnis",
+    "angebot": "keins",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v09/v09.mp4",
+      "out/v09/v09-cover.jpg"
+    ],
+    "caption": "Warum Kindheitserinnerungen oft unscharf, fragmentiert oder lückenhaft wirken.\n\nDurch anhaltende Anspannung kann das Kurzzeitgedächtnis überlastet werden. Viele Eindrücke werden nur flüchtig wahrgenommen und nicht so verarbeitet, dass sie langfristig gespeichert werden können. Um Erinnerungen im Langzeitgedächtnis zu verankern, braucht das Gehirn Ruhe und Sicherheit. Fehlen diese Grundlagen, können Erfahrungen nicht vollständig abgespeichert werden.\n\nDiese Lücken sind keine Zeichen von Schwäche oder Defekt. Sie sind eine nachvollziehbare Folge eines Nervensystems, das uns schützen wollte.\n\nFolge @ninahoemmencoaching, wenn du dein Nervensystem besser verstehen willst.\n\nWas nimmst du aus diesem Teil mit? 🤍",
+    "hashtags": [
+      "#gedächtnis",
+      "#kindheit",
+      "#nervensystem",
+      "#schutzreaktion",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v10",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v10",
+    "titel": "Du musst nicht vollständig geheilt sein",
+    "angebot": "Coaching",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": null,
+    "dateien": [
+      "out/v10/v10.mp4",
+      "out/v10/v10-cover.jpg"
+    ],
+    "caption": "Das Fehlen klarer Erinnerungen ist eine natürliche Schutzreaktion des Körpers.\n\nEs zeigt, dass dein Nervensystem immer auf Sicherheit bedacht war und in vielen Momenten einfach nicht die Ruhe fand, Erfahrungen abzulegen. Dein Körper hat immer versucht, dich zu schützen. Das ist ein wichtiger Aspekt auf deinem Weg.\n\nDu musst nicht vollständig geheilt sein, um dich auf Beziehung einzulassen. Aber du darfst lernen, dich selbst besser zu halten, damit du in Verbindung bleiben kannst, ohne dich zu verlieren.\n\nIm Singlecoaching gehen wir das in deinem Tempo an. In Oldenburg oder online, das Erstgespräch ist kostenfrei. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser halten willst.\n\nWas wäre ein erster kleiner Schritt, dich selbst besser zu halten? 🤍",
+    "hashtags": [
+      "#schutzreaktion",
+      "#beziehung",
+      "#singlecoaching",
+      "#nervensystem",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
   }
 ]

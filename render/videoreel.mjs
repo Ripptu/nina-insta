@@ -55,7 +55,7 @@ export async function analysiereClips() {
 }
 
 /** Bereich im 1080x1920-Bild, den Kopf und Hals von Nina im Zeitfenster [ss, ss+d] belegen (mit Haar- und Halsreserve). */
-function gesichtsBox(clip, ss, d) {
+export function gesichtsBox(clip, ss, d) {
   const sc = Math.max(W / clip.w, PH / clip.h)
   const ox = (clip.w * sc - W) / 2, oy = (clip.h * sc - PH) / 2
   const a = Math.max(0, Math.floor(ss * SAMPLE) - 1), b = Math.min(clip.faces.length - 1, Math.ceil((ss + d) * SAMPLE) + 1)
@@ -75,7 +75,7 @@ function gesichtsBox(clip, ss, d) {
  * Baut die Textebene (transparentes PNG, 1080x1920) für einen Abschnitt. box = freizuhaltender Bereich oder null.
  * Gibt { ok, band, size } zurück; ok=false, wenn kein Band hoch genug ist.
  */
-async function textEbene(eng, { text, hook, box, file }) {
+export async function textEbene(eng, { text, hook, box, file }) {
   const { ctx, meas, pageHtml } = eng._i
   const lo = SAFE.lo, hi = SAFE.hi
   const oben = box ? Math.max(0, box.y0 - 30 - lo) : hi - lo
