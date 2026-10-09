@@ -1978,14 +1978,18 @@
       "#selbstfürsorge",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-08T12:58:28.664Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "17994396471048541",
+      "permalink": "https://www.instagram.com/reel/DeSHbjXCbzx/",
+      "am": "2026-10-09T18:08:19.565Z"
+    },
     "fehler": null
   },
   {
