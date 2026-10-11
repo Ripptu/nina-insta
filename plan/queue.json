@@ -950,7 +950,12 @@
       "am": "2026-10-03T06:38:08.407Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "fb": {
+      "id": "992738230600465_122141921288778810",
+      "am": "2026-10-11T00:00:00.000Z",
+      "hinweis": "Test-Post vor Instagram"
+    }
   },
   {
     "id": "s03",

@@ -49,7 +49,7 @@ export async function postReel({ video, caption, cover }) {
 
 /** Spiegelt einen veröffentlichten Beitrag; gibt { id } oder { fehler } zurück, wirft nie. Zweiter Versuch bei Netzwerkfehlern. */
 export async function spiegeln(item, dateien, caption) {
-  if (!aktiv() || item.typ === 'story') return null
+  if (!aktiv() || item.typ === 'story' || item.fb?.id) return null
   for (let versuch = 1; versuch <= 2; versuch++) {
     try {
       const id = item.typ === 'reel'
