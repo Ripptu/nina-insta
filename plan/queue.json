@@ -2022,15 +2022,22 @@
       "#selbstfindung",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-08T12:52:27.859Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18118067501281829",
+      "permalink": "https://www.instagram.com/reel/DeaGHSzlclK/",
+      "am": "2026-10-12T20:30:47.441Z"
+    },
+    "fehler": null,
+    "fb": {
+      "fehler": "Facebook: Error validating access token: Session has expired on Sunday, 11-Oct-26 11:00:00 PDT. The current time is Monday, 12-Oct-26 13:30:47 PDT. (Code 190)"
+    }
   },
   {
     "id": "v03",
