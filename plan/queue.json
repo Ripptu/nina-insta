@@ -448,15 +448,23 @@
       "#singlecoaching",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:35:29.813Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18118910876281816",
+      "permalink": "https://www.instagram.com/p/Decmtw-mie2/",
+      "am": "2026-10-13T19:53:50.843Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "992738230600465_122142275516778810",
+      "am": "2026-10-13T19:54:08.276Z"
+    }
   },
   {
     "id": "k13",
