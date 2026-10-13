@@ -1,7 +1,21 @@
 {
   "hinweis": "Nur diese Angebote und Formulierungen verwenden (aus den geprüften Inhalten). Keine Preise, keine Termine, keine Produktdetails erfinden. Vor jedem Beitrag prüfen, ob es auf Ninas Homepage noch so steht. Immer mit „Link in der Bio“.",
-  "coaching": { "text": "Kostenfreies Erstgespräch von etwa 30 Minuten, telefonisch oder in Ninas Räumen in Oldenburg. Einzelcoaching traumasensibel und körperorientiert, in Oldenburg und online.", "cta": "Link in der Bio" },
-  "buch": { "text": "Ninas Buch „Zwischen Single-Sein & falscher Nähe“ (Untertitel: Wie du dich aus alten Mustern befreist und Liebe neu erlebst).", "cta": "Link in der Bio" },
-  "shop": { "text": "Journale und Karten aus Ninas Shop, zum Beispiel „90 Tage näher zu dir“ und „Deine Beziehungslandkarte“.", "fruehestens": "2026-11-01", "cta": "Link in der Bio" },
-  "veranstaltungen": { "text": "Frauenkreis HERZ.ZEIT in Oldenburg und die Abendreihe „Zurück zu dir – 8 Abende für Frauen“ (echte Frauenangebote, als solche kennzeichnen).", "cta": "Link in der Bio" }
+  "coaching": {
+    "text": "Kostenfreies Erstgespräch von etwa 30 Minuten, telefonisch oder in Ninas Räumen in Oldenburg. Einzelcoaching traumasensibel und körperorientiert, in Oldenburg und online.",
+    "cta": "Link in der Bio"
+  },
+  "buch": {
+    "text": "Ninas Buch „Zwischen Single-Sein & falscher Nähe“ (Untertitel: Wie du dich aus alten Mustern befreist und Liebe neu erlebst).",
+    "cta": "Link in der Bio"
+  },
+  "shop": {
+    "text": "Ninas Shop (shop.nina-hoemmen-coaching.de), komplett ab 1. November. Digitale Produkte kommen sofort nach dem Kauf per E-Mail, ohne Versand und ohne Wartezeit. Buch & Hörbuch: „Zwischen Single-Sein & falscher Nähe“ als Hardcover (über den Verlag portofrei oder Amazon), E-Book (PDF) und ruhig gesprochenes Hörbuch. Journale & Karten (PDF): Reflexionsjournal „90 Tage näher zu dir“, Gesprächskartenset „Von Herz zu Herz“ mit 240 Fragen, „Deine Beziehungslandkarte“ (entdecke, wo du gerade stehst), „Dein Adventskalender für die Seele“ mit 24 achtsamen Impulsen. Meditationen & Audios: „Meditationen zum Buch“ (14 Audios plus Einführung), „Audio-Journal nach einer Trennung inkl. Meditation“, „Weniger Streit. Mehr Liebe.“ (Audio-Journal für dich oder euch als Paar, erscheint Ende Oktober). Haltung des Shops: keine Countdown-Timer, keine künstliche Knappheit, in deinem Tempo. Die HERZ.REISE-App erscheint erst Anfang 2027 und wird noch nicht beworben.",
+    "fruehestens": "2026-11-01",
+    "cta": "Link in der Bio",
+    "stand": "2026-10-13, gelesen auf shop.nina-hoemmen-coaching.de/produkte"
+  },
+  "veranstaltungen": {
+    "text": "Frauenkreis HERZ.ZEIT in Oldenburg und die Abendreihe „Zurück zu dir – 8 Abende für Frauen“ (echte Frauenangebote, als solche kennzeichnen).",
+    "cta": "Link in der Bio"
+  }
 }
