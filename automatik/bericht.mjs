@@ -26,7 +26,8 @@ const fol7 = k.length > 1 ? k[Math.max(0, k.length - 8)].follower : null
 const params = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), 'utf8'))
 const bereit = zaehlePuffer(q, params).feed
 const fehler = q.filter((x) => ['fehler', 'abgelehnt', 'unklar'].includes(x.status))
-const textCover = Object.values(cov).filter((v) => v === 'text').length
+const fbFehler = q.filter((x) => x.fb?.fehler && !x.fb?.id && x.ig?.am && Date.now() - new Date(x.ig.am).getTime() < 7 * 864e5)
+const textCover =Object.values(cov).filter((v) => v === 'text').length
 const naechste = q.filter((x) => x.status === 'geprueft').slice(0, 5)
 const learn = fs.readFileSync(path.join(ROOT, 'learnings.md'), 'utf8').split('\n## ').slice(-1)[0].slice(0, 900)
 const zeilen = [
@@ -39,6 +40,7 @@ const zeilen = [
   `Puffer: ${bereit} geprüfte Beiträge bereit.`,
   ...(bereit < 10 ? ['ACHTUNG: Puffer unter 10, der Vorrat wird knapp.'] : []),
   ...(textCover ? [`Hinweis: ${textCover} Cover sind reine Textcover, weil alle Fotos schon Cover waren. Neue Fotos von Nina würden helfen.`] : []),
+  ...(fbFehler.length ? ['', 'Facebook: nicht gespiegelt (Seiten-Token prüfen, siehe CLAUDE.md, Abschnitt Facebook-Spiegelung):', ...fbFehler.map((x) => `- ${x.id} ${x.titel}: ${x.fb.fehler}`)] : []),
   ...(fehler.length ? ['', 'Probleme:', ...fehler.map((x) => `- ${x.id} ${x.titel}: ${x.status} ${x.fehler || (x.qa?.gruende || []).join('; ')}`)] : []),
   '',
   'Als Nächstes geplant:',

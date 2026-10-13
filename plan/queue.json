@@ -2040,7 +2040,9 @@
     },
     "fehler": null,
     "fb": {
-      "fehler": "Facebook: Error validating access token: Session has expired on Sunday, 11-Oct-26 11:00:00 PDT. The current time is Monday, 12-Oct-26 13:30:47 PDT. (Code 190)"
+      "id": "2646639692418289",
+      "am": "2026-10-13T14:02:46.573Z",
+      "hinweis": "nachgeholt nach Token-Ablauf"
     }
   },
   {
