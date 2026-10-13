@@ -83,6 +83,12 @@
    "follower": 140,
    "gefolgt": 89,
    "beitraege": 11
+  },
+  {
+   "datum": "2026-10-13",
+   "follower": 139,
+   "gefolgt": 89,
+   "beitraege": 12
   }
  ],
  "beitraege": {
@@ -2036,6 +2042,19 @@
      "total_interactions": 17,
      "follows": 0,
      "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 16,
+     "kommentare": 1,
+     "reach": 62,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 127,
+     "total_interactions": 17,
+     "follows": 0,
+     "profile_visits": 3
     }
    ]
   },
@@ -2200,6 +2219,19 @@
      "saved": 0,
      "shares": 2,
      "views": 126,
+     "total_interactions": 11,
+     "follows": 0,
+     "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 9,
+     "kommentare": 0,
+     "reach": 55,
+     "comments": 0,
+     "saved": 0,
+     "shares": 2,
+     "views": 127,
      "total_interactions": 11,
      "follows": 0,
      "profile_visits": 0
@@ -5273,6 +5305,19 @@
      "total_interactions": 7,
      "follows": 0,
      "profile_visits": 5
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 7,
+     "kommentare": 0,
+     "reach": 53,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 125,
+     "total_interactions": 7,
+     "follows": 0,
+     "profile_visits": 5
     }
    ]
   },
@@ -5592,6 +5637,19 @@
      "total_interactions": 13,
      "ig_reels_avg_watch_time": 9147,
      "ig_reels_video_view_total_time": 1244094
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 13,
+     "kommentare": 0,
+     "reach": 124,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 175,
+     "total_interactions": 13,
+     "ig_reels_avg_watch_time": 9031,
+     "ig_reels_video_view_total_time": 1246404
     }
    ]
   },
@@ -5681,6 +5739,19 @@
      "total_interactions": 11,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 12,
+     "kommentare": 0,
+     "reach": 53,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 121,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -5757,6 +5828,19 @@
      "total_interactions": 9,
      "ig_reels_avg_watch_time": 8183,
      "ig_reels_video_view_total_time": 1374797
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 11,
+     "kommentare": 0,
+     "reach": 163,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 90,
+     "total_interactions": 11,
+     "ig_reels_avg_watch_time": 8126,
+     "ig_reels_video_view_total_time": 1381500
     }
    ]
   },
@@ -5870,6 +5954,19 @@
      "total_interactions": 7,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 35,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 92,
+     "total_interactions": 8,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -5920,6 +6017,19 @@
      "total_interactions": 11,
      "ig_reels_avg_watch_time": 6767,
      "ig_reels_video_view_total_time": 1109900
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 11,
+     "kommentare": 0,
+     "reach": 154,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 217,
+     "total_interactions": 11,
+     "ig_reels_avg_watch_time": 6754,
+     "ig_reels_video_view_total_time": 1114549
     }
    ]
   },
@@ -6018,6 +6128,19 @@
      "total_interactions": 16,
      "follows": 0,
      "profile_visits": 11
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 13,
+     "kommentare": 0,
+     "reach": 107,
+     "comments": 0,
+     "saved": 3,
+     "shares": 0,
+     "views": 228,
+     "total_interactions": 16,
+     "follows": 0,
+     "profile_visits": 11
     }
    ]
   },
@@ -6032,6 +6155,19 @@
    "verlauf": [
     {
      "datum": "2026-10-12",
+     "likes": 19,
+     "kommentare": 1,
+     "reach": 125,
+     "comments": 1,
+     "saved": 2,
+     "shares": 0,
+     "views": 274,
+     "total_interactions": 22,
+     "follows": 0,
+     "profile_visits": 5
+    },
+    {
+     "datum": "2026-10-13",
      "likes": 19,
      "kommentare": 1,
      "reach": 125,
@@ -6066,6 +6202,43 @@
      "total_interactions": 27,
      "follows": 0,
      "profile_visits": 4
+    },
+    {
+     "datum": "2026-10-13",
+     "likes": 23,
+     "kommentare": 1,
+     "reach": 251,
+     "comments": 1,
+     "saved": 2,
+     "shares": 1,
+     "views": 674,
+     "total_interactions": 27,
+     "follows": 0,
+     "profile_visits": 4
+    }
+   ]
+  },
+  "18118067501281829": {
+   "id": "v02",
+   "titel": "Meine Reise: Wie alles begann",
+   "typ": "reel",
+   "permalink": "https://www.instagram.com/reel/DeaGHSzlclK/",
+   "zeit": "2026-10-12T20:30:38+0000",
+   "kernthema": 1,
+   "angebot": "keins",
+   "verlauf": [
+    {
+     "datum": "2026-10-13",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 135,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 193,
+     "total_interactions": 8,
+     "ig_reels_avg_watch_time": 9205,
+     "ig_reels_video_view_total_time": 1353157
     }
    ]
   }
