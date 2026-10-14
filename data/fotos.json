@@ -1351,5 +1351,488 @@
   "buch": false,
   "faces": [],
   "keepout": []
+ },
+ {
+  "id": 69,
+  "file": "okt2_foto_01.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 136,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    521,
+    419,
+    284,
+    382
+   ]
+  ],
+  "keepout": [
+   [
+    24,
+    928,
+    864,
+    672
+   ]
+  ]
+ },
+ {
+  "id": 70,
+  "file": "okt2_foto_02.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 116,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    389,
+    103,
+    256,
+    374
+   ]
+  ],
+  "keepout": [
+   [
+    560,
+    900,
+    390,
+    530
+   ]
+  ]
+ },
+ {
+  "id": 71,
+  "file": "okt2_foto_03.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 120,
+  "kind": "objekt",
+  "tier": 2,
+  "buch": true,
+  "faces": [],
+  "keepout": [
+   [
+    0,
+    480,
+    1067,
+    780
+   ]
+  ]
+ },
+ {
+  "id": 72,
+  "file": "okt2_foto_04.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 92,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    446,
+    529,
+    183,
+    254
+   ]
+  ],
+  "keepout": [
+   [
+    340,
+    940,
+    310,
+    370
+   ]
+  ]
+ },
+ {
+  "id": 73,
+  "file": "okt2_foto_05.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 93,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    459,
+    309,
+    189,
+    255
+   ]
+  ],
+  "keepout": [
+   [
+    250,
+    680,
+    270,
+    470
+   ]
+  ]
+ },
+ {
+  "id": 74,
+  "file": "okt2_foto_06.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 80,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    504,
+    408,
+    266,
+    384
+   ]
+  ],
+  "keepout": [
+   [
+    16,
+    910,
+    870,
+    690
+   ]
+  ]
+ },
+ {
+  "id": 75,
+  "file": "okt2_foto_07.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 105,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    396,
+    438,
+    163,
+    244
+   ]
+  ],
+  "keepout": [
+   [
+    230,
+    750,
+    290,
+    410
+   ]
+  ]
+ },
+ {
+  "id": 76,
+  "file": "okt2_foto_08.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 98,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    325,
+    375,
+    181,
+    239
+   ]
+  ],
+  "keepout": [
+   [
+    80,
+    620,
+    360,
+    450
+   ]
+  ]
+ },
+ {
+  "id": 77,
+  "file": "okt2_foto_09.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 117,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    266,
+    287,
+    254,
+    339
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 78,
+  "file": "okt2_foto_10.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 93,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    360,
+    239,
+    260,
+    349
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 79,
+  "file": "okt2_foto_11.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 81,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    488,
+    397,
+    181,
+    251
+   ]
+  ],
+  "keepout": [
+   [
+    395,
+    790,
+    295,
+    265
+   ]
+  ]
+ },
+ {
+  "id": 80,
+  "file": "okt2_foto_12.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 81,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    448,
+    316,
+    180,
+    251
+   ]
+  ],
+  "keepout": [
+   [
+    350,
+    770,
+    300,
+    250
+   ]
+  ]
+ },
+ {
+  "id": 81,
+  "file": "okt2_foto_13.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 93,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    440,
+    399,
+    194,
+    258
+   ]
+  ],
+  "keepout": [
+   [
+    340,
+    885,
+    305,
+    305
+   ]
+  ]
+ },
+ {
+  "id": 82,
+  "file": "okt2_foto_14.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 98,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    486,
+    427,
+    189,
+    275
+   ]
+  ],
+  "keepout": [
+   [
+    250,
+    865,
+    385,
+    320
+   ]
+  ]
+ },
+ {
+  "id": 83,
+  "file": "okt2_foto_15.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 98,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": true,
+  "faces": [
+   [
+    436,
+    411,
+    183,
+    245
+   ]
+  ],
+  "keepout": [
+   [
+    90,
+    590,
+    260,
+    450
+   ]
+  ]
+ },
+ {
+  "id": 84,
+  "file": "okt2_foto_16.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 171,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    403,
+    292,
+    69,
+    95
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 85,
+  "file": "okt2_foto_17.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 168,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    480,
+    509,
+    75,
+    103
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 86,
+  "file": "okt2_foto_18.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 145,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    290,
+    494,
+    291,
+    390
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 87,
+  "file": "okt2_foto_19.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 132,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    283,
+    265,
+    277,
+    388
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 88,
+  "file": "okt2_foto_20.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 114,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    537,
+    269,
+    203,
+    279
+   ]
+  ],
+  "keepout": []
+ },
+ {
+  "id": 89,
+  "file": "okt2_foto_21.jpg",
+  "w": 1067,
+  "h": 1600,
+  "luma": 111,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    412,
+    320,
+    228,
+    305
+   ]
+  ],
+  "keepout": []
  }
 ]
