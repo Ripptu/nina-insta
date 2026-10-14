@@ -607,9 +607,13 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:01.919Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -834,7 +838,7 @@
     "format": "Liste",
     "angebot": "Shop",
     "kernthema": 3,
-    "fruehestens": "2026-11-05",
+    "fruehestens": "2026-11-01",
     "dateien": [
       "out/k23/01.jpg",
       "out/k23/02.jpg",
@@ -851,9 +855,13 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:11.849Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -883,9 +891,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:11.101Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -1152,9 +1164,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:06.139Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
