@@ -2324,5 +2324,377 @@
     },
     "ig": null,
     "fehler": null
+  },
+  {
+    "id": "k27",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 27",
+    "titel": "Ich habe etwas für dich vorbereitet",
+    "format": "Persönlich",
+    "angebot": "Buch",
+    "kernthema": 3,
+    "fruehestens": "2026-11-03",
+    "termin": "2026-11-03",
+    "dateien": [
+      "out/k27/01.jpg",
+      "out/k27/02.jpg",
+      "out/k27/03.jpg",
+      "out/k27/04.jpg",
+      "out/k27/05.jpg",
+      "out/k27/06.jpg"
+    ],
+    "caption": "Ich habe etwas für dich vorbereitet.\n\nNach meinem Buch kamen viele Fragen von dir. Manche davon wollte ich nicht mit einem Satz beantworten, sondern dir etwas an die Hand geben, womit du in deinem Tempo bei dir ankommen kannst.\n\nSo sind Journale, Gesprächskarten und Meditationen entstanden, zum Schreiben, Nachspüren und Innehalten, allein oder zu zweit.\n\nNichts davon ist ein Muss. Du entscheidest, was zu dir passt und wann.\n\nBald zeige ich dir alles, Stück für Stück. Bis dahin begleitet dich mein Buch „Zwischen Single-Sein & falscher Nähe“. Du findest es über den Link in der Bio.\n\nFolge @ninahoemmencoaching, damit du nichts verpasst.\n\nWas würde dir gerade am meisten helfen: etwas zum Schreiben, zum Hören oder zum Sprechen zu zweit? 🤍",
+    "hashtags": [
+      "#beziehungsmuster",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#singleleben",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k28",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 28",
+    "titel": "Mein Shop ist da",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-05",
+    "termin": "2026-11-05",
+    "dateien": [
+      "out/k28/01.jpg",
+      "out/k28/02.jpg",
+      "out/k28/03.jpg",
+      "out/k28/04.jpg",
+      "out/k28/05.jpg",
+      "out/k28/06.jpg"
+    ],
+    "caption": "Mein Shop ist da.\n\nBuch, Hörbuch, Journale, Gesprächskarten und Meditationen, alles, was mir in meiner Arbeit mit dir wichtig geworden ist, an einem Ort.\n\nAlle digitalen Produkte kommen sofort nach dem Kauf per E-Mail zu dir, ohne Versand und ohne Wartezeit. Nur das gedruckte Buch bestellst du bei meinem Verlag oder bei Amazon.\n\nMir ist wichtig, dass sich hier niemand drängen lassen muss. Es gibt keine Countdowns und keine künstliche Knappheit. Du entscheidest, was zu dir passt und wann.\n\nWenn du nicht weißt, wo du anfangen sollst: Die Beziehungslandkarte zeigt dir, wo du auf deinem Weg gerade stehst. Mit dem Buch oder ganz ohne.\n\nDu findest den Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du Schritt für Schritt mehr bei dir ankommen willst.\n\nWas spricht dich am meisten an? 🤍",
+    "hashtags": [
+      "#shop",
+      "#beziehungsmuster",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#buchtipp"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k29",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 29",
+    "titel": "Wo stehst du gerade?",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 1,
+    "fruehestens": "2026-11-10",
+    "termin": "2026-11-10",
+    "dateien": [
+      "out/k29/01.jpg",
+      "out/k29/02.jpg",
+      "out/k29/03.jpg",
+      "out/k29/04.jpg",
+      "out/k29/05.jpg",
+      "out/k29/06.jpg"
+    ],
+    "caption": "Wo stehst du gerade in deiner Beziehung zu dir?\n\nMeine Beziehungslandkarte lädt dich ein, genau das herauszufinden, ruhig und ohne Bewertung.\n\nSie führt dich durch zwölf Bereiche, zum Beispiel Selbstwert, gesunde Grenzen, Nähe und Balance, Körper und Nervensystem oder Loslassen und Vertrauen. Zu jeder Aussage ordnest du dich auf einer Skala von eins bis fünf ein. Du vertraust dabei deinem ersten Gefühl.\n\nEs geht nicht darum, möglichst viele Punkte zu erreichen. Deine Antworten sind eine Momentaufnahme, keine Diagnose. Du kannst die Landkarte nach einiger Zeit wieder ausfüllen und schauen, was sich verändert hat.\n\nDu kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.\n\nWelcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍",
+    "hashtags": [
+      "#beziehungslandkarte",
+      "#selbstreflexion",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#shop"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k30",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 30",
+    "titel": "Das sagen Menschen über mein Buch",
+    "format": "Werbung",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": "2026-11-12",
+    "termin": "2026-11-12",
+    "dateien": [
+      "out/k30/01.jpg",
+      "out/k30/02.jpg",
+      "out/k30/03.jpg",
+      "out/k30/04.jpg",
+      "out/k30/05.jpg",
+      "out/k30/06.jpg"
+    ],
+    "caption": "Das sagen Menschen über mein Buch.\n\nIch bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.\n\n„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.\n\nEs gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesen Stimmen berührt dich am meisten? 🤍",
+    "hashtags": [
+      "#buchtipp",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#singleleben",
+      "#selbstreflexion"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k31",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 31",
+    "titel": "Eine stille Adventszeit nur für dich",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "fruehestens": "2026-11-17",
+    "termin": "2026-11-17",
+    "dateien": [
+      "out/k31/01.jpg",
+      "out/k31/02.jpg",
+      "out/k31/03.jpg",
+      "out/k31/04.jpg",
+      "out/k31/05.jpg",
+      "out/k31/06.jpg"
+    ],
+    "caption": "Eine stille Adventszeit nur für dich.\n\nDie Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.\n\nDarum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.\n\nDu bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.\n\nDu findest ihn in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.\n\nWofür wünschst du dir in diesem Advent mehr Raum? 🤍",
+    "hashtags": [
+      "#advent",
+      "#adventszeit",
+      "#selbstfürsorge",
+      "#achtsamkeit",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s24",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 24",
+    "titel": "Was brauchst du gerade mehr",
+    "angebot": "keins",
+    "kernthema": 3,
+    "fruehestens": "2026-11-01",
+    "termin": "2026-11-01",
+    "dateien": [
+      "out/s24/s24.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s25",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 25",
+    "titel": "Ehrlich auf dich schauen",
+    "angebot": "keins",
+    "kernthema": 1,
+    "fruehestens": "2026-11-03",
+    "termin": "2026-11-03",
+    "dateien": [
+      "out/s25/s25.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s26",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 26",
+    "titel": "Der Shop ist da",
+    "angebot": "keins",
+    "kernthema": 3,
+    "fruehestens": "2026-11-05",
+    "termin": "2026-11-05",
+    "dateien": [
+      "out/s26/s26.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s27",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 27",
+    "titel": "Nein sagen",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": "2026-11-08",
+    "termin": "2026-11-08",
+    "dateien": [
+      "out/s27/s27.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s28",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 28",
+    "titel": "Welcher Bereich",
+    "angebot": "keins",
+    "kernthema": 1,
+    "fruehestens": "2026-11-10",
+    "termin": "2026-11-10",
+    "dateien": [
+      "out/s28/s28.jpg"
+    ],
+    "caption": "",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v11",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v11",
+    "titel": "Hörbuch: Du bist nicht Single, weil etwas mit dir nicht stimmt",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "serie": null,
+    "fruehestens": "2026-11-02",
+    "termin": "2026-11-02",
+    "dateien": [
+      "out/v11/v11.mp4",
+      "out/v11/v11-cover.jpg"
+    ],
+    "caption": "Du bist nicht Single, weil etwas mit dir nicht stimmt.\n\nHier hörst du einen Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, eingesprochen von meiner Freundin Kati Demiri.\n\nManche Reaktionen in der Liebe sind keine Schwäche. Sie sind kluge Strategien, die dein Nervensystem früh entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nDas Buch gibt es auch als Hörbuch. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz hat dich gerade am meisten berührt? 🤍",
+    "hashtags": [
+      "#hörbuch",
+      "#beziehungsmuster",
+      "#singlesein",
+      "#traumasensibel",
+      "#selbstliebe"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v12",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v12",
+    "titel": "Meditation: Innere Klarheit finden",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": "2026-11-16",
+    "termin": "2026-11-16",
+    "dateien": [
+      "out/v12/v12.mp4",
+      "out/v12/v12-cover.jpg"
+    ],
+    "caption": "Eine kleine Pause nur für dich.\n\nDas ist ein Auszug aus der Meditation „Innere Klarheit finden“ aus meinen Meditationen zum Buch, gesprochen von meiner Freundin Kati Demiri.\n\nSuch dir einen Ort, an dem du ungestört bist. Bitte hör Meditationen nicht beim Autofahren oder wenn du aufmerksam sein musst.\n\nDie vollständige Meditation findest du in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Ruhe für dich wünschst.\n\nWie fühlst du dich nach diesen paar Atemzügen? 🤍",
+    "hashtags": [
+      "#meditation",
+      "#achtsamkeit",
+      "#innereruhe",
+      "#nervensystem",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v13",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v13",
+    "titel": "Hörbuch: Dein Selbstwert",
+    "angebot": "Buch",
+    "kernthema": 3,
+    "serie": null,
+    "fruehestens": "2026-11-23",
+    "termin": "2026-11-23",
+    "dateien": [
+      "out/v13/v13.mp4",
+      "out/v13/v13-cover.jpg"
+    ],
+    "caption": "Du brauchst keine perfekte Version von dir.\n\nEin Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, gelesen von meiner Freundin Kati Demiri. Es geht um Selbstwert als Fundament für eine erfüllte Partnerschaft.\n\nLiebe beginnt dort, wo du dir selbst begegnest. Du musst nicht kämpfen, um gesehen zu werden.\n\nDas Buch gibt es auch als Hörbuch. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr Verbindung zu dir selbst willst.\n\nWelcher Satz davon gehört heute zu dir? 🤍",
+    "hashtags": [
+      "#selbstwert",
+      "#selbstliebe",
+      "#hörbuch",
+      "#beziehungsmuster",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v14",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v14",
+    "titel": "Audio-Journal nach einer Trennung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": "2026-11-30",
+    "termin": "2026-11-30",
+    "dateien": [
+      "out/v14/v14.mp4",
+      "out/v14/v14-cover.jpg"
+    ],
+    "caption": "Vielleicht bist du gerade mitten in einer Trennung.\n\nDas ist der Anfang meines Audio-Journals nach einer Trennung, inklusive Meditation, gelesen von meiner Freundin Kati Demiri. Es soll dir helfen zu verstehen, was gerade in dir geschieht, ohne dass du schnell damit fertig sein musst.\n\nDu findest es in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du in einer Trennung nicht allein sein willst mit deinen Gedanken.\n\nWas beschäftigt dich nach einer Trennung am meisten? 🤍",
+    "hashtags": [
+      "#trennung",
+      "#trennungsschmerz",
+      "#loslassen",
+      "#audiojournal",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
   }
 ]

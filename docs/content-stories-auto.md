@@ -94,3 +94,62 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 
 ---
 
+## Story 24: Was brauchst du gerade mehr
+- Interaktion: Umfrage
+- Kernthema: 3
+- Termin: 2026-11-01
+- Ziel: Vorfreude auf den Shop, ohne zu verkaufen. Nina sieht, was die Community gerade braucht.
+- Text auf dem Hintergrund: „Ich habe etwas für dich vorbereitet. Was brauchst du gerade mehr: Klarheit über dich oder Nähe zu zweit?“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Was brauchst du gerade mehr?“ Antworten: „Klarheit über mich“ / „Nähe zu zweit“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Ich habe etwas für dich vorbereitet. Was brauchst du gerade mehr, Klarheit über dich oder Nähe zu zweit? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 25: Ehrlich auf dich schauen
+- Interaktion: Schieberegler
+- Kernthema: 1
+- Termin: 2026-11-03
+- Ziel: Einstieg in die Beziehungslandkarte über eine ihrer Aussagen.
+- Text auf dem Hintergrund: „Ich nehme mir regelmäßig Zeit, ehrlich auf mich selbst zu schauen. Wie sehr stimmt das für dich heute?“
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie sehr stimmt das für dich?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Ich nehme mir regelmäßig Zeit, ehrlich auf mich selbst zu schauen. Wie sehr stimmt das für dich heute, wenig oder sehr? Es gibt kein Richtig und kein Falsch. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 26: Der Shop ist da
+- Interaktion: Keine
+- Kernthema: 3
+- Termin: 2026-11-05
+- Ziel: Start des Shops. Nina setzt den Link-Sticker selbst in der App.
+- Text auf dem Hintergrund: „Mein Shop ist da. Buch, Hörbuch, Journale, Gesprächskarten und Meditationen. Link in der Bio.“
+- Sticker (von Hand in der App, freiwillig für Nina): Link (von Hand in der App, nur Nina): Link zum Shop
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Mein Shop ist da: Buch, Hörbuch, Journale, Gesprächskarten und Meditationen. Alles Digitale kommt sofort per E-Mail zu dir, ohne Druck und ohne Countdown. Link in der Bio.“
+
+---
+
+## Story 27: Nein sagen
+- Interaktion: Schieberegler
+- Kernthema: 2
+- Termin: 2026-11-08
+- Ziel: Thema gesunde Grenzen, ein Bereich der Beziehungslandkarte.
+- Text auf dem Hintergrund: „Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt?“
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie leicht fällt dir das?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt, schwer oder leicht? Beides darf sein. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 28: Welcher Bereich
+- Interaktion: Umfrage
+- Kernthema: 1
+- Termin: 2026-11-10
+- Ziel: Die Beziehungslandkarte lebendig machen: ein Bereich wählen.
+- Text auf dem Hintergrund: „Welcher Bereich braucht bei dir gerade am meisten Aufmerksamkeit? Grenzen, Selbstwert oder Loslassen?“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Was braucht gerade Aufmerksamkeit?“ Antworten: „Grenzen“ / „Selbstwert“ / „Loslassen“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Welcher Bereich braucht bei dir gerade am meisten Aufmerksamkeit: Grenzen, Selbstwert oder Loslassen? Alle zwölf Bereiche findest du in meiner Beziehungslandkarte. Link in der Bio.“
+
+---

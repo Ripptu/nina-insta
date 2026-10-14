@@ -39,7 +39,7 @@ try {
       try { r = await buildCarousel(eng, post, out) } catch (e) { console.log(`Karussell ${id} ${post.titel} nicht produziert: ${e.message}`); process.exitCode = 1; continue }
       q.push({
         id, typ: 'karussell', quelle: `docs/content-posts.md#Karussell ${post.nr}`, titel: post.titel, format: post.format || null, angebot: /^veranstaltung/i.test(post.angebot || '') ? 'Veranstaltungen' : post.angebot || 'keins',
-        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: sperre(post),
+        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: [sperre(post), post.termin].filter(Boolean).sort().pop() || null, termin: post.termin || null,
         dateien: r.files.map(rel), caption: post.caption, hashtags: tags(post.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null,
       })
       await speichereQueue(q)
@@ -62,7 +62,7 @@ try {
         process.exitCode = 1
         continue
       }
-      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: 'keins', kernthema: st.kernthema ?? null, fruehestens: null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: 'keins', kernthema: st.kernthema ?? null, fruehestens: st.termin || null, termin: st.termin || null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${id} ${st.titel}`)
@@ -93,7 +93,7 @@ try {
       fs.rmSync(out, { recursive: true, force: true })
       let r
       try { r = await renderStimmReel(eng, d, out) } catch (e) { console.log(`Stimm-Reel ${d.id} ${d.titel} nicht produziert: ${e.message}`); process.exitCode = 1; continue }
-      q.push({ id: d.id, typ: 'reel', quelle: `data/stimm-reels.json#${d.id}`, titel: d.titel, angebot: d.angebot || 'keins', kernthema: d.kernthema ?? null, serie: null, fruehestens: d.fruehestens || null, dateien: [r.video, r.cover].map(rel), caption: d.caption, hashtags: tags(d.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id: d.id, typ: 'reel', quelle: `data/stimm-reels.json#${d.id}`, titel: d.titel, angebot: d.angebot || 'keins', kernthema: d.kernthema ?? null, serie: null, fruehestens: d.termin || d.fruehestens || null, termin: d.termin || null, dateien: [r.video, r.cover].map(rel), caption: d.caption, hashtags: tags(d.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${d.id} ${d.titel} (${r.dauer.toFixed(0)} s)`)

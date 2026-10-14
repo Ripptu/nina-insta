@@ -48,7 +48,7 @@ export function readStories(file = STORIES_BASIS) {
     if (!auto) throw new Error(`Story ${head[1]}: keine Automatik-Fassung`)
     out.push({
       nr: +head[1], id: `s${head[1]}`, titel: head[2].trim(),
-      interaktion: val('Interaktion'), kernthema: +val('Kernthema') || null, ziel: val('Ziel'),
+      interaktion: val('Interaktion'), termin: val('Termin') || null, kernthema: +val('Kernthema') || null, ziel: val('Ziel'),
       hintergrund: val('Hintergrund'),
       textHg: val('Text auf dem Hintergrund'), sticker: val('Sticker'),
       text: quoted(auto),
@@ -126,7 +126,7 @@ export async function renderStory(eng, story, outDir, opts = {}) {
   const files = [], fotos = []
   for (const [k, pg] of pages.entries()) {
     // Fotos 31/32 (Nina mit Buch) nur, wenn der Hintergrund ein Buch nennt.
-    const cands = [...pre.filter((p) => usable(p) && !used.has(p.id)), ...ranked('portrait', used, story.nr * 3 + k).filter((p) => pre.length || ![31, 32].includes(p.id))]
+    const cands = [...pre.filter((p) => usable(p) && !used.has(p.id)), ...ranked('portrait', used, story.nr * 3 + k).filter((p) => pre.length || !p.buch)]
     const seen = new Set()
     const uniq = cands.filter((p) => !seen.has(p.id) && seen.add(p.id))
     const r = await renderSlide(eng, { kind: 'text', spec: { text: pg.text }, cands: uniq, file: pg.file, log, palette: paletteFor(story.nr, k + 1), index: k + 2, nr: story.nr })

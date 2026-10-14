@@ -111,7 +111,7 @@ function planFotos(reel, used) {
     const pool = ranked('portrait', used, reel.nr * 7 + i).filter((p) => (back ? p.kind === 'ruecken' : true))
     const rest = ranked('portrait', used, reel.nr * 7 + i).filter((p) => !pool.includes(p))
     const okBuch = reel.angebot === 'Buch'
-    const cands = [...(hintFoto ? [hintFoto] : []), ...pool, ...rest].filter((p) => okBuch || p === hintFoto || !MIT_BUCH.has(p.id))
+    const cands = [...(hintFoto ? [hintFoto] : []), ...pool, ...rest].filter((p) => okBuch || p === hintFoto || !(MIT_BUCH.has(p.id) || p.buch))
     cur = { cands: cands.filter((p, k) => cands.indexOf(p) === k), buch: hintFoto?.kind === 'buch' }
     if (!first) first = cur
     plan.push({ ...cur, neu: true })

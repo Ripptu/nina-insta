@@ -414,7 +414,7 @@ export async function buildDesigner(eng, post, outDir, { PH = 1350 } = {}) {
   const log = []
   // Cover: Foto mit Freisteller, jedes Foto nur einmal
   const gesperrt = benutzteCoverFotos(`k${post.nr}`)
-  const kands = process.env.DEMO_TEXTCOVER ? [] : ranked('portrait', new Set(), post.nr).filter((x) => !gesperrt.has(x.id))
+  const kands = process.env.DEMO_TEXTCOVER ? [] : ranked('portrait', new Set(), post.nr, post.angebot !== 'Buch').filter((x) => !gesperrt.has(x.id))
   const covPg = post.pages[0]
   let cov = null, foto = null
   for (const p of kands) {
@@ -438,7 +438,7 @@ export async function buildDesigner(eng, post, outDir, { PH = 1350 } = {}) {
   // Seiten layouten
   const teile = [{ zone: cov.zone, html: '' }]
   const benutzt = new Set(foto ? [foto.id] : [])
-  const poolPersonen = ranked('portrait', new Set(), post.nr * 3).filter((x) => x.faces.length && fs.existsSync(new URL(`../data/masken/${x.id}.png`, import.meta.url)))
+  const poolPersonen = ranked('portrait', new Set(), post.nr * 3, post.angebot !== 'Buch').filter((x) => x.faces.length && fs.existsSync(new URL(`../data/masken/${x.id}.png`, import.meta.url)))
   for (let i = 1; i < N; i++) {
     const pg = post.pages[i]
     const raw = (pg.text || '').replace(/\s+/g, ' ').trim()

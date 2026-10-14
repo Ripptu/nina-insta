@@ -286,14 +286,15 @@ export async function createEngine() {
 }
 
 // ---------- Fotoauswahl ----------
-const BUCH_ORDER = [60, 65, 38, 39, 42, 35]
+// Neue Shooting-Fotos (14.10.2026) zuerst: 74 offenes Buch, 69 offenes Buch lächelnd, 72, 75, 76, 73 Buch im Arm, 71 Buch auf dem Tisch
+const BUCH_ORDER = [74, 69, 72, 75, 76, 73, 71, 60, 65, 38, 39, 42, 35]
 /** Kandidaten für eine Seite, unbenutzte zuerst, ruhige Fotos (tier 1) vor unruhigen. */
 export function ranked(kind, used, seed = 0, ohneBuch = false) {
   if (kind === 'buch') {
     const o = BUCH_ORDER.map((i) => CAT[i])
     return [...o.filter((p) => !used.has(p.id)), ...o.filter((p) => used.has(p.id))]
   }
-  const pool = CAT.filter((p) => (p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch')) && !(ohneBuch && (p.kind === 'buch' || [31, 32].includes(p.id))))
+  const pool = CAT.filter((p) => (p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch')) && !(ohneBuch && (p.kind === 'buch' || p.buch)))
   const n = pool.length
   const order = pool.map((p, i) => ({ p, k: p.tier * 1000 + ((i * 7 + seed * 5) % n) })).sort((a, b) => a.k - b.k).map((x) => x.p)
   return [...order.filter((p) => !used.has(p.id)), ...order.filter((p) => used.has(p.id))]

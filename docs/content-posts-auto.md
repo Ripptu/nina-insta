@@ -414,3 +414,168 @@ Folge @ninahoemmencoaching, wenn du verstehen willst, woher deine Muster kommen.
 Welcher frühe Moment fällt dir dazu als Erstes ein? 🤍
 
 **Hashtags:** #beziehungsmuster #innerekind #selbstverstehen #buchtipp #traumasensibel
+
+## Karussell 27: Ich habe etwas für dich vorbereitet
+- Format: Persönlich
+- Kernthema: 3
+- Angebot: Buch
+- Termin: 2026-11-03
+- Cover-Foto: 86
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Ich habe etwas für dich vorbereitet.** |
+| 2 | Textseite | Nach dem Buch kamen deine Fragen. Viele davon wollte ich nicht in einem Satz beantworten. |
+| 3 | Textseite | Also habe ich Journale, Karten und Meditationen gemacht. Für Abende, an denen du dir nah sein willst. |
+| 4 | Textseite | Nichts davon ist ein Muss. Du nimmst dir, was gerade zu dir passt. |
+| 5 | Textseite | Bald zeige ich dir alles. Eins nach dem anderen, ohne Druck. |
+| 6 | Schlussseite Buch | Bis dahin begleitet dich mein Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio. |
+
+**Caption:**
+Ich habe etwas für dich vorbereitet.
+
+Nach meinem Buch kamen viele Fragen von dir. Manche davon wollte ich nicht mit einem Satz beantworten, sondern dir etwas an die Hand geben, womit du in deinem Tempo bei dir ankommen kannst.
+
+So sind Journale, Gesprächskarten und Meditationen entstanden, zum Schreiben, Nachspüren und Innehalten, allein oder zu zweit.
+
+Nichts davon ist ein Muss. Du entscheidest, was zu dir passt und wann.
+
+Bald zeige ich dir alles, Stück für Stück. Bis dahin begleitet dich mein Buch „Zwischen Single-Sein & falscher Nähe“. Du findest es über den Link in der Bio.
+
+Folge @ninahoemmencoaching, damit du nichts verpasst.
+
+Was würde dir gerade am meisten helfen: etwas zum Schreiben, zum Hören oder zum Sprechen zu zweit? 🤍
+
+**Hashtags:** #beziehungsmuster #selbstreflexion #traumasensibel #singleleben #oldenburg
+
+## Karussell 28: Mein Shop ist da
+- Format: Werbung
+- Kernthema: 3
+- Angebot: Shop
+- Termin: 2026-11-05
+- Cover-Foto: 88
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Mein Shop ist da.** |
+| 2 | Textseite | Buch, Hörbuch, Journale, Gesprächskarten und Meditationen. Alles an einem Ort. |
+| 3 | Textseite | Alles Digitale kommt sofort per E-Mail zu dir. Ohne Versand, ohne Wartezeit. |
+| 4 | Textseite | Es gibt keine Countdowns und keine künstliche Knappheit. Du entscheidest, wann und ob. |
+| 5 | Textseite | Fang dort an, wo es sich stimmig anfühlt. Zum Beispiel bei der Beziehungslandkarte. |
+| 6 | Schlussseite | Alles findest du in meinem Shop. Link in der Bio. Speichere dir den Beitrag zum späteren Stöbern. |
+
+**Caption:**
+Mein Shop ist da.
+
+Buch, Hörbuch, Journale, Gesprächskarten und Meditationen, alles, was mir in meiner Arbeit mit dir wichtig geworden ist, an einem Ort.
+
+Alle digitalen Produkte kommen sofort nach dem Kauf per E-Mail zu dir, ohne Versand und ohne Wartezeit. Nur das gedruckte Buch bestellst du bei meinem Verlag oder bei Amazon.
+
+Mir ist wichtig, dass sich hier niemand drängen lassen muss. Es gibt keine Countdowns und keine künstliche Knappheit. Du entscheidest, was zu dir passt und wann.
+
+Wenn du nicht weißt, wo du anfangen sollst: Die Beziehungslandkarte zeigt dir, wo du auf deinem Weg gerade stehst. Mit dem Buch oder ganz ohne.
+
+Du findest den Shop über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du Schritt für Schritt mehr bei dir ankommen willst.
+
+Was spricht dich am meisten an? 🤍
+
+**Hashtags:** #shop #beziehungsmuster #selbstreflexion #traumasensibel #buchtipp
+
+## Karussell 29: Wo stehst du gerade?
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Shop
+- Termin: 2026-11-10
+- Cover-Foto: 85
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Wo stehst du gerade in deiner Beziehung zu dir?** |
+| 2 | Textseite | Zwölf Bereiche, von Selbstwert über Grenzen bis Loslassen. Du schaust ehrlich hin, ohne Urteil. |
+| 3 | Textseite | Zu jeder Aussage wählst du eine Zahl von eins bis fünf. Nach deinem ersten Gefühl. |
+| 4 | Textseite | Es gibt kein Richtig und kein Falsch. Deine Antworten sind eine Momentaufnahme. |
+| 5 | Textseite | Vielleicht zeigt dir ein Bereich, wo du dir mehr Mitgefühl schenken darfst. |
+| 6 | Schlussseite | Die „Beziehungslandkarte“ gibt es in meinem Shop, mit dem Buch oder ganz ohne. Link in der Bio. |
+
+**Caption:**
+Wo stehst du gerade in deiner Beziehung zu dir?
+
+Meine Beziehungslandkarte lädt dich ein, genau das herauszufinden, ruhig und ohne Bewertung.
+
+Sie führt dich durch zwölf Bereiche, zum Beispiel Selbstwert, gesunde Grenzen, Nähe und Balance, Körper und Nervensystem oder Loslassen und Vertrauen. Zu jeder Aussage ordnest du dich auf einer Skala von eins bis fünf ein. Du vertraust dabei deinem ersten Gefühl.
+
+Es geht nicht darum, möglichst viele Punkte zu erreichen. Deine Antworten sind eine Momentaufnahme, keine Diagnose. Du kannst die Landkarte nach einiger Zeit wieder ausfüllen und schauen, was sich verändert hat.
+
+Du kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Den Link findest du in der Bio.
+
+Folge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.
+
+Welcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍
+
+**Hashtags:** #beziehungslandkarte #selbstreflexion #beziehungsmuster #traumasensibel #shop
+
+## Karussell 30: Das sagen Menschen über mein Buch
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Buch
+- Termin: 2026-11-12
+- Cover-Foto: 69
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Das sagen Menschen über mein Buch.** |
+| 2 | Zitat | „Das Buch nimmt einen bei der Hand und öffnet Wege, sich mit sich selbst zu verbinden.“ Annalena Schmitt |
+| 3 | Zitat | „Ein Buch, das Mut macht, gesunde Nähe zuzulassen und sich selbst dabei nicht zu verlieren.“ Margareta |
+| 4 | Zitat | „Das Buch hat mich tief berührt. Ich habe mich in so vielen Gedanken wiedergefunden.“ Maus |
+| 5 | Textseite | Rund 240 Seiten mit Wissen, Übungen und Reflexionsfragen. Du liest in deinem Tempo. |
+| 6 | Schlussseite Buch | „Zwischen Single-Sein & falscher Nähe“ gibt es als Buch, E-Book und Hörbuch. Link in der Bio. |
+
+**Caption:**
+Das sagen Menschen über mein Buch.
+
+Ich bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.
+
+„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.
+
+Es gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Den Link findest du in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.
+
+Welcher Satz aus diesen Stimmen berührt dich am meisten? 🤍
+
+**Hashtags:** #buchtipp #beziehungsmuster #traumasensibel #singleleben #selbstreflexion
+
+## Karussell 31: Eine stille Adventszeit nur für dich
+- Format: Werbung
+- Kernthema: 2
+- Angebot: Shop
+- Termin: 2026-11-17
+- Cover-Foto: 87
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Eine stille Adventszeit nur für dich.** |
+| 2 | Textseite | Vierundzwanzig achtsame Impulse für die Zeit vor Weihnachten. Einer pro Tag. |
+| 3 | Textseite | Kein Wettlauf durch die Tage. Nur ein ruhiger Moment, der dir gehört. |
+| 4 | Textseite | Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf. |
+| 5 | Textseite | Du musst nichts leisten. Ein Impuls pro Tag reicht. |
+| 6 | Schlussseite | „Dein Adventskalender für die Seele“ wartet in meinem Shop. Link in der Bio. |
+
+**Caption:**
+Eine stille Adventszeit nur für dich.
+
+Die Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.
+
+Darum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.
+
+Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.
+
+Du findest ihn in meinem Shop über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.
+
+Wofür wünschst du dir in diesem Advent mehr Raum? 🤍
+
+**Hashtags:** #advent #adventszeit #selbstfürsorge #achtsamkeit #traumasensibel

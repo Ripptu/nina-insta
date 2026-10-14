@@ -20,6 +20,9 @@ export function waehle(q, { typ, serie = false, jetzt = new Date(), log = () => 
   let kand = q.filter((x) => x.status === 'geprueft' && x.typ === typ && (!x.fruehestens || x.fruehestens <= heute) && (x.versuche || 0) < 3)
   if (typ === 'reel') kand = kand.filter((x) => (serie ? !!x.serie : !x.serie))
   if (!kand.length) return null
+  // Fester Termin (z. B. Shop-Start): Beiträge mit „Termin“ gehen an ihrem Tag vor allen Regeln, verpasste zuerst nachgeholt
+  const fest = kand.filter((x) => x.termin && x.termin <= heute).sort((a, b) => a.termin.localeCompare(b.termin) || zahl(a.id) - zahl(b.id))
+  if (fest.length) return fest[0]
   if (typ === 'story') return sortiert(kand)[0]
   const hist = veroeffentlichteFeed(q)
   const letzter = hist[hist.length - 1]
