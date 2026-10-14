@@ -2368,7 +2368,7 @@
     "titel": "Mein Shop ist da",
     "format": "Werbung",
     "angebot": "Shop",
-    "kernthema": 3,
+    "kernthema": 2,
     "fruehestens": "2026-11-05",
     "termin": "2026-11-05",
     "dateien": [
@@ -2477,42 +2477,6 @@
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:10:06.959Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k30",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 30",
-    "titel": "Das sagen Menschen über mein Buch",
-    "format": "Werbung",
-    "angebot": "Buch",
-    "kernthema": 1,
-    "fruehestens": "2026-11-12",
-    "termin": "2026-11-12",
-    "dateien": [
-      "out/k30/01.jpg",
-      "out/k30/02.jpg",
-      "out/k30/03.jpg",
-      "out/k30/04.jpg",
-      "out/k30/05.jpg",
-      "out/k30/06.jpg"
-    ],
-    "caption": "Das sagen Menschen über mein Buch.\n\nIch bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.\n\n„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.\n\nEs gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Du findest ihn über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesen Stimmen berührt dich am meisten? 🤍",
-    "hashtags": [
-      "#buchtipp",
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#singleleben",
-      "#selbstreflexion"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-14T11:10:21.066Z"
     },
     "ig": null,
     "fehler": null
@@ -2750,6 +2714,38 @@
       "gruende": [],
       "am": "2026-10-14T11:16:01.246Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k30",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 30",
+    "titel": "Das sagen Menschen über mein Buch",
+    "format": "Werbung",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": "2026-11-12",
+    "termin": "2026-11-12",
+    "dateien": [
+      "out/k30/01.jpg",
+      "out/k30/02.jpg",
+      "out/k30/03.jpg",
+      "out/k30/04.jpg",
+      "out/k30/05.jpg",
+      "out/k30/06.jpg"
+    ],
+    "caption": "Das sagen Menschen über mein Buch.\n\nIch bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.\n\n„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.\n\nEs gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Du findest ihn über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesen Stimmen berührt dich am meisten? 🤍",
+    "hashtags": [
+      "#buchtipp",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#singleleben",
+      "#selbstreflexion"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }

@@ -450,7 +450,7 @@ Was würde dir gerade am meisten helfen: etwas zum Schreiben, zum Hören oder zu
 
 ## Karussell 28: Mein Shop ist da
 - Format: Werbung
-- Kernthema: 3
+- Kernthema: 2
 - Angebot: Shop
 - Termin: 2026-11-05
 - Cover-Foto: 88
@@ -521,7 +521,7 @@ Welcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍
 - Kernthema: 1
 - Angebot: Buch
 - Termin: 2026-11-12
-- Cover-Foto: 69
+- Cover-Foto: 75
 
 | Seite | Vorlage | Text |
 |---|---|---|
