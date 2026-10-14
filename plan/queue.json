@@ -2687,9 +2687,13 @@
     ],
     "caption": "Link in der Bio",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:15:21.882Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2707,9 +2711,13 @@
     ],
     "caption": "Link in der Bio",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:15:29.805Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2735,9 +2743,13 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:16:01.246Z"
+    },
     "ig": null,
     "fehler": null
   }
