@@ -2419,9 +2419,15 @@
       "#traumasensibel",
       "#shop"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
+      ],
+      "am": "2026-10-14T11:01:45.192Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2483,9 +2489,15 @@
       "#achtsamkeit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "LESBAR: Seite 6: Das schließende Anführungszeichen nach 'Seele' kollidiert mit dem Buchstaben S am Zeilenanfang und erzeugt den Eindruck eines falschen Zeichens ('Šeele'). Textkollision, in Daumennagelgröße irreführend."
+      ],
+      "am": "2026-10-14T11:01:53.776Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2578,9 +2590,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 1: Der Fließtext 'Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt, schwer oder leicht?' ist grammatisch und sinnlogisch verunglückt – die Frage 'Wie leicht fällt es dir...' wird am Ende redundant und widersprüchlich mit 'schwer oder leicht?' wiederholt, der Satz ist in dieser Form nicht korrekt formuliert."
+      ],
+      "am": "2026-10-14T11:01:41.893Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2598,9 +2616,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Seite 1 bewirbt mit 'Alle zwölf Bereiche findest du in meiner Beziehungslandkarte. Link in der Bio.' ein konkretes Angebot (Produkt 'Beziehungslandkarte'), obwohl laut Beitragsdaten angebot = 'keins' angegeben ist."
+      ],
+      "am": "2026-10-14T11:01:41.889Z"
+    },
     "ig": null,
     "fehler": null
   },
