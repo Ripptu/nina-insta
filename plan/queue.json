@@ -2351,9 +2351,13 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:02:08.876Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2457,9 +2461,16 @@
       "#singleleben",
       "#selbstreflexion"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
+        "ERFUNDEN: Seite 2, 3 und 4 zeigen namentlich zugeordnete Kundenstimmen ('Annalena Schmitt', 'Margareta', 'Maus') als wörtliche Zitate. Laut Prüfliste sind Klientinnen-Zitate bzw. Kundenstimmen grundsätzlich verboten, unabhängig von ihrer Echtheit; erlaubt sind nur Zitate, die erkennbar Ninas eigene Sätze sind. Die Caption bestätigt zusätzlich, dass es sich um echte Amazon-/Google-Rezensionen Dritter handelt, was die Regel explizit nicht ausnimmt."
+      ],
+      "am": "2026-10-14T11:02:58.599Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2678,9 +2689,17 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
+        "LOGO: Auf frame-01.jpg und frame-04.jpg (beide ohne Textoverlay) ist kein Logo/Blumen-Doodle unten links zu sehen, obwohl es auf allen anderen Frames (frame-02, 03, 05, 06, seite-07) vorhanden ist.",
+        "COVER: Der erste Frame (frame-01.jpg) zeigt keinerlei Text/Hook, nur das reine Foto. Für ein Reel muss laut Prüfliste der erste Frame eine große, fette Schrift mit Hook enthalten."
+      ],
+      "am": "2026-10-14T11:03:10.128Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2706,9 +2725,15 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
+      ],
+      "am": "2026-10-14T11:03:26.285Z"
+    },
     "ig": null,
     "fehler": null
   },
