@@ -2651,9 +2651,13 @@
       "#traumasensibel",
       "#selbstliebe"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:12:40.735Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2745,9 +2749,13 @@
       "#audiojournal",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:11:39.174Z"
+    },
     "ig": null,
     "fehler": null
   }
