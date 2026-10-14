@@ -2471,9 +2471,13 @@
       "#traumasensibel",
       "#shop"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:10:06.959Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2555,9 +2559,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
+      ],
+      "am": "2026-10-14T11:09:28.275Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2575,9 +2585,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:09:35.688Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2595,9 +2609,15 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
+      ],
+      "am": "2026-10-14T11:09:31.809Z"
+    },
     "ig": null,
     "fehler": null
   },
