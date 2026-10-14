@@ -823,9 +823,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:18.335Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -927,9 +931,13 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:27.116Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -959,9 +967,13 @@
       "#buchtipp",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:26.896Z"
+    },
     "ig": null,
     "fehler": null,
     "fb": {
@@ -1212,9 +1224,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:19.685Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
