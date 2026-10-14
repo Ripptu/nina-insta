@@ -2743,9 +2743,13 @@
       "#singleleben",
       "#selbstreflexion"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:19:47.899Z"
+    },
     "ig": null,
     "fehler": null
   }
