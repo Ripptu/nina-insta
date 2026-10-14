@@ -2507,9 +2507,13 @@
       "#singleleben",
       "#selbstreflexion"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:10:21.066Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2539,9 +2543,13 @@
       "#achtsamkeit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:10:14.615Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2671,9 +2679,15 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "COVER: frame-01.jpg (erster verfügbarer Frame bei 2.6s) zeigt gar keinen Text/Hook, nur das stille Foto. Es fehlt eine große, fette Hook-Schrift auf dem ersten Frame."
+      ],
+      "am": "2026-10-14T11:10:31.961Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2699,9 +2713,13 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:11:00.921Z"
+    },
     "ig": null,
     "fehler": null
   },
