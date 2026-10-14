@@ -30,7 +30,7 @@ function woerterIm(aufnahme, von, bis) {
 }
 
 /** Gruppiert Wörter zu kurzen Untertiteln (höchstens 38 Zeichen, an Satzzeichen getrennt). */
-function gruppen(wo, ersetzen = []) {
+function gruppen(wo, ersetzen = [], halten = 0.55) {
   const out = []
   let cur = []
   const text = (c) => c.map((w) => w.t).join(' ')
@@ -52,7 +52,7 @@ function gruppen(wo, ersetzen = []) {
   out.forEach((g, i) => {
     const next = out[i + 1]
     g.von = Math.max(0, g.s - 0.06)
-    g.bis = next ? (next.s - g.e > 1.1 ? g.e + 0.55 : next.s - 0.04) : g.e + 0.7
+    g.bis = next ? (next.s - g.e > 1.1 ? Math.min(g.e + halten, next.s - 0.04) : next.s - 0.04) : g.e + 0.7
   })
   return out
 }
@@ -85,7 +85,7 @@ export async function renderStimmReel(eng, def, outDir) {
   const clips = ladeClips().filter((c) => RUHIGE_CLIPS.includes(c.file))
   const wo = woerterIm(def.aufnahme, def.von, def.bis)
   if (wo.length < 5) throw new Error(`${def.id}: keine Wörter im Bereich ${def.von}–${def.bis}`)
-  const gr = gruppen(wo, (def.ersetzen || []).map(([a, b]) => [new RegExp(a, 'g'), b]))
+  const gr = gruppen(wo, (def.ersetzen || []).map(([a, b]) => [new RegExp(a, 'g'), b]), def.halten ?? 0.55)
   const sprech = def.bis - def.von + 0.25
   const total = Math.ceil((sprech + 1.0) * 100) / 100
   if (total > MAX_SEKUNDEN) throw new Error(`${def.id}: ${total} s sind länger als ${MAX_SEKUNDEN} s`)

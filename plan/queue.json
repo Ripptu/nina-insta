@@ -2554,32 +2554,6 @@
     "fehler": null
   },
   {
-    "id": "s26",
-    "typ": "story",
-    "quelle": "docs/content-stories-auto.md#Story 26",
-    "titel": "Der Shop ist da",
-    "angebot": "Shop",
-    "kernthema": 3,
-    "fruehestens": "2026-11-05",
-    "termin": "2026-11-05",
-    "dateien": [
-      "out/s26/s26.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
-      ],
-      "am": "2026-10-14T11:09:28.275Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "s27",
     "typ": "story",
     "quelle": "docs/content-stories-auto.md#Story 27",
@@ -2599,32 +2573,6 @@
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:09:35.688Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "s28",
-    "typ": "story",
-    "quelle": "docs/content-stories-auto.md#Story 28",
-    "titel": "Welcher Bereich",
-    "angebot": "Shop",
-    "kernthema": 1,
-    "fruehestens": "2026-11-10",
-    "termin": "2026-11-10",
-    "dateien": [
-      "out/s28/s28.jpg"
-    ],
-    "caption": "",
-    "hashtags": [],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
-      ],
-      "am": "2026-10-14T11:09:31.809Z"
     },
     "ig": null,
     "fehler": null
@@ -2657,40 +2605,6 @@
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:12:40.735Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "v12",
-    "typ": "reel",
-    "quelle": "data/stimm-reels.json#v12",
-    "titel": "Meditation: Innere Klarheit finden",
-    "angebot": "Shop",
-    "kernthema": 2,
-    "serie": null,
-    "fruehestens": "2026-11-16",
-    "termin": "2026-11-16",
-    "dateien": [
-      "out/v12/v12.mp4",
-      "out/v12/v12-cover.jpg"
-    ],
-    "caption": "Eine kleine Pause nur für dich.\n\nDas ist ein Auszug aus der Meditation „Innere Klarheit finden“ aus meinen Meditationen zum Buch, gesprochen von meiner Freundin Kati Demiri.\n\nSuch dir einen Ort, an dem du ungestört bist. Bitte hör Meditationen nicht beim Autofahren oder wenn du aufmerksam sein musst.\n\nDie vollständige Meditation gibt es in meinem Shop. Du findest sie über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Ruhe für dich wünschst.\n\nWie fühlst du dich nach diesen paar Atemzügen? 🤍",
-    "hashtags": [
-      "#meditation",
-      "#achtsamkeit",
-      "#innereruhe",
-      "#nervensystem",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "COVER: frame-01.jpg (erster verfügbarer Frame bei 2.6s) zeigt gar keinen Text/Hook, nur das stille Foto. Es fehlt eine große, fette Hook-Schrift auf dem ersten Frame."
-      ],
-      "am": "2026-10-14T11:10:31.961Z"
     },
     "ig": null,
     "fehler": null
@@ -2756,6 +2670,74 @@
       "gruende": [],
       "am": "2026-10-14T11:11:39.174Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s26",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 26",
+    "titel": "Der Shop ist da",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-05",
+    "termin": "2026-11-05",
+    "dateien": [
+      "out/s26/s26.jpg"
+    ],
+    "caption": "Link in der Bio",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "s28",
+    "typ": "story",
+    "quelle": "docs/content-stories-auto.md#Story 28",
+    "titel": "Welcher Bereich",
+    "angebot": "Shop",
+    "kernthema": 1,
+    "fruehestens": "2026-11-10",
+    "termin": "2026-11-10",
+    "dateien": [
+      "out/s28/s28.jpg"
+    ],
+    "caption": "Link in der Bio",
+    "hashtags": [],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v12",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v12",
+    "titel": "Meditation: Innere Klarheit finden",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "serie": null,
+    "fruehestens": "2026-11-16",
+    "termin": "2026-11-16",
+    "dateien": [
+      "out/v12/v12.mp4",
+      "out/v12/v12-cover.jpg"
+    ],
+    "caption": "Eine kleine Pause nur für dich.\n\nDas ist ein Auszug aus der Meditation „Innere Klarheit finden“ aus meinen Meditationen zum Buch, gesprochen von meiner Freundin Kati Demiri.\n\nSuch dir einen Ort, an dem du ungestört bist. Bitte hör Meditationen nicht beim Autofahren oder wenn du aufmerksam sein musst.\n\nDie vollständige Meditation gibt es in meinem Shop. Du findest sie über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Ruhe für dich wünschst.\n\nWie fühlst du dich nach diesen paar Atemzügen? 🤍",
+    "hashtags": [
+      "#meditation",
+      "#achtsamkeit",
+      "#innereruhe",
+      "#nervensystem",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
