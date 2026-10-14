@@ -2383,9 +2383,13 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:01:34.927Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2499,9 +2503,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:01:01.391Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2519,9 +2527,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T11:01:04.342Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2539,9 +2551,16 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "MITNAHME: Seite 1: Der Beitrag ist eine reine Produktankündigung (Shop mit Buch, Hörbuch, Journalen etc.) ohne jeglichen Satz, Gedanken oder Mini-Übung, die die Leserin unabhängig vom Kauf sofort für sich mitnehmen kann.",
+        "ANGEBOT: Seite 1: Angebot in den Beitragsdaten ist 'keins', aber der Beitrag bewirbt explizit einen Shop ('Mein Shop ist da', 'Link in der Bio') mit Buch, Hörbuch, Journalen, Gesprächskarten und Meditationen – das widerspricht der Vorgabe 'keins'."
+      ],
+      "am": "2026-10-14T11:01:02.370Z"
+    },
     "ig": null,
     "fehler": null
   },
