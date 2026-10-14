@@ -1318,9 +1318,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:47.745Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -1431,9 +1435,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:36.838Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -1463,9 +1471,13 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:40:31.403Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
@@ -1483,9 +1495,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-14T09:39:49.493Z"
+    },
     "ig": null,
     "fehler": null,
     "versuche": 0
