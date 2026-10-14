@@ -2661,9 +2661,16 @@
       "#traumasensibel",
       "#selbstliebe"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
+        "LOGO: frame-04.jpg (Videoframe bei 21.5s, Text „weil etwas mit dir nicht stimmt.“): An der Stelle unten links, an der auf den übrigen Frames (01,02,03,05,06,07) das kleine Logo mit Blumen-Doodle erkennbar ist, ist auf diesem Frame kein Logo zu sehen – es wird offenbar vom zweizeiligen Schriftzug vollständig verdeckt bzw. fehlt."
+      ],
+      "am": "2026-10-14T11:04:33.832Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2759,9 +2766,16 @@
       "#audiojournal",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
+        "LOGO: Auf frame-01.jpg und frame-02.jpg (Videoframes bei 2,9 s und 8,8 s) ist kein Logo bzw. Blumen-Doodle erkennbar. Diese Frames zeigen die Lesezene auf der Bank völlig ohne jede Grafik."
+      ],
+      "am": "2026-10-14T11:04:23.846Z"
+    },
     "ig": null,
     "fehler": null
   }
