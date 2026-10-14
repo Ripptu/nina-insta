@@ -122,11 +122,12 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 - Interaktion: Keine
 - Kernthema: 3
 - Termin: 2026-11-05
+- Angebot: Shop
 - Ziel: Start des Shops. Nina setzt den Link-Sticker selbst in der App.
-- Text auf dem Hintergrund: „Mein Shop ist da. Buch, Hörbuch, Journale, Gesprächskarten und Meditationen. Link in der Bio.“
+- Text auf dem Hintergrund: „Bevor du stöberst: Was brauchst du heute am meisten, Ruhe, Klarheit oder Nähe? Mein Shop ist da. Link in der Bio.“
 - Sticker (von Hand in der App, freiwillig für Nina): Link (von Hand in der App, nur Nina): Link zum Shop
 - Hintergrund: Foto von Nina (Porträt)
-- Automatik-Fassung (ohne Sticker): „Mein Shop ist da: Buch, Hörbuch, Journale, Gesprächskarten und Meditationen. Alles Digitale kommt sofort per E-Mail zu dir, ohne Druck und ohne Countdown. Link in der Bio.“
+- Automatik-Fassung (ohne Sticker): „Bevor du stöberst: Was brauchst du heute am meisten, Ruhe, Klarheit oder Nähe? Mein Shop ist da mit Buch, Hörbuch, Journalen, Karten und Meditationen, ohne Druck. Link in der Bio.“
 
 ---
 
@@ -135,10 +136,10 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 - Kernthema: 2
 - Termin: 2026-11-08
 - Ziel: Thema gesunde Grenzen, ein Bereich der Beziehungslandkarte.
-- Text auf dem Hintergrund: „Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt?“
+- Text auf dem Hintergrund: „Fällt es dir leicht, Nein zu sagen? Dein Nein gehört zu deinen Grenzen.“
 - Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie leicht fällt dir das?“ Emoji des Reglers: 🤍
 - Hintergrund: Foto von Nina (Porträt)
-- Automatik-Fassung (ohne Sticker): „Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt, schwer oder leicht? Beides darf sein. Schreib mir ein Wort als Nachricht.“
+- Automatik-Fassung (ohne Sticker): „Fällt es dir leicht, Nein zu sagen? Schwer oder leicht, beides darf sein. Dein Nein gehört zu deinen Grenzen. Schreib mir ein Wort als Nachricht.“
 
 ---
 
@@ -146,6 +147,7 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 - Interaktion: Umfrage
 - Kernthema: 1
 - Termin: 2026-11-10
+- Angebot: Shop
 - Ziel: Die Beziehungslandkarte lebendig machen: ein Bereich wählen.
 - Text auf dem Hintergrund: „Welcher Bereich braucht bei dir gerade am meisten Aufmerksamkeit? Grenzen, Selbstwert oder Loslassen?“
 - Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Was braucht gerade Aufmerksamkeit?“ Antworten: „Grenzen“ / „Selbstwert“ / „Loslassen“

@@ -2398,121 +2398,6 @@
     "fehler": null
   },
   {
-    "id": "k29",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 29",
-    "titel": "Wo stehst du gerade?",
-    "format": "Werbung",
-    "angebot": "Shop",
-    "kernthema": 1,
-    "fruehestens": "2026-11-10",
-    "termin": "2026-11-10",
-    "dateien": [
-      "out/k29/01.jpg",
-      "out/k29/02.jpg",
-      "out/k29/03.jpg",
-      "out/k29/04.jpg",
-      "out/k29/05.jpg",
-      "out/k29/06.jpg"
-    ],
-    "caption": "Wo stehst du gerade in deiner Beziehung zu dir?\n\nMeine Beziehungslandkarte lädt dich ein, genau das herauszufinden, ruhig und ohne Bewertung.\n\nSie führt dich durch zwölf Bereiche, zum Beispiel Selbstwert, gesunde Grenzen, Nähe und Balance, Körper und Nervensystem oder Loslassen und Vertrauen. Zu jeder Aussage ordnest du dich auf einer Skala von eins bis fünf ein. Du vertraust dabei deinem ersten Gefühl.\n\nEs geht nicht darum, möglichst viele Punkte zu erreichen. Deine Antworten sind eine Momentaufnahme, keine Diagnose. Du kannst die Landkarte nach einiger Zeit wieder ausfüllen und schauen, was sich verändert hat.\n\nDu kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.\n\nWelcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍",
-    "hashtags": [
-      "#beziehungslandkarte",
-      "#selbstreflexion",
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#shop"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
-      ],
-      "am": "2026-10-14T11:01:45.192Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k30",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 30",
-    "titel": "Das sagen Menschen über mein Buch",
-    "format": "Werbung",
-    "angebot": "Buch",
-    "kernthema": 1,
-    "fruehestens": "2026-11-12",
-    "termin": "2026-11-12",
-    "dateien": [
-      "out/k30/01.jpg",
-      "out/k30/02.jpg",
-      "out/k30/03.jpg",
-      "out/k30/04.jpg",
-      "out/k30/05.jpg",
-      "out/k30/06.jpg"
-    ],
-    "caption": "Das sagen Menschen über mein Buch.\n\nIch bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.\n\n„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.\n\nEs gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesen Stimmen berührt dich am meisten? 🤍",
-    "hashtags": [
-      "#buchtipp",
-      "#beziehungsmuster",
-      "#traumasensibel",
-      "#singleleben",
-      "#selbstreflexion"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
-        "ERFUNDEN: Seite 2, 3 und 4 zeigen namentlich zugeordnete Kundenstimmen ('Annalena Schmitt', 'Margareta', 'Maus') als wörtliche Zitate. Laut Prüfliste sind Klientinnen-Zitate bzw. Kundenstimmen grundsätzlich verboten, unabhängig von ihrer Echtheit; erlaubt sind nur Zitate, die erkennbar Ninas eigene Sätze sind. Die Caption bestätigt zusätzlich, dass es sich um echte Amazon-/Google-Rezensionen Dritter handelt, was die Regel explizit nicht ausnimmt."
-      ],
-      "am": "2026-10-14T11:02:58.599Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
-    "id": "k31",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 31",
-    "titel": "Eine stille Adventszeit nur für dich",
-    "format": "Werbung",
-    "angebot": "Shop",
-    "kernthema": 2,
-    "fruehestens": "2026-11-17",
-    "termin": "2026-11-17",
-    "dateien": [
-      "out/k31/01.jpg",
-      "out/k31/02.jpg",
-      "out/k31/03.jpg",
-      "out/k31/04.jpg",
-      "out/k31/05.jpg",
-      "out/k31/06.jpg"
-    ],
-    "caption": "Eine stille Adventszeit nur für dich.\n\nDie Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.\n\nDarum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.\n\nDu bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.\n\nDu findest ihn in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.\n\nWofür wünschst du dir in diesem Advent mehr Raum? 🤍",
-    "hashtags": [
-      "#advent",
-      "#adventszeit",
-      "#selbstfürsorge",
-      "#achtsamkeit",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "LESBAR: Seite 6: Das schließende Anführungszeichen nach 'Seele' kollidiert mit dem Buchstaben S am Zeilenanfang und erzeugt den Eindruck eines falschen Zeichens ('Šeele'). Textkollision, in Daumennagelgröße irreführend."
-      ],
-      "am": "2026-10-14T11:01:53.776Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "s24",
     "typ": "story",
     "quelle": "docs/content-stories-auto.md#Story 24",
@@ -2561,11 +2446,107 @@
     "fehler": null
   },
   {
+    "id": "k29",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 29",
+    "titel": "Wo stehst du gerade?",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 1,
+    "fruehestens": "2026-11-10",
+    "termin": "2026-11-10",
+    "dateien": [
+      "out/k29/01.jpg",
+      "out/k29/02.jpg",
+      "out/k29/03.jpg",
+      "out/k29/04.jpg",
+      "out/k29/05.jpg",
+      "out/k29/06.jpg"
+    ],
+    "caption": "Wo stehst du gerade in deiner Beziehung zu dir?\n\nMeine Beziehungslandkarte lädt dich ein, genau das herauszufinden, ruhig und ohne Bewertung.\n\nSie führt dich durch zwölf Bereiche, zum Beispiel Selbstwert, gesunde Grenzen, Nähe und Balance, Körper und Nervensystem oder Loslassen und Vertrauen. Zu jeder Aussage ordnest du dich auf einer Skala von eins bis fünf ein. Du vertraust dabei deinem ersten Gefühl.\n\nEs geht nicht darum, möglichst viele Punkte zu erreichen. Deine Antworten sind eine Momentaufnahme, keine Diagnose. Du kannst die Landkarte nach einiger Zeit wieder ausfüllen und schauen, was sich verändert hat.\n\nDu kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Du findest sie über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.\n\nWelcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍",
+    "hashtags": [
+      "#beziehungslandkarte",
+      "#selbstreflexion",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#shop"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k30",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 30",
+    "titel": "Das sagen Menschen über mein Buch",
+    "format": "Werbung",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "fruehestens": "2026-11-12",
+    "termin": "2026-11-12",
+    "dateien": [
+      "out/k30/01.jpg",
+      "out/k30/02.jpg",
+      "out/k30/03.jpg",
+      "out/k30/04.jpg",
+      "out/k30/05.jpg",
+      "out/k30/06.jpg"
+    ],
+    "caption": "Das sagen Menschen über mein Buch.\n\nIch bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen aus Rezensionen, die bei Amazon und Google veröffentlicht wurden.\n\n„Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.\n\nEs gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Du findest ihn über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz aus diesen Stimmen berührt dich am meisten? 🤍",
+    "hashtags": [
+      "#buchtipp",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#singleleben",
+      "#selbstreflexion"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k31",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 31",
+    "titel": "Eine stille Adventszeit nur für dich",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "fruehestens": "2026-11-17",
+    "termin": "2026-11-17",
+    "dateien": [
+      "out/k31/01.jpg",
+      "out/k31/02.jpg",
+      "out/k31/03.jpg",
+      "out/k31/04.jpg",
+      "out/k31/05.jpg",
+      "out/k31/06.jpg"
+    ],
+    "caption": "Eine stille Adventszeit nur für dich.\n\nDie Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.\n\nDarum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.\n\nDu bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.\n\nDu findest ihn in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.\n\nWofür wünschst du dir in diesem Advent mehr Raum? 🤍",
+    "hashtags": [
+      "#advent",
+      "#adventszeit",
+      "#selbstfürsorge",
+      "#achtsamkeit",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
     "id": "s26",
     "typ": "story",
     "quelle": "docs/content-stories-auto.md#Story 26",
     "titel": "Der Shop ist da",
-    "angebot": "keins",
+    "angebot": "Shop",
     "kernthema": 3,
     "fruehestens": "2026-11-05",
     "termin": "2026-11-05",
@@ -2574,16 +2555,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "MITNAHME: Seite 1: Der Beitrag ist eine reine Produktankündigung (Shop mit Buch, Hörbuch, Journalen etc.) ohne jeglichen Satz, Gedanken oder Mini-Übung, die die Leserin unabhängig vom Kauf sofort für sich mitnehmen kann.",
-        "ANGEBOT: Seite 1: Angebot in den Beitragsdaten ist 'keins', aber der Beitrag bewirbt explizit einen Shop ('Mein Shop ist da', 'Link in der Bio') mit Buch, Hörbuch, Journalen, Gesprächskarten und Meditationen – das widerspricht der Vorgabe 'keins'."
-      ],
-      "am": "2026-10-14T11:01:02.370Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2601,15 +2575,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "SPRACHE: Seite 1: Der Fließtext 'Wie leicht fällt es dir, Nein zu sagen, wenn dein Gefühl Nein sagt, schwer oder leicht?' ist grammatisch und sinnlogisch verunglückt – die Frage 'Wie leicht fällt es dir...' wird am Ende redundant und widersprüchlich mit 'schwer oder leicht?' wiederholt, der Satz ist in dieser Form nicht korrekt formuliert."
-      ],
-      "am": "2026-10-14T11:01:41.893Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2618,7 +2586,7 @@
     "typ": "story",
     "quelle": "docs/content-stories-auto.md#Story 28",
     "titel": "Welcher Bereich",
-    "angebot": "keins",
+    "angebot": "Shop",
     "kernthema": 1,
     "fruehestens": "2026-11-10",
     "termin": "2026-11-10",
@@ -2627,15 +2595,9 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Seite 1 bewirbt mit 'Alle zwölf Bereiche findest du in meiner Beziehungslandkarte. Link in der Bio.' ein konkretes Angebot (Produkt 'Beziehungslandkarte'), obwohl laut Beitragsdaten angebot = 'keins' angegeben ist."
-      ],
-      "am": "2026-10-14T11:01:41.889Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2653,7 +2615,7 @@
       "out/v11/v11.mp4",
       "out/v11/v11-cover.jpg"
     ],
-    "caption": "Du bist nicht Single, weil etwas mit dir nicht stimmt.\n\nHier hörst du einen Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, eingesprochen von meiner Freundin Kati Demiri.\n\nManche Reaktionen in der Liebe sind keine Schwäche. Sie sind kluge Strategien, die dein Nervensystem früh entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nDas Buch gibt es auch als Hörbuch. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz hat dich gerade am meisten berührt? 🤍",
+    "caption": "Du bist nicht Single, weil etwas mit dir nicht stimmt.\n\nHier hörst du einen Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, eingesprochen von meiner Freundin Kati Demiri.\n\nManche Reaktionen in der Liebe sind keine Schwäche. Sie sind kluge Strategien, die dein Nervensystem früh entwickelt hat, um dich zu schützen. Sie verdienen Mitgefühl, keine Selbstverurteilung.\n\nDas Buch gibt es auch als Hörbuch. Du findest es über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.\n\nWelcher Satz hat dich gerade am meisten berührt? 🤍",
     "hashtags": [
       "#hörbuch",
       "#beziehungsmuster",
@@ -2661,16 +2623,9 @@
       "#traumasensibel",
       "#selbstliebe"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
-        "LOGO: frame-04.jpg (Videoframe bei 21.5s, Text „weil etwas mit dir nicht stimmt.“): An der Stelle unten links, an der auf den übrigen Frames (01,02,03,05,06,07) das kleine Logo mit Blumen-Doodle erkennbar ist, ist auf diesem Frame kein Logo zu sehen – es wird offenbar vom zweizeiligen Schriftzug vollständig verdeckt bzw. fehlt."
-      ],
-      "am": "2026-10-14T11:04:33.832Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2688,7 +2643,7 @@
       "out/v12/v12.mp4",
       "out/v12/v12-cover.jpg"
     ],
-    "caption": "Eine kleine Pause nur für dich.\n\nDas ist ein Auszug aus der Meditation „Innere Klarheit finden“ aus meinen Meditationen zum Buch, gesprochen von meiner Freundin Kati Demiri.\n\nSuch dir einen Ort, an dem du ungestört bist. Bitte hör Meditationen nicht beim Autofahren oder wenn du aufmerksam sein musst.\n\nDie vollständige Meditation findest du in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Ruhe für dich wünschst.\n\nWie fühlst du dich nach diesen paar Atemzügen? 🤍",
+    "caption": "Eine kleine Pause nur für dich.\n\nDas ist ein Auszug aus der Meditation „Innere Klarheit finden“ aus meinen Meditationen zum Buch, gesprochen von meiner Freundin Kati Demiri.\n\nSuch dir einen Ort, an dem du ungestört bist. Bitte hör Meditationen nicht beim Autofahren oder wenn du aufmerksam sein musst.\n\nDie vollständige Meditation gibt es in meinem Shop. Du findest sie über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir mehr Ruhe für dich wünschst.\n\nWie fühlst du dich nach diesen paar Atemzügen? 🤍",
     "hashtags": [
       "#meditation",
       "#achtsamkeit",
@@ -2696,17 +2651,9 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
-        "LOGO: Auf frame-01.jpg und frame-04.jpg (beide ohne Textoverlay) ist kein Logo/Blumen-Doodle unten links zu sehen, obwohl es auf allen anderen Frames (frame-02, 03, 05, 06, seite-07) vorhanden ist.",
-        "COVER: Der erste Frame (frame-01.jpg) zeigt keinerlei Text/Hook, nur das reine Foto. Für ein Reel muss laut Prüfliste der erste Frame eine große, fette Schrift mit Hook enthalten."
-      ],
-      "am": "2026-10-14T11:03:10.128Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2724,7 +2671,7 @@
       "out/v13/v13.mp4",
       "out/v13/v13-cover.jpg"
     ],
-    "caption": "Du brauchst keine perfekte Version von dir.\n\nEin Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, gelesen von meiner Freundin Kati Demiri. Es geht um Selbstwert als Fundament für eine erfüllte Partnerschaft.\n\nLiebe beginnt dort, wo du dir selbst begegnest. Du musst nicht kämpfen, um gesehen zu werden.\n\nDas Buch gibt es auch als Hörbuch. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr Verbindung zu dir selbst willst.\n\nWelcher Satz davon gehört heute zu dir? 🤍",
+    "caption": "Du brauchst keine perfekte Version von dir.\n\nEin Auszug aus dem Hörbuch zu meinem Buch „Zwischen Single-Sein & falscher Nähe“, gelesen von meiner Freundin Kati Demiri. Es geht um Selbstwert als Fundament für eine erfüllte Partnerschaft.\n\nLiebe beginnt dort, wo du dir selbst begegnest. Du musst nicht kämpfen, um gesehen zu werden.\n\nDas Buch gibt es auch als Hörbuch. Du findest es über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr Verbindung zu dir selbst willst.\n\nWelcher Satz davon gehört heute zu dir? 🤍",
     "hashtags": [
       "#selbstwert",
       "#selbstliebe",
@@ -2732,15 +2679,9 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption"
-      ],
-      "am": "2026-10-14T11:03:26.285Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   },
@@ -2758,7 +2699,7 @@
       "out/v14/v14.mp4",
       "out/v14/v14-cover.jpg"
     ],
-    "caption": "Vielleicht bist du gerade mitten in einer Trennung.\n\nDas ist der Anfang meines Audio-Journals nach einer Trennung, inklusive Meditation, gelesen von meiner Freundin Kati Demiri. Es soll dir helfen zu verstehen, was gerade in dir geschieht, ohne dass du schnell damit fertig sein musst.\n\nDu findest es in meinem Shop. Den Link findest du in der Bio.\n\nFolge @ninahoemmencoaching, wenn du in einer Trennung nicht allein sein willst mit deinen Gedanken.\n\nWas beschäftigt dich nach einer Trennung am meisten? 🤍",
+    "caption": "Vielleicht bist du gerade mitten in einer Trennung.\n\nDas ist der Anfang meines Audio-Journals nach einer Trennung, inklusive Meditation, gelesen von meiner Freundin Kati Demiri. Es soll dir helfen zu verstehen, was gerade in dir geschieht, ohne dass du schnell damit fertig sein musst.\n\nDu findest es in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du in einer Trennung nicht allein sein willst mit deinen Gedanken.\n\nWas beschäftigt dich nach einer Trennung am meisten? 🤍",
     "hashtags": [
       "#trennung",
       "#trennungsschmerz",
@@ -2766,16 +2707,9 @@
       "#audiojournal",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "ANGEBOT: Angebot ohne den Hinweis „Link in der Bio“ in der Caption",
-        "LOGO: Auf frame-01.jpg und frame-02.jpg (Videoframes bei 2,9 s und 8,8 s) ist kein Logo bzw. Blumen-Doodle erkennbar. Diese Frames zeigen die Lesezene auf der Bank völlig ohne jede Grafik."
-      ],
-      "am": "2026-10-14T11:04:23.846Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null
   }

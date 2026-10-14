@@ -508,7 +508,7 @@ Sie führt dich durch zwölf Bereiche, zum Beispiel Selbstwert, gesunde Grenzen,
 
 Es geht nicht darum, möglichst viele Punkte zu erreichen. Deine Antworten sind eine Momentaufnahme, keine Diagnose. Du kannst die Landkarte nach einiger Zeit wieder ausfüllen und schauen, was sich verändert hat.
 
-Du kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Den Link findest du in der Bio.
+Du kannst sie vor, nach oder ganz ohne mein Buch nutzen. Sie ist als PDF im Shop erhältlich, sofort per E-Mail. Du findest sie über den Link in der Bio.
 
 Folge @ninahoemmencoaching, wenn du dich selbst besser verstehen willst.
 
@@ -539,7 +539,7 @@ Ich bin von Herzen dankbar für jede Rückmeldung. Diese drei Stimmen stammen au
 
 „Zwischen Single-Sein & falscher Nähe“ hat rund 240 Seiten mit Wissen, achtsamen Impulsen, Reflexionsfragen und Übungen. Du liest in deinem Tempo und nimmst dir, was gerade stimmig ist.
 
-Es gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Den Link findest du in der Bio.
+Es gibt das Buch als Hardcover, als E-Book und als Hörbuch. Hardcover bekommst du bei meinem Verlag oder bei Amazon, E-Book und Hörbuch in meinem Shop. Du findest ihn über den Link in der Bio.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum sich in deiner Liebe manches wiederholt.
 
@@ -561,7 +561,7 @@ Welcher Satz aus diesen Stimmen berührt dich am meisten? 🤍
 | 3 | Textseite | Kein Wettlauf durch die Tage. Nur ein ruhiger Moment, der dir gehört. |
 | 4 | Textseite | Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf. |
 | 5 | Textseite | Du musst nichts leisten. Ein Impuls pro Tag reicht. |
-| 6 | Schlussseite | „Dein Adventskalender für die Seele“ wartet in meinem Shop. Link in der Bio. |
+| 6 | Schlussseite | Dein Adventskalender für die Seele wartet in meinem Shop. Link in der Bio. |
 
 **Caption:**
 Eine stille Adventszeit nur für dich.

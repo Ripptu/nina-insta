@@ -113,7 +113,8 @@ export async function renderStimmReel(eng, def, outDir) {
   let fi = (def.nr * 5) % pool.length, ci = def.nr % Math.max(1, clips.length)
   const benutzt = new Set()
   const blank = path.join(sd, 'leer.png')
-  await sharp({ create: { width: W, height: PH, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } }).png().toFile(blank)
+  const logoPng = await sharp(path.join(HERE, '../assets/logo-creme.png')).resize({ width: 120 }).png().toBuffer()
+  await sharp({ create: { width: W, height: PH, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } }).composite([{ input: logoPng, left: 56, top: 1440 }]).png().toFile(blank)
 
   const segs = []
   let n = 0

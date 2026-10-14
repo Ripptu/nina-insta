@@ -37,3 +37,5 @@ Diese Gestaltungselemente gehören zum festen Stil und sind KEIN Fehler: Freiste
 - **HASHTAGS**: Höchstens 5 Hashtags insgesamt (Hashtag-Zeile und Caption-Text zusammengezählt). Zähle genau.
 
 Verboten seit 14.10.2026 (Nina): Die Wörter „Kopieren“, „Alles auswählen“, „Nachschlagen“ und „Zugestellt“ dürfen auf keinem Bild stehen (keine iOS-Menüleiste, kein iMessage-Status). Kommt eines vor: ablehnen.
+
+Erlaubt (Nina, 14.10.2026): Die drei Leserstimmen zum Buch von Annalena Schmitt (Amazon), Margareta (Google) und Maus (Amazon) sind echte, im Shop von Nina veröffentlichte Rezensionen. Sie dürfen namentlich und wörtlich zitiert werden (Auslassungen am Satzende sind in Ordnung). Das ist kein ERFUNDEN-Fehler. Der Shop selbst (shop.nina-hoemmen-coaching.de) und die Beziehungslandkarte sind echte Angebote von Nina.

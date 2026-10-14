@@ -62,7 +62,7 @@ try {
         process.exitCode = 1
         continue
       }
-      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: 'keins', kernthema: st.kernthema ?? null, fruehestens: st.termin || null, termin: st.termin || null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: st.angebot || 'keins', kernthema: st.kernthema ?? null, fruehestens: st.termin || null, termin: st.termin || null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${id} ${st.titel}`)

@@ -6,7 +6,25 @@
   },
   "buch": {
     "text": "Ninas Buch „Zwischen Single-Sein & falscher Nähe“ (Untertitel: Wie du dich aus alten Mustern befreist und Liebe neu erlebst).",
-    "cta": "Link in der Bio"
+    "cta": "Link in der Bio",
+    "leserstimmen": [
+      {
+        "name": "Annalena Schmitt",
+        "quelle": "Amazon-Rezension",
+        "text": "Das Buch nimmt einen „bei der Hand“ und öffnet Wege, sich mit sich selbst zu verbinden, wie kaum ein anderes."
+      },
+      {
+        "name": "Margareta",
+        "quelle": "Google-Rezension",
+        "text": "Ein Buch, das Mut macht, gesunde Nähe zuzulassen und sich selbst dabei nicht zu verlieren."
+      },
+      {
+        "name": "Maus",
+        "quelle": "Amazon-Rezension",
+        "text": "Das Buch hat mich tief berührt. Ich habe mich in so vielen Gedanken wiedergefunden."
+      }
+    ],
+    "leserstimmen_quelle": "shop.nina-hoemmen-coaching.de, Abschnitt „Was Leserinnen und Leser sagen“, gelesen 2026-10-13"
   },
   "shop": {
     "text": "Ninas Shop (shop.nina-hoemmen-coaching.de), offizieller Start am 5. November. Digitale Produkte kommen sofort nach dem Kauf per E-Mail, ohne Versand und ohne Wartezeit. Buch & Hörbuch: „Zwischen Single-Sein & falscher Nähe“ als Hardcover (über den Verlag portofrei oder Amazon), E-Book (PDF) und ruhig gesprochenes Hörbuch (eingesprochen von Ninas Freundin Kati Demiri, darf erwähnt werden). Journale & Karten (PDF): Reflexionsjournal „90 Tage näher zu dir“, Gesprächskartenset „Von Herz zu Herz“ mit 240 Fragen, „Deine Beziehungslandkarte“ (entdecke, wo du gerade stehst), „Dein Adventskalender für die Seele“ mit 24 achtsamen Impulsen. Meditationen & Audios: „Meditationen zum Buch“ (14 Audios plus Einführung), „Audio-Journal nach einer Trennung inkl. Meditation“, „Weniger Streit. Mehr Liebe.“ (Audio-Journal für dich oder euch als Paar, erscheint Ende Oktober). Haltung des Shops: keine Countdown-Timer, keine künstliche Knappheit, in deinem Tempo. Die HERZ.REISE-App erscheint erst Anfang 2027 und wird noch nicht beworben.",
