@@ -1585,15 +1585,23 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:55:34.842Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "17951242548281098",
+      "permalink": "https://www.instagram.com/reel/DefBp64AFNv/",
+      "am": "2026-10-14T18:28:01.442Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "1126287233414339",
+      "am": "2026-10-14T18:28:07.408Z"
+    }
   },
   {
     "id": "r03",
