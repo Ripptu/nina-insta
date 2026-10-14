@@ -182,7 +182,7 @@
     "format": "Vorher/Nachher",
     "angebot": "Shop",
     "kernthema": 3,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/k04/01.jpg",
       "out/k04/02.jpg",
@@ -361,7 +361,7 @@
     "format": "Vorher/Nachher",
     "angebot": "Shop",
     "kernthema": 1,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/k10/01.jpg",
       "out/k10/02.jpg",
@@ -479,7 +479,7 @@
     "format": "Werbung",
     "angebot": "Shop",
     "kernthema": 4,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/k13/01.jpg",
       "out/k13/02.jpg",
@@ -622,7 +622,7 @@
     "format": "Liste",
     "angebot": "Shop",
     "kernthema": 3,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/k17/01.jpg",
       "out/k17/02.jpg",
@@ -834,7 +834,7 @@
     "format": "Liste",
     "angebot": "Shop",
     "kernthema": 3,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/k23/01.jpg",
       "out/k23/02.jpg",
@@ -1586,7 +1586,7 @@
     "angebot": "Shop",
     "kernthema": 4,
     "serie": null,
-    "fruehestens": "2026-11-01",
+    "fruehestens": "2026-11-05",
     "dateien": [
       "out/r04/r4.mp4",
       "out/r04/r4-cover.jpg"
