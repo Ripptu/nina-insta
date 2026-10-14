@@ -70,7 +70,6 @@ export function createSeiten(eng) {
       let yy = y
       let body = ''
       if (markiert) {
-        body += `<div class="abs" style="left:60px;top:${yy}px;background:#fff;color:#1c1c1c;font-size:26px;font-weight:500;border-radius:16px;padding:12px 24px;box-shadow:0 3px 14px rgba(0,0,0,.25);white-space:nowrap">Kopieren&nbsp;&nbsp;&nbsp;Alles auswählen&nbsp;&nbsp;&nbsp;Nachschlagen &rsaquo;</div>`
         yy += tip
         body += `<div class="abs hd" style="left:60px;top:${yy}px;width:960px;font-size:${hs}px;line-height:1.0;letter-spacing:-.04em;color:${P.h};text-shadow:none"><mark style="background:${P.mark};color:${P.markT};padding:0 10px;border-radius:8px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${esc(head)}</mark></div>`
       } else {

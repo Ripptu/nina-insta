@@ -63,7 +63,8 @@ export function bubble(text, { x, y, width = 520, kind = 'pink' } = {}) {
 
 /** Markierter Text wie im iOS-Textfeld mit „Kopieren / Alles auswählen“ darüber. */
 export function selection(html, { x = 60, y = 500, size = 60, width = 900, tooltip = true } = {}) {
-  const tip = tooltip
+  // Nina 14.10.2026: keine iOS-Menüleiste („Kopieren / Alles auswählen / Nachschlagen“) mehr auf den Bildern
+  const tip = false && tooltip
     ? `<div class="abs" style="left:${x}px;top:${y - 70}px;background:#fff;color:#1c1c1c;font-size:24px;font-weight:500;border-radius:14px;padding:12px 22px;box-shadow:0 3px 12px rgba(0,0,0,.25);white-space:nowrap">Kopieren&nbsp;&nbsp;&nbsp;Alles auswählen&nbsp;&nbsp;&nbsp;Nachschlagen &rsaquo;</div>`
     : ''
   return `${tip}<div class="sel" style="left:${x}px;top:${y}px;width:${width}px;font-size:${size}px">${html}</div>`

@@ -199,15 +199,12 @@
       "#coachingoldenburg",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:33:20.648Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k05",
@@ -269,15 +266,12 @@
       "#dating",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:34:19.070Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k08",
@@ -304,15 +298,12 @@
       "#beziehungsmuster",
       "#coachingoldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:34:06.369Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k09",
@@ -339,15 +330,12 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:34:46.787Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k10",
@@ -374,15 +362,12 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:35:08.829Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k11",
@@ -491,15 +476,12 @@
       "#beziehungsmuster",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:35:10.563Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k14",
@@ -526,15 +508,12 @@
       "#zurueckzudir",
       "#herzzeit"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:35:24.984Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k15",
@@ -600,15 +579,12 @@
       "#traumasensibel",
       "#frauenabend"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:21.030Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k17",
@@ -635,15 +611,12 @@
       "#traumasensibel",
       "#näherzudir"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:33.823Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k18",
@@ -670,15 +643,12 @@
       "#nähe",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:23.524Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k19",
@@ -705,15 +675,12 @@
       "#coaching",
       "#beziehung"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:34.492Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k20",
@@ -740,15 +707,12 @@
       "#traumasensibel",
       "#liebe"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:43.784Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k21",
@@ -775,15 +739,12 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:36:29.245Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k22",
@@ -810,15 +771,12 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:37:18.745Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k23",
@@ -845,15 +803,12 @@
       "#innereklarheit",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:37:29.800Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k24",
@@ -880,15 +835,12 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:37:09.495Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k25",
@@ -915,15 +867,12 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:37:40.112Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k26",
@@ -950,20 +899,17 @@
       "#buchtipp",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:08.407Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null,
     "fb": {
       "id": "992738230600465_122141921288778810",
       "am": "2026-10-11T00:00:00.000Z",
       "hinweis": "Test-Post vor Instagram"
-    }
+    },
+    "versuche": 0
   },
   {
     "id": "s03",
@@ -1158,15 +1104,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:02.321Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "s12",
@@ -1205,15 +1148,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:04.571Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "s14",
@@ -1298,15 +1238,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:38.652Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "s19",
@@ -1414,15 +1351,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:55.772Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "k03",
@@ -1449,15 +1383,12 @@
       "#traumasensibel",
       "#coachingoldenburg"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:55:29.512Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "s08",
@@ -1472,15 +1403,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:54:51.797Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "versuche": 0
   },
   {
     "id": "s15",

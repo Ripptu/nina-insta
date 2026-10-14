@@ -206,7 +206,6 @@ export function createViral(eng) {
         y += hs[i] + 22
       })
       body += `<div class="abs bubble" style="left:${texts.length > 1 ? 60 : 60}px;top:${y}px;width:auto;height:${typing}px;padding:0 44px;border-radius:64px;border-bottom-left-radius:18px;background:#fff;display:flex;align-items:center;gap:14px">${'<i style="display:block;width:22px;height:22px;border-radius:50%;background:#b9b9bf"></i>'.repeat(3)}</div>`
-      body += `<div class="abs" style="left:${texts.length > 1 ? 690 : 690}px;top:${y - 8}px;font-size:32px;color:rgba(255,255,255,.8);font-weight:500">Zugestellt</div>`
       return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.2)"></div>`), crop }
     }
     return null
@@ -224,7 +223,7 @@ export function createViral(eng) {
       if (!crop) continue
       const y = crop.top ? crop.band[0] : crop.band[1] - need
       let body = bandShade(y, y + need, 0.4)
-      body += `<div class="abs" style="left:60px;top:${y}px;background:#fff;color:#1c1c1c;font-size:28px;font-weight:500;border-radius:16px;padding:14px 26px;box-shadow:0 3px 14px rgba(0,0,0,.3);white-space:nowrap">Kopieren&nbsp;&nbsp;&nbsp;Alles auswählen&nbsp;&nbsp;&nbsp;Nachschlagen &rsaquo;</div>`
+      // Keine iOS-Menüleiste mehr („Kopieren / Alles auswählen / Nachschlagen“), Nina 14.10.2026
       body += `<div class="abs tx" style="left:60px;top:${y + 84}px;width:960px;font-size:${size}px;font-weight:600;letter-spacing:-.035em;line-height:1.12;color:#fff">${inner}</div>`
       if (sub) body += `<div class="hand" style="left:64px;top:${y + 84 + h + 26}px;width:700px;font-size:66px;line-height:1.02;transform:rotate(-2deg)">${esc(spec.sub)}</div>`
       return { html: pageHtml(body + logo(PH), PH, `<div class="photo" style="background-image:url('${fotoUrl(p)}');background-size:${crop.pl.dw}px ${crop.pl.dh}px;background-position:${crop.pl.x}px ${crop.pl.y}px;filter:${GRADE}"></div><div class="shade" style="background:rgba(12,14,12,.22)"></div>`), crop }

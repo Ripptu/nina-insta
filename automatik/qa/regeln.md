@@ -35,3 +35,5 @@ Diese Gestaltungselemente gehören zum festen Stil und sind KEIN Fehler: Freiste
 - **ANGEBOT**: Der Beitrag passt zu `angebot` aus den Beitragsdaten. Ist `angebot` ein Angebot (Coaching, Buch, Shop, Veranstaltungen), wird genau dieses Angebot am Ende genannt, mit dem Hinweis „Link in der Bio" (in der Caption oder auf der letzten Seite), ohne Preise und ohne erfundene Termine. Ist `angebot` gleich „keins", wird kein Angebot beworben. Bewirbt der Beitrag ein anderes Angebot als angegeben, ist das ein fehler. Ob ein Beitrag „an der Reihe" ist, prüfst du nicht.
 - **CAPTION**: Die Caption passt inhaltlich zu den Seiten (gleicher Hook, kein Widerspruch), ist warm und ohne Marktschreier-Ton und hat ihren Inhalt nicht nur als Hashtag-Block. Die Caption enthält keine Heilversprechen, Diagnosen oder Schuldzuweisungen (siehe SCHUTZ).
 - **HASHTAGS**: Höchstens 5 Hashtags insgesamt (Hashtag-Zeile und Caption-Text zusammengezählt). Zähle genau.
+
+Verboten seit 14.10.2026 (Nina): Die Wörter „Kopieren“, „Alles auswählen“, „Nachschlagen“ und „Zugestellt“ dürfen auf keinem Bild stehen (keine iOS-Menüleiste, kein iMessage-Status). Kommt eines vor: ablehnen.
