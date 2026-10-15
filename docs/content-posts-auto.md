@@ -560,7 +560,7 @@ Welcher Satz aus diesen Stimmen berührt dich am meisten? 🤍
 | 2 | Textseite | Vierundzwanzig achtsame Impulse für die Zeit vor Weihnachten. Einer pro Tag. |
 | 3 | Textseite | Kein Wettlauf durch die Tage. Nur ein ruhiger Moment, der dir gehört. |
 | 4 | Textseite | Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf. |
-| 5 | Textseite | Du musst nichts leisten. Ein Impuls pro Tag reicht. |
+| 5 | Textseite | Du druckst die Karten aus und bastelst deinen Kalender selbst. Jahr für Jahr wieder. |
 | 6 | Schlussseite | Dein Adventskalender für die Seele wartet in meinem Shop. Link in der Bio. |
 
 **Caption:**
@@ -570,7 +570,9 @@ Die Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, weni
 
 Darum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.
 
-Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.
+Du bekommst ihn als PDF per E-Mail, sofort nach dem Kauf. Enthalten sind 24 Adventskarten zum Selbstausdrucken und Basteln, eine Willkommenskarte, eine Abschlusskarte „Innehalten“, eine Anleitung und Ideen für deine persönliche Gestaltung. Du kannst ihn Jahr für Jahr wieder verwenden oder einem Herzensmenschen schenken.
+
+Du musst nichts leisten. Ein Impuls pro Tag reicht.
 
 Du findest ihn in meinem Shop über den Link in der Bio.
 
@@ -579,3 +581,67 @@ Folge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.
 Wofür wünschst du dir in diesem Advent mehr Raum? 🤍
 
 **Hashtags:** #advent #adventszeit #selbstfürsorge #achtsamkeit #traumasensibel
+
+## Karussell 32: Eine Frage reicht
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Shop
+- Termin: 2026-11-24
+- Cover-Foto: 78
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Eine Frage reicht für ein echtes Gespräch.** |
+| 2 | Textseite | Viele Begegnungen bleiben bei Beruf, Urlaub und Alltag hängen. Vielleicht wünschst du dir mehr. |
+| 3 | Textseite | Zweihundertvierzig Fragen zum Lächeln, Nachdenken und Erzählen. Du ziehst eine Karte und liest sie laut vor. |
+| 4 | Textseite | Jede Person entscheidet selbst, ob und wie viel sie antwortet. Jede Frage ist eine Einladung, keine Pflicht. |
+| 5 | Textseite | Für Dates, Partnerschaften und Freundschaften. Du druckst die Karten selbst aus. |
+| 6 | Schlussseite | Das Gesprächskartenset Von Herz zu Herz gibt es in meinem Shop. Link in der Bio. Schick den Beitrag weiter. |
+
+**Caption:**
+Eine Frage reicht für ein echtes Gespräch.
+
+Viele Begegnungen bleiben bei Beruf, Urlaub und Alltag hängen. Oder es wird sehr schnell sehr persönlich, bevor überhaupt Vertrauen da ist. Beides kennst du vielleicht.
+
+Mein Gesprächskartenset „Von Herz zu Herz“ hat 240 Fragen, die zum Lächeln, Nachdenken und Erzählen einladen. Es ist mit einer traumasensiblen Haltung entstanden: Nähe wird niemals erzwungen. Jede Frage ist eine Einladung, keine Verpflichtung, und jede Person entscheidet selbst, ob und wie ausführlich sie antwortet.
+
+Du bekommst das Set als PDF zum Ausdrucken, für Dates, Kennenlernphasen, Partnerschaften und Freundschaften. Du findest es in meinem Shop über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du mehr echte Nähe in deinen Gesprächen willst.
+
+Welche Frage würdest du gern einmal gestellt bekommen? 🤍
+
+**Hashtags:** #gesprächskarten #echteverbindung #kennenlernen #beziehung #traumasensibel
+
+## Karussell 33: 90 Tage, eine Frage pro Tag
+- Format: Werbung
+- Kernthema: 2
+- Angebot: Shop
+- Termin: 2026-12-01
+- Cover-Foto: 77
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **90 Tage. Eine Frage pro Tag.** |
+| 2 | Textseite | Jeden Tag ein kurzer Impuls zum Innehalten, Nachspüren und Aufschreiben. |
+| 3 | Textseite | Unter jeder Frage steht ein kleines Beispiel als Inspiration. Es gibt kein Richtig und kein Falsch. |
+| 4 | Textseite | Dreizehn Wochen, von Ankommen bei dir bis Neubeginn. Dazu kleine Übungen für dein Nervensystem. |
+| 5 | Textseite | Wenn es zu viel wird, darfst du pausieren oder eine Seite überspringen. |
+| 6 | Schlussseite | Das Journal „90 Tage näher zu dir“ gibt es in meinem Shop. Link in der Bio. |
+
+**Caption:**
+90 Tage. Eine Frage pro Tag.
+
+Mein 90-Tage-Reflexionsjournal begleitet dich jeden Tag mit einem kurzen Impuls: eine Frage zum Innehalten, Nachspüren und Aufschreiben. Unter jeder Frage steht ein kleines Beispiel als Inspiration. Es gibt kein Richtig und kein Falsch.
+
+Die Fragen führen dich über dreizehn Wochen, von „Ankommen bei dir“ über Beziehungsmuster, Nervensystem, Selbstwert und Grenzen bis zu Loslassen, Selbstverbindung und Neubeginn. Am Anfang findest du einfache Übungen, die dich beruhigen können, wenn Gefühle zu stark werden. Als Bonus gibt es den Beziehungs-Kompass.
+
+Du darfst Pausen machen und Seiten überspringen. Du musst hier nichts leisten.
+
+Das Journal gibt es als PDF in meinem Shop, ob vor, nach oder ganz ohne mein Buch. Du findest es über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du dir selbst Schritt für Schritt näherkommen willst.
+
+Welche Frage würdest du dir morgen früh gern selbst stellen? 🤍
+
+**Hashtags:** #journaling #selbstreflexion #beziehungsmuster #selbstfürsorge #traumasensibel

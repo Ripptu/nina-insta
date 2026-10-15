@@ -2494,42 +2494,6 @@
     "fehler": null
   },
   {
-    "id": "k31",
-    "typ": "karussell",
-    "quelle": "docs/content-posts.md#Karussell 31",
-    "titel": "Eine stille Adventszeit nur für dich",
-    "format": "Werbung",
-    "angebot": "Shop",
-    "kernthema": 2,
-    "fruehestens": "2026-11-17",
-    "termin": "2026-11-17",
-    "dateien": [
-      "out/k31/01.jpg",
-      "out/k31/02.jpg",
-      "out/k31/03.jpg",
-      "out/k31/04.jpg",
-      "out/k31/05.jpg",
-      "out/k31/06.jpg"
-    ],
-    "caption": "Eine stille Adventszeit nur für dich.\n\nDie Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.\n\nDarum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.\n\nDu bekommst ihn als PDF per E-Mail, sofort nach dem Kauf, ohne Versand und ohne Wartezeit. Du musst nichts leisten. Ein Impuls pro Tag reicht.\n\nDu findest ihn in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.\n\nWofür wünschst du dir in diesem Advent mehr Raum? 🤍",
-    "hashtags": [
-      "#advent",
-      "#adventszeit",
-      "#selbstfürsorge",
-      "#achtsamkeit",
-      "#traumasensibel"
-    ],
-    "status": "geprueft",
-    "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-14T11:10:14.615Z"
-    },
-    "ig": null,
-    "fehler": null
-  },
-  {
     "id": "s27",
     "typ": "story",
     "quelle": "docs/content-stories-auto.md#Story 27",
@@ -2762,6 +2726,102 @@
       "gruende": [],
       "am": "2026-10-14T11:19:47.899Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k31",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 31",
+    "titel": "Eine stille Adventszeit nur für dich",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "fruehestens": "2026-11-17",
+    "termin": "2026-11-17",
+    "dateien": [
+      "out/k31/01.jpg",
+      "out/k31/02.jpg",
+      "out/k31/03.jpg",
+      "out/k31/04.jpg",
+      "out/k31/05.jpg",
+      "out/k31/06.jpg"
+    ],
+    "caption": "Eine stille Adventszeit nur für dich.\n\nDie Wochen vor Weihnachten sind oft laut. Viele Termine, viele Erwartungen, wenig Platz für dich.\n\nDarum habe ich „Dein Adventskalender für die Seele“ geschrieben: vierundzwanzig achtsame Impulse, einer pro Tag, für einen ruhigen Moment, der nur dir gehört.\n\nDu bekommst ihn als PDF per E-Mail, sofort nach dem Kauf. Enthalten sind 24 Adventskarten zum Selbstausdrucken und Basteln, eine Willkommenskarte, eine Abschlusskarte „Innehalten“, eine Anleitung und Ideen für deine persönliche Gestaltung. Du kannst ihn Jahr für Jahr wieder verwenden oder einem Herzensmenschen schenken.\n\nDu musst nichts leisten. Ein Impuls pro Tag reicht.\n\nDu findest ihn in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir in der Adventszeit mehr Ruhe wünschst.\n\nWofür wünschst du dir in diesem Advent mehr Raum? 🤍",
+    "hashtags": [
+      "#advent",
+      "#adventszeit",
+      "#selbstfürsorge",
+      "#achtsamkeit",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k32",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 32",
+    "titel": "Eine Frage reicht",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 1,
+    "fruehestens": "2026-11-24",
+    "termin": "2026-11-24",
+    "dateien": [
+      "out/k32/01.jpg",
+      "out/k32/02.jpg",
+      "out/k32/03.jpg",
+      "out/k32/04.jpg",
+      "out/k32/05.jpg",
+      "out/k32/06.jpg"
+    ],
+    "caption": "Eine Frage reicht für ein echtes Gespräch.\n\nViele Begegnungen bleiben bei Beruf, Urlaub und Alltag hängen. Oder es wird sehr schnell sehr persönlich, bevor überhaupt Vertrauen da ist. Beides kennst du vielleicht.\n\nMein Gesprächskartenset „Von Herz zu Herz“ hat 240 Fragen, die zum Lächeln, Nachdenken und Erzählen einladen. Es ist mit einer traumasensiblen Haltung entstanden: Nähe wird niemals erzwungen. Jede Frage ist eine Einladung, keine Verpflichtung, und jede Person entscheidet selbst, ob und wie ausführlich sie antwortet.\n\nDu bekommst das Set als PDF zum Ausdrucken, für Dates, Kennenlernphasen, Partnerschaften und Freundschaften. Du findest es in meinem Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr echte Nähe in deinen Gesprächen willst.\n\nWelche Frage würdest du gern einmal gestellt bekommen? 🤍",
+    "hashtags": [
+      "#gesprächskarten",
+      "#echteverbindung",
+      "#kennenlernen",
+      "#beziehung",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k33",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 33",
+    "titel": "90 Tage, eine Frage pro Tag",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "fruehestens": "2026-12-01",
+    "termin": "2026-12-01",
+    "dateien": [
+      "out/k33/01.jpg",
+      "out/k33/02.jpg",
+      "out/k33/03.jpg",
+      "out/k33/04.jpg",
+      "out/k33/05.jpg",
+      "out/k33/06.jpg"
+    ],
+    "caption": "90 Tage. Eine Frage pro Tag.\n\nMein 90-Tage-Reflexionsjournal begleitet dich jeden Tag mit einem kurzen Impuls: eine Frage zum Innehalten, Nachspüren und Aufschreiben. Unter jeder Frage steht ein kleines Beispiel als Inspiration. Es gibt kein Richtig und kein Falsch.\n\nDie Fragen führen dich über dreizehn Wochen, von „Ankommen bei dir“ über Beziehungsmuster, Nervensystem, Selbstwert und Grenzen bis zu Loslassen, Selbstverbindung und Neubeginn. Am Anfang findest du einfache Übungen, die dich beruhigen können, wenn Gefühle zu stark werden. Als Bonus gibt es den Beziehungs-Kompass.\n\nDu darfst Pausen machen und Seiten überspringen. Du musst hier nichts leisten.\n\nDas Journal gibt es als PDF in meinem Shop, ob vor, nach oder ganz ohne mein Buch. Du findest es über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du dir selbst Schritt für Schritt näherkommen willst.\n\nWelche Frage würdest du dir morgen früh gern selbst stellen? 🤍",
+    "hashtags": [
+      "#journaling",
+      "#selbstreflexion",
+      "#beziehungsmuster",
+      "#selbstfürsorge",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
