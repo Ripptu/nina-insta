@@ -679,16 +679,24 @@
       "#nähe",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T09:38:16.221Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18478293559115037",
+      "permalink": "https://www.instagram.com/p/DehnaoZD_qJ/",
+      "am": "2026-10-15T18:36:05.512Z"
+    },
     "fehler": null,
-    "versuche": 0
+    "versuche": 0,
+    "fb": {
+      "id": "992738230600465_122142533534778810",
+      "am": "2026-10-15T18:36:20.143Z"
+    }
   },
   {
     "id": "k19",
