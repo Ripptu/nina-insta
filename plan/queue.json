@@ -2755,9 +2755,13 @@
       "#achtsamkeit",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-15T11:36:36.205Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2787,9 +2791,13 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-15T11:36:21.457Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -2819,9 +2827,13 @@
       "#selbstfürsorge",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-15T11:36:39.805Z"
+    },
     "ig": null,
     "fehler": null
   }
