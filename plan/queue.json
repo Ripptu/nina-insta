@@ -2161,15 +2161,25 @@
       "#selbstwert",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-08T12:50:37.369Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-10-19T18:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite für 20:00 geplant (19.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-10-19T18:00:00.000Z",
+      "manuell": true,
+      "hinweis": "zusammen mit Instagram über Business Suite"
+    }
   },
   {
     "id": "v06",
