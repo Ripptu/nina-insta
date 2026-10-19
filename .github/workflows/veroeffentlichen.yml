@@ -1,15 +1,10 @@
 name: Veröffentlichen
 on:
-  schedule:
-    # GitHub startet geplante Läufe unzuverlässig (am 29./30.09. fielen die meisten aus oder kamen Stunden zu spät,
-    # volle und halbe Stunden besonders oft). Deshalb krumme Minuten, viele Läufe und ein langes Nachholfenster.
-    # Das Skript veröffentlicht höchstens einen Feed-Beitrag pro Tag (Berliner Zeit).
-    # Feed ab 20:00 Berlin (Fenster bis 24:00)
-    - cron: "7,22,37,52 17-21 * * 1-5"
-    # Nachholen, falls gestern kein Feed-Beitrag kam: stündlich von 07:00 bis 19:00 Berlin (täglich; gilt auch für Stories)
-    - cron: "13 5-17 * * *"
-    # Stories ab 12:30 Berlin (Fenster bis 20:00)
-    - cron: "9,41 10-17 * * 2,4,0"
+  # Zeitplan seit 19.10.2026 AUS (Free-Account, Minuten sparen): Veröffentlichen läuft nur noch per Hand (workflow_dispatch)
+  # oder über den Mac-Auslöser. Alter Zeitplan zum Wiederaktivieren (Berliner Zeit, UTC-Angaben):
+  #   Feed ab 20:00:   cron "7,22,37,52 17-21 * * 1-5"
+  #   Nachholen:       cron "13 5-17 * * *"
+  #   Stories ab 12:30: cron "9,41 10-17 * * 2,4,0"
   workflow_dispatch:
     inputs:
       trocken: { description: "Trockenlauf (nichts veröffentlichen)", type: boolean, default: true }
