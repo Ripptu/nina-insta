@@ -7505,14 +7505,14 @@
      "datum": "2026-10-24",
      "likes": 5,
      "kommentare": 0,
-     "reach": 32,
+     "reach": 33,
      "comments": 0,
      "saved": 0,
      "shares": 0,
-     "views": 52,
+     "views": 54,
      "total_interactions": 5,
-     "ig_reels_avg_watch_time": 6957,
-     "ig_reels_video_view_total_time": 243495
+     "ig_reels_avg_watch_time": 6882,
+     "ig_reels_video_view_total_time": 247782
     }
    ]
   },
@@ -7527,14 +7527,14 @@
    "verlauf": [
     {
      "datum": "2026-10-24",
-     "likes": 9,
+     "likes": 10,
      "kommentare": 1,
      "reach": 33,
      "comments": 1,
      "saved": 0,
      "shares": 0,
-     "views": 77,
-     "total_interactions": 10,
+     "views": 80,
+     "total_interactions": 11,
      "follows": 0,
      "profile_visits": 2
     }
@@ -7607,8 +7607,8 @@
      "shares": 0,
      "views": 161,
      "total_interactions": 10,
-     "ig_reels_avg_watch_time": 7264,
-     "ig_reels_video_view_total_time": 951609
+     "ig_reels_avg_watch_time": 7219,
+     "ig_reels_video_view_total_time": 952972
     }
    ]
   }
