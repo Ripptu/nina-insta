@@ -32,6 +32,7 @@ for (const m of liste) {
   let ins = { werte: {}, nichtVerfuegbar: [] }
   try { ins = await ig.insights(m.id, { typ }) } catch (e) { console.log(`Insights ${m.id}:`, e.message) }
   const b = (daten.beitraege[m.id] ||= { id: item?.id || null, titel: item?.titel || null, typ, permalink: m.permalink, zeit: m.timestamp, kernthema: item?.kernthema ?? null, angebot: item?.angebot ?? null, verlauf: [] })
+  if (item && !b.id) Object.assign(b, { id: item.id, titel: item.titel, kernthema: item.kernthema ?? null, angebot: item.angebot ?? null })
   b.verlauf = b.verlauf.filter((v) => v.datum !== heute)
   b.verlauf.push({ datum: heute, likes: m.like_count, kommentare: m.comments_count, ...ins.werte })
 }
