@@ -779,16 +779,25 @@
       "#traumasensibel",
       "#liebe"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T09:38:41.573Z"
     },
-    "ig": null,
+    "ig": {
+      "am": "2026-10-27T19:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
     "fehler": null,
-    "versuche": 0
+    "versuche": 0,
+    "fb": {
+      "am": "2026-10-27T19:00:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "k21",
@@ -815,16 +824,25 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T09:38:21.551Z"
     },
-    "ig": null,
+    "ig": {
+      "am": "2026-10-29T19:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
     "fehler": null,
-    "versuche": 0
+    "versuche": 0,
+    "fb": {
+      "am": "2026-10-29T19:00:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "k22",
@@ -1251,15 +1269,24 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:38:06.232Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-10-27T11:30:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-10-27T11:30:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "s13",
@@ -1274,16 +1301,25 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T09:39:19.685Z"
     },
-    "ig": null,
+    "ig": {
+      "am": "2026-10-29T11:30:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
     "fehler": null,
-    "versuche": 0
+    "versuche": 0,
+    "fb": {
+      "am": "2026-10-29T11:30:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "s14",
@@ -1748,15 +1784,24 @@
       "#frauenkreis",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:56:32.395Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-10-28T19:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-10-28T19:00:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "r06",
@@ -1820,15 +1865,24 @@
       "#beziehungscoaching",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-03T06:56:27.858Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-10-30T19:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-10-30T19:00:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "r08",
@@ -2188,15 +2242,24 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-08T12:51:06.865Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-10-26T19:00:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-10-26T19:00:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "v04",
@@ -2511,15 +2574,24 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:01:01.391Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "am": "2026-11-01T11:30:00.000Z",
+      "permalink": null,
+      "manuell": true,
+      "hinweis": "über Meta Business Suite eingeplant (24.10.2026), Instagram und Facebook zusammen"
+    },
+    "fehler": null,
+    "fb": {
+      "am": "2026-11-01T11:30:00.000Z",
+      "manuell": true
+    }
   },
   {
     "id": "s25",
