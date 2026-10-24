@@ -1481,9 +1481,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-24T17:36:16.459Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
