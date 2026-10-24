@@ -17,4 +17,4 @@ jobs:
       - env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: node automatik/think.mjs
-      - run: 'node automatik/sichern.mjs "Denk-Lauf: Erkenntnis" learnings.md plan'
+      - run: 'node automatik/sichern.mjs "Denk-Lauf: Erkenntnis" learnings.md plan data/erfolgsmuster.md data/schreib-lernen.md'

@@ -14,6 +14,7 @@ import { ladeQueue } from './queue.mjs'
 import { readPosts } from '../render/inhalt.mjs'
 import { readReels } from '../render/reel.mjs'
 import { readStories } from '../render/story.mjs'
+import { lernBlock } from './lernen.mjs'
 import { planeStories, pruefeStories, baueStoryPrompt, beispielBlock } from './story-regeln.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
@@ -62,7 +63,7 @@ const beispiele = story ? [...new Set(plan.map((p) => p.interaktion))].map((i) =
 if (story ? !beispiele.length : !beispiel) throw new Error('Beispielblock nicht gefunden.')
 
 const grund = (fehler) => (story
-  ? baueStoryPrompt({ regeln: lies('CLAUDE.md'), strategie: lies('docs/strategie.md').slice(0, 14000), learnings: lies('learnings.md').slice(-2500), themen, plan, beispiele, fehler })
+  ? baueStoryPrompt({ regeln: lies('CLAUDE.md'), strategie: lies('docs/strategie.md').slice(0, 14000), learnings: `${lernBlock()}\n\nVERLAUF DER ERKENNTNISSE:\n${lies('learnings.md').slice(-2500)}`, themen, plan, beispiele, fehler })
   : `Du schreibst neue ${cfg.wort === 'Reel' ? 'Reels' : 'Karussell-Beiträge'} für den Instagram-Account @ninahoemmencoaching (Nina Hömmen, traumasensible Single- und Beziehungscoachin, Oldenburg und online).
 
 VERBINDLICHE REGELN (CLAUDE.md):
@@ -74,7 +75,9 @@ ${lies('docs/strategie.md').slice(0, 14000)}
 ERLAUBTE ANGEBOTE (nur so, ohne Preise und Termine):
 ${lies('data/angebote.json')}
 
-BISHERIGE ERKENNTNISSE:
+${lernBlock()}
+
+VERLAUF DER ERKENNTNISSE:
 ${lies('learnings.md').slice(-2500)}
 
 BEREITS VERWENDETE THEMEN/TITEL (nicht wiederholen, auch nicht sinngemäß): ${themen.join(' | ')}

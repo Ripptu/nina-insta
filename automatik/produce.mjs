@@ -39,7 +39,7 @@ try {
       try { r = await buildCarousel(eng, post, out) } catch (e) { console.log(`Karussell ${id} ${post.titel} nicht produziert: ${e.message}`); process.exitCode = 1; continue }
       q.push({
         id, typ: 'karussell', quelle: `docs/content-posts.md#Karussell ${post.nr}`, titel: post.titel, format: post.format || null, angebot: /^veranstaltung/i.test(post.angebot || '') ? 'Veranstaltungen' : post.angebot || 'keins',
-        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: [sperre(post), post.termin].filter(Boolean).sort().pop() || null, termin: post.termin || null,
+        kernthema: post.kernthema ? +String(post.kernthema).match(/\d+/)?.[0] : null, fruehestens: [sperre(post), post.termin].filter(Boolean).sort().pop() || null, termin: post.termin || null, buchquelle: post.buchquelle || null,
         dateien: r.files.map(rel), caption: post.caption, hashtags: tags(post.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null,
       })
       await speichereQueue(q)
@@ -77,7 +77,7 @@ try {
       fs.rmSync(out, { recursive: true, force: true })
       const r = await renderReel(eng, rl, out)
       if (r.status === 'braucht-ton') { console.log(`Übersprungen ${id}: braucht Ton`); continue }
-      q.push({ id, typ: 'reel', quelle: `docs/content-reels.md#Reel ${rl.nr}`, titel: rl.titel, angebot: rl.angebot || 'keins', kernthema: rl.kernthema ?? null, serie: rl.serie && rl.serie !== '–' ? rl.serie : null, fruehestens: rl.fruehestens || null, dateien: (r.dateien || [r.video, r.cover]).filter(Boolean).map(rel), caption: rl.caption, hashtags: tags(rl.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id, typ: 'reel', quelle: `docs/content-reels.md#Reel ${rl.nr}`, titel: rl.titel, angebot: rl.angebot || 'keins', kernthema: rl.kernthema ?? null, serie: rl.serie && rl.serie !== '–' ? rl.serie : null, buchquelle: rl.buchquelle || null, fruehestens: rl.fruehestens || null, dateien: (r.dateien || [r.video, r.cover]).filter(Boolean).map(rel), caption: rl.caption, hashtags: tags(rl.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${id} ${rl.titel}`)
@@ -93,7 +93,7 @@ try {
       fs.rmSync(out, { recursive: true, force: true })
       let r
       try { r = await renderStimmReel(eng, d, out) } catch (e) { console.log(`Stimm-Reel ${d.id} ${d.titel} nicht produziert: ${e.message}`); process.exitCode = 1; continue }
-      q.push({ id: d.id, typ: 'reel', quelle: `data/stimm-reels.json#${d.id}`, titel: d.titel, angebot: d.angebot || 'keins', kernthema: d.kernthema ?? null, serie: null, fruehestens: d.termin || d.fruehestens || null, termin: d.termin || null, dateien: [r.video, r.cover].map(rel), caption: d.caption, hashtags: tags(d.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id: d.id, typ: 'reel', quelle: `data/stimm-reels.json#${d.id}`, buchquelle: d.buchquelle || 'stimme', titel: d.titel, angebot: d.angebot || 'keins', kernthema: d.kernthema ?? null, serie: null, fruehestens: d.termin || d.fruehestens || null, termin: d.termin || null, dateien: [r.video, r.cover].map(rel), caption: d.caption, hashtags: tags(d.hashtags), status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${d.id} ${d.titel} (${r.dauer.toFixed(0)} s)`)

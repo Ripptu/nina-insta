@@ -30,7 +30,7 @@ export function readPosts(file = new URL('../docs/content-posts.md', import.meta
     const cap = sec.match(/\*\*Caption:\*\*\n([\s\S]*?)\n\*\*Hashtags:\*\*\s*(.+)/)
     posts.push({
       nr: +head[1], titel: head[2].trim(), format: meta.format, kernthema: meta.kernthema, angebot: meta.angebot,
-      fruehestens: meta['frühestens'] || null, termin: meta.termin || null, coverFoto: meta['cover-foto'] || null, pages, caption: cap ? cap[1].trim() : '', hashtags: cap ? cap[2].trim() : '',
+      fruehestens: meta['frühestens'] || null, termin: meta.termin || null, coverFoto: meta['cover-foto'] || null, buchquelle: meta.buchquelle || null, pages, caption: cap ? cap[1].trim() : '', hashtags: cap ? cap[2].trim() : '',
     })
   }
   return posts

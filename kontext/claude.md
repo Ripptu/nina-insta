@@ -1,8 +1,8 @@
 # Anweisungen für Claude: Kontext zu Ninas Instagram (@ninahoemmencoaching)
 
-Diese Datei und ihre drei Schwestern liegen in `~/nina-insta/kontext/`. **Lies vor jeder Arbeitsaufgabe, die Ninas Marke, Texte, Inhalte oder Gestaltung betrifft, in dieser Reihenfolge:**
+Diese Datei und ihre drei Schwestern liegen in `~/NINA/Insta-Automatik/kontext/`. **Lies vor jeder Arbeitsaufgabe, die Ninas Marke, Texte, Inhalte oder Gestaltung betrifft, in dieser Reihenfolge:**
 
-1. `~/nina-insta/CLAUDE.md` (feste Regeln, gelten immer zuerst)
+1. `~/NINA/Insta-Automatik/CLAUDE.md` (feste Regeln, gelten immer zuerst)
 2. `kontext/who_i_am.md` (Person, Marke, Angebote, Zielgruppe, Ziele, was offen ist)
 3. `kontext/how_i_talk.md` (Tonalität, Wortschatz, Caption-Aufbau, was nie vorkommt)
 4. `kontext/how_you_work.md` (wie mit Christian zu arbeiten ist)

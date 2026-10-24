@@ -287,8 +287,8 @@ export function Material({ state }: { state: SetupState }) {
       <Card title="Fotos in Google Drive">
         <p className="mb-3">Ordner <b>{state.drive_folder}/Fotos</b>: {drive != null ? `${drive} Dateien` : driveFehler ? '' : <Spinner />}</p>
         {driveFehler && <Note tone="err">{driveFehler}</Note>}
-        <p className="mb-3 text-[13px]" style={{ color: 'var(--muted)' }}>Die Automatik holt Ninas Fotos aus diesem Ordner. Neue Fotos einfach dort ablegen. Fotos aus dem Ordner „NINA“ auf diesem Mac kannst du mit einem Klick hochladen (nichts wird überschrieben).</p>
-        <Button busy={busy} onClick={hoch}>Fotos aus ~/NINA hochladen</Button>
+        <p className="mb-3 text-[13px]" style={{ color: 'var(--muted)' }}>Die Automatik holt Ninas Fotos aus diesem Ordner. Neue Fotos einfach dort ablegen. Fotos aus dem Ordner „NINA/Fotos“ auf diesem Mac kannst du mit einem Klick hochladen (nichts wird überschrieben).</p>
+        <Button busy={busy} onClick={hoch}>Fotos aus ~/NINA/Fotos hochladen</Button>
         {msg && <div className="mt-3"><Note tone={msg.tone}>{msg.text}</Note></div>}
       </Card>
       <Card title="Cover-Regel: jedes Foto nur einmal">

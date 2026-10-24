@@ -159,12 +159,12 @@ pub fn media_token_aus_github() -> Result<(), String> {
     Ok(())
 }
 
-/// Fotos aus einem lokalen Ordner (Standard ~/NINA) nach Drive `<Ordner>/Fotos` kopieren, ohne Vorhandenes zu überschreiben.
+/// Fotos aus einem lokalen Ordner (Standard ~/NINA/Fotos) nach Drive `<Ordner>/Fotos` kopieren, ohne Vorhandenes zu überschreiben.
 #[tauri::command]
 pub async fn fotos_hochladen(quelle: Option<String>) -> Result<String, String> {
     tauri::async_runtime::spawn_blocking(move || {
         let ordner = state::load().drive_folder.ok_or_else(|| "Drive ist noch nicht eingerichtet.".to_string())?;
-        let q = quelle.unwrap_or_else(|| tools::home().join("NINA").to_string_lossy().to_string());
+        let q = quelle.unwrap_or_else(|| tools::home().join("NINA/Fotos").to_string_lossy().to_string());
         if !std::path::Path::new(&q).is_dir() {
             return Err(format!("Ordner {q} gibt es nicht."));
         }

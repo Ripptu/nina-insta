@@ -58,7 +58,7 @@ export function readReels(file = new URL('../docs/content-reels.md', import.meta
     }
     const nr = +head[1]
     out.push({
-      nr, id: `r${nr}`, titel: head[2].trim(), kernthema: parseInt(meta.kernthema) || null,
+      nr, id: `r${nr}`, titel: head[2].trim(), kernthema: parseInt(meta.kernthema) || null, buchquelle: meta.buchquelle || null,
       serie: meta.serie && meta.serie !== '–' ? meta.serie.replace(/[„“"]/g, '') : null,
       hookArt: meta['hook-art'], umsetzung: meta.umsetzung, angebot: meta.angebot,
       fruehestens: meta['frühestens'] || null,
