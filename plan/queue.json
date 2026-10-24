@@ -1341,10 +1341,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-03T06:38:03.132Z"
+      "am": "2026-10-24T17:35:25.706Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s16",
@@ -1364,10 +1365,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-03T06:38:44.757Z"
+      "am": "2026-10-24T17:35:28.195Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s17",
@@ -1382,15 +1384,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:30.011Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s18",
@@ -1435,10 +1434,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-03T06:38:27.137Z"
+      "am": "2026-10-24T17:35:27.656Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s20",
@@ -1453,15 +1453,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:37.023Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s21",
@@ -1476,15 +1473,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:38:43.292Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s22",
@@ -1505,10 +1499,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-03T06:38:58.949Z"
+      "am": "2026-10-24T17:35:31.336Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s23",
@@ -1611,15 +1606,12 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:54:49.048Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "r01",
@@ -1908,15 +1900,12 @@
       "#liebe",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-03T06:56:47.648Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "r09",
