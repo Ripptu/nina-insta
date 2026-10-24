@@ -645,3 +645,149 @@ Folge @ninahoemmencoaching, wenn du dir selbst Schritt für Schritt näherkommen
 Welche Frage würdest du dir morgen früh gern selbst stellen? 🤍
 
 **Hashtags:** #journaling #selbstreflexion #beziehungsmuster #selbstfürsorge #traumasensibel
+## Karussell 34: Ein Kreis, der dich trägt
+- Format: Alltagsszene
+- Kernthema: 4
+- Angebot: Veranstaltungen
+- Buchquelle: meine-reise
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Allein muss nicht heißen: ohne Menschen.** |
+| 2 | Textseite | Viele sitzen abends mit genau den Gedanken, die tagsüber keinen Platz finden. |
+| 3 | Textseite | Ein Kreis aus Frauen kann halten, was eine einzelne Nachricht nicht kann. |
+| 4 | Textseite | Im Frauenkreis HERZ.ZEIT in Oldenburg triffst du Frauen, die ähnliche Fragen tragen wie du. |
+| 5 | Textseite | Du musst nicht warten, bis es leichter wird. Du darfst dich schon jetzt zeigen. |
+| 6 | Schlussseite | Mehr zum Frauenkreis HERZ.ZEIT und zu „Zurück zu dir – 8 Abende für Frauen“: Link in der Bio. |
+
+**Caption:**
+Allein muss nicht heißen: ohne Menschen.
+
+Vielleicht kennst du diese Abende. Du bist allein, aber nicht einsam, und trotzdem sind da genau die Gedanken, die tagsüber keinen Platz finden.
+
+Ich habe selbst eine Zeit erlebt, in der ich ohne Beziehung war und in der genau diese Stille meine eigenen Themen sichtbarer gemacht hat. Allein sein kann ein Anfang sein, kein Mangel.
+
+Ein Kreis aus Frauen kann halten, was eine einzelne Nachricht nicht kann. Nicht, weil eine Gruppe automatisch heilt, sondern weil du dort nicht erklären musst, warum du gerade so bist, wie du bist.
+
+Im Frauenkreis HERZ.ZEIT in Oldenburg triffst du Frauen, die ähnliche Fragen tragen wie du. Auch „Zurück zu dir – 8 Abende für Frauen“ ist genau dafür gedacht: Raum, um bei dir anzukommen, in Gesellschaft.
+
+Zum Mitnehmen: Du musst nicht warten, bis es leichter wird. Du darfst dich schon jetzt zeigen, mit allem, was gerade da ist.
+
+Mehr zum Frauenkreis HERZ.ZEIT und zu „Zurück zu dir – 8 Abende für Frauen“: Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du Räume suchst, in denen du nicht allein mit deinen Fragen bist.
+
+Warst du schon mal in einer Frauenrunde, die dir gutgetan hat?
+
+**Hashtags:** #frauenkreis #zurueckzudir #oldenburg #allesein #traumasensibel
+
+---
+
+## Karussell 35: Dein erster Schritt im neuen Shop
+- Format: Liste
+- Kernthema: 3
+- Angebot: Shop
+- Buchquelle: hoerbuch-selbstwert
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Alltag) | **Ab 5. November: etwas Neues für dich.** |
+| 2 | Textseite | Der Shop ist digital. Er kommt direkt nach dem Kauf an, ohne Warten. |
+| 3 | Textseite | Zuerst kommt „Deine Beziehungslandkarte“: zwölf Bereiche, eine ehrliche Standortbestimmung für dich. |
+| 4 | Textseite | Kein Countdown, keine Rabatte. Du gehst dein Tempo, nicht das vom Markt. |
+| 5 | Textseite | Manchmal hilft es zu sehen, wo du gerade stehst, bevor du weitergehst. |
+| 6 | Schlussseite | Der Shop startet am 5. November, zuerst mit der Beziehungslandkarte. Link in der Bio. |
+
+**Caption:**
+Ab 5. November: etwas Neues für dich.
+
+Ein starker Selbstwert zeigt sich nicht im Lautsein, sondern in stiller Klarheit. Manchmal braucht diese Klarheit nur einen ehrlichen Blick auf das, wo du gerade stehst.
+
+Genau dafür ist „Deine Beziehungslandkarte“ gedacht: zwölf Bereiche, zum Ausdrucken, eine Standortbestimmung ohne Druck. Sie kommt als erstes Produkt in meinen neuen Shop.
+
+Der Shop ist bewusst digital. Was du kaufst, kommt direkt nach dem Kauf per E-Mail an, ohne Versand, ohne Wartezeit. Und ohne Countdown oder künstliche Knappheit. Du gehst dein Tempo, nicht das vom Markt.
+
+Zum Mitnehmen: Bevor du weitergehst, hilft manchmal ein Blick darauf, wo du gerade wirklich stehst. Nicht, um dich zu bewerten. Um dich zu sehen.
+
+Der Shop startet am 5. November, zuerst mit der Beziehungslandkarte. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du in deinem eigenen Tempo an dir arbeiten willst.
+
+Welcher Bereich deines Lebens würde dich gerade am meisten interessieren: du selbst, deine Beziehung oder deine Vergangenheit?
+
+**Hashtags:** #shopstart #beziehungslandkarte #selbstwert #traumasensibel #oldenburg
+
+---
+
+## Karussell 36: Dein Buch gegen alte Muster
+- Format: Werbung
+- Kernthema: 1
+- Angebot: Buch
+- Buchquelle: warum-du-single-bist
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Buch im Bild) | **Zwischen Single-Sein und falscher Nähe: dein Buch?** |
+| 2 | Textseite | Es zeigt dir alte Muster in der Liebe, ohne dich zu verurteilen. |
+| 3 | Textseite | „Das Buch nimmt einen bei der Hand, wie kaum ein anderes.“ – Annalena Schmitt |
+| 4 | Textseite | „Ein Buch, das Mut macht, gesunde Nähe zuzulassen.“ – Margareta |
+| 5 | Textseite | Es geht um deine Bindungsmuster und wie du sie heute verändern kannst. |
+| 6 | Schlussseite Buch | Als Hardcover, E-Book oder Hörbuch, gesprochen von Kati Demiri. Link in der Bio. |
+
+**Caption:**
+Zwischen Single-Sein und falscher Nähe: dein Buch?
+
+Es gibt nicht den einen Grund, warum sich Liebesgeschichten wiederholen. Aber es gibt wiederkehrende Muster, die oft aus früheren Bindungserfahrungen stammen und tief in uns wirken.
+
+Genau darum geht es in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Es zeigt dir diese Muster, ohne dich dafür zu verurteilen. Du bist nicht Single oder gebunden, weil etwas mit dir nicht stimmt, sondern weil dein inneres System gelernt hat, vorsichtig zu sein.
+
+„Das Buch nimmt einen bei der Hand und öffnet Wege, sich mit sich selbst zu verbinden, wie kaum ein anderes“, schreibt Annalena Schmitt in ihrer Amazon-Rezension. Margareta beschreibt es auf Google als „ein Buch, das Mut macht, gesunde Nähe zuzulassen und sich selbst dabei nicht zu verlieren“.
+
+Zum Mitnehmen: Es geht nicht darum, perfekt zu werden. Es geht darum, deine eigenen Muster zu erkennen und ihnen mit Mitgefühl statt Selbstverurteilung zu begegnen.
+
+Das Buch gibt es als Hardcover, E-Book oder als ruhig gesprochenes Hörbuch, eingesprochen von Kati Demiri. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum sich bestimmte Beziehungsmuster bei dir wiederholen.
+
+Welcher Satz aus diesem Beitrag klingt dir am vertrautesten?
+
+**Hashtags:** #buchtipp #beziehungsmuster #singlesein #falschenaehe #traumasensibel
+
+---
+
+## Karussell 37: Du musst nicht wissen, wo du anfängst
+- Format: Wer ich bin
+- Kernthema: 2
+- Angebot: Coaching
+- Buchquelle: kindheit
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du musst nicht wissen, wo du anfängst.** |
+| 2 | Textseite | Vielleicht fehlen dir klare Erinnerungen an deine Kindheit. Das ist keine Schwäche. |
+| 3 | Textseite | Dein Nervensystem hat damals geschützt, nicht versagt. |
+| 4 | Textseite | Im Coaching schauen wir gemeinsam, was dich heute noch schützt und was du nicht mehr brauchst. |
+| 5 | Textseite | Du darfst dich halten lernen, Schritt für Schritt, in deinem Tempo. |
+| 6 | Schlussseite | Ein kostenfreies Erstgespräch von etwa 30 Minuten, telefonisch oder in Oldenburg. Link in der Bio. |
+
+**Caption:**
+Du musst nicht wissen, wo du anfängst.
+
+Es ist nicht ungewöhnlich, sich kaum an Teile der eigenen Kindheit erinnern zu können. Das liegt nicht an einem Fehler im Gehirn, sondern daran, wie ein Nervensystem unter Stress arbeitet: Es schützt, es speichert nicht ab.
+
+Dein Nervensystem hat damals das Richtige getan. Es hat dich bereit gehalten, auf Gefahr zu reagieren, statt Ruhe zu speichern. Diese Lücken sind kein Zeichen von Schwäche, sondern von einem System, das immer auf Sicherheit bedacht war.
+
+Im Coaching geht es nicht darum, jede Erinnerung zurückzuholen. Es geht darum, gemeinsam zu schauen, was dich heute noch schützt, obwohl du diesen Schutz vielleicht nicht mehr in diesem Ausmaß brauchst.
+
+Zum Mitnehmen: Du darfst dich selbst halten lernen, Schritt für Schritt, in deinem eigenen Tempo. Du musst nicht vollständig verstehen, um anzufangen.
+
+Dafür gibt es ein kostenfreies Erstgespräch von etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. Einzelcoaching traumasensibel und körperorientiert, in Oldenburg und online. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du traumasensibel an deinen eigenen Mustern arbeiten willst.
+
+Was hast du über deine Kindheit erst spät verstanden?
+
+**Hashtags:** #traumasensibel #nervensystem #coaching #oldenburg #innereskind
+
+---
+

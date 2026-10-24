@@ -155,3 +155,48 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 - Automatik-Fassung (ohne Sticker): „Welcher Bereich braucht bei dir gerade am meisten Aufmerksamkeit: Grenzen, Selbstwert oder Loslassen? Alle zwölf Bereiche findest du in meiner Beziehungslandkarte. Link in der Bio.“
 
 ---
+## Story 29: Der Moment danach
+- Interaktion: Fragebox
+- Kernthema: 2
+- Ziel: Rückzug nach schönen Momenten als alten Schutz erkennbar machen, nicht als Gleichgültigkeit.
+- Text auf dem Hintergrund: „Wann hast du dich zuletzt zurückgezogen, nachdem es gerade schön war? Das ist oft keine Gleichgültigkeit. Das ist ein alter Schutz vor zu viel Nähe.“
+- Sticker (von Hand in der App, freiwillig für Nina): Fragebox. Frage: „Wann hast du dich zuletzt zurückgezogen, obwohl es schön war?“ Antwort: frei
+- Hintergrund: Foto von Nina (Natur/Alltag)
+- Automatik-Fassung (ohne Sticker): „Wann hast du dich zuletzt zurückgezogen, nachdem es gerade schön war? Das ist oft keine Gleichgültigkeit, sondern ein alter Schutz vor zu viel Nähe. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 30: Die Zukunftsversion
+- Interaktion: Quiz
+- Kernthema: 1
+- Ziel: Zeigen, dass Anziehung oft dem Potenzial gilt, nicht der Person von heute.
+- Text auf dem Hintergrund: „Was glaubst du? Ziehst du eher an, wie jemand gerade ist, oder das, was er noch werden könnte?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Was glaubst du?“ Antworten: „Wie er ist“ / „Was er werden könnte“. Als richtig markieren: „Was er werden könnte“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Viele verlieben sich zuerst in das Potenzial, nicht in die Person. Das macht wach und wachsam zugleich. Frag dich, was heute schon wirklich da ist, nicht nur, was noch kommen könnte.“
+- Hintergrund: Foto von Nina am See (von hinten)
+- Automatik-Fassung (ohne Sticker): „Ziehst du eher an, wie jemand gerade ist, oder das, was er noch werden könnte? Viele verlieben sich zuerst ins Potenzial, nicht in die Person. Frag dich, was heute schon wirklich da ist. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 31: Noch ganz du?
+- Interaktion: Schieberegler
+- Kernthema: 3
+- Ziel: Ehrliches Spüren erlauben, wie viel vom eigenen Ich in der Beziehung noch da ist.
+- Text auf dem Hintergrund: „Wie viel von dir ist in deiner Beziehung noch da? Das darf ehrlich schwanken. Wichtig ist nur, dass du es bemerkst.“ Unter dem Reglerbereich links „wenig“, rechts „ganz ich“.
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie viel von dir ist in deiner Beziehung noch da?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Wie viel von dir ist in deiner Beziehung gerade noch da: wenig oder ganz du? Das darf schwanken. Wichtig ist nur, dass du es bemerkst. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 32: Warten oder leben
+- Interaktion: Umfrage
+- Kernthema: 4
+- Ziel: Alleinsein als eigenes Leben statt als Warteraum spürbar machen.
+- Text auf dem Hintergrund: „Fühlt sich dein Alleinsein heute wie Warten an oder wie dein eigenes Leben? Beides ist erlaubt, nur spüre hin, wo du gerade stehst.“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Fühlt sich dein Alleinsein heute eher wie Warten an oder wie dein Leben an?“ Antworten: „Warten“ / „Mein Leben“
+- Hintergrund: Foto von Nina (Natur/Alltag)
+- Automatik-Fassung (ohne Sticker): „Fühlt sich dein Alleinsein heute eher wie Warten an oder wie dein eigenes Leben? Beides ist erlaubt. Spüre nur hin, wo du gerade stehst. Schreib mir ein Wort als Nachricht.“
+
+---
+
