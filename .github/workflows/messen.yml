@@ -18,4 +18,4 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
         run: node automatik/messen.mjs
-      - run: node automatik/sichern.mjs "Messwerte" data
+      - run: node automatik/sichern.mjs "Messwerte" data plan/queue.json

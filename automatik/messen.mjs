@@ -1,7 +1,7 @@
 // Holt täglich Kennzahlen der letzten Beiträge und die Followerzahl. Schreibt data/messwerte.json.
 import fs from 'node:fs'
 import path from 'node:path'
-import { ladeQueue } from './queue.mjs'
+import { ladeQueue, speichereQueue } from './queue.mjs'
 import * as ig from './instagram.mjs'
 import { berlin } from './zeit.mjs'
 
@@ -19,8 +19,15 @@ try {
 } catch (e) { console.log('Kontodaten nicht abrufbar:', e.message) }
 
 const liste = await ig.mediaListe(30)
+let zugeordnet = 0
 for (const m of liste) {
-  const item = q.find((x) => x.ig?.id === m.id)
+  // Von Hand (Business Suite) veröffentlichte Beiträge haben keine ig.id: über den Caption-Anfang zuordnen und die ID nachtragen.
+  const anfang = (t) => String(t || '').replace(/\s+/g, ' ').trim().slice(0, 60)
+  let item = q.find((x) => x.ig?.id === m.id)
+  if (!item && m.caption) {
+    item = q.find((x) => x.ig?.manuell && !x.ig.id && x.caption && anfang(x.caption) === anfang(m.caption))
+    if (item) { item.ig.id = m.id; item.ig.permalink ||= m.permalink; zugeordnet++ }
+  }
   const typ = m.media_product_type === 'REELS' ? 'reel' : m.media_product_type === 'STORY' ? 'story' : 'feed'
   let ins = { werte: {}, nichtVerfuegbar: [] }
   try { ins = await ig.insights(m.id, { typ }) } catch (e) { console.log(`Insights ${m.id}:`, e.message) }
@@ -30,4 +37,5 @@ for (const m of liste) {
 }
 fs.mkdirSync(path.dirname(FILE), { recursive: true })
 fs.writeFileSync(FILE, JSON.stringify(daten, null, 1))
+if (zugeordnet) { await speichereQueue(q); console.log(`${zugeordnet} von Hand veröffentlichte Beiträge zugeordnet.`) }
 console.log(`${liste.length} Beiträge gemessen.`)
