@@ -1,0 +1,38 @@
+Wochenbericht @ninahoemmencoaching, 2026-10-26
+
+Follower: 142 (+3 in 7 Tagen)
+Veröffentlicht in den letzten 7 Tagen: 16
+- Klar, mach ich (karussell, https://www.instagram.com/p/Dezk67kAn5H/): views 88, reach 37, likes 11, saved 1, shares 0, kommentare 1
+- Ein Ort zum Sein (karussell, https://www.instagram.com/p/DeubUXTCdgd/): views 115, reach 46, likes 6, saved 0, shares 0, kommentare 0
+- Zwischen Single-Sein & falscher Nähe (karussell, null)
+- Kein Wartezimmer (karussell, null)
+- Warum das Unklare anzieht (story, null)
+- Rückzug und Liebe (story, null)
+- Was Anpassung ist (story, null)
+- Lange Single (story, null)
+- Nähe heute (story, null)
+- Mir ist das egal (reel, null)
+- Mal schauen (reel, https://www.instagram.com/reel/De2JwgzjOQu/): views 96, reach 76, likes 6, saved 0, shares 0, kommentare 0
+- Zu salzig (reel, null)
+- Immer die Falschen (reel, https://www.instagram.com/reel/DexAHzYAawI/): views 119, reach 77, likes 5, saved 0, shares 0, kommentare 0
+- Meine Reise: Beziehung beginnt in dir (reel, null)
+- Warum du Single bist (reel, https://www.instagram.com/reel/Der2mYeGb8G/): views 168, reach 133, likes 10, saved 0, shares 0, kommentare 0
+- Was brauchst du gerade mehr (story, null)
+
+Puffer: 29 geprüfte Beiträge bereit.
+
+Probleme:
+- r08 Das Buch, das mir gefehlt hat: abgelehnt Format: Video nicht lesbar (r8.mp4: spawnSync ffprobe ENOENT)
+
+Als Nächstes geplant:
+- Nett zu allen außer zu dir (karussell)
+- Du brauchst niemanden (karussell)
+- Wie Zuhause (karussell)
+- Der Abend war schön (karussell)
+- Nichts Festes (karussell)
+
+Letzte Erkenntnis:
+2026-10-25: Reels bringen weiterhin deutlich mehr Reichweite und Punkte als Karussells; der 
+- Beobachtung: Reels bringen weiterhin deutlich mehr Reichweite und Punkte als Karussells; der Abstand bleibt stabil, obwohl sich die Stichprobe seit letzter Woche verdoppelt hat (von je 6-7 auf je 9 Beiträge).
+- Beleg: Reels Ø116 Punkte, Ø Reichweite 116 (n=9: 172,168,164,132,130,75,75,65,60) gegen Karussells Ø57 Punkte, Ø Reichweite 57 (n=9: 76,69,61,60,58,50,44,38, plus Durchschnitt). Kein Überlapp im oberen Bereich: schwächstes Reel (60) liegt noch über dem Median der Karussells (~58), stärkstes Karussell (76) bleibt unter jedem der vier stärksten Reels (132-172).
+- Entscheidung: Keine Stellgröße ändern. feed.tage weist bereits 3 Reel- gegen 2 Karussell-Tage zu (Mo/Mi/Fr gegen Di/Do) – das ist exakt die laut Vorgabe erlaubte Untergrenze von 2 Karussells pro Woche, eine weitere Verschiebung Ri
