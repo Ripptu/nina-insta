@@ -131,6 +131,12 @@
    "follower": 142,
    "gefolgt": 92,
    "beitraege": 21
+  },
+  {
+   "datum": "2026-10-26",
+   "follower": 142,
+   "gefolgt": 92,
+   "beitraege": 21
   }
  ],
  "beitraege": {
@@ -2188,6 +2194,19 @@
      "total_interactions": 18,
      "follows": 0,
      "profile_visits": 3
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 17,
+     "kommentare": 1,
+     "reach": 66,
+     "comments": 1,
+     "saved": 0,
+     "shares": 0,
+     "views": 133,
+     "total_interactions": 18,
+     "follows": 0,
+     "profile_visits": 3
     }
    ]
   },
@@ -2449,6 +2468,19 @@
     },
     {
      "datum": "2026-10-25",
+     "likes": 10,
+     "kommentare": 0,
+     "reach": 60,
+     "comments": 0,
+     "saved": 0,
+     "shares": 2,
+     "views": 137,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-26",
      "likes": 10,
      "kommentare": 0,
      "reach": 60,
@@ -5633,6 +5665,19 @@
      "total_interactions": 8,
      "follows": 0,
      "profile_visits": 5
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 58,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 137,
+     "total_interactions": 8,
+     "follows": 0,
+     "profile_visits": 5
     }
    ]
   },
@@ -6056,6 +6101,19 @@
      "total_interactions": 14,
      "ig_reels_avg_watch_time": 8907,
      "ig_reels_video_view_total_time": 1327172
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 14,
+     "kommentare": 0,
+     "reach": 130,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 184,
+     "total_interactions": 14,
+     "ig_reels_avg_watch_time": 8907,
+     "ig_reels_video_view_total_time": 1327172
     }
    ]
   },
@@ -6249,6 +6307,19 @@
      "total_interactions": 13,
      "follows": 0,
      "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 13,
+     "kommentare": 0,
+     "reach": 61,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 137,
+     "total_interactions": 13,
+     "follows": 0,
+     "profile_visits": 2
     }
    ]
   },
@@ -6419,6 +6490,19 @@
     },
     {
      "datum": "2026-10-25",
+     "likes": 13,
+     "kommentare": 0,
+     "reach": 172,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 230,
+     "total_interactions": 13,
+     "ig_reels_avg_watch_time": 8202,
+     "ig_reels_video_view_total_time": 1501097
+    },
+    {
+     "datum": "2026-10-26",
      "likes": 13,
      "kommentare": 0,
      "reach": 172,
@@ -6646,6 +6730,19 @@
      "total_interactions": 10,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 10,
+     "kommentare": 0,
+     "reach": 50,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 118,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -6790,6 +6887,19 @@
     },
     {
      "datum": "2026-10-25",
+     "likes": 13,
+     "kommentare": 0,
+     "reach": 164,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 235,
+     "total_interactions": 13,
+     "ig_reels_avg_watch_time": 7081,
+     "ig_reels_video_view_total_time": 1267626
+    },
+    {
+     "datum": "2026-10-26",
      "likes": 13,
      "kommentare": 0,
      "reach": 164,
@@ -7002,6 +7112,19 @@
      "total_interactions": 17,
      "follows": 0,
      "profile_visits": 11
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 14,
+     "kommentare": 0,
+     "reach": 114,
+     "comments": 0,
+     "saved": 3,
+     "shares": 0,
+     "views": 242,
+     "total_interactions": 17,
+     "follows": 0,
+     "profile_visits": 11
     }
    ]
   },
@@ -7120,6 +7243,19 @@
     },
     {
      "datum": "2026-10-25",
+     "likes": 20,
+     "kommentare": 1,
+     "reach": 132,
+     "comments": 1,
+     "saved": 2,
+     "shares": 0,
+     "views": 296,
+     "total_interactions": 23,
+     "follows": 0,
+     "profile_visits": 5
+    },
+    {
+     "datum": "2026-10-26",
      "likes": 20,
      "kommentare": 1,
      "reach": 132,
@@ -7258,6 +7394,19 @@
      "total_interactions": 28,
      "follows": 0,
      "profile_visits": 4
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 24,
+     "kommentare": 1,
+     "reach": 258,
+     "comments": 1,
+     "saved": 2,
+     "shares": 1,
+     "views": 693,
+     "total_interactions": 28,
+     "follows": 0,
+     "profile_visits": 4
     }
    ]
   },
@@ -7373,6 +7522,19 @@
      "total_interactions": 17,
      "ig_reels_avg_watch_time": 11707,
      "ig_reels_video_view_total_time": 2189324
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 17,
+     "kommentare": 0,
+     "reach": 168,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 255,
+     "total_interactions": 17,
+     "ig_reels_avg_watch_time": 11707,
+     "ig_reels_video_view_total_time": 2189324
     }
    ]
   },
@@ -7475,6 +7637,19 @@
      "total_interactions": 10,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 10,
+     "kommentare": 0,
+     "reach": 60,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 146,
+     "total_interactions": 10,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -7564,6 +7739,19 @@
      "total_interactions": 9,
      "ig_reels_avg_watch_time": 7909,
      "ig_reels_video_view_total_time": 545727
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 9,
+     "kommentare": 0,
+     "reach": 66,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 101,
+     "total_interactions": 9,
+     "ig_reels_avg_watch_time": 7808,
+     "ig_reels_video_view_total_time": 546617
     }
    ]
   },
@@ -7640,6 +7828,19 @@
      "total_interactions": 12,
      "follows": 0,
      "profile_visits": 0
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 11,
+     "kommentare": 0,
+     "reach": 55,
+     "comments": 0,
+     "saved": 1,
+     "shares": 0,
+     "views": 109,
+     "total_interactions": 12,
+     "follows": 0,
+     "profile_visits": 0
     }
    ]
   },
@@ -7703,6 +7904,19 @@
      "total_interactions": 8,
      "ig_reels_avg_watch_time": 7878,
      "ig_reels_video_view_total_time": 512095
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 8,
+     "kommentare": 0,
+     "reach": 60,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 91,
+     "total_interactions": 8,
+     "ig_reels_avg_watch_time": 7878,
+     "ig_reels_video_view_total_time": 512095
     }
    ]
   },
@@ -7740,6 +7954,19 @@
      "total_interactions": 6,
      "ig_reels_avg_watch_time": 4243,
      "ig_reels_video_view_total_time": 326722
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 76,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 96,
+     "total_interactions": 6,
+     "ig_reels_avg_watch_time": 4222,
+     "ig_reels_video_view_total_time": 333615
     }
    ]
   },
@@ -7775,6 +8002,19 @@
      "shares": 0,
      "views": 86,
      "total_interactions": 11,
+     "follows": 0,
+     "profile_visits": 2
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 11,
+     "kommentare": 1,
+     "reach": 37,
+     "comments": 1,
+     "saved": 1,
+     "shares": 0,
+     "views": 88,
+     "total_interactions": 13,
      "follows": 0,
      "profile_visits": 2
     }
@@ -7814,6 +8054,19 @@
      "total_interactions": 5,
      "ig_reels_avg_watch_time": 8081,
      "ig_reels_video_view_total_time": 614166
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 5,
+     "kommentare": 0,
+     "reach": 77,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 119,
+     "total_interactions": 5,
+     "ig_reels_avg_watch_time": 7983,
+     "ig_reels_video_view_total_time": 622689
     }
    ]
   },
@@ -7849,6 +8102,19 @@
      "shares": 0,
      "views": 100,
      "total_interactions": 5,
+     "follows": 0,
+     "profile_visits": 1
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 6,
+     "kommentare": 0,
+     "reach": 46,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 115,
+     "total_interactions": 6,
      "follows": 0,
      "profile_visits": 1
     }
@@ -7888,6 +8154,19 @@
      "total_interactions": 10,
      "ig_reels_avg_watch_time": 7308,
      "ig_reels_video_view_total_time": 979386
+    },
+    {
+     "datum": "2026-10-26",
+     "likes": 10,
+     "kommentare": 0,
+     "reach": 133,
+     "comments": 0,
+     "saved": 0,
+     "shares": 0,
+     "views": 168,
+     "total_interactions": 10,
+     "ig_reels_avg_watch_time": 7232,
+     "ig_reels_video_view_total_time": 983612
     }
    ]
   }
