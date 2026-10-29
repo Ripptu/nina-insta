@@ -791,3 +791,464 @@ Was hast du über deine Kindheit erst spät verstanden?
 
 ---
 
+
+## Karussell 38: Du bist nicht zu sensibel
+- Format: Mehrwert
+- Kernthema: 2
+- Angebot: keins
+- Termin: 2026-11-04
+- Buchquelle: buch-kapitel-2-nervensystem
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du bist nicht zu sensibel.** |
+| 2 | Textseite | Dein Nervensystem kennt drei Zustände: verbunden und sicher, Kampf oder Flucht, Rückzug und Erstarrung. |
+| 3 | Textseite | Kampf zeigt sich als Gereiztheit, Flucht als Rückzug, Erstarrung als Schweigen und innerlich weg sein. |
+| 4 | Textseite | Das ist keine Charakterschwäche. Dein Körper sucht Sicherheit und wiederholt, was er kennt. |
+| 5 | Textseite | Frag dich heute öfter: Fühle ich mich gerade sicher? Was braucht mein Körper jetzt? |
+| 6 | Schlussseite | Speichere dir diese zwei Fragen für den nächsten Streit. |
+
+**Caption:**
+Du bist nicht zu sensibel.
+
+Oft hat deine Reaktion in Nähe, Streit oder Unsicherheit weniger mit deinem Charakter zu tun als mit deinem Nervensystem. Es kennt drei Zustände: verbunden und sicher, Kampf oder Flucht, Rückzug und Erstarrung. Alle drei sind normal.
+
+Im Kampf wirst du gereizt, in der Flucht ziehst du dich zurück, in der Erstarrung wirst du still und bist innerlich nicht ganz da. Das heißt nicht, dass etwas mit dir nicht stimmt. Dein Körper sucht Sicherheit und greift auf alte Strategien zurück.
+
+Zum Mitnehmen: Stell dir heute immer wieder zwei Fragen. Fühle ich mich gerade sicher? Und was braucht mein Körper jetzt, um sich zu beruhigen?
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 30).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+In welchem Zustand landest du im Streit meistens: Kampf, Flucht oder Erstarrung?
+
+**Hashtags:** #nervensystem #beziehungsmuster #traumasensibel #selbstreflexion #oldenburg
+
+---
+
+## Karussell 39: Schmetterlinge sind kein Beweis
+- Format: Mehrwert
+- Kernthema: 1
+- Angebot: keins
+- Termin: 2026-11-11
+- Buchquelle: buch-kapitel-2-schmetterlinge
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Schmetterlinge sind kein Beweis für Liebe.** |
+| 2 | Textseite | Das Kribbeln beim Date ist oft ein aktiviertes Nervensystem, kein sicheres Zeichen von Anziehung. |
+| 3 | Textseite | Manchmal meldet sich ein altes Gefühl aus früheren Erfahrungen. Es fühlt sich nur nach Verliebtheit an. |
+| 4 | Textseite | Echte, gesunde Liebe fühlt sich ruhig an. Sicher, still und wie Ankommen. |
+| 5 | Textseite | Kein Kribbeln heißt nicht automatisch: nicht der oder die Richtige. |
+| 6 | Schlussseite | Schick das jemandem, der gerade auf Schmetterlinge wartet. |
+
+**Caption:**
+Schmetterlinge sind kein Beweis für Liebe.
+
+Viele glauben, dass Kribbeln und Herzklopfen beim ersten Date das Zeichen für die große Liebe sind. Aus traumasensibler Sicht stimmt das nicht unbedingt. Das Kribbeln ist häufig eine Aktivierung deines Nervensystems. Vielleicht taucht ein altes Gefühl auf, das mit Stress, Unsicherheit oder früheren Verletzungen zu tun hat.
+
+Echte, gesunde Liebe fühlt sich oft anders an: ruhig, sicher und still. Mit Geborgenheit, Vertrauen und dem Gefühl anzukommen.
+
+Zum Mitnehmen: Wenn du beim Kennenlernen nichts kribbeln spürst, heißt das nicht, dass es nicht passt. Und starkes Herzklopfen ist kein Beweis, dass es passt.
+
+Ich schreibe es in meinem Buch so: Schmetterlinge gehören ins Grüne, nicht zwingend in die Liebe. Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 31 und 32).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Hast du schon einmal Aufregung mit Liebe verwechselt?
+
+**Hashtags:** #datingtipps #beziehungsmuster #nervensystem #singleleben #oldenburg
+
+---
+
+## Karussell 40: Dein Klammern hat dich mal geschützt
+- Format: Mehrwert
+- Kernthema: 3
+- Angebot: keins
+- Termin: 2026-11-18
+- Buchquelle: buch-kapitel-2-ueberlebensstrategien
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Dein Klammern hat dich mal geschützt.** |
+| 2 | Textseite | Als Kind hast du Strategien gefunden, um Nähe zu sichern: Klammern, Rückzug, Perfektionismus, Harmoniezwang, Überanpassung. |
+| 3 | Textseite | Sie waren klug. Sie haben dich damals getragen. |
+| 4 | Textseite | Heute kosten sie dich Nähe, Wahrheit und deine Bedürfnisse. |
+| 5 | Textseite | Sag dir beim alten Muster: Ah, ich kenne dich. Ich muss dir nicht mehr blind folgen. |
+| 6 | Schlussseite | Speichere dir den Satz für den Moment, in dem das Muster laut wird. |
+
+**Caption:**
+Dein Klammern hat dich mal geschützt.
+
+Als Kind bist du auf Liebe, Sicherheit und Verlässlichkeit angewiesen. Wenn sie nicht durchgehend da waren, hast du Strategien entwickelt: Klammern aus Angst, verlassen zu werden. Rückzug, um dich vor Verletzung zu schützen. Perfektionismus, um Kritik zu vermeiden. Harmoniezwang. Überanpassung.
+
+Diese Strategien waren klug, sie haben dir geholfen. Sie hatten nur einen Preis: Du hast deine Gefühle und Bedürfnisse oft zurückgestellt. Dein Nervensystem unterscheidet nicht von allein zwischen damals und heute und hält an ihnen fest.
+
+Zum Mitnehmen: Du kannst dein inneres System nicht mit Druck verändern, aber mit Mitgefühl. Der erste Schritt ist ein Satz: Ah, das ist ein altes Muster. Ich kenne dich. Und ich muss dir nicht mehr blind folgen.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 33 und 34).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welche dieser fünf Strategien kennst du am besten von dir?
+
+**Hashtags:** #beziehungsmuster #traumasensibel #bindungsangst #selbstreflexion #oldenburg
+
+---
+
+## Karussell 41: Vier Mini-Rituale für dein Nervensystem
+- Format: Mehrwert
+- Kernthema: 4
+- Angebot: keins
+- Termin: 2026-11-19
+- Buchquelle: buch-kapitel-2-rituale
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Vier Mini-Rituale, wenn dein Körper Alarm schlägt.** |
+| 2 | Textseite | Rückwärts gehen: Ein paar Schritte holen dich ins Hier und Jetzt. Dein Geist wird klarer. |
+| 3 | Textseite | Buch-Atmung: Lege ein Buch auf deinen Bauch und beobachte, wie es sich mit jedem Atemzug hebt und senkt. |
+| 4 | Textseite | Warme Füße: Kuschelige Socken senden deinem Körper die Botschaft, dass alles gut ist. |
+| 5 | Textseite | Ohrläppchen massieren beruhigt sofort. Gurgeln regt den Vagusnerv an und schenkt Ruhe. |
+| 6 | Schlussseite | Speichere dir die Liste für den nächsten stressigen Abend. |
+
+**Caption:**
+Vier Mini-Rituale, wenn dein Körper Alarm schlägt.
+
+Dein Nervensystem lernt durch kleine, wiederholte Signale von Sicherheit. Dafür brauchst du keine Stunde Meditation, sondern ein paar Minuten und etwas, das dir gerade zur Hand ist:
+
+1. Rückwärts gehen. Ein paar Schritte reichen, um dich ins Hier und Jetzt zu holen.
+2. Buch-Atmung. Ein Buch auf den Bauch legen und beobachten, wie es sich hebt und senkt.
+3. Warme Füße. Kuschelige Socken, selbst im Sommer, sagen deinem Körper: Alles ist gut.
+4. Ohrläppchen massieren oder gurgeln. Das beruhigt und regt den Vagusnerv an.
+
+Zum Mitnehmen: Je öfter du diese kleinen Rituale in deinen Alltag holst, desto sicherer fühlt sich dein Körper. Mit der Zeit lernt er: Ich bin jetzt in Sicherheit.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 31 und 32).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welches Mini-Ritual probierst du heute Abend aus?
+
+**Hashtags:** #nervensystem #selbstfürsorge #traumasensibel #entspannung #oldenburg
+
+---
+
+## Karussell 42: Du wählst nicht zufällig
+- Format: Mehrwert
+- Kernthema: 1
+- Angebot: keins
+- Termin: 2026-11-25
+- Buchquelle: buch-kapitel-2-partnerwahl
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du wählst nicht zufällig, wen du liebst.** |
+| 2 | Textseite | Oft wählst du unbewusst den Menschen, bei dem du dich fühlst wie früher. |
+| 3 | Textseite | Das Bekannte wirkt sicher, auch wenn es Schmerz bedeutet. Das Neue fühlt sich unsicher an. |
+| 4 | Textseite | Distanz kann vertraut wirken, wenn du früher um Nähe kämpfen musstest. |
+| 5 | Textseite | Die gute Nachricht: Du kannst heute die Weichen neu stellen. |
+| 6 | Schlussseite | Schreib mir in die Kommentare: Welches Muster erkennst du bei dir? |
+
+**Caption:**
+Du wählst nicht zufällig, wen du liebst.
+
+Wie es dir in Beziehungen geht, ist kein Zufall. Du suchst dir deinen Partner nicht völlig frei aus. Oft ziehst du unbewusst den Menschen an, bei dem du dich so fühlst wie damals in deiner Familie. Die Art, wie ihr Nähe lebt, wie ihr streitet und miteinander sprecht, hat Wurzeln in deiner Kindheit.
+
+Das Bekannte wirkt sicher, selbst wenn es Schmerz bedeutet. Und das Neue fühlt sich unsicher an, weshalb dein Nervensystem dich automatisch zurück ins Altbekannte zieht.
+
+Zum Mitnehmen: Das ist die gute Nachricht dabei. Du kannst jetzt anfangen, die Weichen neu zu stellen. Wenn du Verantwortung für dich übernimmst, liebst du nicht mehr aus der Vergangenheit heraus, sondern aus deiner Kraft im Jetzt.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 38).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Gerätst du auch immer wieder an dieselbe Art von Mensch? Schreib mir, woran du es merkst.
+
+**Hashtags:** #beziehungsmuster #partnerwahl #traumasensibel #singleleben #oldenburg
+
+---
+
+## Karussell 43: Nähe wollen und fürchten
+- Format: Mehrwert
+- Kernthema: 2
+- Angebot: Buch
+- Termin: 2026-11-26
+- Buchquelle: buch-kapitel-2-bindungsstile
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Sehnst du dich nach Nähe und fürchtest sie?** |
+| 2 | Textseite | Sicher: Ich bin liebenswert, andere sind verlässlich. Vermeidend: Ich lasse niemanden zu nah heran. |
+| 3 | Textseite | Ambivalent: Ich könnte verlassen werden. Desorganisiert: Ich will Nähe und habe Angst davor. |
+| 4 | Textseite | Das sind keine Urteile, sondern Erklärungen, wie du geprägt wurdest. |
+| 5 | Textseite | Und sie lassen sich verändern, in deinem Tempo und mit Mitgefühl. |
+| 6 | Schlussseite Buch | Mehr dazu in Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“. Link in der Bio. |
+
+**Caption:**
+Sehnst du dich nach Nähe und fürchtest sie?
+
+In den ersten Lebensjahren lernst du, wie Liebe und Nähe funktionieren, nicht durch Worte, sondern durch Erleben. Daraus entsteht ein inneres Bindungsmuster, das bis heute mitbestimmt, wie du liebst.
+
+Es gibt vier Haupttypen. Sicher: Ich bin liebenswert, andere sind verlässlich. Vermeidend: Ich darf niemanden zu nah heranlassen. Ambivalent: Ich genüge nicht, ich könnte verlassen werden. Desorganisiert: Ich will Nähe und habe gleichzeitig Angst davor.
+
+Zum Mitnehmen: Diese Stile sind keine Urteile, sondern Erklärungen, wie du geprägt wurdest. Und Bindung ist nichts Festes, sie lässt sich verändern. Du kannst sogar mehrere Anteile in dir tragen.
+
+Im Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ findest du dazu die Muster, die Beziehungstypen und Fragen zum Nachspüren. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welcher Satz klingt am meisten nach dir?
+
+**Hashtags:** #bindungsstile #beziehungsmuster #traumasensibel #buchtipp #oldenburg
+
+---
+
+## Karussell 44: Sicher bin ich auch allein
+- Format: Mehrwert
+- Kernthema: 4
+- Angebot: keins
+- Termin: 2026-12-02
+- Buchquelle: buch-kapitel-2-sicher-single
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **So fühlt sich sichere Bindung als Single an.** |
+| 2 | Textseite | Du fühlst dich ganz, auch ohne Beziehung. |
+| 3 | Textseite | Du suchst nicht aus Mangel, sondern aus Klarheit. |
+| 4 | Textseite | Du bist offen, bleibst aber bei dir. Du gibst Bindung Zeit, ohne Druck und Spielchen. |
+| 5 | Textseite | Sichere Bindung heißt: Du bist dir selbst ein Zuhause geworden. |
+| 6 | Schlussseite | Schick das jemandem, der sich als Single zu wenig fühlt. |
+
+**Caption:**
+So fühlt sich sichere Bindung als Single an.
+
+Sichere Bindung heißt nicht, nie verletzt zu werden. Sie heißt, dir selbst Halt zu geben, wenn es wackelt.
+
+Als Single bedeutet das: Du fühlst dich ganz, auch ohne Beziehung. Du suchst nicht aus Mangel, sondern aus Klarheit. Du idealisierst niemanden und ziehst dich nicht aus Angst zurück. Du bist offen, bleibst aber bei dir. Und du gibst Bindung Zeit, ohne Druck und ohne Spielchen.
+
+Zum Mitnehmen: Vielleicht hast du diese Sicherheit als Kind nicht mitbekommen. Du kannst sie trotzdem entwickeln, in deinem Tempo, aus deiner Tiefe heraus. Du kannst dir heute schenken, was damals fehlte.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 50 und 51).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welcher dieser Sätze fällt dir leicht, welcher fällt dir schwer?
+
+**Hashtags:** #singleleben #selbstliebe #bindung #traumasensibel #oldenburg
+
+---
+
+## Karussell 45: Du hast immer eine Wahl
+- Format: Mehrwert
+- Kernthema: 4
+- Angebot: keins
+- Termin: 2026-12-03
+- Buchquelle: buch-kapitel-2-wahl
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du hast immer eine Wahl.** |
+| 2 | Textseite | Auch wenn es sich anders anfühlt: Du hast die Wahl, einen kleinen inneren Impuls zu setzen. |
+| 3 | Textseite | Du kannst einen Gedanken milder betrachten. Du kannst dich nicht kleiner machen, als du bist. |
+| 4 | Textseite | Heute vielleicht nur ein bewusster Atemzug. Morgen eine Grenze. |
+| 5 | Textseite | Wie klein deine Entscheidung auch ist: Sie gehört dir. |
+| 6 | Schlussseite | Schreib mir in die Kommentare: Welche kleine Wahl triffst du heute? |
+
+**Caption:**
+Du hast immer eine Wahl, auch wenn es sich anders anfühlt.
+
+Es gibt Zeiten, in denen Singlesein schwer wird oder eine Beziehung sich eng anfühlt. Dann glaubt man festzustecken, in Einsamkeit, in alten Mustern oder in etwas, das nicht mehr guttut. Frühere Erfahrungen können dein Nervensystem glauben lassen: Ich habe keine Möglichkeit.
+
+Doch unter allem bleibt eine leise Wahrheit. Nicht die Wahl, alles sofort zu verändern. Aber immer die Wahl, einen kleinen inneren Impuls zu setzen. Du kannst einen Gedanken milder betrachten. Du kannst dich nicht kleiner machen, als du bist. Du kannst Abstand nehmen von dem, was dir nicht guttut, sanft und in deinem Tempo.
+
+Zum Mitnehmen: Wahl bedeutet keinen Druck, sondern Selbstwirksamkeit. Vielleicht heute nur ein bewusster Atemzug, morgen eine Grenze. Wie klein deine Entscheidung auch ist, sie gehört dir.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 35).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welche kleine Wahl triffst du heute für dich?
+
+**Hashtags:** #selbstwirksamkeit #singleleben #traumasensibel #grenzensetzen #oldenburg
+
+---
+
+## Karussell 46: Was du verdrängst, wird lauter
+- Format: Mehrwert
+- Kernthema: 2
+- Angebot: keins
+- Termin: 2026-12-08
+- Buchquelle: buch-kapitel-2-rucksack
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Was du verdrängst, wird lauter.** |
+| 2 | Textseite | Stell dir einen Rucksack vor, der mit jedem Gefühl schwerer wird, das du wegdrückst. |
+| 3 | Textseite | Angst, Traurigkeit und alte Verletzungen verschwinden nicht. Sie wollen gesehen werden. |
+| 4 | Textseite | Erleichterung entsteht, wenn du den Rucksack absetzt und Stück für Stück anschaust, was drin ist. |
+| 5 | Textseite | So entsteht Raum für Leichtigkeit, Klarheit und neue Liebe. |
+| 6 | Schlussseite | Speichere dir das für den Moment, in dem du wieder wegschauen willst. |
+
+**Caption:**
+Was du verdrängst, wird lauter.
+
+Es klingt widersprüchlich, aber je mehr wir etwas in uns loswerden wollen, desto stärker drängt es sich in den Vordergrund. Stell dir einen Rucksack vor. Anfangs merkst du das Gewicht kaum, aber mit jeder zusätzlichen Last drückt er mehr. Irgendwann kommst du kaum noch vorwärts.
+
+So ist es auch mit Gefühlen und Gedanken. Was wir nicht fühlen wollen, verschwindet nicht, es sammelt sich an. Angst, Traurigkeit und alte Verletzungen wollen gesehen werden.
+
+Zum Mitnehmen: Erleichterung entsteht nicht durchs Wegdrücken. Sie entsteht, wenn du innehältst, den Rucksack absetzt und Stück für Stück anschaust, was dich beschwert. Dann wird Raum für Leichtigkeit, Klarheit und neue Liebe.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 54).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Was trägst du schon lange mit dir herum, ohne es anzuschauen?
+
+**Hashtags:** #gefühle #heilung #traumasensibel #selbstreflexion #oldenburg
+
+---
+
+## Karussell 47: Du warst nie in deiner Komfortzone
+- Format: Mehrwert
+- Kernthema: 3
+- Angebot: keins
+- Termin: 2026-12-09
+- Buchquelle: buch-kapitel-2-komfortzone
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du warst nie in deiner Komfortzone.** |
+| 2 | Textseite | Vielleicht war das, was du für Komfort hältst, dein Überlebensmodus: angespannt und ständig kontrollierend. |
+| 3 | Textseite | Dort hast du gelernt zu funktionieren, nicht anzukommen. |
+| 4 | Textseite | Heilung heißt für viele nicht, weiter hinauszugehen, sondern zum ersten Mal hineinzugehen. |
+| 5 | Textseite | In einen Ort in dir, der weich, ruhig und sicher ist. |
+| 6 | Schlussseite | Teile das mit jemandem, der immer nur funktioniert. |
+
+**Caption:**
+Du warst nie in deiner Komfortzone.
+
+Vielleicht hast du schon gehört: Du musst raus aus deiner Komfortzone. Doch was, wenn du dort nie wirklich warst? Was, wenn das, was du für Komfort hältst, in Wahrheit dein Überlebensmodus ist, hart, angespannt, ständig kontrollierend?
+
+Vielleicht war es nie ein Ort der Sicherheit, sondern nur ein Ort, an dem du gelernt hast zu funktionieren.
+
+Zum Mitnehmen: Für viele bedeutet Heilung nicht, immer weiter hinauszugehen, sondern zum ersten Mal hineinzugehen. An einen Ort in dir, der weich, ruhig und sicher ist, an dem du echt sein darfst, ohne Mauern und Masken. Manchmal ist der mutigste Schritt, loszulassen, was wir für Sicherheit hielten.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 54).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Wo funktionierst du gerade, statt dich zu spüren?
+
+**Hashtags:** #überleben #selbstfürsorge #traumasensibel #heilung #oldenburg
+
+---
+
+## Karussell 48: Ich will nie die, die mich wollen
+- Format: Mehrwert
+- Kernthema: 1
+- Angebot: Buch
+- Termin: 2026-12-10
+- Buchquelle: buch-kapitel-2-beziehungsverweigerung
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Ich will nie die, die mich wollen.** |
+| 2 | Textseite | Was wie Zufall wirkt, ist oft die leise Angst: Bin ich liebenswert? Bin ich genug? |
+| 3 | Textseite | Eine Absage scheint die innere Stimme zu bestätigen. Und wer dich wirklich will, weckt Misstrauen. |
+| 4 | Textseite | Das nennt man passive Beziehungsverweigerung: offen wirken, aber Nähe aus Angst vor Ablehnung meiden. |
+| 5 | Textseite | Liebe ist nicht immer synchron. Mal fühlt sich der eine sicherer, mal der andere. |
+| 6 | Schlussseite Buch | Mehr dazu in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio. |
+
+**Caption:**
+Ich will nie die, die mich wollen.
+
+Und die, die ich will, wollen mich nicht. Kennst du diesen Satz? Was wie Zufall wirkt, ist oft ein Zeichen tieferliegender Ängste: Bin ich wirklich liebenswert? Bin ich genug?
+
+Gerade starke, unabhängige Menschen tragen diesen Zweifel oft leise in sich, nach außen klar, innen kritisch. Wird jemand abgelehnt, scheint das die innere Stimme zu bestätigen. Und wenn jemand sie wirklich will, entsteht Misstrauen: Warum gerade ich? Dieses Muster nennt man passive Beziehungsverweigerung. Wir wirken offen, vermeiden aber Nähe aus Angst vor Ablehnung.
+
+Zum Mitnehmen: Liebe ist nicht immer synchron. Mal fühlt sich der eine sicherer, mal der andere. Wer sich bei den ersten Unterschieden sofort zurückzieht, verpasst oft eine tiefere Verbindung.
+
+Mehr dazu und ehrliche Fragen an dich findest du in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Erkennst du dich in diesem Satz wieder?
+
+**Hashtags:** #beziehungsmuster #bindungsangst #singleleben #buchtipp #oldenburg
+
+---
+
+## Karussell 49: Fünf Schritte zu mehr Mitgefühl
+- Format: Mehrwert
+- Kernthema: 4
+- Angebot: keins
+- Termin: 2026-12-15
+- Buchquelle: buch-kapitel-2-selbstmitgefuehl
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Fünf Schritte zu mehr Mitgefühl mit dir.** |
+| 2 | Textseite | Erkenne, dass du hier und jetzt sicher bist. Atme und spüre den Boden unter dir. |
+| 3 | Textseite | Hör auf zu vergleichen. Niemand hat deine Geschichte und deine Kraft. |
+| 4 | Textseite | Sprich so mit dir, wie du mit einem Menschen sprichst, den du liebst. |
+| 5 | Textseite | Umgib dich mit Menschen, die dich nähren, und erlaube dir Pausen und Grenzen. |
+| 6 | Schlussseite | Speichere dir die fünf Schritte für schwere Tage. |
+
+**Caption:**
+Fünf Schritte zu mehr Mitgefühl mit dir.
+
+1. Erkenne: Du bist sicher, hier und jetzt. Atme, spüre den Boden unter dir. Du musst nichts leisten, um da sein zu dürfen.
+2. Hör auf, dich zu vergleichen. Niemand hat deine Geschichte, deine Erfahrungen oder deine Kraft.
+3. Sprich liebevoll mit dir. Würdest du so mit jemandem sprechen, den du liebst?
+4. Umgib dich mit Menschen, die dich nähren. Nähe darf sich leicht anfühlen.
+5. Erlaube dir Pausen und Grenzen. Es ist kein Rückschritt, wenn du dich zurückziehst, um Kraft zu schöpfen.
+
+Zum Mitnehmen: Selbstliebe ist kein Ziel, sondern ein Weg voller kleiner Schritte. Und er beginnt genau hier, genau heute.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 55 und 56).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Welcher der fünf Schritte fällt dir am schwersten?
+
+**Hashtags:** #selbstmitgefühl #selbstliebe #traumasensibel #selbstfürsorge #oldenburg
+
+---
+
+## Karussell 50: Dein erster Eindruck kann täuschen
+- Format: Mehrwert
+- Kernthema: 1
+- Angebot: keins
+- Termin: 2026-12-16
+- Buchquelle: buch-kapitel-2-erster-eindruck
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Dein erster Eindruck kann täuschen.** |
+| 2 | Textseite | Dein Gehirn verknüpft Neue mit Alten: Eine Stimme wie beim Ex, und schon sortiert es aus. |
+| 3 | Textseite | Oft ist das unfair und unbegründet. Wen hast du vorschnell ausgeschlossen? |
+| 4 | Textseite | Beobachte 24 Stunden spielerisch: Welcher spontane Gedanke taucht auf? Ist er wirklich sicher wahr? |
+| 5 | Textseite | Sag dir: Ich schaue noch einmal hin. Und jetzt ganz bewusst. |
+| 6 | Schlussseite | Schreib mir in die Kommentare: Wen hättest du fast übersehen? |
+
+**Caption:**
+Dein erster Eindruck kann täuschen.
+
+Oft entscheiden wir in Sekunden, ob jemand passen könnte. Ein Blick, eine Stimme, ein Detail, und unser Unterbewusstsein sortiert blitzschnell aus. Dein Gehirn verknüpft neue Menschen mit alten Erfahrungen: eine Stimme wie bei deinem Ex, ein Stil wie bei jemandem, der dich enttäuscht hat. Unbewusst entsteht eine Schublade, oft unfair und unbegründet.
+
+Zum Mitnehmen: Beobachte dich die nächsten 24 Stunden bei neuen Begegnungen. Welche spontanen Gedanken hast du über die Person? Ist das wirklich sicher wahr? Wie könnte auch das Gegenteil stimmen? Mach eine innere Pause und sag dir: Ich schaue noch einmal hin.
+
+Manchmal zeigt sich das Wertvollste nicht auf den ersten Blick, sondern auf den zweiten.
+
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 53).
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
+
+Wen hast du schon einmal fast übersehen und später doch kennengelernt?
+
+**Hashtags:** #dating #kennenlernen #beziehungsmuster #singleleben #oldenburg
+
+---
+

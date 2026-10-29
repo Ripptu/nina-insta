@@ -5,7 +5,7 @@
     "tage": {
       "1": "reel",
       "2": "karussell",
-      "3": "reel",
+      "3": "karussell",
       "4": "karussell",
       "5": "reel"
     },
@@ -23,5 +23,5 @@
   "puffer_min": 10,
   "reel_serie_tag": 3,
   "reels_aktiv": true,
-  "hinweis_reels": "Reels laufen seit 03.10.2026 (Ninas Clips kamen am 02.10. per Mail): Mo/Mi/Fr Reel, Di/Do Karussell, Mi Serien-Reel. Reels sind stumm (Ton der Clips ist Alltagsgespräch), Bild aus videos/clip_NN.mp4, Text im Stil Foto-Typo (render/videoreel.mjs). Sprachnachricht-Reels (r11, r13, r18, r19, r20) warten auf Ninas Stimme."
+  "hinweis_reels": "Reels laufen seit 03.10.2026 (Ninas Clips kamen am 02.10. per Mail): Mo/Mi/Fr Reel, Di/Do Karussell, Mi Serien-Reel. Reels sind stumm (Ton der Clips ist Alltagsgespräch), Bild aus videos/clip_NN.mp4, Text im Stil Foto-Typo (render/videoreel.mjs). Sprachnachricht-Reels (r11, r13, r18, r19, r20) warten auf Ninas Stimme. Seit 29.10.2026: Mi ist Karussell (Mehrwert aus Ninas Buch, Termine bis 16.12.), Reels Mo/Fr; Stimm-Reels v05–v10 haben Termine Fr/Mo."
 }
