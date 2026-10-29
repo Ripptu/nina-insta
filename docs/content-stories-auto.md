@@ -200,3 +200,48 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 
 ---
 
+## Story 33: Der Mensch oder das Bild
+- Interaktion: Fragebox
+- Kernthema: 1
+- Ziel: Den Unterschied zwischen echter Anziehung und einem Wunschbild sichtbar machen.
+- Text auf dem Hintergrund: „Was hat dich zuerst angezogen: der Mensch oder das Bild, das du dir von diesem Menschen gemacht hast? Schau genau hin. Manchmal lieben wir ein Versprechen, nicht die Person.“
+- Sticker (von Hand in der App, freiwillig für Nina): Fragebox. Frage: „Was hat dich zuerst angezogen?“ Antwort: frei
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Was hat dich zuerst angezogen: der Mensch oder das Bild, das du dir von diesem Menschen gemacht hast? Schau genau hin. Manchmal lieben wir ein Versprechen, nicht die Person. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 34: Lieber nichts sagen
+- Interaktion: Quiz
+- Kernthema: 3
+- Ziel: Schweigen als alten Schutz statt als Charakterzug erkennen.
+- Text auf dem Hintergrund: „Was glaubst du? Wenn du deine Meinung lieber für dich behältst, ist das …“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Was glaubst du?“ Antworten: „Rücksicht“ / „Harmoniebedürfnis“ / „Ein alter Schutz“. Als richtig markieren: „Ein alter Schutz“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Schweigen hat dich früher oft vor Streit oder Ablehnung bewahrt. Du musst es nicht abstellen. Frag dich nur: Behalte ich das für mich, weil es wirklich egal ist, oder weil ich Angst vor der Reaktion habe?“
+- Hintergrund: Foto von Nina (Natur/Alltag)
+- Automatik-Fassung (ohne Sticker): „Was glaubst du: Wenn du deine Meinung lieber für dich behältst, ist das Rücksicht, Harmoniebedürfnis oder ein alter Schutz? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 35: Maß an Alleinsein
+- Interaktion: Schieberegler
+- Kernthema: 4
+- Ziel: Erlaubnis geben, das eigene Alleinsein zu dosieren, statt es zu bekämpfen.
+- Text auf dem Hintergrund: „Wie viel Alleinsein tut dir heute gut? Alleinsein ist kein Mangel. Gib dir genau so viel Rückzug, wie du brauchst, nicht mehr und nicht weniger.“ Unter dem Reglerbereich links „wenig“, rechts „viel“.
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie viel Alleinsein tut dir heute gut?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina am See (von hinten)
+- Automatik-Fassung (ohne Sticker): „Wie viel Alleinsein tut dir heute gut: wenig, etwas oder viel? Alleinsein ist kein Mangel. Gib dir genau so viel Rückzug, wie du brauchst, nicht mehr und nicht weniger. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 36: Still werden, wenn's nah wird
+- Interaktion: Umfrage
+- Kernthema: 2
+- Ziel: Den Rückzug nach schönen Momenten als Schutzmuster erkennbar machen, nicht als Zeichen von Desinteresse.
+- Text auf dem Hintergrund: „Wirst du leiser, wenn es gerade nah und schön wird? Das ist oft die alte Angst vor Verletzlichkeit, nicht das Ende von etwas Gutem.“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Wirst du leiser, wenn es nah und schön wird?“ Antworten: „Ja, oft“ / „Eher nicht“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Wirst du leiser, wenn es gerade nah und schön wird? Das ist oft die alte Angst vor Verletzlichkeit, nicht das Ende von etwas Gutem. Schreib mir ein Wort als Nachricht.“
+
+---
+
