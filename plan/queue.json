@@ -3509,9 +3509,13 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:09:23.176Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
