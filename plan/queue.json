@@ -2409,9 +2409,13 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:13.203Z"
+    },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-06",
@@ -2439,9 +2443,15 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "COVER: frame-01.jpg (erster verfügbarer Videoframe bei 3,7 s) zeigt nur das Satzfragment „das du erreichen musst.“ – klein geschrieben als Fortsetzung eines Satzes, kein eigenständiger, für sich verständlicher Hook, der beim ersten Blick trägt."
+      ],
+      "am": "2026-10-29T22:17:16.091Z"
+    },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-09",
@@ -2562,9 +2572,13 @@
       "#innereskind",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:14.250Z"
+    },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-13",
@@ -3811,9 +3825,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:36.748Z"
+    },
     "ig": null,
     "fehler": null
   },
