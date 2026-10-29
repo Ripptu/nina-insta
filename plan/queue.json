@@ -2345,17 +2345,20 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "abgelehnt",
     "geplant": null,
     "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-08T12:51:24.933Z"
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "Format: Video nicht lesbar (v06.mp4: spawnSync ffprobe ENOENT)"
+      ],
+      "am": "2026-10-29T19:50:35.118Z"
     },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-06",
-    "buchquelle": "stimme"
+    "buchquelle": "stimme",
+    "qa_versuche": 0
   },
   {
     "id": "v07",
@@ -2378,17 +2381,20 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "abgelehnt",
     "geplant": null,
     "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-08T12:51:18.467Z"
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "Format: Video nicht lesbar (v07.mp4: spawnSync ffprobe ENOENT)"
+      ],
+      "am": "2026-10-29T19:50:22.984Z"
     },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-09",
-    "buchquelle": "stimme"
+    "buchquelle": "stimme",
+    "qa_versuche": 0
   },
   {
     "id": "v09",
@@ -2411,17 +2417,14 @@
       "#schutzreaktion",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-08T12:53:11.815Z"
-    },
+    "qa": null,
     "ig": null,
     "fehler": null,
     "termin": "2026-11-20",
-    "buchquelle": "stimme"
+    "buchquelle": "stimme",
+    "qa_versuche": 0
   },
   {
     "id": "v10",
@@ -2444,17 +2447,20 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "abgelehnt",
     "geplant": null,
     "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-08T13:03:54.314Z"
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "Format: Video nicht lesbar (v10.mp4: spawnSync ffprobe ENOENT)"
+      ],
+      "am": "2026-10-29T19:50:40.975Z"
     },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-27",
-    "buchquelle": "stimme"
+    "buchquelle": "stimme",
+    "qa_versuche": 0
   },
   {
     "id": "v05",
@@ -2510,17 +2516,20 @@
       "#innereskind",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "abgelehnt",
     "geplant": null,
     "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-08T12:58:36.974Z"
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "Format: Video nicht lesbar (v08.mp4: spawnSync ffprobe ENOENT)"
+      ],
+      "am": "2026-10-29T19:50:17.652Z"
     },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-13",
-    "buchquelle": "stimme"
+    "buchquelle": "stimme",
+    "qa_versuche": 0
   },
   {
     "id": "k27",
