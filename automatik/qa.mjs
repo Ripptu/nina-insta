@@ -92,7 +92,8 @@ async function bereiteVor(item, basis, tmp) {
         if (item.typ === 'reel' && a && a.codec_name !== 'aac') gruende.push(`Format: Audiocodec ${a.codec_name}, erwartet aac`)
         const n = Math.min(6, Math.max(3, Math.round(dauer / 3)))
         for (let i = 0; i < n; i++) {
-          const t = Math.max(0, Math.min(dauer - 0.1, (dauer * (i + 0.5)) / n))
+          // Erstes Prüfbild am echten Anfang (das sieht man im Feed zuerst), die übrigen gleichmäßig verteilt
+          const t = i === 0 ? Math.min(0.4, dauer / 10) : Math.max(0, Math.min(dauer - 0.1, (dauer * i) / n))
           nr++
           const name = `frame-${String(nr).padStart(2, '0')}.jpg`
           execFileSync(ffTool('ffmpeg'), ['-v', 'error', '-y', '-ss', t.toFixed(2), '-i', abs, '-frames:v', '1', '-q:v', '2', path.join(tmp, name)])
