@@ -3518,9 +3518,15 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Beitragsdaten geben angebot=keins an, doch die Caption nennt namentlich Ninas Buch „Zwischen Single-Sein & falscher Nähe“ mit Kapitel- und Seitenangabe als Quelle des Gedankens – das bewirbt faktisch ein Buch-Angebot, obwohl laut Vorgabe kein Angebot beworben werden soll."
+      ],
+      "am": "2026-10-29T07:05:40.246Z"
+    },
     "ig": null,
     "fehler": null
   }
