@@ -3364,9 +3364,15 @@
       "#selbstreflexion",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Beitragsdaten geben `angebot: keins` an, die Caption nennt jedoch explizit Ninas Buch „Zwischen Single-Sein & falscher Nähe“ mit Kapitel- und Seitenangabe (Seite 54) – das bewirbt faktisch ein Produkt, obwohl laut Vorgabe kein Angebot beworben werden soll."
+      ],
+      "am": "2026-10-29T07:04:35.129Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3397,9 +3403,15 @@
       "#heilung",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ist als „keins“ angegeben, die Caption nennt jedoch namentlich und mit Kapitel-/Seitenangabe Ninas Buch „Zwischen Single-Sein & falscher Nähe“ (Seite 54) – das ist Bewerbung eines nicht deklarierten Angebots."
+      ],
+      "am": "2026-10-29T07:04:42.422Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3430,9 +3442,13 @@
       "#buchtipp",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:05:12.105Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3463,9 +3479,15 @@
       "#selbstfürsorge",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ist laut Beitragsdaten 'keins', doch die Caption nennt namentlich Ninas Buch „Zwischen Single-Sein & falscher Nähe“ samt Kapitel- und Seitenangabe – das bewirbt faktisch ein konkretes Produkt, obwohl kein Angebot beworben werden soll."
+      ],
+      "am": "2026-10-29T07:05:06.008Z"
+    },
     "ig": null,
     "fehler": null
   },
