@@ -38,4 +38,6 @@ Diese Gestaltungselemente gehören zum festen Stil und sind KEIN Fehler: Freiste
 
 Verboten seit 14.10.2026 (Nina): Die Wörter „Kopieren“, „Alles auswählen“, „Nachschlagen“ und „Zugestellt“ dürfen auf keinem Bild stehen (keine iOS-Menüleiste, kein iMessage-Status). Kommt eines vor: ablehnen.
 
+Erlaubt (Nina, 24.10.2026 und 29.10.2026, Wunsch „Mehrwert AUS DEM Buch“): Mehrwert-Beiträge mit `angebot: keins` dürfen als Quelle einen Satz wie „Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.“ in der Caption tragen. Das ist ein Quellenhinweis und kein Angebot und daher kein ANGEBOT-Fehler, solange der Beitrag weder „Link in der Bio“ noch eine Kauf- oder Bestellaufforderung, einen Preis oder ein Verkaufsargument enthält und die Gedanken auf den Seiten für sich selbst Mehrwert bieten. Seitenzahlen gehören nicht in die Caption.
+
 Erlaubt (Nina, 14.10.2026): Die drei Leserstimmen zum Buch von Annalena Schmitt (Amazon), Margareta (Google) und Maus (Amazon) sind echte, im Shop von Nina veröffentlichte Rezensionen. Sie dürfen namentlich und wörtlich zitiert werden (Auslassungen am Satzende sind in Ordnung). Das ist kein ERFUNDEN-Fehler. Der Shop selbst (shop.nina-hoemmen-coaching.de) und die Beziehungslandkarte sind echte Angebote von Nina.

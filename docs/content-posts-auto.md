@@ -817,7 +817,7 @@ Im Kampf wirst du gereizt, in der Flucht ziehst du dich zurück, in der Erstarru
 
 Zum Mitnehmen: Stell dir heute immer wieder zwei Fragen. Fühle ich mich gerade sicher? Und was braucht mein Körper jetzt, um sich zu beruhigen?
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 30).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -850,9 +850,9 @@ Viele glauben, dass Kribbeln und Herzklopfen beim ersten Date das Zeichen für d
 
 Echte, gesunde Liebe fühlt sich oft anders an: ruhig, sicher und still. Mit Geborgenheit, Vertrauen und dem Gefühl anzukommen.
 
-Zum Mitnehmen: Wenn du beim Kennenlernen nichts kribbeln spürst, heißt das nicht, dass es nicht passt. Und starkes Herzklopfen ist kein Beweis, dass es passt.
+Zum Mitnehmen: Wenn du beim Kennenlernen kein Kribbeln spürst, heißt das nicht, dass es nicht passt. Und starkes Herzklopfen ist kein Beweis, dass es passt.
 
-Ich schreibe es in meinem Buch so: Schmetterlinge gehören ins Grüne, nicht zwingend in die Liebe. Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 31 und 32).
+Ich schreibe es in meinem Buch so: Schmetterlinge gehören ins Grüne, nicht zwingend in die Liebe. Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -887,7 +887,7 @@ Diese Strategien waren klug, sie haben dir geholfen. Sie hatten nur einen Preis:
 
 Zum Mitnehmen: Du kannst dein inneres System nicht mit Druck verändern, aber mit Mitgefühl. Der erste Schritt ist ein Satz: Ah, das ist ein altes Muster. Ich kenne dich. Und ich muss dir nicht mehr blind folgen.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 33 und 34).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -925,7 +925,7 @@ Dein Nervensystem lernt durch kleine, wiederholte Signale von Sicherheit. Dafür
 
 Zum Mitnehmen: Je öfter du diese kleinen Rituale in deinen Alltag holst, desto sicherer fühlt sich dein Körper. Mit der Zeit lernt er: Ich bin jetzt in Sicherheit.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 31 und 32).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -960,7 +960,7 @@ Das Bekannte wirkt sicher, selbst wenn es Schmerz bedeutet. Und das Neue fühlt 
 
 Zum Mitnehmen: Das ist die gute Nachricht dabei. Du kannst jetzt anfangen, die Weichen neu zu stellen. Wenn du Verantwortung für dich übernimmst, liebst du nicht mehr aus der Vergangenheit heraus, sondern aus deiner Kraft im Jetzt.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 38).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1030,7 +1030,7 @@ Als Single bedeutet das: Du fühlst dich ganz, auch ohne Beziehung. Du suchst ni
 
 Zum Mitnehmen: Vielleicht hast du diese Sicherheit als Kind nicht mitbekommen. Du kannst sie trotzdem entwickeln, in deinem Tempo, aus deiner Tiefe heraus. Du kannst dir heute schenken, was damals fehlte.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 50 und 51).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1065,7 +1065,7 @@ Doch unter allem bleibt eine leise Wahrheit. Nicht die Wahl, alles sofort zu ver
 
 Zum Mitnehmen: Wahl bedeutet keinen Druck, sondern Selbstwirksamkeit. Vielleicht heute nur ein bewusster Atemzug, morgen eine Grenze. Wie klein deine Entscheidung auch ist, sie gehört dir.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 35).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1100,7 +1100,7 @@ So ist es auch mit Gefühlen und Gedanken. Was wir nicht fühlen wollen, verschw
 
 Zum Mitnehmen: Erleichterung entsteht nicht durchs Wegdrücken. Sie entsteht, wenn du innehältst, den Rucksack absetzt und Stück für Stück anschaust, was dich beschwert. Dann wird Raum für Leichtigkeit, Klarheit und neue Liebe.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 54).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1135,7 +1135,7 @@ Vielleicht war es nie ein Ort der Sicherheit, sondern nur ein Ort, an dem du gel
 
 Zum Mitnehmen: Für viele bedeutet Heilung nicht, immer weiter hinauszugehen, sondern zum ersten Mal hineinzugehen. An einen Ort in dir, der weich, ruhig und sicher ist, an dem du echt sein darfst, ohne Mauern und Masken. Manchmal ist der mutigste Schritt, loszulassen, was wir für Sicherheit hielten.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 54).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1207,7 +1207,7 @@ Fünf Schritte zu mehr Mitgefühl mit dir.
 
 Zum Mitnehmen: Selbstliebe ist kein Ziel, sondern ein Weg voller kleiner Schritte. Und er beginnt genau hier, genau heute.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 55 und 56).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
@@ -1242,7 +1242,7 @@ Zum Mitnehmen: Beobachte dich die nächsten 24 Stunden bei neuen Begegnungen. We
 
 Manchmal zeigt sich das Wertvollste nicht auf den ersten Blick, sondern auf den zweiten.
 
-Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 53).
+Dieser Gedanke stammt aus Kapitel 2 meines Buches „Zwischen Single-Sein & falscher Nähe“.
 
 Folge @ninahoemmencoaching, wenn du verstehen willst, warum du liebst, wie du liebst.
 
