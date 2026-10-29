@@ -2479,9 +2479,15 @@
       "#schutzreaktion",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "BILD: seite-07.jpg: Im Gesichtsbereich (gleiche Parkbank-Szene und Pose wie in frame-01.jpg) zeigt sich statt eines natürlichen Gesichts ein unnatürlicher roter/oranger Fleck ohne erkennbare Gesichtszüge – wirkt wie ein Render- bzw. Unschärfe-Artefakt und nicht wie ein normales Foto."
+      ],
+      "am": "2026-10-29T22:18:37.397Z"
+    },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-20",
@@ -3804,9 +3810,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:48.132Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3851,9 +3861,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:57.932Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3872,9 +3886,13 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:17:46.631Z"
+    },
     "ig": null,
     "fehler": null
   }
