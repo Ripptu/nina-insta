@@ -13,6 +13,10 @@ import { buildCarousel } from '../render/karussell.mjs'
 import { pruefeStruktur } from './karussell-regeln.mjs'
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname)
+// Seit 29.10.2026 (Nina): nur Inhalte aus Ninas eigenen Quellen (Buch, Hörbuch, ihre Fragen und Antworten) oder mit festem Termin (Shop-Start).
+// Alles ohne `Buchquelle` und ohne `Termin` wird nicht mehr produziert, solange plan/params.json "nur_eigene_quellen" setzt.
+const PARAMS = JSON.parse(fs.readFileSync(path.join(ROOT, 'plan/params.json'), 'utf8'))
+const eigeneQuelle = (x) => !PARAMS.nur_eigene_quellen || Boolean(x.buchquelle || x.termin)
 const args = process.argv.slice(2)
 const opt = (n, d) => (args.includes(n) ? args[args.indexOf(n) + 1] : d)
 const typ = opt('--typ', 'karussell')
@@ -30,6 +34,7 @@ try {
     for (const post of alleBeitraege()) {
       const id = `k${String(post.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id) && !nur.includes(String(post.nr)))) continue
+      if (!eigeneQuelle(post)) continue
       if (neu >= anzahl) break
       const sf = pruefeStruktur(post)
       if (sf.length) { console.log(`Karussell ${id} ${post.titel} nicht produziert (Strukturregel): ${sf[0]}`); process.exitCode = 1; continue }
@@ -52,6 +57,7 @@ try {
     for (const st of alleStories()) {
       const id = `s${String(st.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id))) continue
+      if (!eigeneQuelle(st)) continue
       if (neu >= anzahl) break
       const out = path.join(ROOT, 'out', id)
       fs.rmSync(out, { recursive: true, force: true })
@@ -62,7 +68,7 @@ try {
         process.exitCode = 1
         continue
       }
-      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, titel: st.titel, angebot: st.angebot || 'keins', kernthema: st.kernthema ?? null, fruehestens: st.termin || null, termin: st.termin || null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: st.angebot ? 'Link in der Bio' : '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
+      q.push({ id, typ: 'story', quelle: `${st.datei}#Story ${st.nr}`, buchquelle: st.buchquelle || null, titel: st.titel, angebot: st.angebot || 'keins', kernthema: st.kernthema ?? null, fruehestens: st.termin || null, termin: st.termin || null, dateien: (r.dateien || r.files || [r.datei]).map(rel), caption: st.angebot ? 'Link in der Bio' : '', hashtags: [], status: 'neu', geplant: null, qa: null, ig: null, fehler: null })
       await speichereQueue(q)
       neu++
       console.log(`Produziert ${id} ${st.titel}`)
@@ -72,6 +78,7 @@ try {
     for (const rl of readReels()) {
       const id = `r${String(rl.nr).padStart(2, '0')}`
       if (vorhanden.has(id) || (nur.length && !nur.includes(id))) continue
+      if (!eigeneQuelle(rl)) continue
       if (neu >= anzahl) break
       const out = path.join(ROOT, 'out', id)
       fs.rmSync(out, { recursive: true, force: true })

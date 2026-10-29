@@ -17,6 +17,9 @@ runs:
     - if: inputs.claude == 'true'
       run: npm install -g @anthropic-ai/claude-code
       shell: bash
+    # Seit dem Wechsel auf Ubuntu 26 (Okt. 2026) fehlt ffprobe im Runner; ohne lehnt die Prüfung jedes Video ab.
+    - run: command -v ffprobe >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }; ffprobe -version | head -1
+      shell: bash
     - if: inputs.rendern == 'true'
       uses: actions/cache@v4
       with:

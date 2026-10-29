@@ -48,7 +48,7 @@ export function readStories(file = STORIES_BASIS) {
     if (!auto) throw new Error(`Story ${head[1]}: keine Automatik-Fassung`)
     out.push({
       nr: +head[1], id: `s${head[1]}`, titel: head[2].trim(),
-      interaktion: val('Interaktion'), termin: val('Termin') || null, angebot: val('Angebot') || null, kernthema: +val('Kernthema') || null, ziel: val('Ziel'),
+      interaktion: val('Interaktion'), termin: val('Termin') || null, buchquelle: val('Buchquelle') || null, angebot: val('Angebot') || null, kernthema: +val('Kernthema') || null, ziel: val('Ziel'),
       hintergrund: val('Hintergrund'),
       textHg: val('Text auf dem Hintergrund'), sticker: val('Sticker'),
       text: quoted(auto),

@@ -245,3 +245,166 @@ Vom Neuschreib-Lauf (neu-schreiben.mjs), vor der Veröffentlichung vom Prüf-Age
 
 ---
 
+
+## Story 37: Immer die Falschen?
+- Interaktion: Quiz
+- Kernthema: 1
+- Termin: 2026-11-12
+- Buchquelle: fragen-und-antworten
+- Ziel: Leserin erkennt, dass ihre Partnerwahl einem Muster folgt, nicht dem Zufall.
+- Text auf dem Hintergrund: „Warum verliebe ich mich immer wieder in Menschen, die mir nicht guttun? Pech oder ein vertrautes Muster?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Pech oder Muster?“ Antworten: „Pech“ / „Ein vertrautes Muster“ Als richtig markieren: „Ein vertrautes Muster“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Anziehung folgt nicht immer dem, was dein Verstand für richtig hält. Alte Erfahrungen und vertraute Beziehungsmuster beeinflussen, zu wem du dich hingezogen fühlst. Es lohnt sich, nicht nur den anderen, sondern auch deine eigene Dynamik anzuschauen.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Warum verliebe ich mich immer wieder in Menschen, die mir nicht guttun? Was meinst du: Pech oder ein vertrautes Muster? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 38: Erst selbst lieben?
+- Interaktion: Schieberegler
+- Kernthema: 4
+- Termin: 2026-11-15
+- Buchquelle: fragen-und-antworten
+- Ziel: Entlastet vom Anspruch, erst perfekt sein zu müssen, und lädt zur ehrlichen Selbsteinschätzung ein.
+- Text auf dem Hintergrund: „Muss ich mich erst selbst lieben, bevor ich eine Beziehung führen kann? Nein. Wie gut nimmst du deine Bedürfnisse gerade wahr? Unter dem Reglerbereich links „kaum“, rechts „sehr gut“.“
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie gut spürst du deine Bedürfnisse?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Muss ich mich erst selbst lieben, bevor ich eine Beziehung führen kann? Nein. Hilfreich ist, deine Bedürfnisse und Grenzen wahrzunehmen und dich dabei nicht ständig selbst zu verlassen. Wie gut gelingt dir das gerade? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 39: Rückzug, sobald es nah wird
+- Interaktion: Quiz
+- Kernthema: 2
+- Termin: 2026-11-17
+- Buchquelle: fragen-und-antworten
+- Ziel: Rückzug in der Nähe wird als Schutzreaktion verstanden, nicht als Fehler.
+- Text auf dem Hintergrund: „Jemand kommt dir wirklich nahe, und du ziehst dich zurück. Desinteresse oder Schutz?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Desinteresse oder Schutz?“ Antworten: „Desinteresse“ / „Schutz“ Als richtig markieren: „Schutz“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Oft ist es Schutz. Wenn dein Nervensystem Nähe mit früheren Verletzungen oder Unsicherheit verbindet, kann Rückzug eine automatische Reaktion sein. Diese Reaktion lässt sich verstehen und Schritt für Schritt verändern.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Jemand kommt dir wirklich nahe, und du ziehst dich zurück. Ist das Desinteresse oder Schutz? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 40: Immer wieder anpassen
+- Interaktion: Umfrage
+- Kernthema: 3
+- Termin: 2026-11-19
+- Buchquelle: fragen-und-antworten
+- Ziel: Leserin bemerkt, wie oft sie sich anpasst, und hört, dass Unterschiedlichkeit erlaubt ist.
+- Text auf dem Hintergrund: „Passt du dich in Beziehungen oft an, um Streit oder Ablehnung zu vermeiden?“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Passt du dich oft an?“ Antworten: „Eher ja“ / „Eher nein“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Passt du dich in Beziehungen oft an, um Streit oder Ablehnung zu vermeiden? Eher ja oder eher nein? Beziehung auf Augenhöhe heißt auch, unterschiedlich sein zu dürfen. Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 41: Passt jemand zu mir?
+- Interaktion: Quiz
+- Kernthema: 1
+- Termin: 2026-11-22
+- Buchquelle: fragen-und-antworten
+- Ziel: Lenkt den Blick beim Kennenlernen von Anziehung auf Sicherheit und Verlässlichkeit.
+- Text auf dem Hintergrund: „Woran erkennst du früh, ob jemand zu dir passt? An starker Anziehung oder an etwas anderem?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Woran erkennst du es?“ Antworten: „Starke Anziehung“ / „Ich fühle mich sicher“ Als richtig markieren: „Ich fühle mich sicher“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Anziehung allein sagt wenig. Achte darauf, ob du dich sicher fühlst, du selbst sein kannst, deine Grenzen respektiert werden und ihr über Bedürfnisse sprechen könnt. Verlässlichkeit ist oft weniger aufregend als Unsicherheit, aber für eine Beziehung viel wertvoller.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Woran erkennst du früh, ob jemand zu dir passt? An starker Anziehung oder an etwas anderem? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 42: Was dich noch festhält
+- Interaktion: Fragebox
+- Kernthema: 2
+- Termin: 2026-11-24
+- Buchquelle: fragen-und-antworten
+- Ziel: Loslassen wird als Gefühl verstanden, das Zeit braucht, nicht als Kopfentscheidung.
+- Text auf dem Hintergrund: „Loslassen lässt sich nicht allein mit dem Kopf beschließen. Welche Hoffnung hältst du noch fest?“
+- Sticker (von Hand in der App, freiwillig für Nina): Fragebox. Frage: „Was hält dich noch fest?“ Antwort: frei
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Loslassen lässt sich nicht allein mit dem Kopf beschließen. Oft hängen an einer alten Beziehung noch Hoffnungen und unerfüllte Bedürfnisse. Welche Hoffnung hältst du noch fest? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 43: Klammern verstehen
+- Interaktion: Quiz
+- Kernthema: 2
+- Termin: 2026-11-26
+- Buchquelle: fragen-und-antworten
+- Ziel: Klammern wird als Versuch verstanden, Sicherheit herzustellen, ohne Selbstvorwurf.
+- Text auf dem Hintergrund: „Du klammerst, obwohl du weißt, dass es dir nicht guttut. Schwäche oder ein Versuch, Sicherheit herzustellen?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Was steckt hinter dem Klammern?“ Antworten: „Schwäche“ / „Suche nach Sicherheit“ Als richtig markieren: „Suche nach Sicherheit“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Klammern ist meist keine bewusste Entscheidung, sondern ein Versuch, wieder Sicherheit herzustellen. Wenn dein System Distanz als Gefahr liest, wird der Wunsch nach Kontakt stark. Das Bedürfnis dahinter zu verstehen hilft mehr, als dich dafür zu verurteilen.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Du klammerst, obwohl du weißt, dass es dir nicht guttut. Ist das Schwäche oder der Versuch, Sicherheit herzustellen? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 44: Dir selbst wieder vertrauen
+- Interaktion: Schieberegler
+- Kernthema: 4
+- Termin: 2026-11-29
+- Buchquelle: fragen-und-antworten
+- Ziel: Nach einer Enttäuschung beginnt Vertrauen bei der eigenen Wahrnehmung.
+- Text auf dem Hintergrund: „Nach einer Enttäuschung beginnt Vertrauen bei dir. Wie sehr vertraust du gerade deiner eigenen Wahrnehmung? Unter dem Reglerbereich links „kaum“, rechts „ganz“.“
+- Sticker (von Hand in der App, freiwillig für Nina): Schieberegler. Frage: „Wie sehr vertraust du dir?“ Emoji des Reglers: 🤍
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Nach einer Enttäuschung musst du nicht sofort wieder einem anderen Menschen vertrauen. Der erste Schritt ist, deiner eigenen Wahrnehmung wieder zu vertrauen. Wie sehr gelingt dir das gerade? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 45: Immer derselbe Streit
+- Interaktion: Quiz
+- Kernthema: 3
+- Termin: 2026-12-01
+- Buchquelle: fragen-und-antworten
+- Ziel: Zeigt, dass wiederkehrende Konflikte von Bedürfnissen handeln, nicht vom Alltagsthema.
+- Text auf dem Hintergrund: „Ihr streitet immer wieder über dasselbe: Haushalt, Handy, Zeit. Geht es wirklich darum?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Worum geht es wirklich?“ Antworten: „Um den Haushalt“ / „Um ein Bedürfnis darunter“ Als richtig markieren: „Um ein Bedürfnis darunter“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Wiederkehrende Konflikte handeln oft nur an der Oberfläche von Alltagsthemen. Darunter liegen Bedürfnisse nach Nähe, Anerkennung, Sicherheit oder Freiheit. Wenn ihr diese Ebene versteht, verändert sich auch euer Umgang mit dem Streit.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Ihr streitet immer wieder über dasselbe: Haushalt, Handy, Zeit. Geht es dir dabei wirklich um den Haushalt? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 46: Gefalle ich oder fühle ich mich wohl
+- Interaktion: Umfrage
+- Kernthema: 1
+- Termin: 2026-12-03
+- Buchquelle: fragen-und-antworten
+- Ziel: Beim Dating den Blick von der Angst, nicht zu genügen, auf das eigene Wohlgefühl lenken.
+- Text auf dem Hintergrund: „Welche Frage stellst du dir beim Dating öfter?“
+- Sticker (von Hand in der App, freiwillig für Nina): Umfrage. Frage: „Welche Frage stellst du dir öfter?“ Antworten: „Gefalle ich?“ / „Fühle ich mich wohl?“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Beim Dating fragst du dich schnell: Gefalle ich? Genauso wichtig ist: Fühle ich mich wohl und kann ich ich selbst sein? Welche Frage stellst du dir öfter? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 47: Einsam zu zweit
+- Interaktion: Quiz
+- Kernthema: 4
+- Termin: 2026-12-06
+- Buchquelle: fragen-und-antworten
+- Ziel: Einsamkeit in der Beziehung wird als fehlende emotionale Verbindung benannt.
+- Text auf dem Hintergrund: „Kann man sich in einer Beziehung einsam fühlen, obwohl man nicht allein ist?“
+- Sticker (von Hand in der App, freiwillig für Nina): Quiz. Frage: „Einsam, obwohl zu zweit?“ Antworten: „Nein“ / „Ja, das gibt es“ Als richtig markieren: „Ja, das gibt es“.
+- Auflösung (zweite Story, einige Stunden später, in beiden Fassungen gleich): „Meine Sicht: Ja. Einsamkeit entsteht nicht nur durch fehlende Gesellschaft, sondern durch fehlende emotionale Verbindung. Wenn du dich dauerhaft nicht gesehen oder verstanden fühlst, lohnt ein Blick darauf, wie ihr miteinander in Kontakt seid.“
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Kann man sich in einer Beziehung einsam fühlen, obwohl man nicht allein ist? Was meinst du? Schreib mir ein Wort als Nachricht.“
+
+---
+
+## Story 48: Was brauchst du wirklich
+- Interaktion: Fragebox
+- Kernthema: 3
+- Termin: 2026-12-08
+- Buchquelle: fragen-und-antworten
+- Ziel: Vor dem Aussprechen eines Bedürfnisses erst bei sich selbst nachspüren.
+- Text auf dem Hintergrund: „Was fühle ich gerade, und was brauche ich wirklich?“
+- Sticker (von Hand in der App, freiwillig für Nina): Fragebox. Frage: „Was brauchst du heute?“ Antwort: frei
+- Hintergrund: Foto von Nina (Porträt)
+- Automatik-Fassung (ohne Sticker): „Bevor du ein Bedürfnis aussprichst, hilft eine Frage an dich selbst: Was fühle ich gerade, und was brauche ich wirklich? Was brauchst du heute? Schreib mir ein Wort als Nachricht.“
+
+---
+

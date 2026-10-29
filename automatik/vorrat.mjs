@@ -17,6 +17,9 @@ const reels = [...readReels(), ...(fs.existsSync(AUTO_R) ? readReels(AUTO_R) : [
 // Stories aus docs/content-posts.md und docs/content-stories-auto.md; nur ohne Queue-Eintrag zählen sie als Vorrat
 const stories = alleStories().filter((s) => !ids.has(`s${String(s.nr).padStart(2, '0')}`))
 console.log(`Vorrat: ${posts.length} Karussells, ${reels.length} Reels (ohne Ton), ${stories.length} Stories unproduziert`)
+const P0 = JSON.parse(fs.readFileSync(new URL('../plan/params.json', import.meta.url), 'utf8'))
+// Seit 29.10.2026 aus: Der Auto-Schreiber kennt Ninas Buch nicht (es liegt nur lokal) und schrieb Beiträge, die nicht von ihr stammen.
+if (P0.auto_schreiben === false) { console.log('Auto-Schreiben ist aus (plan/params.json): neue Beiträge nur aus Ninas Buch, von Hand.'); process.exit(0) }
 const schreibe = (typ, n) => { try { execFileSync('node', ['automatik/neu-schreiben.mjs', '--typ', typ, '--anzahl', String(n)], { stdio: 'inherit' }) } catch (e) { if (e.status !== 2) console.log(`Neuschreiben ${typ} fehlgeschlagen`) } }
 if (posts.length < 6) schreibe('karussell', 4)
 const params = JSON.parse(fs.readFileSync(new URL('../plan/params.json', import.meta.url), 'utf8'))
