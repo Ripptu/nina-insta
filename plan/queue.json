@@ -3096,9 +3096,16 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, Abschnitt 'Zum Mitnehmen': Satz 'Wenn du beim Kennenlernen nichts kribbeln spürst' ist grammatisch fehlerhaft (richtig wäre z. B. 'kein Kribbeln spürst').",
+        "ANGEBOT: Angebot ist als 'keins' angegeben, die Caption bewirbt aber konkret Ninas Buch 'Zwischen Single-Sein & falscher Nähe' mit Kapitel- und Seitenangabe (Kapitel 2, Seite 31–32) ohne dass dies als Angebot deklariert wurde."
+      ],
+      "am": "2026-10-29T07:03:56.113Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3129,9 +3136,15 @@
       "#selbstreflexion",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Angebot ist als 'keins' angegeben, doch die Caption nennt explizit Titel, Kapitel und Seitenzahlen von Ninas Buch ('meines Buches „Zwischen Single-Sein & falscher Nähe“ (Seite 33 und 34)') – das ist eine Bewerbung eines Produkts, obwohl laut Vorgabe kein Angebot beworben werden soll."
+      ],
+      "am": "2026-10-29T07:03:47.533Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3275,9 +3288,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:03:43.943Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3308,9 +3325,15 @@
       "#grenzensetzen",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Beitragsdaten geben 'angebot: keins' an, doch die Caption nennt explizit Titel, Kapitel und Seitenzahl von Ninas Buch „Zwischen Single-Sein & falscher Nähe“ – das ist eine Bewerbung/Nennung eines Angebots (Buch), das laut Vorgabe in diesem Beitrag nicht beworben werden sollte."
+      ],
+      "am": "2026-10-29T07:03:47.182Z"
+    },
     "ig": null,
     "fehler": null
   },
