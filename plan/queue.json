@@ -3208,9 +3208,13 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:08:26.501Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
@@ -3316,9 +3320,13 @@
       "#grenzensetzen",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:08:36.960Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
@@ -3388,9 +3396,13 @@
       "#heilung",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:08:29.599Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
@@ -3459,9 +3471,13 @@
       "#selbstfürsorge",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:08:40.180Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
