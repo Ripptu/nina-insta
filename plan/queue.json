@@ -2417,9 +2417,15 @@
       "#schutzreaktion",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "Format: Video nicht lesbar (v09.mp4: spawnSync ffprobe ENOENT)"
+      ],
+      "am": "2026-10-29T19:50:52.379Z"
+    },
     "ig": null,
     "fehler": null,
     "termin": "2026-11-20",
