@@ -3888,9 +3888,15 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "COVER: frame-01.jpg (erster Frame des Reels, 3.7 s): Der Text „das du erreichen musst.“ ist ein Satzfragment ohne erkennbaren Bezug (fehlendes Subjekt/Beziehungswort, z. B. 'Ziel, …'). Als eigenständiger Hook auf dem ersten Bild ist das nicht verständlich und kein klarer, in sich stehender Hook, wie von der Prüfliste gefordert."
+      ],
+      "am": "2026-10-29T22:26:36.258Z"
+    },
     "ig": null,
     "fehler": null
   }
