@@ -3057,9 +3057,15 @@
       "#selbstreflexion",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Beitragsdaten geben 'angebot: keins' an, die Caption nennt jedoch namentlich Ninas Buch 'Zwischen Single-Sein & falscher Nähe' mit Kapitel- und Seitenangabe ('Dieser Gedanke stammt aus Kapitel 2 meines Buches ... (Seite 30)'). Das ist eine Bewerbung eines Buch-Angebots, obwohl kein Angebot vorgesehen war."
+      ],
+      "am": "2026-10-29T07:03:25.309Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3156,9 +3162,13 @@
       "#entspannung",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:03:32.649Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3189,9 +3199,15 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ANGEBOT: Beitragsdaten nennen 'angebot: keins', die Caption bewirbt aber konkret Ninas Buch 'Zwischen Single-Sein & falscher Nähe' mit Titel, Kapitel- und Seitenangabe ('Kapitel 2 meines Buches ... (Seite 38)'). Das ist die Nennung eines Angebots, obwohl keines angegeben ist."
+      ],
+      "am": "2026-10-29T07:03:37.496Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -3222,9 +3238,13 @@
       "#buchtipp",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T07:03:29.541Z"
+    },
     "ig": null,
     "fehler": null
   },
