@@ -3888,9 +3888,13 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-10-29T22:30:32.769Z"
+    },
     "ig": null,
     "fehler": null
   }
