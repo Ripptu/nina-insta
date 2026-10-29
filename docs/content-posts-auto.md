@@ -1252,3 +1252,140 @@ Wen hast du schon einmal fast übersehen und später doch kennengelernt?
 
 ---
 
+## Karussell 51: Nach der Trennung
+- Format: Mini-Geschichte
+- Kernthema: 2
+- Angebot: keins
+- Buchquelle: audiojournal-trennung
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du vermisst ihn, obwohl es dir nicht gutgetan hat.** |
+| 2 | Textseite | Eine starke Reaktion nach einer Trennung heißt nicht, dass etwas mit dir nicht stimmt. |
+| 3 | Textseite | Gedanken kreisen. Du hoffst auf eine Nachricht und fragst dich, was du anders hättest machen können. |
+| 4 | Textseite | Eine Trennung wirkt im Gefühl, im Kopf, im Körper und im Alltag. |
+| 5 | Textseite | Du musst nichts sofort loslassen. Verstehen nimmt oft schon etwas Druck heraus. |
+| 6 | Schlussseite | Speichere dir das für einen Tag, an dem der Schmerz plötzlich wieder da ist. |
+
+**Caption:**
+Du vermisst ihn, obwohl es dir nicht gutgetan hat.
+
+Vielleicht ist die Trennung noch ganz frisch, vielleicht liegt sie schon Wochen zurück. Trotzdem kommt der Schmerz manchmal plötzlich wieder.
+
+Eine starke Reaktion danach bedeutet nicht, dass mit dir etwas nicht stimmt. Eine Trennung wirkt im Gefühl, im Kopf, im Körper und im Alltag.
+
+Gedanken kreisen. Du hoffst auf eine Nachricht und fragst dich, was du anders hättest machen können. Das ist menschlich, kein Zeichen von Schwäche.
+
+Zum Mitnehmen: Du musst nichts sofort loslassen. Verstehen nimmt oft schon etwas Druck heraus.
+
+Folge @ninahoemmencoaching, wenn du verstehen willst, warum Trennungen so lange nachwirken können.
+
+Was hilft dir gerade am meisten, wenn der Schmerz plötzlich wieder da ist?
+
+**Hashtags:** #trennung #liebeskummer #traumasensibel #beziehungsmuster #selbstmitgefühl
+
+---
+
+## Karussell 52: Das Buch, das versteht
+- Format: Werbung
+- Kernthema: 3
+- Angebot: Buch
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Ein Buch, das nicht urteilt, sondern versteht.** |
+| 2 | Textseite | „Zwischen Single-Sein & falscher Nähe" erzählt, wie Beziehungsmuster entstehen und wie du sie heute verstehen kannst. |
+| 3 | Textseite | Es ist kein Ratgeber mit Checklisten. Es ist ein Weg zurück zu dir. |
+| 4 | Zitatkarte (Leserstimme Annalena Schmitt) | „Das Buch nimmt einen bei der Hand und öffnet Wege, sich mit sich selbst zu verbinden, wie kaum ein anderes." |
+| 5 | Zitatkarte (Leserstimme Margareta) | „Ein Buch, das Mut macht, gesunde Nähe zuzulassen und sich selbst dabei nicht zu verlieren." |
+| 6 | Schlussseite Buch | Ninas Buch „Zwischen Single-Sein & falscher Nähe" wartet auf dich. Link in der Bio. |
+
+**Caption:**
+Ein Buch, das nicht urteilt, sondern versteht.
+
+„Zwischen Single-Sein & falscher Nähe" erzählt, wie wiederkehrende Beziehungsmuster entstehen und wie du sie heute verstehen kannst. Es ist kein Ratgeber mit Checklisten, sondern ein Weg zurück zu dir.
+
+Leserinnen und Leser schreiben: „Das Buch nimmt einen bei der Hand und öffnet Wege, sich mit sich selbst zu verbinden, wie kaum ein anderes." (Annalena Schmitt, Amazon-Rezension)
+
+Oder: „Ein Buch, das Mut macht, gesunde Nähe zuzulassen und sich selbst dabei nicht zu verlieren." (Margareta, Google-Rezension)
+
+Zum Mitnehmen: Du musst dich nicht sofort ganz verstehen. Es reicht, wenn du anfängst hinzuschauen.
+
+Ninas Buch wartet auf dich. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du mehr aus dem Buch mitnehmen willst.
+
+Welcher der beiden Sätze oben klingt für dich am wahrsten?
+
+**Hashtags:** #zwischensingleseinundfalschernähe #beziehungsmuster #buchtipp #traumasensibel #singlesein
+
+---
+
+## Karussell 53: 240 Fragen
+- Format: Werbung
+- Kernthema: 2
+- Angebot: Shop
+- Frühestens: 2026-11-05
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Wann habt ihr euch zuletzt wirklich etwas gefragt?** |
+| 2 | Textseite | Alltag frisst echte Gespräche auf. Irgendwann redet ihr nur noch über Termine. |
+| 3 | Textseite | Von Herz zu Herz sind Gesprächskarten mit 240 traumasensiblen Fragen. |
+| 4 | Textseite | Für Dates, fürs Kennenlernen, für Partnerschaften und Freundschaften gleichermaßen gedacht. |
+| 5 | Textseite | Eine Frage am Abend kann mehr öffnen als ein ganzer Tag Small Talk. |
+| 6 | Schlussseite | Ab 5. November in Ninas Shop, digital direkt nach dem Kauf. Link in der Bio. |
+
+**Caption:**
+Wann habt ihr euch zuletzt wirklich etwas gefragt?
+
+Der Alltag frisst echte Gespräche auf. Irgendwann redet ihr nur noch über Termine, Einkaufslisten, wer wann wo sein muss.
+
+„Von Herz zu Herz" sind Ninas digitale Gesprächskarten mit 240 traumasensiblen Fragen, zum Ausdrucken für Dates, die Kennenlernphase, Partnerschaften und Freundschaften.
+
+Eine einzige Frage am Abend kann manchmal mehr öffnen als ein ganzer Tag Small Talk.
+
+Ab 5. November in Ninas Shop, digital direkt nach dem Kauf per E-Mail. Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du öfter wirklich ins Gespräch kommen willst, mit anderen und mit dir.
+
+Welche Frage würdest du gerade gern jemandem stellen?
+
+**Hashtags:** #vonherzzuherz #gesprächskarten #beziehungstipps #traumasensibel #shopstart
+
+---
+
+## Karussell 54: Nicht mehr kämpfen
+- Format: Mini-Geschichte
+- Kernthema: 3
+- Angebot: keins
+- Buchquelle: hoerbuch-selbstwert
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Du musst nicht mehr kämpfen, um gesehen zu werden.** |
+| 2 | Textseite | Ein gesunder Selbstwert zeigt sich nicht im Lautsein. Er zeigt sich in stiller Klarheit. |
+| 3 | Textseite | Du bist mitfühlend, weil du nicht mehr kämpfen musst, um gesehen zu werden. |
+| 4 | Textseite | Du sorgst für dich, weil dein Wohl ein Geschenk an jede Beziehung ist. |
+| 5 | Textseite | Du musst niemandem etwas beweisen, um Liebe zu verdienen. |
+| 6 | Schlussseite | Schreib mir in die Kommentare, wo du gerade aufhörst zu kämpfen. |
+
+**Caption:**
+Du musst nicht mehr kämpfen, um gesehen zu werden.
+
+Ein gesunder Selbstwert zeigt sich nicht im Lautsein und nicht im Rückzug. Er zeigt sich in stiller Klarheit, in innerer Stabilität.
+
+Du bist mitfühlend, weil du nicht mehr kämpfen musst, um gesehen zu werden. Du sorgst für dich, weil dein Wohl ein Geschenk an jede Beziehung ist.
+
+Das heißt nicht, dass du hart oder kalt wirst. Es heißt, dass du dich nicht mehr verlierst, um geliebt zu werden.
+
+Zum Mitnehmen: Du musst niemandem etwas beweisen, um Liebe zu verdienen.
+
+Folge @ninahoemmencoaching, wenn du lernen willst, dich selbst zu halten, auch in Beziehung.
+
+Wo merkst du gerade, dass du aufhörst zu kämpfen, um gesehen zu werden?
+
+**Hashtags:** #selbstwert #beziehungsmuster #traumasensibel #innereklarheit #beziehungzudir
+
+---
+
