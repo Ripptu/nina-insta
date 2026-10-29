@@ -2423,42 +2423,6 @@
     "qa_versuche": 0
   },
   {
-    "id": "v07",
-    "typ": "reel",
-    "quelle": "data/stimm-reels.json#v07",
-    "titel": "Dein Weg in die Echtheit",
-    "angebot": "Buch",
-    "kernthema": 1,
-    "serie": null,
-    "fruehestens": null,
-    "dateien": [
-      "out/v07/v07.mp4",
-      "out/v07/v07-cover.jpg"
-    ],
-    "caption": "Dein Weg in die Echtheit: Es ist ein liebevoller Prozess in deinem Tempo. Und er beginnt mit einem leisen, aber kraftvollen Schritt zurück zu dir.\n\nErkenne deinen Schutz an. Er war eine Form von Stärke. Fühle dich selbst: Was brauchst du wirklich? Was nährt dich? Werde sichtbar mit deiner Meinung, deinen Grenzen, deinem Ja und deinem Nein. Finde sichere Beziehungen, Menschen, bei denen du nichts spielen musst. Und habe Geduld mit dir. Jeder Moment, in dem du dir selbst zuhörst, verändert etwas.\n\nMehr dazu und Übungen für zu Hause findest du in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Du bekommst es im Buchhandel, online oder direkt bei mir. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr bei dir ankommen willst.\n\nWelcher Schritt fällt dir gerade am leichtesten? 📖",
-    "hashtags": [
-      "#buchtipp",
-      "#beziehungsmuster",
-      "#selbstverbindung",
-      "#singlesein",
-      "#traumasensibel"
-    ],
-    "status": "abgelehnt",
-    "geplant": null,
-    "qa": {
-      "verdikt": "abgelehnt",
-      "gruende": [
-        "COVER: frame-01.jpg (erster verfügbarer Videoframe bei 3,7 s) zeigt nur das Satzfragment „das du erreichen musst.“ – klein geschrieben als Fortsetzung eines Satzes, kein eigenständiger, für sich verständlicher Hook, der beim ersten Blick trägt."
-      ],
-      "am": "2026-10-29T22:17:16.091Z"
-    },
-    "ig": null,
-    "fehler": null,
-    "termin": "2026-11-09",
-    "buchquelle": "stimme",
-    "qa_versuche": 0
-  },
-  {
     "id": "v09",
     "typ": "reel",
     "quelle": "data/stimm-reels.json#v09",
@@ -2479,7 +2443,7 @@
       "#schutzreaktion",
       "#traumasensibel"
     ],
-    "status": "abgelehnt",
+    "status": "zurueckgestellt",
     "geplant": null,
     "qa": {
       "verdikt": "abgelehnt",
@@ -2490,9 +2454,10 @@
     },
     "ig": null,
     "fehler": null,
-    "termin": "2026-11-20",
+    "termin": null,
     "buchquelle": "stimme",
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "grund": "QA: Gesicht auf einem Bild verfälscht"
   },
   {
     "id": "v10",
@@ -3897,6 +3862,35 @@
       "gruende": [],
       "am": "2026-10-29T22:17:46.631Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "v07",
+    "typ": "reel",
+    "quelle": "data/stimm-reels.json#v07",
+    "buchquelle": "stimme",
+    "titel": "Dein Weg in die Echtheit",
+    "angebot": "Buch",
+    "kernthema": 1,
+    "serie": null,
+    "fruehestens": "2026-11-09",
+    "termin": "2026-11-09",
+    "dateien": [
+      "out/v07/v07.mp4",
+      "out/v07/v07-cover.jpg"
+    ],
+    "caption": "Dein Weg in die Echtheit: Es ist ein liebevoller Prozess in deinem Tempo. Und er beginnt mit einem leisen, aber kraftvollen Schritt zurück zu dir.\n\nErkenne deinen Schutz an. Er war eine Form von Stärke. Fühle dich selbst: Was brauchst du wirklich? Was nährt dich? Werde sichtbar mit deiner Meinung, deinen Grenzen, deinem Ja und deinem Nein. Finde sichere Beziehungen, Menschen, bei denen du nichts spielen musst. Und habe Geduld mit dir. Jeder Moment, in dem du dir selbst zuhörst, verändert etwas.\n\nMehr dazu und Übungen für zu Hause findest du in meinem Buch „Zwischen Single-Sein & falscher Nähe“. Du bekommst es im Buchhandel, online oder direkt bei mir. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du mehr bei dir ankommen willst.\n\nWelcher Schritt fällt dir gerade am leichtesten? 📖",
+    "hashtags": [
+      "#buchtipp",
+      "#beziehungsmuster",
+      "#selbstverbindung",
+      "#singlesein",
+      "#traumasensibel"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
