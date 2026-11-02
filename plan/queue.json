@@ -2771,15 +2771,23 @@
       "#traumasensibel",
       "#selbstliebe"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:12:40.735Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18290628196292090",
+      "permalink": "https://www.instagram.com/reel/DfQF_htjdt5/",
+      "am": "2026-11-02T19:48:44.002Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "1922216392077048",
+      "am": "2026-11-02T19:48:50.206Z"
+    }
   },
   {
     "id": "v13",
