@@ -2586,15 +2586,23 @@
       "#singleleben",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-14T11:02:08.876Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18130672120788427",
+      "permalink": "https://www.instagram.com/p/DfSl5JQlk4Y/",
+      "am": "2026-11-03T19:05:38.225Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "992738230600465_122145404978778810",
+      "am": "2026-11-03T19:05:53.935Z"
+    }
   },
   {
     "id": "k28",
