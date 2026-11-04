@@ -2635,10 +2635,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-14T11:01:34.927Z"
+      "am": "2026-11-04T20:53:20.552Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s24",
@@ -2727,15 +2728,12 @@
       "#traumasensibel",
       "#shop"
     ],
-    "status": "geprueft",
+    "status": "neu",
     "geplant": null,
-    "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-14T11:10:06.959Z"
-    },
+    "qa": null,
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s27",
@@ -2756,10 +2754,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-14T11:09:35.688Z"
+      "am": "2026-11-04T20:52:50.727Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "v11",
@@ -2884,10 +2883,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-14T11:15:21.882Z"
+      "am": "2026-11-04T20:52:48.798Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s28",
@@ -2908,10 +2908,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-14T11:15:29.805Z"
+      "am": "2026-11-04T20:52:52.342Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "v12",
