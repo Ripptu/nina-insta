@@ -3121,17 +3121,25 @@
       "#selbstreflexion",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T07:08:05.768Z"
     },
-    "ig": null,
-    "fehler": "Karussell-Bild 2 anlegen: Instagram-Fehler 9004/2207052: The media could not be fetched from this URI: https://raw.githubusercontent.com/Ripptu/nina-insta-media/main/tmp/1793823947103-bc542b/02-02.jpg.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating",
+    "ig": {
+      "id": "18645131242026510",
+      "permalink": "https://www.instagram.com/p/DfVbgxloNl7/",
+      "am": "2026-11-04T21:32:39.865Z"
+    },
+    "fehler": null,
     "qa_versuche": 0,
-    "versuche": 1
+    "versuche": 1,
+    "fb": {
+      "id": "992738230600465_122145572954778810",
+      "am": "2026-11-04T21:32:55.593Z"
+    }
   },
   {
     "id": "k39",
