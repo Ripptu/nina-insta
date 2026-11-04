@@ -3124,8 +3124,9 @@
       "am": "2026-10-29T07:08:05.768Z"
     },
     "ig": null,
-    "fehler": null,
-    "qa_versuche": 0
+    "fehler": "Karussell-Bild 2 anlegen: Instagram-Fehler 9004/2207052: The media could not be fetched from this URI: https://raw.githubusercontent.com/Ripptu/nina-insta-media/main/tmp/1793823947103-bc542b/02-02.jpg.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating",
+    "qa_versuche": 0,
+    "versuche": 1
   },
   {
     "id": "k39",
