@@ -2728,9 +2728,13 @@
       "#traumasensibel",
       "#shop"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-11-04T20:53:32.939Z"
+    },
     "ig": null,
     "fehler": null,
     "qa_versuche": 0
