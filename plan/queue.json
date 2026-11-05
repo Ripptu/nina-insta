@@ -2882,14 +2882,18 @@
     ],
     "caption": "Link in der Bio",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-04T20:52:48.798Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18032505695686066",
+      "permalink": "https://www.instagram.com/stories/ninahoemmencoaching/4023714018611200962",
+      "am": "2026-11-05T13:08:41.012Z"
+    },
     "fehler": null,
     "qa_versuche": 0
   },
