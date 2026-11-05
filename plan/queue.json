@@ -2981,10 +2981,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-14T11:19:47.899Z"
+      "am": "2026-11-05T09:38:44.172Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k31",
