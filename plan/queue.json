@@ -2551,18 +2551,26 @@
       "#innereskind",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T22:17:14.250Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "17909830701657408",
+      "permalink": "https://www.instagram.com/reel/DfaedPfAThl/",
+      "am": "2026-11-06T20:34:49.720Z"
+    },
     "fehler": null,
     "termin": "2026-11-13",
     "buchquelle": "stimme",
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "1073545845724089",
+      "am": "2026-11-06T20:34:55.516Z"
+    }
   },
   {
     "id": "k27",
