@@ -2409,14 +2409,18 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T22:17:13.203Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18290628196292090",
+      "permalink": "https://www.instagram.com/reel/DfQF_htjdt5/",
+      "am": "2026-11-02T19:48:33+0000"
+    },
     "fehler": null,
     "termin": "2026-11-06",
     "buchquelle": "stimme",
