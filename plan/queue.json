@@ -3984,9 +3984,13 @@
       "#allesein",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-11-07T08:57:07.913Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -4017,9 +4021,13 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-11-07T08:57:50.407Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -4050,9 +4058,16 @@
       "#falschenaehe",
       "#traumasensibel"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "ERFUNDEN: Das Zitat von Annalena Schmitt wird auf Seite 3 verändert wiedergegeben: '„Das Buch nimmt einen bei der Hand, wie kaum ein anderes.“' lässt den mittleren Satzteil 'und öffnet Wege, sich mit sich selbst zu verbinden,' weg, der laut Caption Teil des Original-Zitats ist ('„Das Buch nimmt einen bei der Hand und öffnet Wege, sich mit sich selbst zu verbinden, wie kaum ein anderes“'). Erlaubt sind laut Vorgabe nur Auslassungen am Satzende, keine Auslassungen in der Satzmitte. Damit ist das auf der Seite gezeigte Zitat keine zulässige, wörtliche Wiedergabe mehr.",
+        "CAPTION: Die Caption widerspricht Seite 3 beim Annalena-Schmitt-Zitat: unterschiedlicher Wortlaut für dasselbe angebliche wörtliche Zitat (Seite 3 kürzt den Mittelteil, Caption bringt die vollständige Fassung). Das ist ein inhaltlicher Widerspruch zwischen Seite und Caption bei einer angeblich wörtlichen Aussage."
+      ],
+      "am": "2026-11-07T08:58:16.779Z"
+    },
     "ig": null,
     "fehler": null
   }
