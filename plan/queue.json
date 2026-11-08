@@ -4098,9 +4098,13 @@
       "#beziehungsmuster",
       "#selbstmitgefühl"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-11-08T07:47:09.586Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -4131,9 +4135,13 @@
       "#traumasensibel",
       "#buchtipp"
     ],
-    "status": "neu",
+    "status": "geprueft",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "ok",
+      "gruende": [],
+      "am": "2026-11-08T07:47:56.136Z"
+    },
     "ig": null,
     "fehler": null
   }
