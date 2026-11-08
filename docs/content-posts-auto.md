@@ -831,7 +831,7 @@ In welchem Zustand landest du im Streit meistens: Kampf, Flucht oder Erstarrung?
 - Format: Mehrwert
 - Kernthema: 1
 - Angebot: keins
-- Termin: 2026-11-11
+- Termin: 2026-12-17
 - Buchquelle: buch-kapitel-2-schmetterlinge
 
 | Seite | Vorlage | Text |
@@ -1386,6 +1386,46 @@ Folge @ninahoemmencoaching, wenn du lernen willst, dich selbst zu halten, auch i
 Wo merkst du gerade, dass du aufhörst zu kämpfen, um gesehen zu werden?
 
 **Hashtags:** #selbstwert #beziehungsmuster #traumasensibel #innereklarheit #beziehungzudir
+
+---
+
+
+## Karussell 55: Was du im Shop wirklich bekommst
+- Format: Werbung
+- Kernthema: 2
+- Angebot: Shop
+- Termin: 2026-11-11
+- Buchquelle: shop-angebote
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Was du im Shop wirklich bekommst.** |
+| 2 | Textseite | Zum Lesen und Hören: mein Buch als Hardcover oder E-Book, dazu das Hörbuch, gesprochen von Kati Demiri. |
+| 3 | Textseite | Zum Schreiben: das 90-Tage-Journal mit täglichem Impuls und die Beziehungslandkarte mit zwölf Bereichen. |
+| 4 | Textseite | Zum Reden: 240 Fragen für Dates und Partnerschaft. Zum Innehalten: Meditationen und das Audio-Journal nach einer Trennung. |
+| 5 | Textseite | Alles Digitale kommt sofort per E-Mail. Ohne Versand, ohne Countdown, in deinem Tempo. |
+| 6 | Schlussseite | Alles findest du in meinem Shop. Link in der Bio. Speichere dir den Beitrag zum Stöbern. |
+
+**Caption:**
+Was du im Shop wirklich bekommst.
+
+Zum Lesen und Hören: mein Buch „Zwischen Single-Sein & falscher Nähe“ als Hardcover oder E-Book. Dazu das ruhig gesprochene Hörbuch, eingesprochen von meiner Freundin Kati Demiri.
+
+Zum Schreiben: das Reflexionsjournal „90 Tage näher zu dir“ mit einem täglichen Impuls, einer Frage und einem Beispiel. Und die Beziehungslandkarte, die dir in zwölf Bereichen zeigt, wo du gerade stehst.
+
+Zum Reden: das Gesprächskartenset „Von Herz zu Herz“ mit 240 Fragen für Dates, Partnerschaft und Freundschaft.
+
+Zum Innehalten: die Meditationen zum Buch, das Audio-Journal nach einer Trennung und im Dezember der Adventskalender für die Seele mit 24 achtsamen Impulsen.
+
+Alles Digitale kommt sofort nach dem Kauf per E-Mail zu dir, ohne Versand und ohne Wartezeit. Es gibt keine Countdowns und keine künstliche Knappheit. Du entscheidest, was zu dir passt und wann.
+
+Du findest den Shop über den Link in der Bio.
+
+Folge @ninahoemmencoaching, wenn du Schritt für Schritt mehr bei dir ankommen willst.
+
+Was würdest du dir zuerst anschauen? 🤍
+
+**Hashtags:** #shop #beziehungsmuster #selbstreflexion #traumasensibel #buchtipp
 
 ---
 

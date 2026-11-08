@@ -3174,8 +3174,8 @@
     "format": "Mehrwert",
     "angebot": "keins",
     "kernthema": 1,
-    "fruehestens": "2026-11-11",
-    "termin": "2026-11-11",
+    "fruehestens": "2026-12-17",
+    "termin": "2026-12-17",
     "buchquelle": "buch-kapitel-2-schmetterlinge",
     "dateien": [
       "out/k39/01.jpg",
@@ -4068,6 +4068,72 @@
       ],
       "am": "2026-11-07T08:58:16.779Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k51",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 51",
+    "titel": "Nach der Trennung",
+    "format": "Mini-Geschichte",
+    "angebot": "keins",
+    "kernthema": 2,
+    "fruehestens": null,
+    "termin": null,
+    "buchquelle": "audiojournal-trennung",
+    "dateien": [
+      "out/k51/01.jpg",
+      "out/k51/02.jpg",
+      "out/k51/03.jpg",
+      "out/k51/04.jpg",
+      "out/k51/05.jpg",
+      "out/k51/06.jpg"
+    ],
+    "caption": "Du vermisst ihn, obwohl es dir nicht gutgetan hat.\n\nVielleicht ist die Trennung noch ganz frisch, vielleicht liegt sie schon Wochen zurück. Trotzdem kommt der Schmerz manchmal plötzlich wieder.\n\nEine starke Reaktion danach bedeutet nicht, dass mit dir etwas nicht stimmt. Eine Trennung wirkt im Gefühl, im Kopf, im Körper und im Alltag.\n\nGedanken kreisen. Du hoffst auf eine Nachricht und fragst dich, was du anders hättest machen können. Das ist menschlich, kein Zeichen von Schwäche.\n\nZum Mitnehmen: Du musst nichts sofort loslassen. Verstehen nimmt oft schon etwas Druck heraus.\n\nFolge @ninahoemmencoaching, wenn du verstehen willst, warum Trennungen so lange nachwirken können.\n\nWas hilft dir gerade am meisten, wenn der Schmerz plötzlich wieder da ist?",
+    "hashtags": [
+      "#trennung",
+      "#liebeskummer",
+      "#traumasensibel",
+      "#beziehungsmuster",
+      "#selbstmitgefühl"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k55",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 55",
+    "titel": "Was du im Shop wirklich bekommst",
+    "format": "Werbung",
+    "angebot": "Shop",
+    "kernthema": 2,
+    "fruehestens": "2026-11-11",
+    "termin": "2026-11-11",
+    "buchquelle": "shop-angebote",
+    "dateien": [
+      "out/k55/01.jpg",
+      "out/k55/02.jpg",
+      "out/k55/03.jpg",
+      "out/k55/04.jpg",
+      "out/k55/05.jpg",
+      "out/k55/06.jpg"
+    ],
+    "caption": "Was du im Shop wirklich bekommst.\n\nZum Lesen und Hören: mein Buch „Zwischen Single-Sein & falscher Nähe“ als Hardcover oder E-Book. Dazu das ruhig gesprochene Hörbuch, eingesprochen von meiner Freundin Kati Demiri.\n\nZum Schreiben: das Reflexionsjournal „90 Tage näher zu dir“ mit einem täglichen Impuls, einer Frage und einem Beispiel. Und die Beziehungslandkarte, die dir in zwölf Bereichen zeigt, wo du gerade stehst.\n\nZum Reden: das Gesprächskartenset „Von Herz zu Herz“ mit 240 Fragen für Dates, Partnerschaft und Freundschaft.\n\nZum Innehalten: die Meditationen zum Buch, das Audio-Journal nach einer Trennung und im Dezember der Adventskalender für die Seele mit 24 achtsamen Impulsen.\n\nAlles Digitale kommt sofort nach dem Kauf per E-Mail zu dir, ohne Versand und ohne Wartezeit. Es gibt keine Countdowns und keine künstliche Knappheit. Du entscheidest, was zu dir passt und wann.\n\nDu findest den Shop über den Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du Schritt für Schritt mehr bei dir ankommen willst.\n\nWas würdest du dir zuerst anschauen? 🤍",
+    "hashtags": [
+      "#shop",
+      "#beziehungsmuster",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#buchtipp"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }
