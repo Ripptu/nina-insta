@@ -1444,7 +1444,7 @@ Was würdest du dir zuerst anschauen? 🤍
 | 2 | Textseite | Mein Shop ist da. Gemacht mit ganz viel Herz, Liebe und Leidenschaft. |
 | 3 | Textseite | Buch, Hörbuch, E-Book, Journale, Meditationen, Beziehungslandkarte, Gesprächskarten und Adventskalender. |
 | 4 | Textseite | Und ab 2027 kommt meine eigene App: HERZ.REISE. |
-| 5 | Textseite | Von vielen Herzensprojekten ist das das erste. Und es ist erst der Anfang. |
+| 5 | Textseite | Von vielen Herzensprojekten ist dieses das erste. Und es ist erst der Anfang. |
 | 6 | Schlussseite | Für Singles und Menschen in herausfordernden Beziehungen. Wer soll das wissen? Schick es weiter. Link in der Bio. |
 
 **Caption:**
@@ -1456,6 +1456,8 @@ Darin findest du mein Buch „Zwischen Single-Sein & falscher Nähe“ als Hardc
 
 Ich kann es kaum glauben und bin so unfassbar glücklich und dankbar. Von vielen Herzensprojekten ist heute das erste ganz offiziell da. Und wisst ihr was? Das ist erst der Anfang.
 
+Zum Mitnehmen: Auf meiner Karte zur Feier stand: Keine Ausreden. Keine halben Sachen. Ich wollte wissen, was wirklich möglich ist. Vielleicht ist das auch eine Frage für dich: Wofür bist du gerade bereit?
+
 Danke an alle, die immer da waren, mich unterstützt, Mut gemacht und an mich geglaubt haben. Ohne euch wäre vieles nicht das, was es heute ist. 🤍
 
 Der Shop ist für Singles und für Menschen in herausfordernden Beziehungen, die sich nach echter Verbindung sehnen. Du findest ihn über den Link in der Bio.
@@ -1463,6 +1465,8 @@ Der Shop ist für Singles und für Menschen in herausfordernden Beziehungen, die
 Wer soll das wissen? Schick den Beitrag weiter. 🙏🏻
 
 Folge @ninahoemmencoaching, damit du die nächsten Herzensprojekte nicht verpasst.
+
+Wofür bist du gerade bereit? Schreib es mir in die Kommentare. 🤍
 
 **Hashtags:** #shop #beziehungsmuster #selbstreflexion #traumasensibel #oldenburg
 
