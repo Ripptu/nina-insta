@@ -520,7 +520,7 @@ Welcher Bereich würde bei dir gerade am meisten Aufmerksamkeit brauchen? 🤍
 - Format: Werbung
 - Kernthema: 1
 - Angebot: Buch
-- Termin: 2026-11-12
+- Termin: 2026-12-22
 - Cover-Foto: 75
 
 | Seite | Vorlage | Text |
@@ -1426,6 +1426,45 @@ Folge @ninahoemmencoaching, wenn du Schritt für Schritt mehr bei dir ankommen w
 Was würdest du dir zuerst anschauen? 🤍
 
 **Hashtags:** #shop #beziehungsmuster #selbstreflexion #traumasensibel #buchtipp
+
+---
+
+
+## Karussell 56: Endlich ist es soweit
+- Format: Persönlich
+- Kernthema: 3
+- Angebot: Shop
+- Termin: 2026-11-12
+- Buchquelle: nina-whatsapp-0811
+- Seiten-Fotos: 2:92, 5:90, 6:91
+
+| Seite | Vorlage | Text |
+|---|---|---|
+| 1 | Cover mit Foto (Nina, Porträt) | **Bääääm … endlich ist es soweit!** |
+| 2 | Textseite | Mein Shop ist da. Gemacht mit ganz viel Herz, Liebe und Leidenschaft. |
+| 3 | Textseite | Buch, Hörbuch, E-Book, Journale, Meditationen, Beziehungslandkarte, Gesprächskarten und Adventskalender. |
+| 4 | Textseite | Und ab 2027 kommt meine eigene App: HERZ.REISE. |
+| 5 | Textseite | Von vielen Herzensprojekten ist das das erste. Und es ist erst der Anfang. |
+| 6 | Schlussseite | Für Singles und Menschen in herausfordernden Beziehungen. Wer soll das wissen? Schick es weiter. Link in der Bio. |
+
+**Caption:**
+Bääääm … endlich ist es soweit!
+
+Ich freue mich riesig, denn etwas, woran ich mit ganz viel Herz, Liebe und Leidenschaft gearbeitet habe, ist jetzt für euch da: mein Shop mit digitalen Produkten ist endlich komplett.
+
+Darin findest du mein Buch „Zwischen Single-Sein & falscher Nähe“ als Hardcover und E-Book, das Hörbuch, gesprochen von Kati Demiri, Audios, Reflexionsjournale, Meditationen, die Beziehungslandkarte, Gesprächskarten und den Adventskalender. Und ab 2027 kommt meine eigene App: HERZ.REISE.
+
+Ich kann es kaum glauben und bin so unfassbar glücklich und dankbar. Von vielen Herzensprojekten ist heute das erste ganz offiziell da. Und wisst ihr was? Das ist erst der Anfang.
+
+Danke an alle, die immer da waren, mich unterstützt, Mut gemacht und an mich geglaubt haben. Ohne euch wäre vieles nicht das, was es heute ist. 🤍
+
+Der Shop ist für Singles und für Menschen in herausfordernden Beziehungen, die sich nach echter Verbindung sehnen. Du findest ihn über den Link in der Bio.
+
+Wer soll das wissen? Schick den Beitrag weiter. 🙏🏻
+
+Folge @ninahoemmencoaching, damit du die nächsten Herzensprojekte nicht verpasst.
+
+**Hashtags:** #shop #beziehungsmuster #selbstreflexion #traumasensibel #oldenburg
 
 ---
 

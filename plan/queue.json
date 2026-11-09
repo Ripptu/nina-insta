@@ -2986,8 +2986,8 @@
     "format": "Werbung",
     "angebot": "Buch",
     "kernthema": 1,
-    "fruehestens": "2026-11-12",
-    "termin": "2026-11-12",
+    "fruehestens": "2026-12-22",
+    "termin": "2026-12-22",
     "dateien": [
       "out/k30/01.jpg",
       "out/k30/02.jpg",
@@ -4146,6 +4146,39 @@
       "gruende": [],
       "am": "2026-11-08T07:47:56.136Z"
     },
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k56",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 56",
+    "titel": "Endlich ist es soweit",
+    "format": "Persönlich",
+    "angebot": "Shop",
+    "kernthema": 3,
+    "fruehestens": "2026-11-12",
+    "termin": "2026-11-12",
+    "buchquelle": "nina-whatsapp-0811",
+    "dateien": [
+      "out/k56/01.jpg",
+      "out/k56/02.jpg",
+      "out/k56/03.jpg",
+      "out/k56/04.jpg",
+      "out/k56/05.jpg",
+      "out/k56/06.jpg"
+    ],
+    "caption": "Bääääm … endlich ist es soweit!\n\nIch freue mich riesig, denn etwas, woran ich mit ganz viel Herz, Liebe und Leidenschaft gearbeitet habe, ist jetzt für euch da: mein Shop mit digitalen Produkten ist endlich komplett.\n\nDarin findest du mein Buch „Zwischen Single-Sein & falscher Nähe“ als Hardcover und E-Book, das Hörbuch, gesprochen von Kati Demiri, Audios, Reflexionsjournale, Meditationen, die Beziehungslandkarte, Gesprächskarten und den Adventskalender. Und ab 2027 kommt meine eigene App: HERZ.REISE.\n\nIch kann es kaum glauben und bin so unfassbar glücklich und dankbar. Von vielen Herzensprojekten ist heute das erste ganz offiziell da. Und wisst ihr was? Das ist erst der Anfang.\n\nDanke an alle, die immer da waren, mich unterstützt, Mut gemacht und an mich geglaubt haben. Ohne euch wäre vieles nicht das, was es heute ist. 🤍\n\nDer Shop ist für Singles und für Menschen in herausfordernden Beziehungen, die sich nach echter Verbindung sehnen. Du findest ihn über den Link in der Bio.\n\nWer soll das wissen? Schick den Beitrag weiter. 🙏🏻\n\nFolge @ninahoemmencoaching, damit du die nächsten Herzensprojekte nicht verpasst.",
+    "hashtags": [
+      "#shop",
+      "#beziehungsmuster",
+      "#selbstreflexion",
+      "#traumasensibel",
+      "#oldenburg"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
     "ig": null,
     "fehler": null
   }

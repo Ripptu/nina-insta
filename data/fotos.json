@@ -1834,5 +1834,82 @@
    ]
   ],
   "keepout": []
+ },
+ {
+  "id": 90,
+  "file": "nov_foto_09.jpg",
+  "w": 900,
+  "h": 1600,
+  "luma": 153,
+  "kind": "objekt",
+  "tier": 2,
+  "buch": false,
+  "faces": [],
+  "keepout": [],
+  "nur_explizit": true
+ },
+ {
+  "id": 91,
+  "file": "nov_foto_11.jpg",
+  "w": 1200,
+  "h": 1599,
+  "luma": 133,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    257,
+    545,
+    171,
+    224
+   ],
+   [
+    560,
+    691,
+    164,
+    202
+   ],
+   [
+    4,
+    567,
+    171,
+    367
+   ],
+   [
+    765,
+    256,
+    347,
+    362
+   ]
+  ],
+  "keepout": [],
+  "nur_explizit": true
+ },
+ {
+  "id": 92,
+  "file": "nov_foto_13.jpg",
+  "w": 1200,
+  "h": 1600,
+  "luma": 129,
+  "kind": "portrait",
+  "tier": 2,
+  "buch": false,
+  "faces": [
+   [
+    4,
+    766,
+    111,
+    185
+   ],
+   [
+    1120,
+    994,
+    90,
+    149
+   ]
+  ],
+  "keepout": [],
+  "nur_explizit": true
  }
 ]

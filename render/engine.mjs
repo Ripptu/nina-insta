@@ -294,7 +294,7 @@ export function ranked(kind, used, seed = 0, ohneBuch = false) {
     const o = BUCH_ORDER.map((i) => CAT[i])
     return [...o.filter((p) => !used.has(p.id)), ...o.filter((p) => used.has(p.id))]
   }
-  const pool = CAT.filter((p) => (p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch')) && !(ohneBuch && (p.kind === 'buch' || p.buch)))
+  const pool = CAT.filter((p) => !p.nur_explizit && (p.kind === 'portrait' || p.kind === 'ruecken' || (kind === 'innen' && p.kind === 'buch')) && !(ohneBuch && (p.kind === 'buch' || p.buch)))
   const n = pool.length
   const order = pool.map((p, i) => ({ p, k: p.tier * 1000 + ((i * 7 + seed * 5) % n) })).sort((a, b) => a.k - b.k).map((x) => x.p)
   return [...order.filter((p) => !used.has(p.id)), ...order.filter((p) => used.has(p.id))]

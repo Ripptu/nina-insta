@@ -1,7 +1,7 @@
 // Rendert ein Karussell: pro Seite Foto suchen, layouten, Gesichtsschutz, speichern.
 import fs from 'node:fs'
 import path from 'node:path'
-import { ranked } from './engine.mjs'
+import { ranked, CAT } from './engine.mjs'
 import { createViral, viralCover } from './viral.mjs'
 import { createSeiten, paletteFor } from './seiten.mjs'
 import { benutzteCoverFotos, registriereCover } from './covers.mjs'
@@ -30,6 +30,9 @@ export async function buildCarouselFotoTypo(eng, post, outDir, { seed = post.nr,
     // „Cover-Foto: <ID>“ im Beitrag setzt ein bestimmtes Foto an die erste Stelle (Shop-Start mit den neuen Shooting-Fotos)
     const vorn = (all) => (post.coverFoto ? [...all.filter((x) => x.id === +post.coverFoto), ...all.filter((x) => x.id !== +post.coverFoto)] : all)
     const cands = pg.role === 'cover' ? vorn(ranked('portrait', used, seed + pg.n, post.angebot !== 'Buch')).filter((x) => !gesperrt.has(x.id)) : pg.role === 'buch' ? [...ranked('buch', used, seed + pg.n), null] : [...ranked('innen', used, seed + pg.n, post.angebot !== 'Buch').slice(0, 14), null]
+    // „Seiten-Fotos: 2:91, 5:93“ setzt für einzelne Seiten ein bestimmtes Foto an die erste Stelle (auch Fotos mit nur_explizit)
+    const fest = post.seitenFotos?.[pg.n] ? CAT.find((x) => x.id === post.seitenFotos[pg.n]) : null
+    if (fest) cands.unshift(fest)
     for (const p of cands) {
       let r = null
       if (pg.role === 'cover') {
