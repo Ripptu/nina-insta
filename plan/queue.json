@@ -3952,15 +3952,23 @@
       "#singlesein",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T22:30:32.769Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18150045529571288",
+      "permalink": "https://www.instagram.com/reel/DfiERtdDRXX/",
+      "am": "2026-11-09T19:20:05.312Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "1141737468388593",
+      "am": "2026-11-09T19:20:11.139Z"
+    }
   },
   {
     "id": "k34",
