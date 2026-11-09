@@ -4176,9 +4176,16 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "MITNAHME: Der gesamte Beitrag (alle 6 Seiten plus Caption) besteht ausschließlich aus Ankündigung und Bewerbung des Shops (Produktliste, Dank, CTA zum Teilen/Folgen). Es fehlt ein Satz mit Erkenntnis, Selbstreflexionsfrage oder Mini-Übung für die Leserin/den Leser, wie es für Werbebeiträge laut Prüfliste vorgeschrieben ist.",
+        "SPRACHE: Seite 5: Satz 'Von vielen Herzensprojekten ist das das erste.' enthält eine doppelte Wortwiederholung ('das das') – ein erkennbarer Tippfehler/Grammatikfehler."
+      ],
+      "am": "2026-11-09T05:50:16.170Z"
+    },
     "ig": null,
     "fehler": null
   }
