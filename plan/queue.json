@@ -2748,16 +2748,24 @@
       "#traumasensibel",
       "#shop"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-04T20:53:32.939Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18091899731697905",
+      "permalink": "https://www.instagram.com/p/DfkzPZegS1O/",
+      "am": "2026-11-10T20:48:37.924Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122146471184778810",
+      "am": "2026-11-10T20:48:52.050Z"
+    }
   },
   {
     "id": "s27",
