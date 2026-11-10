@@ -3047,10 +3047,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-15T11:36:36.205Z"
+      "am": "2026-11-10T10:01:45.146Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k32",
