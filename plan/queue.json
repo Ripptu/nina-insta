@@ -2484,18 +2484,26 @@
       "#nervensystem",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T22:20:17.656Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18113214821238833",
+      "permalink": "https://www.instagram.com/reel/DfsVxDZAnh_/",
+      "am": "2026-11-13T19:05:37.743Z"
+    },
     "fehler": null,
     "termin": "2026-11-27",
     "buchquelle": "stimme",
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "1164312056287449",
+      "am": "2026-11-13T19:05:45.834Z"
+    }
   },
   {
     "id": "v05",
