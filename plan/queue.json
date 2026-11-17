@@ -3071,16 +3071,24 @@
       "#achtsamkeit",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-10T10:01:45.146Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "17979292557150283",
+      "permalink": "https://www.instagram.com/p/Df2pmfZDwLB/",
+      "am": "2026-11-17T19:10:43.998Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122147522912778810",
+      "am": "2026-11-17T19:10:54.378Z"
+    }
   },
   {
     "id": "k32",
