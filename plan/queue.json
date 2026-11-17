@@ -3113,10 +3113,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-15T11:36:21.457Z"
+      "am": "2026-11-17T10:53:01.633Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k33",
