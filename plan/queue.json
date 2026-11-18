@@ -3275,16 +3275,24 @@
       "#selbstreflexion",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-10-29T07:08:17.735Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18109822327975421",
+      "permalink": "https://www.instagram.com/p/Df5VRDSFIDi/",
+      "am": "2026-11-18T20:10:44.574Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122147647064778810",
+      "am": "2026-11-18T20:10:59.743Z"
+    }
   },
   {
     "id": "k41",
