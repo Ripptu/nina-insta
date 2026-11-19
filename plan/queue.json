@@ -3326,10 +3326,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T07:03:32.649Z"
+      "am": "2026-11-19T10:31:18.377Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k42",
@@ -3363,7 +3364,7 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T07:08:26.501Z"
+      "am": "2026-11-19T10:31:04.571Z"
     },
     "ig": null,
     "fehler": null,
@@ -3401,10 +3402,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T07:03:29.541Z"
+      "am": "2026-11-19T10:31:12.174Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k44",
