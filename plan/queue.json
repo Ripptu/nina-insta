@@ -3321,16 +3321,24 @@
       "#entspannung",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-19T10:31:18.377Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18020361266748123",
+      "permalink": "https://www.instagram.com/p/Df7zOWejybr/",
+      "am": "2026-11-19T19:11:01.442Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122147780924778810",
+      "am": "2026-11-19T19:11:11.900Z"
+    }
   },
   {
     "id": "k42",
