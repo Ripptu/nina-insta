@@ -4110,15 +4110,23 @@
       "#traumasensibel",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-07T08:57:50.407Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18039822332890887",
+      "permalink": "https://www.instagram.com/p/Df-dfOBmY-Y/",
+      "am": "2026-11-20T19:58:47.506Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "992738230600465_122147924684778810",
+      "am": "2026-11-20T19:59:00.932Z"
+    }
   },
   {
     "id": "k36",
