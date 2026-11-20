@@ -3819,10 +3819,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T22:16:35.058Z"
+      "am": "2026-11-20T10:10:30.932Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s42",
@@ -3844,10 +3845,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T22:17:08.709Z"
+      "am": "2026-11-20T10:10:16.228Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s43",
@@ -3870,10 +3872,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T22:17:04.758Z"
+      "am": "2026-11-20T10:10:24.473Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s44",
