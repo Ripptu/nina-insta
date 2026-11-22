@@ -3898,10 +3898,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T22:17:04.355Z"
+      "am": "2026-11-22T09:55:07.945Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s45",
