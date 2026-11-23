@@ -2866,16 +2866,24 @@
       "#beziehungsmuster",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-16T09:56:12.267Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18093413324261798",
+      "permalink": "https://www.instagram.com/reel/DgGUTvrArd6/",
+      "am": "2026-11-23T21:13:09.532Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "1830327851374312",
+      "am": "2026-11-23T21:13:14.650Z"
+    }
   },
   {
     "id": "v14",
