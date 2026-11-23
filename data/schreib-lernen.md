@@ -1,12 +1,12 @@
-Stand 2026-11-16 (Denk-Lauf, aus den eigenen Zahlen)
+Stand 2026-11-23 (Denk-Lauf, aus den eigenen Zahlen)
 
 - Reel als Format gegenüber Karussell bevorzugen, wo die Rotation es zulässt (Mindestquote beachten).
-  Beleg: Reels Ø126 Punkte (n=15) gegen Karussells Ø71 Punkte (n=16) – Abstand bleibt bei nun fast gleich großer Stichprobe stabil hoch, kein Überlapp im Mittel.
-- streichen: Reel-Inhalte bevorzugt direkt aus Ninas Buch/Hörbuch ableiten – als Leistungsregel überholt.
-  Beleg: aus dem Buch Ø128 Punkte (n=9) gegen nicht aus dem Buch Ø124 Punkte (n=6) – Abstand von 138 gegen 121 (Vorwoche) auf 4 Punkte geschrumpft, kein belastbarer Unterschied mehr. (Inhaltlich bleibt Buchbezug durch Ninas Wunsch vom 24.10. ohnehin Pflicht, unabhängig von der Leistung.)
-- testen: Stimm-Reels (Ninas eigene Stimme, Kati Demiri) weiter bevorzugen.
-  Beleg: Stimm-Reel Ø135 Punkte (n=8) gegen Clip-Reel mit Text Ø117 Punkte (n=7) – Vorsprung bleibt, aber schmaler als Vorwoche (149 gegen 115).
+  Beleg: Reels Ø124 Punkte (n=16) gegen Karussells Ø67 Punkte (n=20) – Abstand bleibt bei wachsender Stichprobe stabil groß, kein Überlapp im Mittel.
+- testen: Stimm-Reels (Ninas eigene Stimme, Kati Demiri) weiter leicht bevorzugen, aber Vorsprung beobachten – er schrumpft von Woche zu Woche.
+  Beleg: Stimm-Reel Ø129 Punkte (n=9) gegen Clip-Reel Ø118 Punkte (n=7) – Vorsprung von 11 Punkten, gegenüber 14 (Vorwoche) und 34 (vor zwei Wochen) weiter rückläufig.
 - testen: Bei Reels Kernthema 3 ('sich in Beziehungen selbst verlieren') bevorzugen.
-  Beleg: Kernthema 3 Ø134 Punkte (n=6) gegen Kernthema 1 Ø107 Punkte (n=6) bei Reels – Vorsprung von 27 Punkten bleibt bei gewachsener, ausgeglichener Stichprobe bestehen.
-- testen: Bei Karussells ein Angebot (Shop, Buch oder Coaching) gegenüber 'kein Angebot' bevorzugen, wo die Angebotsrotation es zulässt.
-  Beleg: Karussells mit Angebot: Shop Ø80 (n=4), Buch Ø76 (n=5), Coaching Ø70 (n=2) – alle über 'keins' Ø61 (n=4: k06 61, k15 54, k18 68, k38 42). Shop-Werte streuen aber stark (135 bis 44, n=4 noch klein).
+  Beleg: Kernthema 3 Ø136 Punkte (n=6) gegen Kernthema 1 Ø108 Punkte (n=6) bei Reels – Vorsprung von rund 28 Punkten bleibt über mehrere Wochen stabil (zuvor 134 gegen 107).
+- testen: Bei Karussells ein Angebot (Buch, Shop oder Coaching) gegenüber 'kein Angebot' bevorzugen, wo die Angebotsrotation es zulässt.
+  Beleg: Karussells mit Angebot: Buch Ø76 (n=5), Shop Ø71 (n=6), Coaching Ø70 (n=2) – alle über 'keins' Ø54 (n=6: k06 61, k15 54, k18 68, k38 42, k40 38, k41 40). Hinweis: Shop-Reichweite zeigt zuletzt einen fallenden Trend (126→81→62→47→40), weiter beobachten.
+- testen: Bei Reels kein Angebot gegenüber Angebot Buch bevorzugen, wo die Rotation es zulässt.
+  Beleg: Reels ohne Angebot Ø138 Punkte (n=8) gegen Reels mit Angebot Buch Ø91 Punkte (n=3: r02 78, v07 81, v11 114) – deutlicher Abstand, Stichprobe für Buch-Reels aber noch klein.
