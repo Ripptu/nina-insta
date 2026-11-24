@@ -3125,16 +3125,24 @@
       "#beziehung",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-17T10:53:01.633Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18121420912792915",
+      "permalink": "https://www.instagram.com/p/DgI1R6FIwJx/",
+      "am": "2026-11-24T20:39:01.966Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122148517988778810",
+      "am": "2026-11-24T20:39:14.060Z"
+    }
   },
   {
     "id": "k33",
