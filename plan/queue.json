@@ -3854,14 +3854,18 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-20T10:10:16.228Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18139977007566229",
+      "permalink": "https://www.instagram.com/stories/ninahoemmencoaching/4037471175408211827",
+      "am": "2026-11-24T12:41:43.103Z"
+    },
     "fehler": null,
     "qa_versuche": 0
   },
