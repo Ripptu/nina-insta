@@ -3167,10 +3167,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-15T11:36:39.805Z"
+      "am": "2026-11-24T01:46:28.577Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k38",
@@ -3938,10 +3939,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T22:17:48.132Z"
+      "am": "2026-11-24T01:45:42.396Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s46",
