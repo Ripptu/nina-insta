@@ -4350,9 +4350,15 @@
       "#oldenburg",
       "#innereskind"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, Absatz 3: 'Es hat dich bereit gehalten, auf Gefahr zu reagieren' – korrekt wäre das zusammengeschriebene Partizip 'bereitgehalten' (von 'bereithalten'). Rechtschreibfehler."
+      ],
+      "am": "2026-11-24T23:33:17.703Z"
+    },
     "ig": null,
     "fehler": null
   },
@@ -4383,9 +4389,15 @@
       "#innereklarheit",
       "#beziehungzudir"
     ],
-    "status": "neu",
+    "status": "abgelehnt",
     "geplant": null,
-    "qa": null,
+    "qa": {
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Caption, vorletzter Absatz: 'dich selbst zu halten, auch in Beziehung.' – grammatisch unvollständig, es fehlt der Artikel/Ergänzung (korrekt wäre z. B. 'auch in einer Beziehung' oder 'auch in Beziehungen')."
+      ],
+      "am": "2026-11-24T23:33:31.037Z"
+    },
     "ig": null,
     "fehler": null
   }
