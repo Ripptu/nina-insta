@@ -4322,5 +4322,71 @@
       "id": "992738230600465_122146763684778810",
       "am": "2026-11-12T19:03:59.584Z"
     }
+  },
+  {
+    "id": "k37",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 37",
+    "titel": "Du musst nicht wissen, wo du anfängst",
+    "format": "Wer ich bin",
+    "angebot": "Coaching",
+    "kernthema": 2,
+    "fruehestens": null,
+    "termin": null,
+    "buchquelle": "kindheit",
+    "dateien": [
+      "out/k37/01.jpg",
+      "out/k37/02.jpg",
+      "out/k37/03.jpg",
+      "out/k37/04.jpg",
+      "out/k37/05.jpg",
+      "out/k37/06.jpg"
+    ],
+    "caption": "Du musst nicht wissen, wo du anfängst.\n\nEs ist nicht ungewöhnlich, sich kaum an Teile der eigenen Kindheit erinnern zu können. Das liegt nicht an einem Fehler im Gehirn, sondern daran, wie ein Nervensystem unter Stress arbeitet: Es schützt, es speichert nicht ab.\n\nDein Nervensystem hat damals das Richtige getan. Es hat dich bereit gehalten, auf Gefahr zu reagieren, statt Ruhe zu speichern. Diese Lücken sind kein Zeichen von Schwäche, sondern von einem System, das immer auf Sicherheit bedacht war.\n\nIm Coaching geht es nicht darum, jede Erinnerung zurückzuholen. Es geht darum, gemeinsam zu schauen, was dich heute noch schützt, obwohl du diesen Schutz vielleicht nicht mehr in diesem Ausmaß brauchst.\n\nZum Mitnehmen: Du darfst dich selbst halten lernen, Schritt für Schritt, in deinem eigenen Tempo. Du musst nicht vollständig verstehen, um anzufangen.\n\nDafür gibt es ein kostenfreies Erstgespräch von etwa 30 Minuten, telefonisch oder in meinen Räumen in Oldenburg. Einzelcoaching traumasensibel und körperorientiert, in Oldenburg und online. Link in der Bio.\n\nFolge @ninahoemmencoaching, wenn du traumasensibel an deinen eigenen Mustern arbeiten willst.\n\nWas hast du über deine Kindheit erst spät verstanden?",
+    "hashtags": [
+      "#traumasensibel",
+      "#nervensystem",
+      "#coaching",
+      "#oldenburg",
+      "#innereskind"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
+  },
+  {
+    "id": "k54",
+    "typ": "karussell",
+    "quelle": "docs/content-posts.md#Karussell 54",
+    "titel": "Nicht mehr kämpfen",
+    "format": "Mini-Geschichte",
+    "angebot": "keins",
+    "kernthema": 3,
+    "fruehestens": null,
+    "termin": null,
+    "buchquelle": "hoerbuch-selbstwert",
+    "dateien": [
+      "out/k54/01.jpg",
+      "out/k54/02.jpg",
+      "out/k54/03.jpg",
+      "out/k54/04.jpg",
+      "out/k54/05.jpg",
+      "out/k54/06.jpg"
+    ],
+    "caption": "Du musst nicht mehr kämpfen, um gesehen zu werden.\n\nEin gesunder Selbstwert zeigt sich nicht im Lautsein und nicht im Rückzug. Er zeigt sich in stiller Klarheit, in innerer Stabilität.\n\nDu bist mitfühlend, weil du nicht mehr kämpfen musst, um gesehen zu werden. Du sorgst für dich, weil dein Wohl ein Geschenk an jede Beziehung ist.\n\nDas heißt nicht, dass du hart oder kalt wirst. Es heißt, dass du dich nicht mehr verlierst, um geliebt zu werden.\n\nZum Mitnehmen: Du musst niemandem etwas beweisen, um Liebe zu verdienen.\n\nFolge @ninahoemmencoaching, wenn du lernen willst, dich selbst zu halten, auch in Beziehung.\n\nWo merkst du gerade, dass du aufhörst zu kämpfen, um gesehen zu werden?",
+    "hashtags": [
+      "#selbstwert",
+      "#beziehungsmuster",
+      "#traumasensibel",
+      "#innereklarheit",
+      "#beziehungzudir"
+    ],
+    "status": "neu",
+    "geplant": null,
+    "qa": null,
+    "ig": null,
+    "fehler": null
   }
 ]
