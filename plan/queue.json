@@ -3466,10 +3466,11 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T07:03:43.943Z"
+      "am": "2026-11-25T11:28:52.909Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "k45",
