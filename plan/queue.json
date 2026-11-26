@@ -3431,16 +3431,24 @@
       "#buchtipp",
       "#oldenburg"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-19T10:31:12.174Z"
     },
-    "ig": null,
+    "ig": {
+      "id": "18118414151604865",
+      "permalink": "https://www.instagram.com/p/DgN3ts-oFuJ/",
+      "am": "2026-11-26T19:36:32.830Z"
+    },
     "fehler": null,
-    "qa_versuche": 0
+    "qa_versuche": 0,
+    "fb": {
+      "id": "992738230600465_122148932546778810",
+      "am": "2026-11-26T19:36:43.889Z"
+    }
   },
   {
     "id": "k44",
