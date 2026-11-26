@@ -3512,7 +3512,7 @@
     "qa": {
       "verdikt": "ok",
       "gruende": [],
-      "am": "2026-10-29T07:08:36.960Z"
+      "am": "2026-11-26T11:04:06.565Z"
     },
     "ig": null,
     "fehler": null,
@@ -3981,15 +3981,18 @@
     ],
     "caption": "",
     "hashtags": [],
-    "status": "geprueft",
+    "status": "abgelehnt",
     "geplant": null,
     "qa": {
-      "verdikt": "ok",
-      "gruende": [],
-      "am": "2026-10-29T22:17:36.748Z"
+      "verdikt": "abgelehnt",
+      "gruende": [
+        "SPRACHE: Seite 1, zweiter Textblock: 'und kann ich ich selbst sein?' enthält eine doppelte Wortwiederholung ('ich ich'), ein Grammatik-/Tippfehler."
+      ],
+      "am": "2026-11-26T11:03:20.692Z"
     },
     "ig": null,
-    "fehler": null
+    "fehler": null,
+    "qa_versuche": 0
   },
   {
     "id": "s47",
