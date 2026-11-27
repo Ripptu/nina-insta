@@ -4125,15 +4125,23 @@
       "#allesein",
       "#traumasensibel"
     ],
-    "status": "geprueft",
+    "status": "veroeffentlicht",
     "geplant": null,
     "qa": {
       "verdikt": "ok",
       "gruende": [],
       "am": "2026-11-07T08:57:07.913Z"
     },
-    "ig": null,
-    "fehler": null
+    "ig": {
+      "id": "18123479612287168",
+      "permalink": "https://www.instagram.com/p/DgQZv5FliFJ/",
+      "am": "2026-11-27T19:12:24.086Z"
+    },
+    "fehler": null,
+    "fb": {
+      "id": "992738230600465_122149064060778810",
+      "am": "2026-11-27T19:12:47.209Z"
+    }
   },
   {
     "id": "k35",
